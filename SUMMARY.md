@@ -46,7 +46,7 @@
 * [Features](features/README.md)
   * [ASP.NET](features/asp.net.md)
   * [cPanel](features/cpanel.md)
-  * [JSP](features/jsp.md)
+  * [Java/JSP](features/java.md)
   * [PHP](features/php.md)
   * [PostgreSQL](features/postgresql.md)
   * [Python](features/python.md)

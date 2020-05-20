@@ -5,7 +5,7 @@ Johnny is similar to Ricky, but he allows dangerous services such as Java/JSP to
 ### Available Services
 
 * [cPanel](../../features/cpanel.md)
-* [JSP](../../features/jsp.md)
+* [JSP](../../features/java.md)
 * [MySQL](../../management/mysql.md)
 * [Perl](../../tutorials/perl.md)
 * [PHP](../../features/php.md)

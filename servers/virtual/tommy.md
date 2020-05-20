@@ -6,7 +6,7 @@ Tommy is one of our fastest and most stable servers, with its hardware being amo
 
 * [cPanel](../../features/cpanel.md)
 * [Golang](../../tutorials/golang.md)
-* [JSP](../../features/jsp.md)
+* [JSP](../../features/java.md)
 * [MySQL](../../management/mysql.md)
 * [Node.js](../../tutorials/node.js.md)
 * [Perl](../../tutorials/perl.md)
