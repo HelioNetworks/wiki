@@ -62,11 +62,11 @@ As an alternative to changing your main domain, consider using parked, addon, an
 
 ### What are the nameservers for HelioHost?
 
-ns1.heliohost.org ns2.heliohost.org
+`ns1.heliohost.org` and `ns2.heliohost.org`
 
 ### Can I PM an administrator for help?
 
-No, do not PM the administrators expecting support unless we explicitly tell you to. Please use the [customer service forum](https://www.helionet.org/index/forum/45-customer-service/) instead. Also, in order for us to provide the best and most efficient support, please provide your domain name, username, and server name up front so we don't have to waste time asking. IF you are sending via email, use the email you signed up with.
+No, do not PM the administrators expecting support unless we explicitly tell you to. Please use the [customer service forum](https://www.helionet.org/index/forum/45-customer-service/) instead. Also, in order for us to provide the best and most efficient support, please provide your domain name, username, and server name up front so we don't have to waste time asking. If you are sending via email, use the email you signed up with.
 
 ### The server is slow/Feature XYZ doesn't work/Something's wrong with my account etc.
 
