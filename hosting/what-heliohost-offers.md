@@ -18,9 +18,9 @@ HelioHost offers free web hosting for all. With every account comes:
 
 HelioHost accounts can use the following scripting languages:
 
-* [ASP.NET](../misc/asp.net.md)
+* [ASP.NET](../features/asp.net.md)
 * [Golang](../tutorials/golang.md)
-* [Java/JSP](../management/jsp.md)
+* [Java/JSP](../features/jsp.md)
 * [Node.js](../tutorials/node.js.md)
 * PHP
 * Python, [Django](../tutorials/django.md), and [Flask](../tutorials/flask.md)

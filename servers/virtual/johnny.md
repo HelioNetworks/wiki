@@ -7,7 +7,7 @@ Johnny is similar to Ricky, but he allows dangerous services such as Java/JSP to
 * PHP
 * [MySQL](../../management/mysql.md)
 * PostgreSQL
-* [JSP](../../management/jsp.md)
+* [JSP](../../features/jsp.md)
 * Softaculous
 * [Perl](../../tutorials/perl.md)
 * cPanel

@@ -7,7 +7,7 @@ Tommy is one of our fastest and most stable servers, with its hardware being amo
 * PHP
 * [MySQL](../../management/mysql.md)
 * PostgreSQL
-* [JSP](../../management/jsp.md)
+* [JSP](../../features/jsp.md)
 * Softaculous
 * [Perl](../../tutorials/perl.md)
 * [Node.js](../../tutorials/node.js.md)
