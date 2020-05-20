@@ -4,7 +4,7 @@ PHP is the most popular scripting language on the Internet for a reason. It's ea
 
 ### Learning PHP
 
-&lt;?php is the opening braces and ?&gt; is the closing braces for php.
+`<?php` is the opening braces and `?>` is the closing braces for PHP.
 
 Here is a sample hello world file.
 
