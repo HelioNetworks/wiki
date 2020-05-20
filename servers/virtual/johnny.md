@@ -4,11 +4,12 @@ Johnny is similar to Ricky, but he allows dangerous services such as Java/JSP to
 
 ### Available Services
 
-* PHP
-* [MySQL](../../management/mysql.md)
-* PostgreSQL
+* [cPanel](../../features/cpanel.md)
 * [JSP](../../features/jsp.md)
-* Softaculous
+* [MySQL](../../management/mysql.md)
 * [Perl](../../tutorials/perl.md)
-* cPanel
+* [PHP](../../features/php.md)
+* [PostgreSQL](../../features/postgresql.md)
+* [Python](../../features/python.md)
+* [Softaculous](../../features/softaculous.md)
 

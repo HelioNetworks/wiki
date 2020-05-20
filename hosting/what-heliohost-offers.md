@@ -4,17 +4,17 @@ HelioHost offers free web hosting for all. With every account comes:
 
 * Access to cPanel
 * Ability to edit A, CNAME, TXT, and MX records
-* 1000MB of Disk Space
-* Unlimited E-mail accounts
+* 1000 MB of Disk Space
+* [Unlimited Email Accounts](../features/unlimited-email-accounts.md)
 * Unlimited Mailing Lists
-* Unlimited Bandwidth
+* [Unlimited Bandwidth](../features/unlimited-bandwidth.md)
 * Unlimited Subdomains, Parked Domains, and Addon Domains
 * Unlimited FTP Accounts
-* Unlimited [MySQL](../management/mysql.md)/PostgreSQL/SQLite Databases
+* Unlimited [MySQL](../management/mysql.md)/[PostgreSQL](../features/postgresql.md)/[SQLite ](../features/sqlite.md)Databases
 * Access to phpMyAdmin/phpPgAdmin
 * Ability to add [Perl](../tutorials/perl.md) Modules
 * Free SSL \([Tommy](../servers/virtual/tommy.md) and [Ricky](../servers/virtual/ricky.md) provide AutoSSL but you need to [install and renew your own certificates](../management/johnny-ssl.md) on [Johnny](../servers/virtual/johnny.md)\)
-* Softaculous \(Easy installation of popular software such as blogging and forum platforms\)
+* [Softaculous ](../features/softaculous.md)\(Easy installation of popular software such as blogging and forum platforms\)
 
 HelioHost accounts can use the following scripting languages:
 
@@ -22,8 +22,8 @@ HelioHost accounts can use the following scripting languages:
 * [Golang](../tutorials/golang.md)
 * [Java/JSP](../features/jsp.md)
 * [Node.js](../tutorials/node.js.md)
-* PHP
-* Python, [Django](../tutorials/django.md), and [Flask](../tutorials/flask.md)
+* [PHP](../features/php.md)
+* [Python](../features/python.md), [Django](../tutorials/django.md), and [Flask](../tutorials/flask.md)
 * [Perl](../tutorials/perl.md)
-* [Ruby/Ruby on Rails](../tutorials/ror.md)
+* [Ruby on Rails](../tutorials/ror.md)
 

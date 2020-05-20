@@ -1,17 +1,21 @@
 # Contributing
 
-### New Articles
+* [Make a GitBook account](https://app.gitbook.com/join) and fork the HelioHost wiki from [here](https://github.com/HelioNetworks/heliohost-wiki).
+* Create a new space on GitBook.
+* Select "Integrations" on the sidebar.
 
-[Make a GitBook account](https://app.gitbook.com/join) and write the wiki article on your own space.
+![](../.gitbook/assets/integrations.png)
 
-After that, DM the article to [flazepe\#8587](https://discordapp.com/) ~~or mention him on the~~ [~~HelioHost Discord Server~~](https://discordapp.com/invite/fZsCqYC) ~~and he will add that article here.~~
+*  Select GitHub.
 
-### Existing Articles
+![](../.gitbook/assets/image.png)
 
-Feel free to DM [flazepe\#8587](https://discordapp.com/) ~~or mention him on the~~ [~~HelioHost Discord Server~~](https://discordapp.com/invite/fZsCqYC) if you:
+* Select the repository that you've forked from our GitHub.
+* Select "I write my content on GitBook".
 
-* notice any error made on an article
-* want to update an existing article\*
+![](../.gitbook/assets/on-gitbook.png)
 
-\*Please point out what needs to be changed or create an updated article on your own space and link it to him.
+* Write your content/changes to your space.
+* Merge the changes and wait for them to take effect on your forked GitHub repository.
+* Create a pull request.
 
