@@ -1,7 +1,7 @@
 # Contributing
 
 * Make a [GitHub](https://github.com/join) and [GitBook](https://app.gitbook.com/join) account if you haven't already.
-* Fork [this repository](https://github.com/HelioNetworks/heliohost-wiki).
+* Fork [this repository](https://github.com/HelioNetworks/heliohost-wiki) on GitHub.
 
 ![](../.gitbook/assets/fork_gitbook.png)
 
