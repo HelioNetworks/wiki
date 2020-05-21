@@ -1,6 +1,9 @@
 # Table of contents
 
 * [Main Page](README.md)
+
+## Wiki <a id="undefined"></a>
+
 * [Hosting](hosting/README.md)
   * [What is HelioHost?](hosting/heliohost.md)
   * [What HelioHost Offers](hosting/what-heliohost-offers.md)
@@ -51,15 +54,18 @@
   * [PostgreSQL](features/postgresql.md)
   * [Python](features/python.md)
   * [Softaculous](features/softaculous.md)
-  * [Storage](features/storage.md)
   * [Sqlite](features/sqlite.md)
+  * [Storage](features/storage.md)
   * [Unlimited Bandwidth](features/unlimited-bandwidth.md)
   * [Unlimited Email Accounts](features/unlimited-email-accounts.md)
-* [Miscellaneous](misc/README.md)
-  * [Contributing](misc/contributing.md)
-  * [Clear Your Cache](misc/clear-your-cache.md)
-  * [Server Load and Uptime](misc/server-status.md)
-  * [Ashoat](misc/ashoat.md)
-  * [Krydos](misc/krydos.md)
-  * [Wolstech](misc/wolstech.md)
+
+## Miscellaneous
+
+* [Contributing](miscellaneous/contributing.md)
+* [Clear Your Cache](miscellaneous/clear-your-cache.md)
+* [Server Load and Uptime](miscellaneous/server-status.md)
+* [Staff](miscellaneous/staff/README.md)
+  * [Ashoat](miscellaneous/staff/ashoat.md)
+  * [Krydos](miscellaneous/staff/krydos.md)
+  * [Wolstech](miscellaneous/staff/wolstech.md)
 
