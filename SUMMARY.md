@@ -59,13 +59,13 @@
   * [Unlimited Bandwidth](features/unlimited-bandwidth.md)
   * [Unlimited Email Accounts](features/unlimited-email-accounts.md)
 
-## Miscellaneous
+## Miscellaneous <a id="misc"></a>
 
-* [Contributing](miscellaneous/contributing.md)
-* [Clear Your Cache](miscellaneous/clear-your-cache.md)
-* [Server Load and Uptime](miscellaneous/server-status.md)
-* [Staff](miscellaneous/staff/README.md)
-  * [Ashoat](miscellaneous/staff/ashoat.md)
-  * [Krydos](miscellaneous/staff/krydos.md)
-  * [Wolstech](miscellaneous/staff/wolstech.md)
+* [Contributing](misc/contributing.md)
+* [Clear Your Cache](misc/clear-your-cache.md)
+* [Server Load and Uptime](misc/server-status.md)
+* [Staff](misc/staff/README.md)
+  * [Ashoat](misc/staff/ashoat.md)
+  * [Krydos](misc/staff/krydos.md)
+  * [Wolstech](misc/staff/wolstech.md)
 

@@ -6,6 +6,10 @@
 ![](../.gitbook/assets/fork_gitbook.png)
 
 * Create a new space on GitBook.
+
+![](../.gitbook/assets/new_space.png)
+
+* Open the space.
 * Select `Integrations` on the sidebar.
 
 ![](../.gitbook/assets/gitbook_integrations.png)
@@ -22,4 +26,5 @@
 * Write your content/changes to your space.
 * Merge the changes and wait for them to take effect on your forked GitHub repository.
 * Create a pull request.
+* We will handle the rest.
 
