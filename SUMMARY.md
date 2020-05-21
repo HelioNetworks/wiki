@@ -2,7 +2,7 @@
 
 * [Main Page](README.md)
 
-## Wiki <a id="undefined"></a>
+## Wiki <a id="test"></a>
 
 * [Hosting](hosting/README.md)
   * [What is HelioHost?](hosting/heliohost.md)
