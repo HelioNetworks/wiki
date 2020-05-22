@@ -96,7 +96,7 @@ Quit the server with CONTROL-C.
 ...
 ```
 
-Now you can point your browser to the address stated \([http://127.0.0.1:8000](http://127.0.0.1:8000/)\), and you should see the Django `hello world` debug message.
+Now you can point your browser to the address stated \([http://127.0.0.1:8000](http://127.0.0.1:8000/) \), and you should see the Django `hello world` debug message.
 
 Let's set the project up to work on HelioHost; we need to rename and link back the `wsgi.py` file.
 
@@ -228,5 +228,5 @@ Eventually you can point your browser to your website address\(es\) and you shou
 ### References
 
 * The original discussion from which the tutorial for Django 1.10 came out - [http://www.helionet.org/index/topic/27585-django-on-tommy/](http://www.helionet.org/index/topic/27585-django-on-tommy/).
-* GitHub repository for cookiecutter recipe for HelioHost at [https://github.com/rahul-gj/cookiecutter-helio](https://github.com/rahul-gj/cookiecutter-helio).
+* GitHub repo for cookiecutter recipe for HelioHost at [https://github.com/rahul-gj/cookiecutter-helio](https://github.com/rahul-gj/cookiecutter-helio).
 

@@ -1,12 +1,10 @@
 # Parked, Addon and Sub Domains
 
-Parked \(alias\), Addon and Sub Domains are vital services which allows you to get the best out of a domain or multiple domains. They have the power to link together multiple domains as well as customizing the URL of your domains. However, using these services can be confusing, and some problems can occur in the process. But don't worry - this article will help alleviate any confusion.
+Parked, Addon and Sub Domains are vital services which allows you to get the best out of a domain or multiple domains. They have the power to link together multiple domains as well as customizing the URL of your domains. However, using these services can be confusing, and some problems can occur in the process. But don't worry - this article will help alleviate any confusion.
 
-{% hint style="info" %}
-To prevent most problems when adding or configuring parked/addon/sub domains, ensure your server's load is below 7.00.
-{% endhint %}
+**Tip: To prevent most problems when adding or configuring parked/addon/sub domains, ensure your server's load is below 7.00.**
 
-### Parked Domains \(Alias\)
+### Parked Domains
 
 #### What is a Parked Domain?
 

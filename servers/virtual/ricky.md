@@ -4,11 +4,10 @@ Ricky is meant to be a stable production server, after [Stevie](../physical/stev
 
 ### Available Services
 
-* [cPanel](../../features/cpanel.md)
+* PHP
 * [MySQL](../../management/mysql.md)
+* PostgreSQL
+* Softaculous
 * [Perl](../../tutorials/perl.md)
-* [PHP](../../features/php.md)
-* [PostgreSQL](../../features/postgresql.md)
-* [Python](../../features/python.md)
-* [Softaculous](../../features/softaculous.md)
+* cPanel
 

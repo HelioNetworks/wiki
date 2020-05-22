@@ -4,15 +4,13 @@ Tommy is one of our fastest and most stable servers, with its hardware being amo
 
 ### Available Services
 
-* [cPanel](../../features/cpanel.md)
-* [Golang](../../tutorials/golang.md)
-* [JSP](../../features/java.md)
+* PHP
 * [MySQL](../../management/mysql.md)
-* [Node.js](../../tutorials/node.js.md)
+* PostgreSQL
+* [JSP](../../management/jsp.md)
+* Softaculous
 * [Perl](../../tutorials/perl.md)
-* [PHP](../../features/php.md)
-* [PostgreSQL](../../features/postgresql.md)
-* [Python](../../features/python.md)
+* [Node.js](../../tutorials/node.js.md)
 * [Ruby on Rails](../../tutorials/ror.md)
-* [Softaculous](../../features/softaculous.md)
+* cPanel
 
