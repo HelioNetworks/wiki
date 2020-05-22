@@ -6,7 +6,7 @@ This wiki contains many articles related to [HelioHost](hosting/heliohost.md) an
 
 ## Contributing
 
-Refer [here](misc/contributing.md).
+Refer [here](miscellaneous/contributing.md).
 
 ## Useful Links
 

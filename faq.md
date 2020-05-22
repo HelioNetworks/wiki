@@ -14,7 +14,7 @@ The support staff is fluent and reliable only in English.
 
 ### Why does HelioHost crash?
 
-Currently we are running about 20000 different accounts on one server, Johnny. Sometimes, that's a bit too much for Johnny and some user will abuse resources, both causing the server to crash. We try to fix this as quickly as we can. Since the server and cPanel are handling such a high volume of users, errors are bound to come up. We also try to fix these ASAP. Also, when [djbob](misc/staff/ashoat.md) works on the server, he occasionally screws up, which also causes crashes.
+Currently we are running about 20000 different accounts on one server, Johnny. Sometimes, that's a bit too much for Johnny and some user will abuse resources, both causing the server to crash. We try to fix this as quickly as we can. Since the server and cPanel are handling such a high volume of users, errors are bound to come up. We also try to fix these ASAP. Also, when [djbob](miscellaneous/staff/ashoat.md) works on the server, he occasionally screws up, which also causes crashes.
 
 ### Why was my account suspended?
 
