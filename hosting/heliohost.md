@@ -4,14 +4,14 @@ HelioHost is the service offered by [HelioNet](helionet.md) and is the industry-
 
 ### Support Administrators
 
-* [Ashoat](../miscellaneous/staff/ashoat.md)
+* [Ashoat](../misc/staff/ashoat.md)
 * Byron
 * Wizard
 * xaav
 * jje
 * cl58
-* [Krydos](../miscellaneous/staff/krydos.md)
-* [wolstech](../miscellaneous/staff/wolstech.md)
+* [Krydos](../misc/staff/krydos.md)
+* [wolstech](../misc/staff/wolstech.md)
 
 ### Support Moderators
 
@@ -30,7 +30,7 @@ This is where HelioHost differs. HelioHost is run solely by the community \(we d
 
 ### Support
 
-[HelioNet](helionet.md) is the support area of HelioHost. All support is operated by open support forums, which runs IP.Board 3.4.4 and established a few years back, and is mainly handled by the Support Admins, Moderator and Contributors, not forgetting the community users who kindly assist users requesting support. If questions cannot be answered by the community then the staff 'escalate' \(send\) support requests to the Root Administrator \([djbob](../miscellaneous/staff/ashoat.md)\) who deals with it at the root end. The Wiki was introduced to allow users to help themselves and avoid using the forums by receiving answers to the most commonly asked questions. The Twitter feed \([@HelioHost](http://twitter.com/HelioHost)\) was also introduced to keep users up to date with the latest service updates on HelioHost and HelioNet.
+[HelioNet](helionet.md) is the support area of HelioHost. All support is operated by open support forums, which runs IP.Board 3.4.4 and established a few years back, and is mainly handled by the Support Admins, Moderator and Contributors, not forgetting the community users who kindly assist users requesting support. If questions cannot be answered by the community then the staff 'escalate' \(send\) support requests to the Root Administrator \([djbob](../misc/staff/ashoat.md)\) who deals with it at the root end. The Wiki was introduced to allow users to help themselves and avoid using the forums by receiving answers to the most commonly asked questions. The Twitter feed \([@HelioHost](http://twitter.com/HelioHost)\) was also introduced to keep users up to date with the latest service updates on HelioHost and HelioNet.
 
 ### Servers
 
