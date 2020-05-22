@@ -1,16 +1,12 @@
 # Installing Let's Encrypt SSL Certificate via cPanel
 
 {% hint style="danger" %}
-This tutorial is outdated since ZeroSSL had revamped their site. You can still try to follow the tutorial but don't expect things to look the same.
-{% endhint %}
-
-{% hint style="warning" %}
 This tutorial should only be done on Johnny! For Tommy and Ricky users, AutoSSL will generate a certificate for you within 24 hours and it will be renewed automatically.
 {% endhint %}
 
 ### Step one: Obtain Key and CSR from ZeroSSL
 
-Head over to the [ZeroSSL Certificate Wizard](https://zerossl.com/) to get started. Enter your domain name \(and any desired subdomains, space-delimited\) into the domain field as below. Additionally, enter your email address if desired. Check both acceptance boxes and leave “HTTP verification” selected.
+Head over to the [ZeroSSL Certificate Wizard](https://zerossl.com/free-ssl/#crt) to get started. Enter your domain name \(and any desired subdomains, space-delimited\) into the domain field as below. Additionally, enter your email address if desired. Check both acceptance boxes and leave “HTTP verification” selected.
 
 ![](../.gitbook/assets/zerossl_generate.png)
 
