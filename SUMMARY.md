@@ -2,8 +2,6 @@
 
 * [Main Page](README.md)
 
-## Wiki <a id="undefined"></a>
-
 * [Hosting](hosting/README.md)
   * [What is HelioHost?](hosting/heliohost.md)
   * [What HelioHost Offers](hosting/what-heliohost-offers.md)
