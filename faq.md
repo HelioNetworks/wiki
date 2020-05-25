@@ -14,7 +14,7 @@ The support staff is fluent and reliable only in English.
 
 ### Why does HelioHost crash?
 
-Currently we are running about 20000 different accounts on one server, Johnny. Sometimes, that's a bit too much for Johnny and some user will abuse resources, both causing the server to crash. We try to fix this as quickly as we can. Since the server and cPanel are handling such a high volume of users, errors are bound to come up. We also try to fix these ASAP. Also, when [djbob](misc/ashoat.md) works on the server, he occasionally screws up, which also causes crashes.
+Currently we are running about 20000 different accounts on one server, Johnny. Sometimes, that's a bit too much for Johnny and some user will abuse resources, both causing the server to crash. We try to fix this as quickly as we can. Since the server and cPanel are handling such a high volume of users, errors are bound to come up. We also try to fix these ASAP. Also, when [djbob](misc/staff/ashoat.md) works on the server, he occasionally screws up, which also causes crashes.
 
 ### Why was my account suspended?
 
@@ -62,11 +62,11 @@ As an alternative to changing your main domain, consider using parked, addon, an
 
 ### What are the nameservers for HelioHost?
 
-ns1.heliohost.org ns2.heliohost.org
+`ns1.heliohost.org` and `ns2.heliohost.org`
 
 ### Can I PM an administrator for help?
 
-No, do not PM the administrators expecting support unless we explicitly tell you to. Please use the [customer service forum](https://www.helionet.org/index/forum/45-customer-service/) instead. Also, in order for us to provide the best and most efficient support, please provide your domain name, username, and server name up front so we don't have to waste time asking. IF you are sending via email, use the email you signed up with.
+No, do not PM the administrators expecting support unless we explicitly tell you to. Please use the [customer service forum](https://www.helionet.org/index/forum/45-customer-service/) instead. Also, in order for us to provide the best and most efficient support, please provide your domain name, username, and server name up front so we don't have to waste time asking. If you are sending via email, use the email you signed up with.
 
 ### The server is slow/Feature XYZ doesn't work/Something's wrong with my account etc.
 
