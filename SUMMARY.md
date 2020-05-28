@@ -58,8 +58,8 @@
 
 ## Miscellaneous <a id="misc"></a>
 
-* [Contributing](misc/contributing.md)
 * [Clear Your Cache](misc/clear-your-cache.md)
+* [Contributing](misc/contributing.md)
 * [Server Load and Uptime](misc/server-status.md)
 * [Staff](misc/staff/README.md)
   * [Ashoat](misc/staff/ashoat.md)
