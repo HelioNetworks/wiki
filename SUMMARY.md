@@ -28,6 +28,7 @@
   * [How to Access cPanel](tutorials/how-to-access-cpanel.md)
   * [Node.js](tutorials/node.js.md)
   * [Perl](tutorials/perl.md)
+  * [Python](tutorials/python.md)
   * [Ruby on Rails](tutorials/ror.md)
 * [FAQ](faq.md)
 * [Servers](servers/README.md)
