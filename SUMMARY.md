@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Main Page](README.md)
-
 * [Hosting](hosting/README.md)
   * [What is HelioHost?](hosting/heliohost.md)
   * [What HelioHost Offers](hosting/what-heliohost-offers.md)
@@ -29,6 +28,7 @@
   * [How to Access cPanel](tutorials/how-to-access-cpanel.md)
   * [Node.js](tutorials/node.js.md)
   * [Perl](tutorials/perl.md)
+  * [Python](tutorials/python.md)
   * [Ruby on Rails](tutorials/ror.md)
 * [FAQ](faq.md)
 * [Servers](servers/README.md)
@@ -59,8 +59,8 @@
 
 ## Miscellaneous <a id="misc"></a>
 
-* [Contributing](misc/contributing.md)
 * [Clear Your Cache](misc/clear-your-cache.md)
+* [Contributing](misc/contributing.md)
 * [Server Load and Uptime](misc/server-status.md)
 * [Staff](misc/staff/README.md)
   * [Ashoat](misc/staff/ashoat.md)

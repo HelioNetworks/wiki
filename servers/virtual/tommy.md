@@ -2,7 +2,7 @@
 
 Tommy is one of our fastest and most stable servers, with its hardware being amongst the newest between our servers. Because of this stability, he is recommended if you want to host a production site.
 
-### Available Services
+### Features
 
 * [cPanel](../../features/cpanel.md)
 * [Golang](../../tutorials/golang.md)
