@@ -39,15 +39,29 @@ If everything worked it should say `Heliohost rules!` in your browser. The first
 
 and `python3.6` for Ricky.
 
-You can see the modules that are currently installed on the Johnny Python versions at
+The next line is the `Content-Type` header. This is important so the server knows what to do with the output that follows. If you forget it your script will give a useless 500 error. The content type header always has to have the two end lines immediately after it. That's what the `\n\n` is.
 
-* [https://krydos2.heli...in/modules26.py](https://krydos2.heliohost.org/cgi-bin/modules26.py)
-* [https://krydos2.heli...in/modules37.py](https://krydos2.heliohost.org/cgi-bin/modules37.py)
+### Modules
+
+You can see the modules that are currently installed on the Python versions: 
+
+### Johnny
+
+* [Python 2.6](https://krydos2.heliohost.org/cgi-bin/modules26.py)
+* [Python 3.7](https://krydos2.heliohost.org/cgi-bin/modules37.py)
+
+#### Ricky
+
+* [Python 2.7](https://krydos1.heliohost.org/cgi-bin/modules27.py)
+* [Python 3.6](https://krydos1.heliohost.org/cgi-bin/modules36.py)
+
+#### Tommy
+
+* [Python 2.7](https://krydos.heliohost.org/cgi-bin/modules27.py)
+* [Python 3.7](https://krydos.heliohost.org/cgi-bin/modules37.py)
 
 If you don't see the module you need your script will probably give a useless 500 error when you try to import the missing module. Just make a post on the [forums](https://www.helionet.org/index/forum/45-customer-service/) stating your server, the version of python you're using, and the module\(s\) you need.  
   
-The next line is the `Content-Type` header. This is important so the server knows what to do with the output that follows. If you forget it your script will give a useless 500 error. The content type header always has to have the two end lines immediately after it. That's what the `\n\n` is.
-
 ### Extra: Python scripts outside cgi-bin folders
 
 Executing a CGI script outside the `cgi-bin` folder is possible with some modifications.
