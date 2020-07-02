@@ -33,7 +33,6 @@ If everything worked it should say `Heliohost rules!` in your browser. The first
 
 | Path | Version |
 | :--- | :--- |
-| \#!/usr/bin/python | 2.6.6 |
 | \#!/usr/bin/python2.7 | 2.7.13 |
 | \#!/usr/bin/python3.7 | 3.7 |
 
@@ -47,7 +46,7 @@ You can see the modules that are currently installed on the Python versions:
 
 ### Johnny
 
-* [Python 2.6](https://krydos2.heliohost.org/cgi-bin/modules26.py)
+* [Python 2.7](https://krydos2.heliohost.org/cgi-bin/modules27.py)
 * [Python 3.7](https://krydos2.heliohost.org/cgi-bin/modules37.py)
 
 #### Ricky
