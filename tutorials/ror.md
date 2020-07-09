@@ -18,12 +18,12 @@ Create a new directory in your home folder named `ror`. Make sure this `ror` dir
 /home/username/ror
 ```
 
-Download the Ruby on Rails files from [https://krydos.heliohost.org/ror/rortest\_2.4.9.tar.gz](https://krydos.heliohost.org/ror/rortest_2.4.9.tar.gz)
+Download the Ruby on Rails files from [https://krydos.heliohost.org/ror/rortest\_2.4.10.tar.gz](https://krydos.heliohost.org/ror/rortest_2.4.10.tar.gz)
 
 Upload the rortest archive to the ror directory that you just created.
 
 ```text
-/home/username/ror/rortest_2.4.9.tar.gz
+/home/username/ror/rortest_2.4.10.tar.gz
 ```
 
 Use file manager to extract the archive by right clicking on the file and selecting extract.
@@ -42,7 +42,7 @@ For name enter `Rortest`, domain select your main domain, application url put `/
 
 ![](../.gitbook/assets/register_rortest_application.png)
 
-Then click deploy. In order for the node.js application to be deployed it requires an apache restart so this could take anywhere from a few minutes to a few hours. If it's been more than 2 hours and it still isn't working please open [a customer service ticket](https://www.helionet.org/index/forum/45-customer-service/) and let us know.
+Then click deploy. In order for the Rails application to be deployed it requires an apache restart so this could take anywhere from a few minutes to a few hours. If it's been more than 2 hours and it still isn't working please open [a customer service ticket](https://www.helionet.org/index/forum/45-customer-service/) and let us know.
 
 Once the Ruby on Rails application has been deployed you should be able to go to domain.heliohost.org/rortest and see the it in action. This is just the beginning though. From here you should edit your default files to create the Ruby on Rails website you've always wanted. Let us know if you need help.
 
