@@ -7,7 +7,7 @@ Django is a web development framework designed specifically for Python. Like Rub
 | Server | Django Version | Python Version | Python Path | Loader |
 | :--- | :--- | :--- | :--- | :--- |
 | Tommy | 2.1.13 | 3.7 | /usr/bin/python3.7 | WSGI |
-| Ricky | 1.11.4 | 3.6 | /usr/bin/python3.6 | WSGI |
+| Ricky | 1.11.4 | 3.7 | /usr/bin/python3.7 | WSGI |
 | Johnny | 2.1.13 | 3.7 | /usr/bin/python3.7 | WSGI |
 
 ### Enabled
