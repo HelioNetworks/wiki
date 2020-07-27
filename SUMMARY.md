@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Main Page](README.md)
+* [Home](README.md)
 * [Hosting](hosting/README.md)
   * [What is HelioHost?](hosting/heliohost.md)
   * [What HelioHost Offers](hosting/what-heliohost-offers.md)
