@@ -8,7 +8,7 @@ This tutorial is outdated since ZeroSSL had revamped their site. You can still t
 This tutorial should only be done on Johnny! For Tommy and Ricky users, AutoSSL will generate a certificate for you within 24 hours and it will be renewed automatically.
 {% endhint %}
 
-### Step one: Obtain Key and CSR from ZeroSSL
+## Step one: Obtain Key and CSR from ZeroSSL
 
 Head over to the [ZeroSSL Certificate Wizard](https://zerossl.com/) to get started. Enter your domain name \(and any desired subdomains, space-delimited\) into the domain field as below. Additionally, enter your email address if desired. Check both acceptance boxes and leave “HTTP verification” selected.
 
@@ -22,7 +22,7 @@ Click “Next” at the top right of the form and approve the addition of the ww
 
 Click “Next”. At this point, the site will warn you if it suspects you haven’t saved the key and CSR – so make sure you have.
 
-### Step two: Verify site ownership
+## Step two: Verify site ownership
 
 The verification step will appear. The purpose of this step is to demonstrate domain ownership by creating known files into a certain location. Typically This can be achieved using cPanel as shown in the following steps. Alternatively, FTP or similar can be used. One file is required per domain. Here there are two: one for the domain with www and one for without.
 
@@ -40,8 +40,7 @@ Create a new folder named `.well-known` in the `public_html` folder as shown in 
 
 Use the same process to create the `acme-challenge` folder in the `public_html/.well-known` directory.
 
-In the `public_html/.well-known/acme-challenge` directory, create a file with the name in the “File” column from the ZeroSSL Verification page. Select and open this file with the “Edit” button.  
-
+In the `public_html/.well-known/acme-challenge` directory, create a file with the name in the “File” column from the ZeroSSL Verification page. Select and open this file with the “Edit” button.
 
 ![](../.gitbook/assets/zerossl_newfile.png)
 
@@ -51,7 +50,7 @@ Paste the file text from the “Text” column corresponding to the file on the 
 
 Repeat the file creation process for all the files from the ZeroSSL Verification page. There should be one per subdomain. In this case there are two files to be created: one for the base domain and one for the www-prefixed domain.
 
-### Step three: Obtain and install certificate
+## Step three: Obtain and install certificate
 
 Back in ZeroSSL, press “Next”. If all goes well the following should appear.
 
@@ -85,13 +84,13 @@ Note: On Johnny it can take up to 2 hours for your SSL certificate to start work
 
 You should now have SSL up and running! HTTPS can be used on the domain/subdomains you specified.
 
-### Additional steps \(optional\)
+## Additional steps \(optional\)
 
-#### Certificate expiry and renewal
+### Certificate expiry and renewal
 
 Certificates issued by Let's Encrypt, such as the one\(s\) you just generated with ZeroSSL expire after 90 days. Set a reminder to renew the certificate at an appropriate date.
 
-#### Forced HTTPS
+### Forced HTTPS
 
 By default, pages can be accessed either unencrypted \(HTTP\) or encrypted \(HTTPS\). `.htaccess` rules can be used to force HTTPS throughout the site or on certain pages. More information can be found on [this httpd wiki page](https://wiki.apache.org/httpd/RewriteHTTPToHTTPS).
 

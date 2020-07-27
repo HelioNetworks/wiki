@@ -2,7 +2,7 @@
 
 Helio Networks \("HelioNet"\) will not be held liable for use of any of it's services. USE OF ANY OF THE SERVICES THAT HELIONET PROVIDES INDICATES THAT YOU HAVE AGREED TO ALL OF THE FOLLOWING TERMS. IF YOU HAVE NOT AGREED TO ANY OF THESE TERMS, PLEASE DISCONTINUE THE USE OF ALL OF HELIONET'S SERVICES IMMEDIATELY FOLLOWING YOUR NON-AGREEMENT TO THESE TERMS.
 
-### Terms of Service
+## Terms of Service
 
 By signing up with HelioHost for any service, you agree to the following:
 
@@ -21,13 +21,13 @@ By signing up with HelioHost for any service, you agree to the following:
 * We reserve the right to delete, change, or edit your account or your content with or without prior notification, including, but not limited to cases arising from abuse of these Terms.
 * You understand that HelioHost services are provided 'as-is', in accordance with the DISCLAIMER posted below.
 
-### DISCLAIMER
+## DISCLAIMER
 
 HelioHost hosting service is provided 'AS-IS' with NO WARRANTY of any kind, neither express nor implied, not even the implied warranties of merchantability, non-infringement, and fitness for a particular purpose. Furthermore, HelioHost makes no guarantees as to the proper operation of the service, availability of the service, or the safety or security of the service.
 
 HelioHost is NOT LIABLE FOR DATA LOSS, equipment malfunction or failure, or other damages \(physical, digital, monetary, or otherwise\) caused by the use of this service, the improper operation of the service due to abuse, misuse, or malfunction of any kind, or the quality of the service's performance \(or its failure to perform\). Use the service at your own risk.
 
-### HelioNet Terms
+## HelioNet Terms
 
 Users on [HelioNet](helionet.md) must abide by the following rules:
 
