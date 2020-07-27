@@ -19,9 +19,10 @@
 ![](../.gitbook/assets/gitbook_github.png)
 
 * Select the repository that you've forked from our GitHub.
-* Select `I write my content on GitBook`.
+* Select `Sync "master" branch only`.
+* Select `I write my content on GitHub`.
 
-![](../.gitbook/assets/content_on_gitbook.png)
+![](../.gitbook/assets/ss.png)
 
 * Write your content/changes to your space.
 * Merge the changes and wait for them to take effect on your forked GitHub repository.
