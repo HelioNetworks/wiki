@@ -1,10 +1,10 @@
 # cPanel
 
-## What is cPanel?
+### What is cPanel?
 
 cPanel is a powerful, yet user-friendly hosting/domain manager. cPanel has a simple-to-use interface that makes editing your hosting details extremely easy.
 
-## What can cPanel do?
+### What can cPanel do?
 
 Through your cPanel \(included with all HelioHost hosting accounts\), you can
 
@@ -24,7 +24,7 @@ Through your cPanel \(included with all HelioHost hosting accounts\), you can
 * Install software using Softaculous \(see Softaculous\)
 * Manage Perl modules
 
-## How do I access my cPanel?
+### How do I access my cPanel?
 
 See [How to Access cPanel](../tutorials/how-to-access-cpanel.md).
 

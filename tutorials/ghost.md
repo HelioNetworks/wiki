@@ -1,20 +1,22 @@
 # Ghost CMS
 
-## Preface
+### Preface
 
 Ghost requires Node.js which is only available on the Tommy server currently.
 
-## About Ghost
+### About Ghost
 
 Ghost is a free and open source blogging platform written in JavaScript and distributed under the MIT License, designed to simplify the process of online publishing for individual bloggers as well as online publications. Independent tests have found Ghost to be up to 1,900% faster than WordPress. What does that mean? In the amount of time it takes WordPress to respond to 1 request, Ghost will have already responded to 19 of them. The speed of your blog impacts everything, from search engine rankings to mobile user engagement.
 
-## How to setup Ghost
+### How to setup Ghost
 
 Ghost doesn't like being in a subdirectory so `domain.com/ghost/` won't work right. We will create a subdomain for it. Log in to cPanel and click the `Subdomains`button.
 
 ![](../.gitbook/assets/subdomains.png)
 
 Let's create a subdomain called `ghost`.
+
+
 
 ![](../.gitbook/assets/create_subdomain_ghost.png)
 
@@ -83,4 +85,6 @@ For name enter `Ghost`, domain select the subdomain that you created at the begi
 Then click deploy. In order for the Node.js application to be deployed it requires an Apache restart so this could take anywhere from a few minutes to a few hours. If it's been more than 2 hours and it still isn't working please open [a customer service ticket](https://www.helionet.org/index/forum/45-customer-service/) and let us know.
 
 Once the ghost application has been deployed you should be able to go to `ghost.domain.heliohost.org` and see the CMS in action, and if you want to create new articles and access the backend go to `ghost.domain.heliohost.org/ghost/`.
+
+
 

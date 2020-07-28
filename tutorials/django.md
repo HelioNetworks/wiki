@@ -2,7 +2,7 @@
 
 Django is a web development framework designed specifically for Python. Like Ruby on Rails does for Ruby, Django aims to provide a Model-View-Controller framework for web application development as well as a large set of prebuilt libraries to simplify the development of common web app features. Django's modularity also allows easy scalability and enables the reuse of various code blocks, under the policy of "Don't Repeat Yourself".
 
-## Details
+### Details
 
 | Server | Django Version | Python Version | Python Path | Loader |
 | :--- | :--- | :--- | :--- | :--- |
@@ -10,43 +10,43 @@ Django is a web development framework designed specifically for Python. Like Rub
 | Ricky | 1.11.4 | 2.7 | /usr/bin/python2.7 | WSGI |
 | Johnny | 2.1.13 | 3.7 | /usr/bin/python3.7 | WSGI |
 
-## Enabled
+### Enabled
 
-### WSGI
+#### WSGI
 
 Using the WSGI loader for a shared hosting environment is ideal because it conserves memory and enhances security.
 
-### Complete Django
+#### Complete Django
 
 We offer the complete, unadulterated Django package.
 
-### MySQL
+#### MySQL
 
 Our Python installation includes the MySQL extension for interfacing with the MySQL database engine.
 
-### PostgreSQL
+#### PostgreSQL
 
 Our Python installation includes the PostgreSQL extension for interfacing with the PostgreSQL database engine.
 
-### SQLite
+#### SQLite
 
 Our Python installation includes the SQLite extension for interfacing with the SQLite database engine.
 
-### Extensive Prebuilt Libraries
+#### Extensive Prebuilt Libraries
 
 If you need any additional libraries installed be sure to ask at [https://www.helionet.org](https://www.helionet.org/index/).
 
-## Disabled
+### Disabled
 
-### Shell Access
+#### Shell Access
 
 We don't offer shell \(command line\) access to our users. Many Django tutorials and installation instructions assume that users have command line access, which may make working with Python & Django more difficult. Most people tend to develop on their home computer and then upload to their web server, which almost negates the need for this feature. Furthermore, most configuration done through the command line can be done through other methods, such as FTP and manual file editing.
 
-### WSGI Daemon Mode
+#### WSGI Daemon Mode
 
 There are two ways to configure Django to work with the mod\_wsgi loader in Apache. You can either create a separate daemon for each Django process \(daemon mode\), or embed Django into the Apache daemon \(embedded mode\). While daemon mode tends to be the standard among Django admins because of the increased control it offers, we use embedded mode because it can be setup on a per-user basis without very much root-level configuration. Embedded mode is slightly harder to get working \(see directions below\), and might break compatibility with some Django tutorials. In most cases it should not be a problem.
 
-## Getting started with Django 1.11
+### Getting started with Django 1.11
 
 The official Django 1.11 documentation [is available here](https://docs.djangoproject.com/en/1.11/). The following guide is based on [this post](https://www.helionet.org/index/topic/27585-django-on-tommy/?p=126077). It's suggested to follow the [introduction tutorial](https://docs.djangoproject.com/en/1.11/intro/tutorial01/) to start off with Django: another suggestion is to try and test the package locally before uploading it online, since shell access \(sometimes useful for debugging\) is not provided on HelioHost.
 
@@ -214,7 +214,7 @@ If you are not using git then download `cookiecutter-helio-master.zip` file from
 $ cookiecutter path/to/cookiecutter-helio-master.zip
 ```
 
-The shell will then asks few questions. Answer them:
+ The shell will then asks few questions. Answer them:
 
 ```text
 $ project_name [mysite]: hello--> Choose any name
@@ -225,7 +225,7 @@ The hello will be created on your working directory. Copy the content of that fo
 
 Eventually you can point your browser to your website address\(es\) and you should see your Django application being online!
 
-## References
+### References
 
 * The original discussion from which the tutorial for Django 1.10 came out - [http://www.helionet.org/index/topic/27585-django-on-tommy/](http://www.helionet.org/index/topic/27585-django-on-tommy/).
 * GitHub repository for cookiecutter recipe for HelioHost at [https://github.com/rahul-gj/cookiecutter-helio](https://github.com/rahul-gj/cookiecutter-helio).

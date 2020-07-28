@@ -1,16 +1,16 @@
 # Flask
 
-## Preface
+### Preface
 
 This tutorial is adapted from a forum post answered by Krydos, [How do I use Flask](https://www.helionet.org/index/topic/27822-how-do-i-use-flask-on-johnny/?p=128919) on the HelioNet forum.
 
 It is worth to note that flask on the Tommy and Johnny servers use python 3.7, and if you want to use flask on python 2.7 you have to be on the Ricky server.
 
-## About Flask
+### About Flask
 
 Flask is a Python web framework built with a small core and easy-to-extend philosophy. [Full Stack Python](https://www.fullstackpython.com/flask.html)
 
-## How to setup Flask
+### How to setup Flask
 
 Create a folder in public\_html called flask
 
@@ -18,7 +18,7 @@ Create a folder in public\_html called flask
 /home/username/public_html/flask/
 ```
 
-In that folder create a .htaccess file:
+ In that folder create a .htaccess file:
 
 ```text
 RewriteEngine On

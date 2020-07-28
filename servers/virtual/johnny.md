@@ -2,7 +2,7 @@
 
 Johnny is similar to Ricky, but he allows dangerous services such as Java/JSP to his users. Johnny is hosted on [Sparkie](../physical/sparkie.md).
 
-## Features
+### Features
 
 * [cPanel](../../features/cpanel.md)
 * [JSP](../../features/java.md)
