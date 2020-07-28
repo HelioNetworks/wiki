@@ -1,4 +1,4 @@
-# Main Page
+# Home
 
 ## Welcome to the HelioHost Wiki!
 

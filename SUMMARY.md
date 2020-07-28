@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Main Page](README.md)
+* [Home](README.md)
 * [Hosting](hosting/README.md)
   * [What is HelioHost?](hosting/heliohost.md)
   * [What HelioHost Offers](hosting/what-heliohost-offers.md)
@@ -14,6 +14,7 @@
   * [Moving your account](accounts/moving-your-account.md)
   * [Suspension Policy](accounts/suspension-policy.md)
 * [cPanel and Management](management/README.md)
+  * [Uploading Files](management/uploading-files.md)
   * [Changing Your Main Domain](management/main-domain.md)
   * [Creating MySQL Databases via cPanel](management/mysql.md)
   * [Installing Let's Encrypt SSL Certificate via cPanel](management/johnny-ssl.md)
