@@ -35,7 +35,7 @@ Create a file named flask.wsgi in the flask directory.
 import os, sys
 
 # edit your username below
-sys.path.append("/home/username/public_html/flask");
+sys.path.append("/home/username/public_html/flask")
 
 sys.path.insert(0, os.path.dirname(__file__))
 from myapp import app as application
