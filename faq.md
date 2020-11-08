@@ -18,7 +18,7 @@ Currently we are running about 20000 different accounts on one server, Johnny. S
 
 ### Why was my account suspended?
 
-If you have not broken our [Terms of Service](hosting/terms.md), then you probably were suspended for inactivity. Renew your account [here](http://www.heliohost.org/home/support/scripts/renew). If you have overused cron or have broken any of the other ToS, shame on you.
+If you have not broken our [Terms of Service](hosting/terms.md), then you probably were suspended for inactivity. Renew your account [here](http://www.heliohost.org/renew/). If you have overused cron or have broken any of the other ToS, shame on you.
 
 It is also possible that this was an error in our system. If you suspect that this is the case, report the error in a new post [here](https://www.helionet.org/index/forum/81-suspended-and-queued-accounts/).
 
