@@ -15,7 +15,7 @@ By signing up with HelioHost for any service, you agree to the following:
 * Your site will not offer any service that purports to modify or add game content \(e.g. skins or playable items such as weapons\) or credits \(e.g. gold, coins\) to third-party online game accounts.
 * Everything displayed on your site will be your property. HelioHost assumes no responsibility for any content displayed by customers of our services.
 * Each person is allowed to have one account unless permitted in writing by an administrator of HelioHost.
-* Since Helio Networks is a registered non-profit organzation based in the US, our operational limitations (due to sanctions), forbid us from offering any services to the users from Iran, even that the service is free. Therefore, if you are an Iranian user you will have to look for an alternate free hosting provider. In case our system detects any Iranian users, you shall be permanently suspended. 
+* HelioHost is a US based organization so federal regulations prohibit us from accepting donations or providing service to anyone in Iran, Cuba, or Syria. 
 * You will not register or maintain an account using a disposable email address.
 * We will not be held responsible for loss of content, revenue, or traffic in the event of a systems failure.
 * We reserve the right to change the Terms of Service with or without prior notification.
