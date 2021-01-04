@@ -41,7 +41,7 @@ You can also configure the domain to be redirected to another URL. Just click on
 
 You will need to wait approximately 24 hours until your parked domain will become active. If you still see a message saying `HelioHost Account Queued` after that period, then [please clear you cache](../misc/clear-your-cache.md).
 
-To check that your nameservers \(NS Records\) are properly configured, go to [https://byrondallas.heliohost.org/php/tools/dns\_records.php?domain=&rec=NS](https://byrondallas.heliohost.org/php/tools/dns_records.php?domain=&rec=NS).
+To check that your nameservers \(NS Records\) are properly configured, go to [https://byrondallas.heliohost.org/php/tools/dns_records.php?domain=&rec=NS](https://byrondallas.heliohost.org/php/tools/dns_records.php?domain=&rec=NS).
 
 ### Addon Domains
 
@@ -65,19 +65,19 @@ The parked domain you have just set up will be be configured to reflect the `Doc
 
 You will need to wait approximately 48 hours until your addon domain will become active. If you still see a message saying `HelioHost Account Queued` after that period, then please [clear you cache](../misc/clear-your-cache.md).
 
-To check that your nameservers \(NS Records\) are properly configured, go to [https://byrondallas.heliohost.org/php/tools/dns\_records.php?domain=&rec=NS](https://byrondallas.heliohost.org/php/tools/dns_records.php?domain=&rec=NS).
+To check that your nameservers \(NS Records\) are properly configured, go to [https://byrondallas.heliohost.org/php/tools/dns_records.php?domain=&rec=NS](https://byrondallas.heliohost.org/php/tools/dns_records.php?domain=&rec=NS).
 
-### Sub Domains
+### Subdomains
 
-#### What is a Sub Domain
+#### What is a subdomain
 
-A sub domain is like an "attachment" to a current domain that reflects a normal directory.
+A subdomain is like an "attachment" to a current domain that reflects a normal directory.
 
-An example of a sub domain is `sub.mysite.heliohost.org` being the **SAME** as `mysite.heliohost.org/sub`.
+A previous use for this was a subdomain like `blog.mysite.heliohost.org` serving the same content as `mysite.heliohost.org/blog`. However, due to search engines now indexing each subdomain as a new and different website, having matching content will negatively affect your SEO score. Therefore, if you wish to use `blog.mysite.heliohost.org` but have people still visiting `mysite.heliohost.org/blog`, you could create a redirect script to ensure they are always forwarded to your new fancy "blog" subdomain.
 
-#### How can I create a Sub Domain?
+#### How can I create a subdomain?
 
-After logging into your cPanel account, click on `Sub Domains` button and fill in the details and submit the form. The sub domain you have just setup will be be configured to reflect the `Document Root` you specified.
+After logging into your cPanel account, click on the "Subdomains" button within the domains sub-section and fill in the details such as the subdomain and the domain you want the subdomain to be attached too. The subdomain you have just setup will be be configured to reflect the document root you specified. Therefore, if your document route was `/public_html/foo` your new subdomain will serve the files located in that directory.
 
 #### What do I do now?
 
