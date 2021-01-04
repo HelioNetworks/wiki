@@ -16,14 +16,14 @@ It is like a pet name of a person. You can call that person with his real name \
 
 The difference between Parked and Addon Domains is simply this:
 
-* With Addon Domains, you build a completely separate site.
-* With Parked Domains, it is already built, you just are giving it another domain for the site it is parked on.
+- With Addon Domains, you build a completely separate site.
+- With Parked Domains, it is already built, you just are giving it another domain for the site it is parked on.
 
 Parked Domains allow you to complete the task quickly and efficiently - there is even the option of redirecting a domain to another website.
 
 #### How Parked Domains can be helpful
 
-Well**,** let's say your main domain goes down due to the domain host having problems. If this happens, you can reach your site from your parked domain. That is very convenient, if you ask me!
+Well, let's say your main domain goes down due to the domain host having problems. If this happens, you can reach your site from your parked domain. That is very convenient, if you ask me!
 
 #### How can I create a Parked Domain?
 
