@@ -44,9 +44,8 @@ As there are lots of accounts ready to be created, your account will be entered 
 
 You will need to add the following nameservers to your domain via your domain registrars website:
 
-```text
-ns1.heliohost.org ns2.heliohost.org
-```
+- `ns1.heliohost.org`
+- `ns2.heliohost.org`
 
 To check that your nameservers have been properly configured, go to [http://byrondallas.heliohost.org/php/tools/dns\_records.php](http://byrondallas.heliohost.org/php/tools/dns_records.php).
 

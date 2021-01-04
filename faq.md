@@ -62,7 +62,8 @@ As an alternative to changing your main domain, consider using parked, addon, an
 
 ### What are the nameservers for HelioHost?
 
-`ns1.heliohost.org` and `ns2.heliohost.org`
+- `ns1.heliohost.org`
+- `ns2.heliohost.org`
 
 ### Can I PM an administrator for help?
 

@@ -12,5 +12,6 @@ Depending on the server because of the Apache service, the main domain change mi
 
 You will need to point your new domain to the following nameservers:
 
-`ns1.heliohost.org` and `ns2.heliohost.org`
+- `ns1.heliohost.org`
+- `ns2.heliohost.org`
 
