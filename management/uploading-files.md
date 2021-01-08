@@ -46,8 +46,9 @@ As an online file manager, you can use the built-in File Manager available from 
 
 ## **PyDio**
 
- Pydio, formerly known as AjaXplorer, is another online file manager which uses AJAX to provide the best file manager possible. It includes editors in every occasion, multiple users, and more! Pydio is available for download at [https://pydio.com](https://pydio.com/) and you can install by simply dragging and dropping the contents of the ZIP file to your site.
+Pydio, formerly known as AjaXplorer, is another online file manager which uses AJAX to provide the best file manager possible. It includes editors in every occasion, multiple users, and more! Pydio is available for download at [https://pydio.com](https://pydio.com/) and you can install by simply dragging and dropping the contents of the ZIP file to your site.
 
 ## Net2FTP
 
- Yet another online file manager is net2FTP. Net2FTP can be accessed directly from [its website](http://net2ftp.com/). Alternatively, you can [download a copy](http://net2ftp.com/index.php?state=homepage&state2=3) and run it from your own website.
+Yet another online file manager is net2FTP. Net2FTP can be accessed directly from [its website](http://net2ftp.com/). Alternatively, you can [download a copy](http://net2ftp.com/index.php?state=homepage&state2=3) and run it from your own website.
+

@@ -1,6 +1,6 @@
 # Discord Bot
 
-### Preface
+## Preface
 
 This guide will work on any of the HelioHost servers.
 
@@ -10,13 +10,13 @@ The Discord app works with desktop and mobile platforms, combining the features 
 
 Bots and apps are the lifeblood of the Discord development community. They come in all shapes and sizes, from small hobby projects for your server with friends, to huge projects that live in hundreds of thousands of servers. We love seeing the unique, fun, and sometimes downright strange \(in a good way\) creations that come from our community.
 
-### How to get Started with a Discord Bot
+## How to get Started with a Discord Bot
 
 First you'll need to have a discord account, and a discord channel that you'll add the bot to later. Here's a good guide to get started:
 
-{% embed url="https://www.howtogeek.com/364075/how-to-create-set-up-and-manage-your-discord-server/" %}
+{% embed url="https://www.howtogeek.com/364075/how-to-create-set-up-and-manage-your-discord-server/" caption="" %}
 
-#### Create the Bot
+### Create the Bot
 
 Once you have your discord server all set up it's time to create the bot through discord's site. Go to [http://discordapp.com/developers/applications](http://discordapp.com/developers/applications) and make sure you're logged in. Then click `New Applcation` in the top right.
 
@@ -24,11 +24,11 @@ Once you have your discord server all set up it's time to create the bot through
 
 Type a name and hit create. I decided to name my bot `HelioBot`. Now, on the left, click `Bot`.
 
-![](../.gitbook/assets/select_bot.png)
+![](../.gitbook/assets/select_bot%20%281%29.png)
 
 Then, click `Add Bot` on the right followed by confirming that you do want to add a bot.
 
-#### Add the Bot to your Discord Server
+### Add the Bot to your Discord Server
 
 Click `OAuth2` on the left navigation.
 
@@ -46,7 +46,7 @@ Click `Authorize` and complete the reCAPTCHA to add the bot to the Discord serve
 
 ![Bot on the offline user list](../.gitbook/assets/offline_bot.png)
 
-#### Write the Bot Script in Python
+### Write the Bot Script in Python
 
 Log in at [https://www.heliohost.org/login/](https://www.heliohost.org/login/) and continue to cPanel. Then load up the file manager.
 
@@ -82,7 +82,7 @@ async def on_member_join(member):
     await member.dm_channel.send(
         f'Hi {member.name}, welcome to my Discord server!'
     )
-    
+
 @client.event
 async def on_message(message):
     if message.author == client.user:
@@ -136,7 +136,7 @@ Now you should be able to see the `.env` file, right click on it, and select `Ed
 
 Make sure the line starts with `DISCORD_TOKEN=` like that. Then click `Save Changes` and close the tab. Saving your token separate from your code is good practice because this way you can share the code on GitHub or something like that without worrying about people getting access to your bot.
 
-#### Starting and Stopping Your Bot
+### Starting and Stopping Your Bot
 
 You have a functional bot now, but you need a way to start and stop it. We'll use CGI to do that so you can control your bot through your web page. With the file manager, navigate to `public_html/cgi-bin` and create a new file called `start.py`.
 
@@ -221,7 +221,7 @@ And change `stop.py` to `755` permissions as well.
 
 ![](../.gitbook/assets/755_permissions.png)
 
-#### Test It Out
+### Test It Out
 
 Now everything should be ready to be tested. Open your browser and go to `domain.heliohost.org/cgi-bin/start.py` and it should start the bot. You can check if the bot is running by going to Discord and seeing if HelioBot is showing up as online now. If it is, test it out by typing the command:
 
