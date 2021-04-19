@@ -2,7 +2,7 @@
 
 The easiest way to get started with Python on a server is with CGI. Really the only difference between CGI and running the script on your home computer is CGI needs to output a "Content-Type" header.
 
-### Steps
+## Steps
 
 * Open the File Manager in cPanel
 * Double click `public_html`
@@ -40,37 +40,37 @@ and `python3.6` for Ricky.
 
 The next line is the `Content-Type` header. This is important so the server knows what to do with the output that follows. If you forget it your script will give a useless 500 error. The content type header always has to have the two end lines immediately after it. That's what the `\n\n` is.
 
-### Modules
+## Modules
 
-You can see the modules that are currently installed on the Python versions: 
+You can see the modules that are currently installed on the Python versions:
 
-### Johnny
+## Johnny
 
 * [Python 2.7](https://krydos2.heliohost.org/cgi-bin/modules27.py)
 * [Python 3.7](https://krydos2.heliohost.org/cgi-bin/modules37.py)
 
-#### Ricky
+### Ricky
 
 * [Python 2.7](https://krydos1.heliohost.org/cgi-bin/modules27.py)
 * [Python 3.6](https://krydos1.heliohost.org/cgi-bin/modules36.py)
 
-#### Tommy
+### Tommy
 
 * [Python 2.7](https://krydos.heliohost.org/cgi-bin/modules27.py)
 * [Python 3.7](https://krydos.heliohost.org/cgi-bin/modules37.py)
 
-If you don't see the module you need your script will probably give a useless 500 error when you try to import the missing module. Just make a post on the [forums](https://www.helionet.org/index/forum/45-customer-service/) stating your server, the version of python you're using, and the module\(s\) you need.  
-  
-### Extra: Python scripts outside cgi-bin folders
+If you don't see the module you need your script will probably give a useless 500 error when you try to import the missing module. Just make a post on the [forums](https://www.helionet.org/index/forum/45-customer-service/) stating your server, the version of python you're using, and the module\(s\) you need.
+
+## Extra: Python scripts outside cgi-bin folders
 
 Executing a CGI script outside the `cgi-bin` folder is possible with some modifications.
 
-#### Steps
+### Steps
 
 * Go to `/home/<your username>/public_html`.
 * Create a file named `.htaccess` and copy/paste this in:
 
-  ```
+  ```text
   Options +ExecCGI
   AddHandler cgi-script .py
   DirectoryIndex index.py

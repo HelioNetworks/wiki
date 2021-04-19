@@ -1,97 +1,90 @@
 # Installing Let's Encrypt SSL Certificate via cPanel
 
-{% hint style="danger" %}
-This tutorial is outdated since ZeroSSL had revamped their site. You can still try to follow the tutorial but don't expect things to look the same.
-{% endhint %}
-
 {% hint style="warning" %}
 This tutorial should only be done on Johnny! For Tommy and Ricky users, AutoSSL will generate a certificate for you within 24 hours and it will be renewed automatically.
 {% endhint %}
 
-### Step one: Obtain Key and CSR from ZeroSSL
+{% hint style="danger" %}
+_For Developers Only: If you want, you can edit the settings.json file to customize this acme client to your desired preferences. However the application can go wrong if there is a wrong setting in the settings.json file_
+{% endhint %}
 
-Head over to the [ZeroSSL Certificate Wizard](https://zerossl.com/) to get started. Enter your domain name \(and any desired subdomains, space-delimited\) into the domain field as below. Additionally, enter your email address if desired. Check both acceptance boxes and leave “HTTP verification” selected.
+## Step one: Download Win-acme
 
-![](../.gitbook/assets/zerossl_generate.png)
+Head over to the [Win-acme.com](https://win-acme.com) to get started. Download the zip file \(we recommend the pluggable\).
 
-Click “Next” at the top right of the form and approve the addition of the www prefix. This will ensure the certificate will work for www.\[yourdomain\].com as well as \[yourdomain\].com. Wait for the CSR to be generated. \(Once this is done, the domain field will be cleared automatically. Don’t panic – just leave it blank\). Click “Next” again to generate your RSA private key \(AKA private key\) and wait for this to complete.
+![Win-acme.com](../.gitbook/assets/screenshot-2021-04-19-122035.jpg)
 
-**Important:** Now copy both the RSA price key and the CSR somewhere \(it doesn’t matter where, a text editor window will do\) for future reference using the clipboard buttons indicated in the screenshot. Alternatively, they can be downloaded as text files using the download buttons.
+**Important**: Unzip the package into the Program Files folder \(unzipping it somewhere else can cause problems\).
 
-![](../.gitbook/assets/zerossl_rsa_csr.png)
+**Optional:** Go to your cPanel Interface and Generate a CSR and Private Key for your domain. This is optional since you can do a manual input.
 
-Click “Next”. At this point, the site will warn you if it suspects you haven’t saved the key and CSR – so make sure you have.
+Now just run wacs.exe \(preferably as administrator but you don't have to since you aren't using windows IIS\) and you are set for step 2.
 
-### Step two: Verify site ownership
+![Wacs.exe](../.gitbook/assets/screenshot-2021-04-19-131542.jpg)
 
-The verification step will appear. The purpose of this step is to demonstrate domain ownership by creating known files into a certain location. Typically This can be achieved using cPanel as shown in the following steps. Alternatively, FTP or similar can be used. One file is required per domain. Here there are two: one for the domain with www and one for without.
+## Step two: Create Certificate
 
-![](../.gitbook/assets/zerossl_verification.png)
+You will then need to type in the letter M \(or N but we aren't using IIS\) and press enter. It will show you a bunch of different steps you can take. You can either choose to upload a CSR \(follow the steps I described above\) and a Private Key or you can just do a manual input. Choose the letter and press enter.
 
-Note: the remainder of this step involves creating folders and files through the cPanel file manager. An alternative such as FTP or WebDisk can be used if desired.
+![ You can either upload a CSR or manually input your domain](../.gitbook/assets/screenshot-2021-04-19-132801.jpg)
 
-Open cPanel at [https://johnny.heliohost.org:2083](https://johnny.heliohost.org:2083/), and select Files -&gt; File Manager on the main page. The file manager should open.
+Now that you either entered the path of your CSR  or you manually inputted your domains you can then move on to the next step.
 
-Note: If you haven’t already, now is probably a good time to show hidden files and folders. Use the “Settings” button at the top right of the file manager to open the settings panel and enable this setting.
+Now it would tell you to choose a friendly name. Just choose a name that you can remember as cancelling, revoking, or renewing a certificate would require you to state the friendly name.
 
-Create a new folder named `.well-known` in the `public_html` folder as shown in the screenshot.
+Then choose your preferred method of validation from the big list of validation methods.
 
-![](../.gitbook/assets/zerossl_newfolder.png)
+{% hint style="warning" %}
+Note: If you chose the method to create verification records manually you can't auto renew the domain.
+{% endhint %}
 
-Use the same process to create the `acme-challenge` folder in the `public_html/.well-known` directory.
+![All the verification methods allowed.](../.gitbook/assets/screenshot-2021-04-19-133912.jpg)
 
-In the `public_html/.well-known/acme-challenge` directory, create a file with the name in the “File” column from the ZeroSSL Verification page. Select and open this file with the “Edit” button.  
+ If you chose manual input, after you choose a verification method you can also choose what kind of private key you want. You can choose RSA \(most preferred\) or ECC \(Elliptic Curve key\).
 
+You then choose where you want to store the files. The most preferred way is a PEM encoded file.
 
-![](../.gitbook/assets/zerossl_newfile.png)
+![The most preferred way is to do a PEM encoded file](../.gitbook/assets/screenshot-2021-04-19-134504.jpg)
 
-Paste the file text from the “Text” column corresponding to the file on the ZeroSSL verification page. The first section of text is typically identical to the file name. Save changes when done, then close the editor.
+You input the file location and press enter.
 
-![](../.gitbook/assets/zerossl_editfile.png)
+They validate your domain in your preferred method and when you finish the certificate is created and stored in your preferred way.
 
-Repeat the file creation process for all the files from the ZeroSSL Verification page. There should be one per subdomain. In this case there are two files to be created: one for the base domain and one for the www-prefixed domain.
+## Step three: Install Certificate 
 
-### Step three: Obtain and install certificate
+You go to where your certificate is stored.
 
-Back in ZeroSSL, press “Next”. If all goes well the following should appear.
+![Where my Certificate is stored](../.gitbook/assets/screenshot-2021-04-19-135029.jpg)
 
-![](../.gitbook/assets/zerossl_certificate.png)
+You go to your cPanel &lt; SSL/TLS &lt; Certificates and you upload the crt file \(you can upload all three but that's optional\).
 
-Use the copy or download buttons to store the certificate as before \(the most convenient location would be alongside the CSR and key\).
+You then go to SSL/TLS &lt; Private Keys and upload your generated private key \(you don't have to do this if you generated a CSR as a Private Key is also generated\).
 
-**Important:** Note that the certificate text you just saved is in a two-section form similar to the following:
+![Upload the certificate here](../.gitbook/assets/screenshot-2021-04-19-135439.jpg)
 
-```text
------BEGIN CERTIFICATE-----
-[encoded text A]
------END CERTIFICATE-----
+When you finish uploading the Certificate and the Private Key. You go to the Manage SSL Sites section.
 
------BEGIN CERTIFICATE-----
-[encoded text B]
------END CERTIFICATE-----
-```
+You go and select your domain from the dropdown box.
 
-The first section of text \(including BEGIN and END lines\) is the “certificate” \(cPanel terminology\) and the second section of text \(including BEGIN and END lines\) is the CABUNDLE. Keep this in mind for the following steps, where the certificate will be installed on the domain through cPanel.
+Then click on Browse certificates and select the one you generated from win-acme. Click on the correct on and press use certificate.
 
-Open cPanel again at [https://johnny.heliohost.org:2083](https://johnny.heliohost.org:2083/). Select Security -&gt; SSL/TLS on the main page. On the following screen, select "Manage SSL Sites".
+Make sure that the certificate is the correct by looking at the rectangle underneath the textbox.
 
-![](../.gitbook/assets/zerossl_managessl.png)
+![Make sure it is the correct certificate](../.gitbook/assets/screenshot-2021-04-19-140442.jpg)
 
-On the following page, scroll to the “Install an SSL website” section, where there are fields for Certificate, Private Key, and CABUNDLE. Select the appropriate domain and paste the relevant text into each field, as identified and stored in the earlier steps. The pasted text should include BEGIN and END lines. Note the CSR text is not required. “Enable SNI for Mail Services” can remain checked.
-
-Submit the certificate information with the “Install Certificate” button at the bottom of the page.
+Everything including the CABUNDLE \(certificate authority bundle\) should all be autofilled. Just click on Install Certificate and you are all set. 
 
 Note: On Johnny it can take up to 2 hours for your SSL certificate to start working.
 
 You should now have SSL up and running! HTTPS can be used on the domain/subdomains you specified.
 
-### Additional steps \(optional\)
+## Additional steps \(optional\)
 
-#### Certificate expiry and renewal
+### Certificate expiry and renewal
 
-Certificates issued by Let's Encrypt, such as the one\(s\) you just generated with ZeroSSL expire after 90 days. Set a reminder to renew the certificate at an appropriate date.
+Certificates issued by Let's Encrypt, such as the one\(s\) you just generated with win-acme expire after 90 days. Even though it auto-renews you still have to click on renew in the wacs.exe interface. Set a reminder to renew the certificate at an appropriate date.
 
-#### Forced HTTPS
+### Forced HTTPS
 
 By default, pages can be accessed either unencrypted \(HTTP\) or encrypted \(HTTPS\). `.htaccess` rules can be used to force HTTPS throughout the site or on certain pages. More information can be found on [this httpd wiki page](https://wiki.apache.org/httpd/RewriteHTTPToHTTPS).
 
