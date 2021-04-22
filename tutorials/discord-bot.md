@@ -64,7 +64,7 @@ You want to create this bot in your home directory:
 
 -because you don't want to accidentally make it public. Click `Create new file` to create the new file. Locate the new file, and right click on it. Select `Edit`, and click `Edit` again on the box that pops up. Then copy/paste this code in:
 
-```text
+```python
 #!/usr/bin/python3.6
 
 import os
@@ -146,7 +146,8 @@ You have a functional bot now, but you need a way to start and stop it. We'll us
 
 Paste in this code into the new file:
 
-```text
+start.py for discord.py
+```python
 #!/usr/bin/python3.6
 
 import os, subprocess, signal
@@ -172,6 +173,34 @@ if counter == 0:
   print("Bot started!")
 ```
 
+start.py for discord.js
+```python
+#!/usr/bin/python3.6
+
+import os, subprocess, signal
+
+print("Content-Type: text/html\n\n")
+
+counter = 0
+p = subprocess.Popen(['ps', '-u', 'username'], stdout=subprocess.PIPE)
+# must match your username --------^^^^^^^^
+
+out, err = p.communicate()
+for line in out.splitlines():
+  if 'node'.encode('utf-8') in line:
+#     ^^^^^^^^^^^----- this has to match the filename of your bot script
+
+    counter += 1
+    print("Bot already running.")
+
+if counter == 0:
+  subprocess.Popen("/usr/bin/node /home/username/node/index.js")
+#                         ^^^^^^^^-- be sure to update it to your username
+
+  print("Bot started!")
+```
+
+
 Now, we need to set the permissions of this `start.py` file to be executable. On the file manager right click on `start.py` and select `Change Permissions`.
 
 ![](../.gitbook/assets/change_permissions.png)
@@ -188,7 +217,8 @@ We also need a way to stop the bot so create `stop.py` in the `cgi-bin` director
 
 Paste this code into the new `stop.py` script:
 
-```text
+stop.py for discord.py
+```python
 #!/usr/bin/python3.6
 
 import os, subprocess, signal
@@ -212,6 +242,33 @@ for line in out.splitlines():
 if counter == 0:
   print("Already stopped.")
 ```
+
+stop.py for discord.js
+```python
+#!/usr/bin/python3.6
+
+import os, subprocess, signal
+
+print("Content-Type: text/html\n\n")
+
+counter = 0
+p = subprocess.Popen(['ps', '-u', 'username'], stdout=subprocess.PIPE)
+# must match your username --------^^^^^^^^
+
+out, err = p.communicate()
+for line in out.splitlines():
+  if 'node'.encode('utf-8') in line:
+#     ^^^^^^^--- this has to match the filename of your loop
+
+    counter += 1
+    pid = int(line.split(None, 1)[0])
+    print("Stopping bot.")
+    os.kill(pid, signal.SIGTERM)
+
+if counter == 0:
+  print("Already stopped.")
+```
+
 
 Right click on the `stop.py` file and select `Change Permissions`.
 
