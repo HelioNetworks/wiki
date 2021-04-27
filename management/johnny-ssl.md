@@ -1,20 +1,16 @@
-# Installing Let's Encrypt SSL Certificate via cPanel
+# Installing GoGetSSL Certificate via cPanel
 
 {% hint style="warning" %}
 This tutorial should only be done on Johnny! For Tommy and Ricky users, AutoSSL will generate a certificate for you within 24 hours and it will be renewed automatically.
 {% endhint %}
 
-{% hint style="danger" %}
-_For Developers Only: If you want, you can edit the settings.json file to customize this acme client to your desired preferences. However the application can go wrong if there is a wrong setting in the settings.json file_
-{% endhint %}
+## Step one: 
 
-## Step one: Download Win-acme
+Head over to the [freessl.space](https://freessl.space) to get started. Enter your domain name into the domain field as below. Check the acceptance box and click on start.
 
-Head over to the [Win-acme.com](https://win-acme.com) to get started. Download the zip file \(we recommend the pluggable\).
+![freessl.space](../.gitbook/assets/screenshot-2021-04-27-090027.png)
 
-![Win-acme.com](../.gitbook/assets/screenshot-2021-04-19-122035.jpg)
-
-**Important**: Unzip the package into the Program Files folder \(unzipping it somewhere else can cause problems\).
+\*\*\*\*
 
 **Optional:** Go to your cPanel Interface and Generate a CSR and Private Key for your domain. This is optional since you can do a manual input.
 
@@ -28,7 +24,7 @@ You will then need to type in the letter M \(or N but we aren't using IIS\) and 
 
 ![ You can either upload a CSR or manually input your domain](../.gitbook/assets/screenshot-2021-04-19-132801.jpg)
 
-Now that you either entered the path of your CSR  or you manually inputted your domains you can then move on to the next step.
+Now that you either entered the path of your CSR or you manually inputted your domains you can then move on to the next step.
 
 Now it would tell you to choose a friendly name. Just choose a name that you can remember as cancelling, revoking, or renewing a certificate would require you to state the friendly name.
 
@@ -40,7 +36,7 @@ Note: If you chose the method to create verification records manually you can't 
 
 ![All the verification methods allowed.](../.gitbook/assets/screenshot-2021-04-19-133912.jpg)
 
- If you chose manual input, after you choose a verification method you can also choose what kind of private key you want. You can choose RSA \(most preferred\) or ECC \(Elliptic Curve key\).
+If you chose manual input, after you choose a verification method you can also choose what kind of private key you want. You can choose RSA \(most preferred\) or ECC \(Elliptic Curve key\).
 
 You then choose where you want to store the files. The most preferred way is a PEM encoded file.
 
@@ -50,7 +46,7 @@ You input the file location and press enter.
 
 They validate your domain in your preferred method and when you finish the certificate is created and stored in your preferred way.
 
-## Step three: Install Certificate 
+## Step three: Install Certificate
 
 You go to where your certificate is stored.
 
@@ -72,7 +68,7 @@ Make sure that the certificate is the correct by looking at the rectangle undern
 
 ![Make sure it is the correct certificate](../.gitbook/assets/screenshot-2021-04-19-140442.jpg)
 
-Everything including the CABUNDLE \(certificate authority bundle\) should all be autofilled. Just click on Install Certificate and you are all set. 
+Everything including the CABUNDLE \(certificate authority bundle\) should all be autofilled. Just click on Install Certificate and you are all set.
 
 Note: On Johnny it can take up to 2 hours for your SSL certificate to start working.
 

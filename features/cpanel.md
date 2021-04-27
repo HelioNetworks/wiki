@@ -29,8 +29,7 @@ Through your cPanel \(included with all Heliohost's hosting accounts\), you can
 * Manage SSL Certificates
 * Import Private Keys and Generate CSRs
 * Run cPanel Sectigo's AutoSSL \(only available in Tommy and Ricky\).
-* 
-## How do I access my cPanel?
+* **How do I access my cPanel?**
 
 See [How to Access cPanel](../tutorials/how-to-access-cpanel.md).
 
