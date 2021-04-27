@@ -4,19 +4,15 @@
 This tutorial should only be done on Johnny! For Tommy and Ricky users, AutoSSL will generate a certificate for you within 24 hours and it will be renewed automatically.
 {% endhint %}
 
-## Step one: 
+## Step One: Enter Domain Names
 
 Head over to the [freessl.space](https://freessl.space) to get started. Enter your domain name into the domain field as below. Check the acceptance box and click on start.
 
 ![freessl.space](../.gitbook/assets/screenshot-2021-04-27-090027.png)
 
-\*\*\*\*
+**Important**: Make sure that you only enter one domain at a time \(no multidomains or wildcards unfortunately. WWWs are however included automatically\) or else there would be a php error.
 
 **Optional:** Go to your cPanel Interface and Generate a CSR and Private Key for your domain. This is optional since you can do a manual input.
-
-Now just run wacs.exe \(preferably as administrator but you don't have to since you aren't using windows IIS\) and you are set for step 2.
-
-![Wacs.exe](../.gitbook/assets/screenshot-2021-04-19-131542.jpg)
 
 ## Step two: Create Certificate
 
@@ -24,7 +20,7 @@ You will then need to type in the letter M \(or N but we aren't using IIS\) and 
 
 ![ You can either upload a CSR or manually input your domain](../.gitbook/assets/screenshot-2021-04-19-132801.jpg)
 
-Now that you either entered the path of your CSR or you manually inputted your domains you can then move on to the next step.
+Now that you either entered the path of your CSR  or you manually inputted your domains you can then move on to the next step.
 
 Now it would tell you to choose a friendly name. Just choose a name that you can remember as cancelling, revoking, or renewing a certificate would require you to state the friendly name.
 
@@ -36,7 +32,7 @@ Note: If you chose the method to create verification records manually you can't 
 
 ![All the verification methods allowed.](../.gitbook/assets/screenshot-2021-04-19-133912.jpg)
 
-If you chose manual input, after you choose a verification method you can also choose what kind of private key you want. You can choose RSA \(most preferred\) or ECC \(Elliptic Curve key\).
+ If you chose manual input, after you choose a verification method you can also choose what kind of private key you want. You can choose RSA \(most preferred\) or ECC \(Elliptic Curve key\).
 
 You then choose where you want to store the files. The most preferred way is a PEM encoded file.
 
@@ -46,11 +42,7 @@ You input the file location and press enter.
 
 They validate your domain in your preferred method and when you finish the certificate is created and stored in your preferred way.
 
-## Step three: Install Certificate
-
-You go to where your certificate is stored.
-
-![Where my Certificate is stored](../.gitbook/assets/screenshot-2021-04-19-135029.jpg)
+## Step three: Install Certificate 
 
 You go to your cPanel &lt; SSL/TLS &lt; Certificates and you upload the crt file \(you can upload all three but that's optional\).
 
@@ -66,9 +58,9 @@ Then click on Browse certificates and select the one you generated from win-acme
 
 Make sure that the certificate is the correct by looking at the rectangle underneath the textbox.
 
-![Make sure it is the correct certificate](../.gitbook/assets/screenshot-2021-04-19-140442.jpg)
+![](../.gitbook/assets/zerossl_managessl%20%281%29.png)
 
-Everything including the CABUNDLE \(certificate authority bundle\) should all be autofilled. Just click on Install Certificate and you are all set.
+Everything including the CABUNDLE \(certificate authority bundle\) should all be autofilled. Just click on Install Certificate and you are all set. 
 
 Note: On Johnny it can take up to 2 hours for your SSL certificate to start working.
 
@@ -78,7 +70,7 @@ You should now have SSL up and running! HTTPS can be used on the domain/subdomai
 
 ### Certificate expiry and renewal
 
-Certificates issued by Let's Encrypt, such as the one\(s\) you just generated with win-acme expire after 90 days. Even though it auto-renews you still have to click on renew in the wacs.exe interface. Set a reminder to renew the certificate at an appropriate date.
+Free certificates issued by GoGetSSL , such as the one\(s\) you just generated with win-acme expire after 90 days. Set a reminder to renew the certificate at an appropriate date.
 
 ### Forced HTTPS
 
