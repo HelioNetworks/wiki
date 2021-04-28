@@ -1,16 +1,18 @@
-# Installing GoGetSSL Certificate via cPanel
+# Installing Let's Encrypt SSL Certificate via cPanel
+
+
 
 {% hint style="warning" %}
 This tutorial should only be done on Johnny! For Tommy and Ricky users, AutoSSL will generate a certificate for you within 24 hours and it will be renewed automatically.
 {% endhint %}
 
-## Step One: Enter Domain Names
+## Step One: Download Win-acme
 
-Head over to the [freessl.space](https://freessl.space) to get started. Enter your domain name into the domain field as below. Check the acceptance box and click on start.
+Head over to the [win-acme.com](https://win-acme.com) to get started. Download the package \(we recommend the pluggable but you can download the trimmed version if you want\)
 
-![freessl.space](../.gitbook/assets/screenshot-2021-04-27-090027.png)
+![win-acme.com](../.gitbook/assets/screenshot-2021-04-19-122035.jpg)
 
-**Important**: Make sure that you only enter one domain at a time \(no multidomains or wildcards unfortunately. WWWs are however included automatically\) or else there would be a php error.
+**Important:** Make sure to unzip it to the program files folder so the scheduled tasks can run and the certificate creation won't fail.
 
 **Optional:** Go to your cPanel Interface and Generate a CSR and Private Key for your domain. This is optional since you can do a manual input.
 
