@@ -74,7 +74,9 @@ You should now have SSL up and running! HTTPS can be used on the domain/subdomai
 
 ### Certificate expiry and renewal
 
-Free certificates issued by GoGetSSL , such as the one\(s\) you just generated with win-acme expire after 90 days. Set a reminder to renew the certificate at an appropriate date.
+Free certificates issued by Let's Encrypt, such as the one\(s\) you just generated with win-acme expire after 90 days. Make sure to set a renewal time so you don't forget.
+
+To renew it, just go to your wacs.exe and run renewals. It should auto-renew you SSL \(unless you chose the create verification records manually.
 
 ### Forced HTTPS
 
