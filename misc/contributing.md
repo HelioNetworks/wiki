@@ -14,7 +14,7 @@
 
 ![](../.gitbook/assets/gitbook_integrations.png)
 
-*  Select `GitHub`.
+* Select `GitHub`.
 
 ![](../.gitbook/assets/gitbook_github.png)
 

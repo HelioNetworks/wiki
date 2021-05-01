@@ -6,13 +6,13 @@ Parked \(alias\), Addon and Sub Domains are vital services which allows you to g
 To prevent most problems when adding or configuring parked/addon/sub domains, ensure your server's load is below 7.00.
 {% endhint %}
 
-### Parked Domains \(Alias\)
+## Parked Domains \(Alias\)
 
-#### What is a Parked Domain?
+### What is a Parked Domain?
 
 It is like a pet name of a person. You can call that person with his real name \(main domain\) or with pet name \(parked domain\). Both name points to _single person_. Likewise , You can use two or more domain names for your single web page.
 
-#### How does it differ from Addon Domain
+### How does it differ from Addon Domain
 
 The difference between Parked and Addon Domains is simply this:
 
@@ -21,65 +21,63 @@ The difference between Parked and Addon Domains is simply this:
 
 Parked Domains allow you to complete the task quickly and efficiently - there is even the option of redirecting a domain to another website.
 
-#### How Parked Domains can be helpful
+### How Parked Domains can be helpful
 
-Well**,** let's say your main domain goes down due to the domain host having problems. If this happens, you can reach your site from your parked domain. That is very convenient, if you ask me!
+Well, let's say your main domain goes down due to the domain host having problems. If this happens, you can reach your site from your parked domain. That is very convenient, if you ask me!
 
-#### How can I create a Parked Domain?
+### How can I create a Parked Domain?
 
 After logging into your personal cPanel, click on the `Aliases` button and enter the domain you wish to park into the text box provided. Once you are done, submit the form. After that, navigate to your domain registrar's website and configure your domain with the following nameservers:
 
-```text
-ns1.heliohost.org and ns2.heliohost.org
-```
+* `ns1.heliohost.org`
+* `ns2.heliohost.org`
 
 The parked domain you have just setup will be automatically be configured to reflect your `public_html` directory. If you want it to reflect a different directory, you will need to configure an `Addon Domain` instead.
 
 You can also configure the domain to be redirected to another URL. Just click on `Manage Redirection` and enter the URL you wish to redirect.
 
-#### What do I do now?
+### What do I do now?
 
 You will need to wait approximately 24 hours until your parked domain will become active. If you still see a message saying `HelioHost Account Queued` after that period, then [please clear you cache](../misc/clear-your-cache.md).
 
 To check that your nameservers \(NS Records\) are properly configured, go to [https://byrondallas.heliohost.org/php/tools/dns\_records.php?domain=&rec=NS](https://byrondallas.heliohost.org/php/tools/dns_records.php?domain=&rec=NS).
 
-### Addon Domains
+## Addon Domains
 
-#### What is an Addon Domain?
+### What is an Addon Domain?
 
 An addon domain is a domain which reflects the contents of a folder in your cPanel File Manager.
 
 An example of an addon domain is that `mysite.heliohost.org/addon` is the **SAME** as `addondomain.heliohost.org`.
 
-#### How can I create an Addon Domain?
+### How can I create an Addon Domain?
 
 After logging into your cPanel account, click on the `Addon Domains` and fill in the details and submit the form. After that, navigate to your domain registrar's website and configure your domain with the following nameservers:
 
-```text
-ns1.heliohost.org and ns2.heliohost.org
-```
+* `ns1.heliohost.org`
+* `ns2.heliohost.org`
 
 The parked domain you have just set up will be be configured to reflect the `Document Root` you specified.
 
-#### What do I do now?
+### What do I do now?
 
 You will need to wait approximately 48 hours until your addon domain will become active. If you still see a message saying `HelioHost Account Queued` after that period, then please [clear you cache](../misc/clear-your-cache.md).
 
 To check that your nameservers \(NS Records\) are properly configured, go to [https://byrondallas.heliohost.org/php/tools/dns\_records.php?domain=&rec=NS](https://byrondallas.heliohost.org/php/tools/dns_records.php?domain=&rec=NS).
 
-### Sub Domains
+## Subdomains
 
-#### What is a Sub Domain
+### What is a subdomain
 
-A sub domain is like an "attachment" to a current domain that reflects a normal directory.
+A subdomain is like an "attachment" to a current domain that reflects a normal directory.
 
-An example of a sub domain is `sub.mysite.heliohost.org` being the **SAME** as `mysite.heliohost.org/sub`.
+A previous use for this was a subdomain like `blog.mysite.heliohost.org` serving the same content as `mysite.heliohost.org/blog`. However, due to search engines now indexing each subdomain as a new and different website, having matching content will negatively affect your SEO score. Therefore, if you wish to use `blog.mysite.heliohost.org` but have people still visiting `mysite.heliohost.org/blog`, you could create a redirect script to ensure they are always forwarded to your new fancy "blog" subdomain.
 
-#### How can I create a Sub Domain?
+### How can I create a subdomain?
 
-After logging into your cPanel account, click on `Sub Domains` button and fill in the details and submit the form. The sub domain you have just setup will be be configured to reflect the `Document Root` you specified.
+After logging into your cPanel account, click on the "Subdomains" button within the domains sub-section and fill in the details such as the subdomain and the domain you want the subdomain to be attached too. The subdomain you have just setup will be be configured to reflect the document root you specified. Therefore, if your document route was `/public_html/foo` your new subdomain will serve the files located in that directory.
 
-#### What do I do now?
+### What do I do now?
 
 You will need to wait approximately 24 hours until your subdomain become active. If you still see a message saying "HelioHost Account Queued" after that period, then please [clear you cache](../misc/clear-your-cache.md).
 
