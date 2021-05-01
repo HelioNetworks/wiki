@@ -26,7 +26,9 @@ Now that you either entered the path of your CSR  or you manually inputted your 
 
 Now it would tell you to choose a friendly name. Just choose a name that you can remember as cancelling, revoking, or renewing a certificate would require you to state the friendly name.
 
-Then choose your preferred method of validation from the big list of validation methods.
+Then choose your preferred method of validation from the big list of validation methods. 
+
+We recommend that you choose the create verification records with acme-dns method. Then when it prompts for the acme-dns URL copy and paste this URL on it: https://auth.acme-dns.io/register
 
 {% hint style="warning" %}
 Note: If you chose the method to create verification records manually you can't auto renew the domain.
