@@ -18,11 +18,18 @@ Head over to the [win-acme.com](https://win-acme.com) to get started. Download t
 
 ## Step two: Create Certificate
 
-You will then need to type in the letter M \(or N but we aren't using IIS\) and press enter. It will show you a bunch of different steps you can take. You can either choose to upload a CSR \(follow the steps I described above\) and a Private Key or you can just do a manual input. Choose the letter and press enter.
+Now run wacs.exe \(preferably as administrator but that is optional considering we aren't using windows IIS\) either using the app or by by using the command line. If you want to do additional commands then we would recommend using the command line. If you are just generating a simple let's encrypt SSL, using the app is easier and faster. If you want to use the command line \(or just curious\), open command prompt \(preferably as administrator but because we aren't using IIS that is optional\) and run the command below.
+
+```text
+cd C:\Program Files\win-acme
+wacs.exe
+```
+
+You will then need to type in the letter for the command you want. Because you aren't using IIS you will need to choose M \(Create Certificate \(with full options\)\). It will show you a bunch of different steps you can take. You can either choose to upload a CSR \(follow the steps I described above\) and a Private Key or you can just do a manual input. Choose the letter and press enter.
 
 ![ You can either upload a CSR or manually input your domain](../.gitbook/assets/screenshot-2021-04-19-132801.jpg)
 
-Now that you either entered the path of your CSR  or you manually inputted your domains you can then move on to the next step.
+Now that you either entered the path of your CSR  or manually inputted your domains you can then move on to the next step.
 
 Now it would tell you to choose a friendly name. Just choose a name that you can remember as cancelling, revoking, or renewing a certificate would require you to state the friendly name.
 
