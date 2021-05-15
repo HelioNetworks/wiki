@@ -1,7 +1,7 @@
 # Installing Let's Encrypt \(or Buypass one year\) SSL Certificate via cPanel
 
 {% hint style="info" %}
-If you want a 1 year SSL \(which you probably won't need considering the 90 day SSLs auto-renews\), then just go to the settings.json file and change the DefaultBaseUri to: [https://api.buypass.com/ acme/directory](https://api.buypass.com/acme/directory) instead of: [https://acme-v02.api.letsencrypt.org/](https://acme-v02.api.letsencrypt.org/). Don't do this method if you want more than 5 multidomains or wildcards.
+If you want a 180 day SSL \(which you probably won't need considering the 90 day SSLs auto-renews\), then just go to the settings.json file and change the DefaultBaseUri to: [https://api.buypass.com/ acme/directory](https://api.buypass.com/acme/directory) instead of: [https://acme-v02.api.letsencrypt.org/](https://acme-v02.api.letsencrypt.org/). Don't do this method if you want more than 5 multidomains or wildcards.
 {% endhint %}
 
 {% hint style="warning" %}
