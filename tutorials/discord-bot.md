@@ -64,8 +64,8 @@ You want to create this bot in your home directory:
 
 -because you don't want to accidentally make it public. Click `Create new file` to create the new file. Locate the new file, and right click on it. Select `Edit`, and click `Edit` again on the box that pops up. Then copy/paste this code in:
 
-```text
-#!/usr/bin/python3.6
+```python
+#!/usr/bin/python3.7
 
 import os
 import discord
@@ -97,7 +97,7 @@ client.run(token)
 The first line is called the shebang, and it tells the system which version of python you want to use.
 
 {% hint style="danger" %}
-On Ricky, `python3.6` is available, but on Tommy and Johnny, you would change it to `python3.7`!
+Tommy and Johnny have `python3.7` but on Ricky you would have to change it to `python3.9`!
 {% endhint %}
 
 Once you have your code copy/pasted in click save changes in the top right corner, and the close the tab. We need the bot to be executable so right click on it in the file manager and select `Change Permissions`.
@@ -146,8 +146,8 @@ You have a functional bot now, but you need a way to start and stop it. We'll us
 
 Paste in this code into the new file:
 
-```text
-#!/usr/bin/python3.6
+```python
+#!/usr/bin/python3.7
 
 import os, subprocess, signal
 
@@ -188,8 +188,8 @@ We also need a way to stop the bot so create `stop.py` in the `cgi-bin` director
 
 Paste this code into the new `stop.py` script:
 
-```text
-#!/usr/bin/python3.6
+```python
+#!/usr/bin/python3.7
 
 import os, subprocess, signal
 
