@@ -9,7 +9,7 @@ Our server's support of [Server Name Indication \(SNI\)](https://en.wikipedia.or
 Our server includes AutoSSL, a feature provided by cPanel allowing the automatic generation of SSL certificates. Therefore, you do not need to do any particular action in order to get a free SSL certificate, which will get automatically installed. However, the process usually takes some time, depending on the current rates of certificate creation. Our AutoSSL-generated certificates are directly from cPanel, Inc \(Sectigo\).
 
 {% hint style="info" %}
-Since Johnny does not support AutoSSL, you can follow [this tutorial](johnny-ssl.md) to get SSL working.
+Since Johnny does not support AutoSSL, you can follow [this tutorial]() to get SSL working.
 {% endhint %}
 
 ## Dedicated IP

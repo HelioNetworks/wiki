@@ -1,12 +1,10 @@
 # Installing Free SSL Certificate via cPanel \(that autorenews\)
 
 {% hint style="info" %}
-If you are on Mac or Linux, you can easily install Certbot as an alternative. Because it is so popular, pretty much every SSL CA has a documentation on Certbot. To install Certbot go here: [Certbot and Let's encrypt](https://certbot.eff.org/). The documentation for Zerossl is here: [Zerossl](https://zerossl.com/documentation/acme/) and Buypass is here: [Buypass](https://community.buypass.com/t/k9r5cx/get-started)
+ If you are on Mac or Linux, you can easily install Certbot as an alternative. Because it is so popular, pretty much every SSL CA has a documentation on Certbot. To install Certbot go here: [Certbot and Let's encrypt](https://certbot.eff.org/). The documentation for Zerossl is here: [Zerossl](https://zerossl.com/documentation/acme/) and Buypass is here: [Buypass](https://community.buypass.com/t/k9r5cx/get-started)
 {% endhint %}
 
-{% hint style="info" %}
-If you want a 180 day SSL \(which you probably won't need considering the 90 day SSLs auto-renews\), then just go to the settings.json file and change the DefaultBaseUri to: [https://api.buypass.com/ acme/directory](https://api.buypass.com/acme/directory) instead of: [https://acme-v02.api.letsencrypt.org/](https://acme-v02.api.letsencrypt.org/). Don't do this method if you want more than 5 multidomains or wildcards.
-{% endhint %}
+
 
 {% hint style="warning" %}
 This tutorial should only be done on Johnny! For Tommy and Ricky users, AutoSSL will generate a certificate for you within 24 hours and it will be renewed automatically.
