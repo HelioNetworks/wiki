@@ -17,7 +17,7 @@
   * [Uploading Files](management/uploading-files.md)
   * [Changing Your Main Domain](management/main-domain.md)
   * [Creating MySQL Databases via cPanel](management/mysql.md)
-  * [Installing Let's Encrypt \(or Buypass one year\) SSL Certificate via cPanel](management/johnny-ssl.md)
+  * [Installing Free SSL Certificate via cPanel \(that autorenews\)](management/johnny-ssl.md)
   * [Parked, Addon and Sub Domains](management/parked-addon-and-sub-domains.md)
   * [Using SSL](management/ssl.md)
 * [Tutorials](tutorials/README.md)
