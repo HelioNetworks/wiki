@@ -24,7 +24,6 @@
   * [Django](tutorials/django.md)
   * [Flask](tutorials/flask.md)
   * [Installing Free SSL Certificate via cPanel \(that autorenews\)](tutorials/johnny-ssl.md)
-  * [Publii CMS](tutorials/publii-cms.md)
   * [Ghost CMS](tutorials/ghost.md)
   * [Golang as CGI](tutorials/golang.md)
   * [How to Access cPanel](tutorials/how-to-access-cpanel.md)
