@@ -18,5 +18,5 @@ We no longer require a dedicated IP address for SSL on any of our servers. Howev
 
 Our provider charges us $20/year for a dedicated IP. We simply pass that cost onto you. You can also buy a dedicated IP for $2 per month.
 
-If you wish to purchase a dedicated IP for $12, please [send your payment to admin@heliohost.org via PayPal](https://www.paypal.me/HelioHost). Once the transaction is complete create a new topic in the [Customer Service forum](http://www.helionet.org/index/forum/45-customer-service/) on HelioNet with your PayPal transaction ID and account information \(username, main domain, and server\), and we will add the dedicated IP to your account.
+If you wish to purchase a dedicated IP for $20, please [send your payment to admin@heliohost.org via PayPal](https://www.paypal.me/HelioHost). Once the transaction is complete create a new topic in the [Customer Service forum](http://www.helionet.org/index/forum/45-customer-service/) on HelioNet with your PayPal transaction ID and account information \(username, main domain, and server\), and we will add the dedicated IP to your account.
 
