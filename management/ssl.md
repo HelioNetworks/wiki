@@ -16,7 +16,7 @@ Since Johnny does not support AutoSSL, you can follow [this tutorial](johnny-ssl
 
 We no longer require a dedicated IP address for SSL on any of our servers. However, some browsers or operating systems that do not support SNI will show errors. The most common browser/OS that doesn't support SNI is Internet Explorer on Windows XP. A dedicated IP means that your website is separate from all the other HelioHost sites. This offers a few advantages such as not being blocked from sending email if our server gets flagged for spam.
 
-Our provider charges us $12/year for a dedicated IP. We simply pass that cost onto you.
+Our provider charges us $20/year for a dedicated IP. We simply pass that cost onto you. You can also buy a dedicated IP for $2 per month.
 
 If you wish to purchase a dedicated IP for $12, please [send your payment to admin@heliohost.org via PayPal](https://www.paypal.me/HelioHost). Once the transaction is complete create a new topic in the [Customer Service forum](http://www.helionet.org/index/forum/45-customer-service/) on HelioNet with your PayPal transaction ID and account information \(username, main domain, and server\), and we will add the dedicated IP to your account.
 
