@@ -21,6 +21,8 @@
   * [Parked, Addon and Sub Domains](management/parked-addon-and-sub-domains.md)
   * [Using SSL](management/ssl.md)
 * [Tutorials](tutorials/README.md)
+  * [VPS](tutorials/vps/README.md)
+    * [Installing NGINX](tutorials/vps/nginx.md)
   * [Discord Bot](tutorials/discord-bot.md)
   * [Django](tutorials/django.md)
   * [Flask](tutorials/flask.md)
