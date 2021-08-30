@@ -60,9 +60,9 @@ follows:
 
 For every domain that is associated with your VPS, you'll want to create an NGINX configuration file, known as a "server
 block", located in `/etc/nginx/sites-available`. For example, we'll create one for our VPS
-with `sudo vi /etc/nginx/sites-available/[domain name]` (no file ending like ".txt" or ".json", only your domain name)
-. (For a brief Vim tutorial, see [here](#using-vim).) Enter "insert" mode using "i", and paste the following default
-code block:
+with `sudo vi /etc/nginx/sites-available/[domain name]` (no file ending like ".txt" or ".json", only your domain name).
+For a brief Vim tutorial, see [here](#using-vim). Enter "insert" mode using "i", and paste the following default code
+block:
 
 ```
 server {
@@ -80,7 +80,7 @@ server {
 }
 ```
 
-Once again, make sure to edit all the references to match your own domain name. Once you're finished, press "ESC",
+Once again, __make sure to edit all the references to match your own domain name__. Once you're finished, press "ESC",
 followed by `:wq`. If you get an error saying "This file is readonly", make sure you are editing the file with `sudo`
 permissions.
 
