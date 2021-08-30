@@ -78,7 +78,6 @@ server {
                 try_files $uri $uri/ =404;
         }
 }
-
 ```
 
 Once again, make sure to edit all the references to match your own domain name. Once you're finished, press "ESC",
@@ -99,19 +98,23 @@ Congratulations, you should now see your HTML page served from your VPS to your 
 
 ## Adding SSL
 
-No website is complete (or secure) without SSL! As everyone else, we'll use [Let's Encrypt](https://letsencrypt.org/) to achieve this.
+No website is complete (or secure) without SSL! As everyone else, we'll use [Let's Encrypt](https://letsencrypt.org/) to
+achieve this.
 
-First, we'll need to install Certbot, which is a commandline utility for automating the process. Run `sudo apt install certbot python3-certbot-nginx` (**not the same as the Apache version**), which will install Certbot and its dependencies.
+First, we'll need to install Certbot, which is a commandline utility for automating the process.
+Run `sudo apt install certbot python3-certbot-nginx` (**not the same as the Apache version**), which will install
+Certbot and its dependencies.
 
-Now we can get a certificate. Run `sudo certbot --nginx -d yourdomain.com`, and follow the on-screen instructions to complete the process. Make sure you enabled SSL using UFW!
+Now we can get a certificate. Run `sudo certbot --nginx -d yourdomain.com`, and follow the on-screen instructions to
+complete the process. Make sure you enabled SSL using UFW!
 
 Your website will now be secure with SSL, and your SSL certificate will be automatically renewed every three months.
 
 ## Using Vim
 
 Vim is the default text editor for most Unix based systems. While it's a ubiquitous program, it's infamous for being
-hard to learn, especially since saving or exiting is not as intuitive as other comparable programs. However, it's not as
-hard as it may seem.
+hard to learn, especially since saving or exiting is not as intuitive as other comparable programs. However, using it
+may not be as hard as it seems.
 
 To edit a file, use `vi file.txt`, which will open the Vim interface. If you supply a nonexistent filename, Vim will
 create a file instead.
