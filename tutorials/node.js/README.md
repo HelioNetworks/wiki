@@ -14,13 +14,13 @@ This is in contrast to today's more common concurrency model, in which OS thread
 
 Create a new directory in your `home` folder named `node`. Make sure this node directory is **NOT** in your `public_html` folder.
 
-```text
+```
 /home/username/node
 ```
 
 In that folder create an `app.js` file:
 
-```text
+```
 const http = require('http');
 const hostname = '127.0.0.1';
 const port = 3000;
@@ -36,21 +36,20 @@ server.listen(port, hostname, () => {
 });
 ```
 
-In cPanel open the [Application Manager](https://tommy.heliohost.org:2083/frontend/paper_lantern/passenger/index.html).
+In cPanel open the [Application Manager](https://tommy.heliohost.org:2083/frontend/paper\_lantern/passenger/index.html).
 
-![](../.gitbook/assets/application_manager.png)
+![](../../.gitbook/assets/application\_manager.png)
 
 Click `+ Register Application`.
 
-![](../.gitbook/assets/register_application.png)
+![](../../.gitbook/assets/register\_application.png)
 
 For name enter `Node`, domain just select your main domain, application URL enter `/node`, path enter `node`, and deployment mode, select `Development` so it looks something like this:
 
-![](../.gitbook/assets/node_form.png)
+![](../../.gitbook/assets/node\_form.png)
 
 You don't need to worry about environment variables on this simple example. So next click `Deploy`.
 
 In order for the Node.js application to be deployed it requires an Apache restart so this could take anywhere from a few minutes to a few hours. If it's been more than 2 hours and it still isn't working, please open [a customer service ticket](https://www.helionet.org/index/forum/45-customer-service/) and let us know.
 
 Once the Node.js application has been deployed you should be able to go to `domain.heliohost.org/node/` and see the text `Node.js is working.`.
-
