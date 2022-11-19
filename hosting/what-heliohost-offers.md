@@ -13,17 +13,16 @@ HelioHost offers free web hosting for all. With every account comes:
 * Unlimited [MySQL](../management/mysql.md)/[PostgreSQL](../features/postgresql.md)/[SQLite ](../features/sqlite.md)Databases
 * Access to phpMyAdmin/phpPgAdmin
 * Ability to add [Perl](../tutorials/perl.md) Modules
-* Free SSL \([Tommy](../servers/virtual/tommy.md) and [Ricky](../servers/virtual/ricky.md) provide AutoSSL but you need to [install and renew your own certificates](../management/johnny-ssl.md) on [Johnny](../servers/virtual/johnny.md)\)
-* [Softaculous ](../features/softaculous.md)\(Easy installation of popular software such as blogging and forum platforms\)
+* Free SSL ([Tommy](../servers/virtual/tommy.md) and [Ricky](../servers/virtual/ricky.md) provide AutoSSL but you need to [install and renew your own certificates](../management/johnny-ssl.md) on [Johnny](../servers/virtual/johnny.md))
+* [Softaculous ](../features/softaculous.md)(Easy installation of popular software such as blogging and forum platforms)
 
 HelioHost accounts can use the following scripting languages:
 
 * [ASP.NET](../features/asp.net.md)
 * [Golang](../tutorials/golang.md)
 * [Java/JSP](../features/java.md)
-* [Node.js](../tutorials/node.js.md)
+* [Node.js](../tutorials/node.js/)
 * [PHP](../features/php.md)
 * [Python](../features/python.md), [Django](../tutorials/django.md), and [Flask](../tutorials/flask.md)
 * [Perl](../tutorials/perl.md)
 * [Ruby on Rails](../tutorials/ror.md)
-

@@ -8,11 +8,10 @@ Tommy is one of our fastest and most stable servers, with its hardware being amo
 * [Golang](../../tutorials/golang.md)
 * [JSP](../../features/java.md)
 * [MySQL](../../management/mysql.md)
-* [Node.js](../../tutorials/node.js.md)
+* [Node.js](../../tutorials/node.js/)
 * [Perl](../../tutorials/perl.md)
 * [PHP](../../features/php.md)
 * [PostgreSQL](../../features/postgresql.md)
 * [Python](../../features/python.md)
 * [Ruby on Rails](../../tutorials/ror.md)
 * [Softaculous](../../features/softaculous.md)
-

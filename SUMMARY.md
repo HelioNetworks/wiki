@@ -29,7 +29,8 @@
   * [Ghost CMS](tutorials/ghost.md)
   * [Golang as CGI](tutorials/golang.md)
   * [How to Access cPanel](tutorials/how-to-access-cpanel.md)
-  * [Node.js](tutorials/node.js.md)
+  * [Node.js](tutorials/node.js/README.md)
+    * [Next.js](tutorials/node.js/next.js.md)
   * [Perl](tutorials/perl.md)
   * [Python](tutorials/python.md)
   * [Ruby on Rails](tutorials/ror.md)
@@ -60,7 +61,7 @@
   * [Unlimited Bandwidth](features/unlimited-bandwidth.md)
   * [Unlimited Email Accounts](features/unlimited-email-accounts.md)
 
-## Miscellaneous <a id="misc"></a>
+## Miscellaneous <a href="#misc" id="misc"></a>
 
 * [Clear Your Cache](misc/clear-your-cache.md)
 * [Contributing](misc/contributing.md)
@@ -69,4 +70,3 @@
   * [Ashoat](misc/staff/ashoat.md)
   * [Krydos](misc/staff/krydos.md)
   * [Wolstech](misc/staff/wolstech.md)
-
