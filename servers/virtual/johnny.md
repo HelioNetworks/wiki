@@ -8,8 +8,7 @@ Johnny is similar to Ricky, but he allows dangerous services such as Java/JSP to
 \
 Also, per Krydos:\
 ![](../../.gitbook/assets/image.png)\
-\
-"
+
 
 "A lot of people don’t know this, but Johnny was actually born female. That’s why his trans mode is on. His name used to be Joanna" - Krydos\
 \
