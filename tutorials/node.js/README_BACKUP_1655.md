@@ -22,8 +22,13 @@ Because nothing blocks, scalable systems are very reasonable to develop in Node.
 
 Your Node.js files will go into your user directory (NOT `html`).
 
+<<<<<<< HEAD:tutorials/node.js/README.md
+```
+/home/username/node
+=======
 ```text
 /home/maindomain/
+>>>>>>> b83958678cfed95c04c017dc0652632861ec461b:tutorials/node.js.md
 ```
 
 In that folder create an `app.js` file:
@@ -44,23 +49,43 @@ server.listen(port, hostname, () => {
 });
 ```
 
+<<<<<<< HEAD:tutorials/node.js/README.md
+In cPanel open the [Application Manager](https://tommy.heliohost.org:2083/frontend/paper\_lantern/passenger/index.html).
+
+![](../../.gitbook/assets/application\_manager.png)
+=======
 In Plesk, go to "Website & Domains".
 
 ![](../.gitbook/assets/WebsitesAndDomains.png)
+>>>>>>> b83958678cfed95c04c017dc0652632861ec461b:tutorials/node.js.md
 
 Under the domain you'd like to use for Node.js, select `Node.js`.
 
+<<<<<<< HEAD:tutorials/node.js/README.md
+![](../../.gitbook/assets/register\_application.png)
+=======
 ![](../.gitbook/assets/NodejsLink.png)
+>>>>>>> b83958678cfed95c04c017dc0652632861ec461b:tutorials/node.js.md
 
 Here, you're able to configure settings for your application.
 
+<<<<<<< HEAD:tutorials/node.js/README.md
+![](../../.gitbook/assets/node\_form.png)
+=======
 ![](../.gitbook/assets/NodejsSettings.png)
+>>>>>>> b83958678cfed95c04c017dc0652632861ec461b:tutorials/node.js.md
 
 You don't need to worry about environment variables on this simple example. Select `app.js` for your startup file. If you have any NPM packages, Plesk can install them for you.
 
+<<<<<<< HEAD:tutorials/node.js/README.md
+In order for the Node.js application to be deployed it requires an Apache restart so this could take anywhere from a few minutes to a few hours. If it's been more than 2 hours and it still isn't working, please open [a customer service ticket](https://www.helionet.org/index/forum/45-customer-service/) and let us know.
+
+Once the Node.js application has been deployed you should be able to go to `domain.heliohost.org/node/` and see the text `Node.js is working.`.
+=======
 In order for the Node.js application to be deployed, it requires an Apache restart, so this could take anywhere from a few
 minutes to a few hours. If it's been more than 2 hours, and it still isn't working, please
 open [a customer service ticket](https://www.helionet.org/index/forum/45-customer-service/) and let us know.
 
 Once the Node.js application has been deployed you should be able to go to `domain.heliohost.org/` and see the
 text `Node.js is working.`.
+>>>>>>> b83958678cfed95c04c017dc0652632861ec461b:tutorials/node.js.md
