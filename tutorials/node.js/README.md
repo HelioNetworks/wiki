@@ -46,7 +46,7 @@ server.listen(port, hostname, () => {
 
 In Plesk, go to "Website & Domains".
 
-![](../.gitbook/assets/WebsitesAndDomains.png)
+![](../../.gitbook/assets/WebsitesAndDomains.png)
 
 Under the domain you'd like to use for Node.js, select `Node.js`.
 
