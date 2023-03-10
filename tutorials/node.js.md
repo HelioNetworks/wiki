@@ -2,10 +2,10 @@
 
 ## Supported Versions
 
-| Server | Node.js Version |
-|--------|-----------------|
-| Tommy  | v16             |
-| Johnny | v16             |
+| Server | Node.js Version                                     |
+|--------|-----------------------------------------------------|
+| Tommy  | 8.17.0, 10.24.1, 12.22.12, 14.21.3, 16.19.1, 17.9.1 |
+| Johnny | 12.22.12, 14.21.3, 16.19.1                          |
 
 ## About Node.js
 
@@ -23,7 +23,7 @@ Because nothing blocks, scalable systems are very reasonable to develop in Node.
 Your Node.js files will go into your user directory (NOT `html`).
 
 ```text
-/home/username/
+/home/maindomain/
 ```
 
 In that folder create an `app.js` file:
