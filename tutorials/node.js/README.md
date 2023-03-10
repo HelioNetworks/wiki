@@ -50,11 +50,11 @@ In Plesk, go to "Website & Domains".
 
 Under the domain you'd like to use for Node.js, select `Node.js`.
 
-![](../.gitbook/assets/NodejsLink.png)
+![](../../.gitbook/assets/NodejsLink.png)
 
 Here, you're able to configure settings for your application.
 
-![](../.gitbook/assets/NodejsSettings.png)
+![](../../.gitbook/assets/NodejsSettings.png)
 
 You don't need to worry about environment variables on this simple example. Select `app.js` for your startup file. If you have any NPM packages, Plesk can install them for you.
 
