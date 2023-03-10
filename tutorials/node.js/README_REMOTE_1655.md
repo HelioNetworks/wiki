@@ -28,7 +28,7 @@ Your Node.js files will go into your user directory (NOT `html`).
 
 In that folder create an `app.js` file:
 
-```
+```text
 const http = require('http');
 const hostname = '127.0.0.1';
 const port = 3000;
