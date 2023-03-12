@@ -34,6 +34,8 @@
   * [Perl](tutorials/perl.md)
   * [Python](tutorials/python.md)
   * [Ruby on Rails](tutorials/ror.md)
+  * [External DNS Hosting](tutorials/external-dns-hosting/README.md)
+    * [Cloudflare](tutorials/external-dns-hosting/cloudflare.md)
 * [FAQ](faq.md)
 * [Servers](servers/README.md)
   * [Physical](servers/physical/README.md)
