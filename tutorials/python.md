@@ -19,7 +19,7 @@ The easiest way to get started with Python on a server is with CGI. Really the o
 *   Copy/paste this in:
 
     ```
-    #!/usr/bin/python3.7
+    #!/usr/bin/python3.10
 
     print("Content-Type: text/html\n\n")
 
@@ -37,7 +37,7 @@ If everything worked it should say `Heliohost rules!` in your browser. The first
 
 and `python3.6` for Ricky.
 
-The next line is the `Content-Type` header. This is important so the server knows what to do with the output that follows. If you forget it your script will give a useless 500 error. The content type header always has to have the two end lines immediately after it. That's what the `\n` is.
+The next line is the `Content-Type` header. This is important so the server knows what to do with the output that follows. If you forget it your script will give a useless 500 error. The content type header always has to have the two end lines immediately after it. That's what the  is.
 
 ## Modules
 
@@ -45,8 +45,9 @@ You can see the modules that are currently installed on the Python versions:
 
 ## Johnny
 
-* [Python 2.7](https://krydos2.heliohost.org/cgi-bin/modules27.py)
-* [Python 3.7](https://krydos2.heliohost.org/cgi-bin/modules37.py)
+* Python 2.7
+* Python 3.6
+* Python 3.10
 
 ### Ricky
 
