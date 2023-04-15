@@ -19,7 +19,7 @@ The easiest way to get started with Python on a server is with CGI. Really the o
 *   Copy/paste this in:
 
     ```
-    #!/usr/bin/python3.7
+    #!/usr/bin/python3.10
 
     print("Content-Type: text/html\n\n")
 
