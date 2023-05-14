@@ -45,9 +45,9 @@ You can see the modules that are currently installed on the Python versions:
 
 ## Johnny
 
-* Python 2.7
-* Python 3.6
-* Python 3.10
+* [Python 2.7](https://johnny.kairion.eu.org/pyinfo/info2.7.py)
+* [Python 3.6](https://johnny.kairion.eu.org/pyinfo/info3.6.py)
+* [Python 3.10](https://johnny.kairion.eu.org/pyinfo/info3.10.py)
 
 ### Ricky
 
@@ -56,8 +56,9 @@ You can see the modules that are currently installed on the Python versions:
 
 ### Tommy
 
-* [Python 2.7](https://krydos.heliohost.org/cgi-bin/modules27.py)
-* [Python 3.7](https://krydos.heliohost.org/cgi-bin/modules37.py)
+* [Python 2.7](https://tommy.kairion.eu.org/pyinfo/info2.7.py)
+* [Python 3.6](https://tommy.kairion.eu.org/pyinfo/info3.6.py)
+* [Python 3.10](https://tommy.kairion.eu.org/pyinfo/info3.10.py)
 
 If you don't see the module you need your script will probably give a useless 500 error when you try to import the missing module. Just make a post on the [forums](https://www.helionet.org/index/forum/45-customer-service/) stating your server, the version of python you're using, and the module(s) you need.
 
