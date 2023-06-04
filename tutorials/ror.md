@@ -12,13 +12,11 @@ We also offer the powerful Ruby on Rails web application framework. This framewo
 
 ## How to set up Ruby on Rails
 
-Download the Ruby on Rails files from [https://krydos.heliohost.org/ror_ruby3.2.1_rails7.0.5.zip](https://krydos.heliohost.org/ror_ruby3.2.1_rails7.0.5.zip)
+Download the example Ruby on Rails files from [https://krydos.heliohost.org/ror_ruby3.2.1_rails7.0.5.zip](https://krydos.heliohost.org/ror_ruby3.2.1_rails7.0.5.zip)
 
-Upload the rortest archive to the ror directory that you just created.
+Login to your HelioHost account, and continue to Plesk. Click files in the main left menu. Navigate to your main home directory, not httpdocs. Click the + button and select upload file. Locate the ror_ruby3.2.1_rails7.0.5.zip file that you just downloaded, and upload it to Plesk.
 
-```text
-/home/username/ror/rortest_2.4.10.tar.gz
-```
+
 
 Use file manager to extract the archive by right clicking on the file and selecting extract.
 
