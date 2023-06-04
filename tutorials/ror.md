@@ -1,7 +1,7 @@
 # Ruby on Rails
 
 {% hint style="warning" %}
-Ruby on Rails is currently only available on the Tommy server.
+Ruby on Rails is available on Tommy, Johnny, or the VPS plans.
 {% endhint %}
 
 ## Preface
@@ -12,37 +12,34 @@ We also offer the powerful Ruby on Rails web application framework. This framewo
 
 ## How to set up Ruby on Rails
 
-Create a new directory in your home folder named `ror`. Make sure this `ror` directory is NOT in your `public_html` folder.
+Download the example Ruby on Rails files from [https://krydos.heliohost.org/ror_ruby3.2.1_rails7.0.5.zip](https://krydos.heliohost.org/ror_ruby3.2.1_rails7.0.5.zip)
 
-```text
-/home/username/ror
-```
+[Login](https://heliohost.org/login/) to your HelioHost account, and continue to Plesk. Click files in the main left menu. Navigate to httpdocs. Click the checkbox to the left of the index.html file and then click remove to delete the default Plesk page.
 
-Download the Ruby on Rails files from [https://krydos.heliohost.org/ror/rortest\_2.4.10.tar.gz](https://krydos.heliohost.org/ror/rortest_2.4.10.tar.gz)
+![](../.gitbook/assets/ror_delete_index.png)
 
-Upload the rortest archive to the ror directory that you just created.
+Now navigate up one level to your home directory and click the + button to upload the zip file. Locate the ror_ruby3.2.1_rails7.0.5.zip file that you just downloaded, and upload it to Plesk.
 
-```text
-/home/username/ror/rortest_2.4.10.tar.gz
-```
+![](../.gitbook/assets/ror_upload.png)
 
-Use file manager to extract the archive by right clicking on the file and selecting extract.
+Now click the filename of ror_ruby3.2.1_rails7.0.5.zip to extract the zip file. Make sure that it is extracting the files to the directory / not httpdocs or anywhere else.
 
-![](../.gitbook/assets/rortest_extract.png)
+![](../.gitbook/assets/ror_extract.png)
 
-Now we need to register the Ruby on Rails application in cPanel so open the [Application Manager](https://tommy.heliohost.org:2083/frontend/paper_lantern/passenger/index.html).
+Click on the config directory, and then click the file environment.rb to edit it. You'll need to change the line that says yourdomain.helioho.st to your actual domain. Then save the file.
 
-![](../.gitbook/assets/application_manager.png)
+![](../.gitbook/assets/ror_domain.png)
 
-Click "+ Register Application".
+Now click Websites and Domains on the main left Plesk menu. If you're on the active view you can just click the Ruby button, but if you're on the dynamic view you'll need to click install application first, and then click Ruby.
 
-![](../.gitbook/assets/register_application.png)
+![](../.gitbook/assets/ror_ruby.png)
 
-For name enter `Rortest`, domain select your main domain, application url put `/rortest`, path enter `ror/rortest`, and deployment mode select `Development`so it looks something like this:
+The test Ruby on Rails files are desgined for Ruby 3.2.1 so you shouldn't need to change the Ruby version. Change the mode from production to development so you can see errors later, and then click Enable Ruby.
 
-![](../.gitbook/assets/register_rortest_application.png)
+![](../.gitbook/assets/ror_enable.png)
 
-Then click deploy. In order for the Rails application to be deployed it requires an apache restart so this could take anywhere from a few minutes to a few hours. If it's been more than 2 hours and it still isn't working please open [a customer service ticket](https://www.helionet.org/index/forum/45-customer-service/) and let us know.
+In order for the Rails application to be deployed it requires an Apache restart so this could take anywhere from a few minutes to a few hours. If it's been more than 2 hours and it still isn't working please open [a customer service ticket](https://helionet.org/index/forum/45-customer-service/?do=add) and let us know. If everything is working it should look like this.
 
-Once the Ruby on Rails application has been deployed you should be able to go to domain.heliohost.org/rortest and see the it in action. This is just the beginning though. From here you should edit your default files to create the Ruby on Rails website you've always wanted. Let us know if you need help.
+![](../.gitbook/assets/ror_works.png)
 
+Once you've got this basic example working we encourage you to edit the files, and create your Ruby on Rails website. Let us know if you have any questions.
