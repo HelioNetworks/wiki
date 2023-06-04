@@ -16,7 +16,8 @@ Download the example Ruby on Rails files from [https://krydos.heliohost.org/ror_
 
 Login to your HelioHost account, and continue to Plesk. Click files in the main left menu. Navigate to your main home directory, not httpdocs. Click the + button and select upload file. Locate the ror_ruby3.2.1_rails7.0.5.zip file that you just downloaded, and upload it to Plesk.
 
-
+Now click the filename of ror_ruby3.2.1_rails7.0.5.zip to extract the zip file.
+![Extract zip file](../.gitbook/assets/ror_extract.png)
 
 Use file manager to extract the archive by right clicking on the file and selecting extract.
 
