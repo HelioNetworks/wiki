@@ -24,7 +24,7 @@ Now click the filename of ror_ruby3.2.1_rails7.0.5.zip to extract the zip file.
 
 Now click Websites and Domains on the main left Plesk menu, and click Ruby under your domain. The test Ruby on Rails files are desgined for Ruby 3.2.1 so you shouldn't need to change the Ruby version. Change the mode from production to development so you can see errors later, and then click Enable Ruby.
 
-
+![](../.gitbook/assets/ror_enable.png)
 
 
 
