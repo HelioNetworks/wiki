@@ -38,6 +38,11 @@ The test Ruby on Rails files are desgined for Ruby 3.2.1 so you shouldn't need t
 
 ![](../.gitbook/assets/ror_enable.png)
 
+Keep in mind that in order to keep the uptime high we only restart Apache every 2 hours so it may take up to 2 hours for your Ruby on Rails application to start working, but if everything is working it should look like this.
+
+![](../.gitbook/assets/ror_works.png)
+
+
 
 
 Now we need to register the Ruby on Rails application in cPanel so open the [Application Manager](https://tommy.heliohost.org:2083/frontend/paper_lantern/passenger/index.html).
