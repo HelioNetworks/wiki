@@ -38,26 +38,8 @@ The test Ruby on Rails files are desgined for Ruby 3.2.1 so you shouldn't need t
 
 ![](../.gitbook/assets/ror_enable.png)
 
-In order to keep the uptime high we only restart Apache every 2 hours so it may take up to 2 hours for your Ruby on Rails application to start working, but if everything is working it should look like this.
+In order for the Rails application to be deployed it requires an Apache restart so this could take anywhere from a few minutes to a few hours. If it's been more than 2 hours and it still isn't working please open [a customer service ticket](https://helionet.org/index/forum/45-customer-service/?do=add) and let us know. If everything is working it should look like this.
 
 ![](../.gitbook/assets/ror_works.png)
 
-
-
-
-Now we need to register the Ruby on Rails application in cPanel so open the [Application Manager](https://tommy.heliohost.org:2083/frontend/paper_lantern/passenger/index.html).
-
-![](../.gitbook/assets/application_manager.png)
-
-Click "+ Register Application".
-
-![](../.gitbook/assets/register_application.png)
-
-For name enter `Rortest`, domain select your main domain, application url put `/rortest`, path enter `ror/rortest`, and deployment mode select `Development`so it looks something like this:
-
-![](../.gitbook/assets/register_rortest_application.png)
-
-Then click deploy. In order for the Rails application to be deployed it requires an apache restart so this could take anywhere from a few minutes to a few hours. If it's been more than 2 hours and it still isn't working please open [a customer service ticket](https://www.helionet.org/index/forum/45-customer-service/) and let us know.
-
-Once the Ruby on Rails application has been deployed you should be able to go to domain.heliohost.org/rortest and see the it in action. This is just the beginning though. From here you should edit your default files to create the Ruby on Rails website you've always wanted. Let us know if you need help.
-
+Once you've got this basic example working we encourage you to edit the files, and created your Ruby on Rails website. Let us know if you have any questions.
