@@ -12,13 +12,7 @@ We also offer the powerful Ruby on Rails web application framework. This framewo
 
 ## How to set up Ruby on Rails
 
-Create a new directory in your home folder named `ror`. Make sure this `ror` directory is NOT in your `public_html` folder.
-
-```text
-/home/username/ror
-```
-
-Download the Ruby on Rails files from [https://krydos.heliohost.org/ror/rortest\_2.4.10.tar.gz](https://krydos.heliohost.org/ror/rortest_2.4.10.tar.gz)
+Download the Ruby on Rails files from [https://krydos.heliohost.org/ror_ruby3.2.1_rails7.0.5.zip](https://krydos.heliohost.org/ror_ruby3.2.1_rails7.0.5.zip)
 
 Upload the rortest archive to the ror directory that you just created.
 
