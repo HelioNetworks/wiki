@@ -42,4 +42,4 @@ In order for the Rails application to be deployed it requires an Apache restart 
 
 ![](../.gitbook/assets/ror_works.png)
 
-Once you've got this basic example working we encourage you to edit the files, and created your Ruby on Rails website. Let us know if you have any questions.
+Once you've got this basic example working we encourage you to edit the files, and create your Ruby on Rails website. Let us know if you have any questions.
