@@ -1,7 +1,7 @@
 # Ruby on Rails
 
 {% hint style="warning" %}
-Ruby on Rails is currently only available on the Tommy server.
+Ruby on Rails is available on Tommy, Johnny, or the VPS plans.
 {% endhint %}
 
 ## Preface
