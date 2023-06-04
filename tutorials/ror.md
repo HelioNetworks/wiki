@@ -22,7 +22,7 @@ Now navigate up one level to your home directory and click the + button to uploa
 
 ![](../.gitbook/assets/ror_upload.png)
 
-Now click the filename of ror_ruby3.2.1_rails7.0.5.zip to extract the zip file.
+Now click the filename of ror_ruby3.2.1_rails7.0.5.zip to extract the zip file. Make sure that it is extracting the files to the directory / not httpdocs or anywhere else.
 
 ![](../.gitbook/assets/ror_extract.png)
 
