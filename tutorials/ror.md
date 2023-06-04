@@ -26,6 +26,10 @@ Now click the filename of ror_ruby3.2.1_rails7.0.5.zip to extract the zip file. 
 
 ![](../.gitbook/assets/ror_extract.png)
 
+Click on the config directory, and then click the file environment.rb to edit it. You'll need to change the line that says yourdomain.helioho.st to your actual domain. Then save the file.
+
+![](../.gitbook/assets/ror_domain.png)
+
 Now click Websites and Domains on the main left Plesk menu. If you're on the active view you can just click the Ruby button, but if you're on the dynamic view you'll need to click install application first, and then click Ruby.
 
 ![](../.gitbook/assets/ror_ruby.png)
