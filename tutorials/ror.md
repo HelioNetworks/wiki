@@ -18,7 +18,7 @@ Download the example Ruby on Rails files from [https://krydos.heliohost.org/ror_
 
 ![](../.gitbook/assets/ror_delete_index.png)
 
-Click the + button and select upload file. Locate the ror_ruby3.2.1_rails7.0.5.zip file that you just downloaded, and upload it to Plesk.
+Now navigate up one level to your home directory and click the + button to upload the zip file. Locate the ror_ruby3.2.1_rails7.0.5.zip file that you just downloaded, and upload it to Plesk.
 
 ![](../.gitbook/assets/ror_upload.png)
 
