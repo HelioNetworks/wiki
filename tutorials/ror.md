@@ -14,7 +14,11 @@ We also offer the powerful Ruby on Rails web application framework. This framewo
 
 Download the example Ruby on Rails files from [https://krydos.heliohost.org/ror_ruby3.2.1_rails7.0.5.zip](https://krydos.heliohost.org/ror_ruby3.2.1_rails7.0.5.zip)
 
-[Login](https://heliohost.org/login/) to your HelioHost account, and continue to Plesk. Click files in the main left menu. Navigate to your main home directory, not httpdocs. Click the + button and select upload file. Locate the ror_ruby3.2.1_rails7.0.5.zip file that you just downloaded, and upload it to Plesk.
+[Login](https://heliohost.org/login/) to your HelioHost account, and continue to Plesk. Click files in the main left menu. Navigate to httpdocs. Click the checkbox to the left of the index.html file and then click remove to delete the default Plesk page.
+
+![](../.gitbook/assets/ror_delete_index.png)
+
+Click the + button and select upload file. Locate the ror_ruby3.2.1_rails7.0.5.zip file that you just downloaded, and upload it to Plesk.
 
 ![](../.gitbook/assets/ror_upload.png)
 
