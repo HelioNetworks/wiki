@@ -1,5 +1,5 @@
 # cPanel
-
+{% hint style="danger" %} Please note that this wiki page is heavily outdated. Some information may be out of date, or entirely not work.  {% endhint %}
 ## What is cPanel?
 
 cPanel is a powerful, yet user-friendly hosting/domain manager. cPanel has a simple-to-use interface that makes editing your hosting details extremely easy.
