@@ -1,5 +1,5 @@
 # How to Access cPanel
-
+{% hint style="danger" %} Please note that this wiki page is heavily outdated. Some information may be out of date, or entirely not work. We don't even use cPanel anymore. {% endhint %}
 ## How to access cPanel <a id="firstHeading"></a>
 
 cPanel is the vital control panel which you will manage your websites with. cPanel offers most of the services that you would require to make a great website, including a built in File Manager, Email, MySQL and more. But how do you access your personal cPanel?
