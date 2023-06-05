@@ -2,30 +2,6 @@
 
 * Make a [GitHub](https://github.com/join) and [GitBook](https://app.gitbook.com/join) account if you haven't already.
 * Fork [this repository](https://github.com/HelioNetworks/heliohost-wiki) on GitHub.
+* Find the file you would like to edit, and then edit it. Use https://docs.gitbook.com/content-creation/editor/markdown for the syntax. 
 
-![](../.gitbook/assets/fork_gitbook.png)
-
-* Create a new space on GitBook.
-
-![](../.gitbook/assets/new_space.png)
-
-* Open the space.
-* Select `Integrations` on the sidebar.
-
-![](../.gitbook/assets/gitbook_integrations.png)
-
-* Select `GitHub`.
-
-![](../.gitbook/assets/gitbook_github.png)
-
-* Select the repository that you've forked from our GitHub.
-* Select `Sync "master" branch only`.
-* Select `I write my content on GitHub`.
-
-![](../.gitbook/assets/ss.png)
-
-* Write your content/changes to your space.
-* Merge the changes and wait for them to take effect on your forked GitHub repository.
-* Create a pull request.
-* We will handle the rest.
-
+When you are done, create a pull request to the main repository and we will provide feedback or merge it.
