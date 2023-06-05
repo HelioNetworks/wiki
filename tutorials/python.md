@@ -1,5 +1,9 @@
 # Python
 
+{% hint style="danger" %}
+Please note that this wiki page is heavily outdated. Some information may be out of date, or entirely not work.
+{% endhint %}
+
 The easiest way to get started with Python on a server is with CGI. Really the only difference between CGI and running the script on your home computer is CGI needs to output a "Content-Type" header.
 
 ## Steps
@@ -37,7 +41,7 @@ If everything worked it should say `Heliohost rules!` in your browser. The first
 
 and `python3.6` for Ricky.
 
-The next line is the `Content-Type` header. This is important so the server knows what to do with the output that follows. If you forget it your script will give a useless 500 error. The content type header always has to have the two end lines immediately after it. That's what the `\n` is.
+The next line is the `Content-Type` header. This is important so the server knows what to do with the output that follows. If you forget it your script will give a useless 500 error. The content type header always has to have the two end lines immediately after it. That's what the  is.
 
 ## Modules
 

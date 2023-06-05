@@ -1,23 +1,27 @@
 # Parked, Addon and Sub Domains
 
-Parked \(alias\), Addon and Sub Domains are vital services which allows you to get the best out of a domain or multiple domains. They have the power to link together multiple domains as well as customizing the URL of your domains. However, using these services can be confusing, and some problems can occur in the process. But don't worry - this article will help alleviate any confusion.
+{% hint style="danger" %}
+Please note that this wiki page is heavily outdated. Some information may be out of date, or entirely not work.
+{% endhint %}
+
+Parked (alias), Addon and Sub Domains are vital services which allows you to get the best out of a domain or multiple domains. They have the power to link together multiple domains as well as customizing the URL of your domains. However, using these services can be confusing, and some problems can occur in the process. But don't worry - this article will help alleviate any confusion.
 
 {% hint style="info" %}
 To prevent most problems when adding or configuring parked/addon/sub domains, ensure your server's load is below 7.00.
 {% endhint %}
 
-## Parked Domains \(Alias\)
+## Parked Domains (Alias)
 
 ### What is a Parked Domain?
 
-It is like a pet name of a person. You can call that person with his real name \(main domain\) or with pet name \(parked domain\). Both name points to _single person_. Likewise , You can use two or more domain names for your single web page.
+It is like a pet name of a person. You can call that person with his real name (main domain) or with pet name (parked domain). Both name points to _single person_. Likewise , You can use two or more domain names for your single web page.
 
 ### How does it differ from Addon Domain
 
 The difference between Parked and Addon Domains is simply this:
 
-- With Addon Domains, you build a completely separate site.
-- With Parked Domains, it is already built, you just are giving it another domain for the site it is parked on.
+* With Addon Domains, you build a completely separate site.
+* With Parked Domains, it is already built, you just are giving it another domain for the site it is parked on.
 
 Parked Domains allow you to complete the task quickly and efficiently - there is even the option of redirecting a domain to another website.
 
@@ -40,7 +44,7 @@ You can also configure the domain to be redirected to another URL. Just click on
 
 You will need to wait approximately 24 hours until your parked domain will become active. If you still see a message saying `HelioHost Account Queued` after that period, then [please clear you cache](../misc/clear-your-cache.md).
 
-To check that your nameservers \(NS Records\) are properly configured, go to [https://byrondallas.heliohost.org/php/tools/dns_records.php?domain=&rec=NS](https://byrondallas.heliohost.org/php/tools/dns_records.php?domain=&rec=NS).
+To check that your nameservers (NS Records) are properly configured, go to [https://byrondallas.heliohost.org/php/tools/dns\_records.php?domain=\&rec=NS](https://byrondallas.heliohost.org/php/tools/dns\_records.php?domain=\&rec=NS).
 
 ## Addon Domains
 
@@ -63,7 +67,7 @@ The parked domain you have just set up will be be configured to reflect the `Doc
 
 You will need to wait approximately 48 hours until your addon domain will become active. If you still see a message saying `HelioHost Account Queued` after that period, then please [clear you cache](../misc/clear-your-cache.md).
 
-To check that your nameservers \(NS Records\) are properly configured, go to [https://byrondallas.heliohost.org/php/tools/dns_records.php?domain=&rec=NS](https://byrondallas.heliohost.org/php/tools/dns_records.php?domain=&rec=NS).
+To check that your nameservers (NS Records) are properly configured, go to [https://byrondallas.heliohost.org/php/tools/dns\_records.php?domain=\&rec=NS](https://byrondallas.heliohost.org/php/tools/dns\_records.php?domain=\&rec=NS).
 
 ## Subdomains
 
@@ -80,4 +84,3 @@ After logging into your cPanel account, click on the "Subdomains" button within 
 ### What do I do now?
 
 You will need to wait approximately 24 hours until your subdomain become active. If you still see a message saying "HelioHost Account Queued" after that period, then please [clear you cache](../misc/clear-your-cache.md).
-

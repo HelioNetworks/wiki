@@ -1,6 +1,10 @@
 # Creating MySQL Databases via cPanel
 
-MySQL is a very handy tool available to webmasters who want to take advantage of dynamic web pages which run on languages such as PHP, as well as softwares like WordPress that may have been manually installed \(not installed using Softaculous\).
+{% hint style="danger" %}
+Please note that this wiki page is heavily outdated. Some information may be out of date, or entirely not work. An example is we don't use cPanel anymore.
+{% endhint %}
+
+MySQL is a very handy tool available to webmasters who want to take advantage of dynamic web pages which run on languages such as PHP, as well as softwares like WordPress that may have been manually installed (not installed using Softaculous).
 
 More information about MySQL can be found at [Wikipedia](https://en.wikipedia.org/wiki/MySQL) and [official website](https://www.mysql.com).
 
@@ -14,17 +18,17 @@ In the `MySQL Databases` section of cPanel, take a look at the `Create new datab
 
 ### Step 2: Creating the user
 
-Now scroll down to the `Create new user` section of the resulting page. Fill in a username and password \(a strong password is always good\) and submit the form. In the resulting page, you should see your new user in the list of users right at the bottom of the page.
+Now scroll down to the `Create new user` section of the resulting page. Fill in a username and password (a strong password is always good) and submit the form. In the resulting page, you should see your new user in the list of users right at the bottom of the page.
 
 ### Step 3: Assign the user to the database
 
-In the `Add user to database` section of the resulting page, select your newly created user and your newly created database from the drop down, then submit the form. In the resulting page, give the user the appropriate privileges \(the commands the user can run\). If you are unsure, just click `All privileges` and submit the form. In the resulting page, in the list of databases, you should see your newly created user in `Users` column alongside your newly created database.
+In the `Add user to database` section of the resulting page, select your newly created user and your newly created database from the drop down, then submit the form. In the resulting page, give the user the appropriate privileges (the commands the user can run). If you are unsure, just click `All privileges` and submit the form. In the resulting page, in the list of databases, you should see your newly created user in `Users` column alongside your newly created database.
 
 ## Accessing the database
 
 ### Your database details
 
-If you are connecting locally, then your `HOST` is `localhost`. Your database name is the name you specified, but prefixed with your cPanel username and then an underscore \(e.g. CPANEL\_DATABASE\).
+If you are connecting locally, then your `HOST` is `localhost`. Your database name is the name you specified, but prefixed with your cPanel username and then an underscore (e.g. CPANEL\_DATABASE).
 
 ### Managing the database with phpMyAdmin
 
@@ -34,7 +38,7 @@ By using the phpMyAdmin button on cPanel's homepage, you can control and manage 
 
 Create a blank PHP file, enter:
 
-```text
+```
 <?php
 $mysqli = new mysqli("HOST", "USERNAME", "PASSWORD", "DATABASE");
 if (mysqli_connect_errno()) {
@@ -46,7 +50,7 @@ exit();
 
 To execute a query via PHP:
 
-```text
+```
 <?php
 $mysqli = new mysqli("HOST", "USERNAME", "PASSWORD", "DATABASE");
 $sql="SELECT * FROM `TABLE`";
@@ -77,4 +81,3 @@ Use the host for your server:
 * Tommy: `tommy.heliohost.org`
 * Ricky: `ricky.heliohost.org`
 * Johnny: `johnny.heliohost.org`
-

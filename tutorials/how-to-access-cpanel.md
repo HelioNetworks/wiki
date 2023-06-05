@@ -1,6 +1,12 @@
 # How to Access cPanel
 
-## How to access cPanel <a id="firstHeading"></a>
+{% hint style="danger" %}
+Please note that this wiki page is heavily outdated. Some information may be out of date, or entirely not work.\
+\
+We don't use cPanel anymore.
+{% endhint %}
+
+## How to access cPanel <a href="#firstheading" id="firstheading"></a>
 
 cPanel is the vital control panel which you will manage your websites with. cPanel offers most of the services that you would require to make a great website, including a built in File Manager, Email, MySQL and more. But how do you access your personal cPanel?
 
@@ -19,4 +25,3 @@ If you cannot login to cPanel, then it is likely that your account was suspended
 If you have just created your account, then you may need to wait a little longer. Check your account status at: [https://www.heliohost.org/status/](https://www.heliohost.org/status/)
 
 If that fails, you may have been suspended, or a strange problem may have happened. Please create a new topic at: [https://www.helionet.org/index/forum/81-suspended-and-queued-accounts/](https://www.helionet.org/index/forum/81-suspended-and-queued-accounts/)
-

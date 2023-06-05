@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Home](README.md)
+* [Outdated Content Warning](outdated-content-warning.md)
 * [Hosting](hosting/README.md)
   * [What is HelioHost?](hosting/heliohost.md)
   * [What HelioHost Offers](hosting/what-heliohost-offers.md)
@@ -72,4 +73,3 @@
   * [Ashoat](misc/staff/ashoat.md)
   * [Krydos](misc/staff/krydos.md)
   * [Wolstech](misc/staff/wolstech.md)
-* [Outdated Content Warning](misc/outdated-content-warning.md)

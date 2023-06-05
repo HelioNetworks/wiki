@@ -1,5 +1,9 @@
 # Flask
 
+{% hint style="danger" %}
+Please note that this wiki page is heavily outdated. Some information may be out of date, or entirely not work.
+{% endhint %}
+
 ## Preface
 
 This tutorial is adapted from a forum post answered by Krydos, [How do I use Flask](https://www.helionet.org/index/topic/27822-how-do-i-use-flask-on-johnny/?p=128919) on the HelioNet forum.
@@ -14,13 +18,13 @@ Flask is a Python web framework built with a small core and easy-to-extend philo
 
 Create a folder in public\_html called flask
 
-```text
+```
 /home/username/public_html/flask/
 ```
 
 In that folder create a .htaccess file:
 
-```text
+```
 RewriteEngine On
 RewriteBase /
 RewriteRule ^(media/.*)$ - [L]
@@ -31,7 +35,7 @@ RewriteRule ^(.*)$ flask/flask.wsgi/$1 [QSA,PT,L]
 
 Create a file named flask.wsgi in the flask directory.
 
-```text
+```
 import os, sys
 
 # edit your username below
@@ -46,7 +50,7 @@ application.secret_key = 'secret'
 
 Create a python script named myapp.py in the flask directory.
 
-```text
+```
 import sys
 
 from flask import Flask, __version__
@@ -74,4 +78,3 @@ def f_version():
 if __name__ == "__main__":
   app.run()
 ```
-

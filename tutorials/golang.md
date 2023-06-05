@@ -1,5 +1,9 @@
 # Golang as CGI
 
+{% hint style="danger" %}
+Please note that this wiki page is heavily outdated. Some information may be out of date, or entirely not work.
+{% endhint %}
+
 ## Preface
 
 This guide will work on any of the HelioHost servers.
@@ -16,17 +20,17 @@ Go is a compiled language so you'll need to build the code on your development s
 
 Create a directory for the Go source. In this example we used:
 
-```text
+```
 C:\Users\Krydos\go\golang.cgi\
 ```
 
 In that directory, create a new file named `golang.go` and open it in Notepad.
 
-![](../.gitbook/assets/golang_notepad.png)
+![](../.gitbook/assets/golang\_notepad.png)
 
 Copy and paste this code into the Notepad window:
 
-```text
+```
 package main
 
 import "fmt"
@@ -43,24 +47,24 @@ and save Notepad.
 
 By default Go will build the executable to run on your local system, which is Windows. We want to run the executable on HelioHost's server so we need to tell the compiler to make an executable that will work on Linux. Open a new command prompt, and run the command
 
-```text
+```
 set go
 ```
 
 This will output all of your environment variables that start with `go`. There should be just one, your `GOPATH`.
 
-![](../.gitbook/assets/set_go.png)
+![](../.gitbook/assets/set\_go.png)
 
 You can set new environment variables using that same set command. Type these two commands:
 
-```text
+```
 set GOOS=linux
 set GOARCH=amd64
 ```
 
 and then run `set go` again to check that they saved correctly.
 
-![](../.gitbook/assets/goos_goarch.png)
+![](../.gitbook/assets/goos\_goarch.png)
 
 If you close this command window and open a new one those environment variables will be gone and you'll need to set them again so get in the habit of checking the `set go` command output.
 
@@ -68,41 +72,40 @@ If you close this command window and open a new one those environment variables 
 
 In the same command prompt window that you set the environment variables change directory to your source file that you created earlier.
 
-```text
+```
 cd go\golang.cgi
 ```
 
 and then run the command:
 
-```text
+```
 go build
 ```
 
-![](../.gitbook/assets/go_build.png)
+![](../.gitbook/assets/go\_build.png)
 
 If everything goes well you should now have an executable named `golang.cgi`.
 
-![](../.gitbook/assets/golang_compiled.png)
+![](../.gitbook/assets/golang\_compiled.png)
 
 ### Upload the Executable and Set Permissions
 
 Log in to cPanel and open the File Manager.
 
-![](../.gitbook/assets/file_manager.png)
+![](../.gitbook/assets/file\_manager.png)
 
 Navigate to the `public_html/cgi-bin` directory, and click `Upload`. Locate the `golang.cgi` file on your hard drive and upload it. When the upload bar turns green close that windows, and go back to the File Manager. Click `Reload`, and you should see the file you uploaded. Right click on `golang.cgi` and select `Change Permissions`.
 
-![](../.gitbook/assets/change_permissions.png)
+![](../.gitbook/assets/change\_permissions.png)
 
 Check the 3 execute boxes to set the permissions to `755` to make the file executable.
 
-![](../.gitbook/assets/755_permissions.png)
+![](../.gitbook/assets/755\_permissions.png)
 
 ### Test the Golang CGI
 
 Now just open the file in your browser by going to `domain.heliohost.org/cgi-bin/golang.cgi`. If everything is working you should see the message.
 
-![](../.gitbook/assets/golang_working.png)
+![](../.gitbook/assets/golang\_working.png)
 
 If it doesn't work go back and check all of your steps again. If you can't figure out what is wrong let us know by opening [a customer service ticket](https://www.helionet.org/index/forum/45-customer-service/). We'd be happy to help.
-
