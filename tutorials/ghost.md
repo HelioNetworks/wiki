@@ -1,5 +1,5 @@
 # Ghost CMS
-
+{% hint style="danger" %} Please note that this wiki page is heavily outdated. Some information may be out of date, or entirely not work.  {% endhint %}
 ## Preface
 
 Ghost requires Node.js which is only available on the Tommy server currently.
