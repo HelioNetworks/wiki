@@ -3,7 +3,7 @@
 {% hint style="danger" %}
 This tutorial is outdated since ZeroSSL had revamped their site. You can still try to follow the tutorial but don't expect things to look the same.
 {% endhint %}
-
+{% hint style="danger" %} Please note that this wiki page is heavily outdated. Some information may be out of date, or entirely not work.  {% endhint %}
 {% hint style="warning" %}
 This tutorial should only be done on Johnny! For Tommy and Ricky users, AutoSSL will generate a certificate for you within 24 hours and it will be renewed automatically.
 {% endhint %}
