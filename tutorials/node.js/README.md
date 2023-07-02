@@ -20,7 +20,7 @@ Because nothing blocks, scalable systems are very reasonable to develop in Node.
 
 ## How to setup Node.js
 
-Your Node.js files will go into your user directory (NOT `html`).
+Your Node.js files will go into your user directory (NOT `httdocs`).
 
 ```text
 /home/maindomain/
