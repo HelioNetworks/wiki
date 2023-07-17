@@ -102,5 +102,5 @@ After that finished you just need to wait for the server to update your account 
 In order for the Node.js application to be deployed, it requires an Apache restart, so this could take anywhere from a few minutes to a few hours. If it's been more than 2 hours, and it still isn't working, please
 open [a customer service ticket](https://www.helionet.org/index/forum/45-customer-service/) and let us know.
 
-Once the Node.js application has been deployed you should be able to go to `domain.helioho.st/` and see the
+Once the Node.js application has been deployed you should be able to go to the domain you selected and see the
 text `Node.js is working.`.
