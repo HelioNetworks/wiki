@@ -78,7 +78,7 @@ Under the domain you'd like to use for Node.js, select `Node.js`.
 Upload all your files to your Tommy server. Then go to the Node.js section and set the following.
 
 * Node.js Version: minimum 14.21.0, though it is recommend to use the latest available, currently 17.9.1.
-* Application Root: / (folder where you uploaded your next project, i recommend / )
+* Application Root: `/` (This is the folder where you uploaded your project)
 * Application Startup File: `app.js` (The entry point of our app, use the file we created earlier)
 * Here, you're able to configure settings for your application.
 
