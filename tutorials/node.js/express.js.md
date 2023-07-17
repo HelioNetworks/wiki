@@ -79,7 +79,7 @@ Upload all your files to your Tommy server. Then go to the Node.js section and s
 
 * Node.js Version: minimum 14.21.0, though it is recommend to use the latest available, currently 17.9.1.
 * Application Root: / (folder where you uploaded your next project, i recommend / )
-* Application Startup File: app.js (file we created earlier)
+* Application Startup File: `app.js` (The entry point of our app, use the file we created earlier)
 * Here, you're able to configure settings for your application.
 
 ![](../../.gitbook/assets/NodejsSettings.png)
