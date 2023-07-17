@@ -1,15 +1,9 @@
-# Express.js
+# Express.js                        |
 
-## Supported Versions
+## About Express.js
+Express.js is a web application framework for Node.js. It provides a set of tools and features to build web applications and APIs quickly and easily. Express.js simplifies common tasks like routing, handling HTTP requests and responses, setting up middleware, and managing sessions. It is lightweight and flexible, allowing developers to structure their applications as they see fit. It is commonly used for building RESTful APIs or server-side applications.
 
-| Server | Node.js Version                                     |
-|--------|-----------------------------------------------------|
-| Tommy  | 8.17.0, 10.24.1, 12.22.12, 14.21.3, 16.19.1, 17.9.1 |
-| Johnny | 12.22.12, 14.21.3, 16.19.1                          |
 
-## About Node.js
-
-Node.js is a powerful and popular runtime environment for executing JavaScript code server-side. It allows developers to build scalable and efficient web applications using JavaScript, which is traditionally used for front-end development.
 
 ## Setup
 
@@ -18,7 +12,7 @@ Node.js is a powerful and popular runtime environment for executing JavaScript c
 Go into your project root (if you don't have a project, you can use this example project [here](https://github.com/HelioNetworks/Node.JS-Example){:target="_blank"})
 
 
-## How to setup Node.js
+## How to setup Express.js
 
 Your Node.js files will go into your user directory (NOT `httpdocs`).
 
@@ -32,19 +26,44 @@ Your Node.js files will go into your user directory (NOT `httpdocs`).
 
 if you don't use the example Create a new file `app.js` and put this inside:
 
-```
+```javascript
 const http = require('http');
+const express = require('express');
 const port = 3000;
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/html');
-  res.end('Node.js is working.');
+const app = express();
+
+app.get('/', (req, res) => {
+  res.status(200).send('Node.js is working with Express and http.');
 });
+
+// Create an HTTP server using the Express app
+const server = http.createServer(app);
 
 server.listen(port, () => {
   console.log(`Server running`);
 });
+```
+
+Create a new file `package.json` and put this inside:
+
+```javascript
+{
+  "name": "node-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "^3.0.2"
+  }
+}
 ```
 
 In Plesk, go to "Website & Domains".
