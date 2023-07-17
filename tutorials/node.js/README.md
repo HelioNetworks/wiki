@@ -13,9 +13,9 @@ Node.js is a powerful and popular runtime environment for executing JavaScript c
 
 ## Setup
 
-**Note: If you prefer visual guidance, we have a video tutorial available for you to watch. Click [here](https://www.youtube.com/watch?v=Ak2yI8w-mew&ab_channel=HelioHost) to access the video. If you want to follow the written instructions, please continue reading below.**
+**Note: If you prefer visual guidance, we have a video tutorial available for you to watch. Click [here](https://www.youtube.com/watch?v=Ak2yI8w-mew&ab_channel=HelioHost){:target="_blank"} to access the video. If you want to follow the written instructions, please continue reading below.**
 
-Go into your project root (if you don't have a project, you can use this example project [here](https://github.com/HelioNetworks/Node.JS-Example))
+Go into your project root (if you don't have a project, you can use this example project [here](https://github.com/HelioNetworks/Node.JS-Example){:target="_blank"})
 
 
 ## How to setup Node.js
@@ -58,10 +58,10 @@ Under the domain you'd like to use for Node.js, select `Node.js`.
 ## Server setup
 Upload all your files to your Tommy server. Then go to the Node.js section and set the following.
 
-Node.js Version: At least 14.21.0 tho i highly recommend using the latest one 17.9.1
-Application Root: / (folder where you uploaded your next project, i recommend / )
-Application Startup File: app.js (file we created earlier)
-Here, you're able to configure settings for your application.
+* Node.js Version: At least 14.21.0 tho i highly recommend using the latest one 17.9.1
+* Application Root: / (folder where you uploaded your next project, i recommend / )
+* Application Startup File: app.js (file we created earlier)
+* Here, you're able to configure settings for your application.
 
 ![](../../.gitbook/assets/NodejsSettings.png)
 
@@ -71,8 +71,11 @@ Here, you're able to configure settings for your application.
 ## Starting the server
 
 Once all of the above steps are done, you can press the Enable Node.js button.
+
 ![](../../.gitbook/assets/enableNodeJs.png)
+
 Then you need to press the NPM install button.
+
 ![](../../.gitbook/assets/NPMInstall.png)
 
 After that finished you just need to wait for the server to update your account and start using Node.js, this may take a while.
