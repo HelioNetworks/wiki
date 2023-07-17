@@ -9,28 +9,31 @@
 
 ## About Node.js
 
-As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. In the
-Node.js applications many connections can be handled concurrently. Upon each connection, the callback is fired, but if
-there is no work to be done, Node.js will sleep.
+Node.js is a powerful and popular runtime environment for executing JavaScript code server-side. It allows developers to build scalable and efficient web applications using JavaScript, which is traditionally used for front-end development.
 
-This is in contrast to today's more common concurrency model, in which OS threads are employed. Thread-based networking
-is relatively inefficient and very difficult to use. Furthermore, users of Node.js are free from worries of dead-locking
-the process, since there are no locks. Almost no function in Node.js directly performs I/O, so the process never blocks.
-Because nothing blocks, scalable systems are very reasonable to develop in Node.js.
+## Setup
+
+**Note: If you prefer visual guidance, we have a video tutorial available for you to watch. Click [here](https://www.youtube.com/watch?v=Ak2yI8w-mew&ab_channel=HelioHost) to access the video. If you want to follow the written instructions, please continue reading below.**
+
+Go into your project root (if you don't have a project, you can use this example project [here](https://github.com/HelioNetworks/Node.JS-Example))
+
 
 ## How to setup Node.js
 
 Your Node.js files will go into your user directory (NOT `httpdocs`).
 
 ```text
-/home/maindomain/
+/
 ```
 
-In that folder create an `app.js` file:
+![](../../.gitbook/assets/FileManger.png)
+
+**Note: delete the content inside `httpdocs`**
+
+if you don't use the example Create a new file `app.js` and put this inside:
 
 ```
 const http = require('http');
-const hostname = '127.0.0.1';
 const port = 3000;
 
 const server = http.createServer((req, res) => {
@@ -39,8 +42,8 @@ const server = http.createServer((req, res) => {
   res.end('Node.js is working.');
 });
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+server.listen(port, () => {
+  console.log(`Server running`);
 });
 ```
 
@@ -52,15 +55,30 @@ Under the domain you'd like to use for Node.js, select `Node.js`.
 
 ![](../../.gitbook/assets/NodejsLink.png)
 
+## Server setup
+Upload all your files to your Tommy server. Then go to the Node.js section and set the following.
+
+Node.js Version: At least 14.21.0 tho i highly recommend using the latest one 17.9.1
+Application Root: / (folder where you uploaded your next project, i recommend / )
+Application Startup File: app.js (file we created earlier)
 Here, you're able to configure settings for your application.
 
 ![](../../.gitbook/assets/NodejsSettings.png)
 
-You don't need to worry about environment variables on this simple example. Select `app.js` for your startup file. If you have any NPM packages, Plesk can install them for you.
 
-In order for the Node.js application to be deployed, it requires an Apache restart, so this could take anywhere from a few
-minutes to a few hours. If it's been more than 2 hours, and it still isn't working, please
+
+
+## Starting the server
+
+Once all of the above steps are done, you can press the Enable Node.js button.
+![](../../.gitbook/assets/enableNodeJs.png)
+Then you need to press the NPM install button.
+![](../../.gitbook/assets/NPMInstall.png)
+
+After that finished you just need to wait for the server to update your account and start using Node.js, this may take a while.
+
+In order for the Node.js application to be deployed, it requires an Apache restart, so this could take anywhere from a few minutes to a few hours. If it's been more than 2 hours, and it still isn't working, please
 open [a customer service ticket](https://www.helionet.org/index/forum/45-customer-service/) and let us know.
 
-Once the Node.js application has been deployed you should be able to go to `domain.heliohost.org/` and see the
+Once the Node.js application has been deployed you should be able to go to `domain.helioho.st/` and see the
 text `Node.js is working.`.
