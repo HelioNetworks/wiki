@@ -23,12 +23,14 @@ Because nothing blocks, scalable systems are very reasonable to develop in Node.
 Your Node.js files will go into your user directory (NOT `httpdocs`).
 
 ```text
-/home/maindomain/
+/
 ```
+
+![](../../.gitbook/assets/FileManger.png)
 
 In that folder create an `app.js` file:
 
-```
+```javascript
 const http = require('http');
 const hostname = '127.0.0.1';
 const port = 3000;
@@ -57,6 +59,8 @@ Here, you're able to configure settings for your application.
 ![](../../.gitbook/assets/NodejsSettings.png)
 
 You don't need to worry about environment variables on this simple example. Select `app.js` for your startup file. If you have any NPM packages, Plesk can install them for you.
+
+![](../../.gitbook/assets/NPMInstall.png)
 
 In order for the Node.js application to be deployed, it requires an Apache restart, so this could take anywhere from a few
 minutes to a few hours. If it's been more than 2 hours, and it still isn't working, please
