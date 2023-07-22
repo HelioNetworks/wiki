@@ -75,7 +75,7 @@ Under the domain you'd like to use for Node.js, select `Node.js`.
 ![](../../.gitbook/assets/NodejsLink.png)
 
 ## Server setup
-Upload all your files to your Tommy server. Then go to the Node.js section and set the following.
+Upload all your files to your server. Then go to the Node.js section and set the following.
 
 * Node.js Version: minimum 14.21.0, though it is recommend to use the latest available, currently 17.9.1.
 * Application Root: `/` (This is the folder where you uploaded your project)
