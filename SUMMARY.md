@@ -31,6 +31,7 @@
   * [How to Access cPanel](tutorials/how-to-access-cpanel.md)
   * [Node.js](tutorials/node.js/README.md)
     * [Next.js](tutorials/node.js/next.js.md)
+    * [Express.js](tutorials/node.js/express.js.md)
   * [Perl](tutorials/perl.md)
   * [Python](tutorials/python.md)
   * [Ruby on Rails](tutorials/ror.md)
