@@ -4,7 +4,7 @@ Ricky is meant to be a stable production server, after [Stevie](../physical/stev
 
 ## Features
 
-* [cPanel](../../features/plesk.md)
+* [Plesk](../../features/plesk.md)
 * [MySQL](../../management/mysql.md)
 * [Perl](../../tutorials/perl.md)
 * [PHP](../../features/php.md)
