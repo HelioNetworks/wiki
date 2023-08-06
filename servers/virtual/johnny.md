@@ -1,4 +1,4 @@
----
+lesk---
 description: Formerly named Joanna
 ---
 
@@ -18,7 +18,7 @@ _`Referring to Strict Mode in MySQL`_
 
 ## Features
 
-* [cPanel](../../features/cpanel.md)
+* [Plesk](../../features/Plesk.md)
 * [JSP](../../features/java.md)
 * [MySQL](../../management/mysql.md)
 * [Perl](../../tutorials/perl.md)
