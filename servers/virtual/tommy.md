@@ -4,7 +4,7 @@ Tommy is one of our fastest and most stable servers, with its hardware being amo
 
 ## Features
 
-* [cPanel](../../features/plesk.md)
+* [Plesk](../../features/plesk.md)
 * [Golang](../../tutorials/golang.md)
 * [JSP](../../features/java.md)
 * [MySQL](../../management/mysql.md)
