@@ -53,7 +53,7 @@
     * [Tommy](servers/virtual/tommy.md)
 * [Features](features/README.md)
   * [ASP.NET](features/asp.net.md)
-  * [cPanel](features/cpanel.md)
+  * [cPanel](features/plesk.md)
   * [Java/JSP](features/java.md)
   * [PHP](features/php.md)
   * [PostgreSQL](features/postgresql.md)
