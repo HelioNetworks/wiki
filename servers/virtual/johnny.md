@@ -1,6 +1,6 @@
 # Johnny
 
-Johnny is similar to Ricky, but he allows dangerous services such as Java/JSP to his users. Johnny is hosted on [Sparkie](../physical/sparkie.md).\
+Johnny is similar to Ricky, but he allows dangerous services such as Python to his users. Johnny is hosted on [Sparkie](../physical/sparkie.md).\
 \
 Also, per Krydos:\
 ![](../../.gitbook/assets/image.png)
