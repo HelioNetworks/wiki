@@ -50,13 +50,13 @@ If you would like to have one account on Ricky and one on Johnny, you may do so 
 
 ## How do I delete my hosting account?
 
-Use the [account deletion script](http://www.heliohost.org/home/support/scripts/delete).
+To delete your HelioHost Plesk account, post a topic in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add).
 
-To delete your HelioNet forum account, post a topic in the [Contact HelioNet forum](https://www.helionet.org/index/forum/4-contact-helionet/).
+To delete your HelioNet forum account, post a topic in the [Contact HelioNet forum]([https://www.helionet.org/index/forum/4-contact-helionet/).
 
 ## How do I change my main domain?
 
-Use the [main domain change script](http://www.heliohost.org/home/support/scripts/domain). Please note that this script will not change your main domain if the domain already exists on the server. So if you want to change your main domain to one that you already have as an addon domain or parked domain you must first delete it from your account.
+To change the main domain on your HelioHost Plesk account, post a topic in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add) and let us know what domain you want added.
 
 As an alternative to changing your main domain, consider using parked, addon, and/or sub-domains. See this [wiki article](management/parked-addon-and-sub-domains.md) for more information.
 
