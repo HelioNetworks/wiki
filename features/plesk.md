@@ -9,7 +9,7 @@ Plesk is a powerful, yet user-friendly hosting/domain manager. Plesk has a simpl
 Through Plesk \(included with all HelioHost hosting accounts\), you can
 
 * Create and manage e-mail addresses for your domain.
-* Check e-mail using RoundCube -or- alter MX records for use with another e-mail service \(such as Google Apps - doing this will cause the Plesk built-in webmail clients to stop working\)
+* Check e-mail using RoundCube -or- alter MX records for use with another e-mail service \(such as Google Workspace - doing this will cause the Plesk built-in webmail clients to stop working\)
 * Set-up e-mail clients for use with your e-mail addresses \(through POP3/SMTP\)
 * Update your HelioHost account information/password
 * Create and manage FTP accounts
@@ -21,7 +21,7 @@ Through Plesk \(included with all HelioHost hosting accounts\), you can
 * Manage zone records \(A, CNAME, TXT\) for your domain\(s\)
 * Create MySQL/PostgreSQL databases/users \(see [MySQL Databases](../management/mysql.md)\)
 * Edit SQL tables using phpMyAdmin/phpPgAdmin
-* Install software using Softaculous \(see Softaculous\)
+* Install software using Plesk Applications Installer
 * Manage Perl modules
 
 ## How do I access my Plesk?
