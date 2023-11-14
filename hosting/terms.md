@@ -6,15 +6,15 @@ Helio Networks \("HelioNet"\) will not be held liable for use of any of it's ser
 
 By signing up with HelioHost for any service, you agree to the following:
 
+* Each person is allowed to have one account unless permitted in writing by an administrator of HelioHost.
 * Your site will contain no illegal content.
-* Your site will not collect or attempt to collect personal information by deception \(e.g. "Phishing."\)
+* No phishing. Your site will not collect or attempt to collect personal information by deception.
 * You may not infringe on any copyrights through your site.
 * Your site will not be of a pornographic nature and will refrain from providing pictures and/or photographs of nude men and women.
 * Your site will not email, personal message, instant message, or communicate any kind of "spam," or unsolicited bulk advertising of any kind.
 * Your site will not offer any form of social media "marketing" service, including but not limited to services that provide "Facebook Likes", "Instagram Followers", or "Twitter Followers". Your account will not store or operate scripts required to provide such services \(e.g. "like bots", "follower bots", "smm panels", "sosmed panels"\).
 * Your site will not offer any service that purports to modify or add game content \(e.g. skins or playable items such as weapons\) or credits \(e.g. gold, coins\) to third-party online game accounts.
 * Everything displayed on your site will be your property. HelioHost assumes no responsibility for any content displayed by customers of our services.
-* Each person is allowed to have one account unless permitted in writing by an administrator of HelioHost.
 * HelioHost is a US based organization so federal regulations prohibit us from accepting donations or providing service to anyone in Iran, Cuba, Syria, or North Korea.
 * You will not register or maintain an account using a disposable email address.
 * We will not be held responsible for loss of content, revenue, or traffic in the event of a systems failure.
