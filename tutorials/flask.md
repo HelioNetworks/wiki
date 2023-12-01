@@ -4,7 +4,7 @@
 
 This tutorial is adapted from a forum post answered by Krydos, [How do I use Flask](https://www.helionet.org/index/topic/27822-how-do-i-use-flask-on-johnny/?p=128919) on the HelioNet forum.
 
-It is worth to note that flask on the Tommy and Johnny servers use python 3.7, and if you want to use flask on python 3.9 you have to be on the Ricky server.
+It is worth to note that flask on the Tommy and Johnny servers use python 3.10. If you need to run flask on another version of Python you'll need to get a [VPS](https://heliohost.org/vps/)
 
 ## About Flask
 
