@@ -2,15 +2,16 @@
 <a id="top"></a>
 # Table Of Contents
 * [MariaDB](#mariadb)
-* [cPanel](#cpanel)
-  * [Create](#cpanel-create)
-    * [Create DB](#cpanel-create-step1)
-    * [Create User](#cpanel-create-step2)
-    * [Assign User to DB](#cpanel-create-step3)
-  * [Access](#cpanel-access)
-    * [localhost](#cpanel-access-local)
-    * [PHPMyAdmin](#cpanel-access-phpmyadmin)
-    * [Remote](#cpanel-access-remote)
+* [Plesk](#plesk)
+  * [Create](#plesk-create)
+    * [Create DB](#plesk-create-step1)
+    * [Create User](#plesk-create-step2)
+  * [DB User Permissions](#plesk-user-permissions)
+    * [DB User Editing](#plesk-user-editing)
+  * [Access](#plesk-access)
+    * [localhost](#plesk-access-local)
+    * [PHPMyAdmin](#plesk-access-phpmyadmin)
+    * [Remote](#plesk-access-remote)
 * [Server Hosts](#server-hosts)
 * [Example Code](#example-code)
 
@@ -21,47 +22,82 @@ MariaDB is a very handy tool available to webmasters who want to take advantage 
 
 More information about MariaDB can be found at <a href="https://en.wikipedia.org/wiki/MariaDB" target="_blank">Wikipedia</a> and <a href="https://mariadb.org/" target="_blank">official website</a>.
 
-[Top](#top)<a id="cpanel"></a>
-# cPanel Procedure 
+[Top](#top)<a id="plesk"></a>
+# Plesk Procedure 
 
-The following are a list of steps to follow to create a MaraiDB in cPanel.
+The following are a list of steps to follow to create a MaraiDB in Plesk.
 
-[Top](#top)<a id="cpanel-create"></a>
-## Creating a database 
+[Top](#top)<a id="plesk-create"></a>
+## Navigating to the `Databases` Section 
 
-Before you take advantage of MariaDB, you will need to create a database and a user to work with. To access the `MariaDB Databases` section of cPanel, use the button available on the homepage.
+Before you take advantage of MariaDB, you will need to create a database and a user to work with. To access the `Databases` section of Plesk, use the button available left hand menu.  Depending on your resolution (.eg mobile devices), there may be a menu icon ( ☰ ) that you have to click to display the menu.  You can also access the `Database` section from the `Websites & Domains` section.
 
-[Top](#top)<a id="cpanel-create-step1"></a>
-### Step 1: Creating the database 
+[Top](#top)<a id="plesk-create-step1"></a>
+### Creating the Database 
 
-In the `MariaDB Databases` section of cPanel, take a look at the `Create new database` section of the resulting page. Give your database a name and submit the form. In the resulting page, you should see your new database in the list of databases.
+In the `Databases` section of Plesk, there's a button `+ Add Database`. On smaller resolutions, the menu icon will appear.  On the resulting page, you will have to fill out a form.
 
-[Top](#top)<a id="cpanel-create-step2"></a>
-### Step 2: Creating the user 
+[Top](#top)<a id="cpanl-create-step1"></a>
+#### General Section
 
-Now scroll down to the `Create new user` section of the resulting page. Fill in a username and password \(a strong password is always good\) and submit the form. In the resulting page, you should see your new user in the list of users right at the bottom of the page.
+The first section is general.  There are three items in this section.  
 
-[Top](#top)<a id="cpanel-create-step3"></a>
-### Step 3: Assign the user to the database 
+The first item is the database name, this is prefixed with the format`<Username>_`.  
 
-In the `Add user to database` section of the resulting page, select your newly created user and your newly created database from the drop down, then submit the form. In the resulting page, give the user the appropriate privileges \(the commands the user can run\). If you are unsure, just click `All privileges` and submit the form. In the resulting page, in the list of databases, you should see your newly created user in `Users` column alongside your newly created database.
+The second item is the server.  This will be a dropdown of the available database servers.  From this dropdown select `localhost:3306( default for MariaDB )`. 
 
-[Top](#top)<a id="cpanel-access"></a>
+The third item is a drop down to associate your database with a site.  The default is no related sites.  From this dropdown you can associate your database with any website you have set up.  This is a convenience feature to help associate a database with a website and is not required.
+
+[Top](#top)<a id="plesk-create-step2"></a>
+#### User Section
+
+The next section is `Users`.  In this section there are 5 items as well as two buttons.  
+
+The first item is a checkbox to indicate whether or not you want to add a user while creating your database.  This is checked by default.
+
+The second item is the username, this will have a prefix of the same format as the database name.
+
+The third item is the password.  This item is associated with the two buttons.  The `Generate` button will generate a password for you.  The second button will display the password on your screen.  Generated passwords are hidden by default unless the show button is pressed.  You can also enter any password you require.  Once a password is entered a `Password Strength` meter will appear.  There is a help button `(?)` with more details regarding this meter.
+
+The fourth item is a confirm password.  This must match the password.
+
+The fifth item is a checkbox to indicate a `User has access to all databases within the selected subscription`.  This means the user can access all databases listed in the main `Databases` section.
+
+The sixth item is access control.  You have three choices.  You can allow local only connections.  You can allow connections from any IP, or you can submit a list of IPs or FQDNs.  This list supports wildcards and examples are provided.
+
+Once these sections are complete, you can click `OK` to create the database.
+
+
+[Top](#top)<a id="plesk-user-permissions"></a>
+### DB User Permissions
+
+In order to change user permissions and privileges, you have to navigate to the user.  This is done from the `Databases` section.  A list of users will be listed next to your databases.  Click on the user you want to modify to proceed to the `Edit Database User` screen.
+
+[Top](#top)<a id="plesk-user-editing"></a>
+#### DB User Editing
+
+The first section of this screen is identical to the [user section](#plesk-create-step2) while creating the database and will not be covered here.
+
+There are two items available while editing a user that aren't available while creating a database.  
+
+You can assign roles: Read & Write, Read Only, Write Only, and Customer.  There are also data/sturcture access which will specify which privileges a DB user has.  See the [MariaDB privileges documentaion](https://mariadb.com/docs/server/ref/mdb/privileges/) for more details on the individual privileges.
+
+[Top](#top)<a id="plesk-access"></a>
 ### Accessing the database 
 
 Below are some tips to connect to your database either through cPanel via phpmyadmin, locally via code, or remotely through code or other client \( eg. MariaDB's mysql command line or some other utility such as a GUI listed on the [MaraiDB website](https://mariadb.com/kb/en/graphical-and-enhanced-clients/) \).
 
-[Top](#top)<a id="cpanel-access-local"></a>
+[Top](#top)<a id="plesk-access-local"></a>
 #### Local connections 
 
 If you are connecting locally, then your `HOST` is `localhost`. Your database name is the name you specified, but prefixed with your cPanel username and then an underscore \(e.g. CPANEL\_DATABASE\).
 
-[Top](#top)<a id="cpanel-access-phpmyadmin"></a>
+[Top](#top)<a id="plesk-access-phpmyadmin"></a>
 #### Managing the database with phpMyAdmin 
 
 By using the phpMyAdmin button on cPanel's homepage, you can control and manage your databases and issue commands. More information about phpMyAdmin is available at the [official site](https://www.phpmyadmin.net).
 
-[Top](#top)<a id="cpanel-access-remote"></a>
+[Top](#top)<a id="plesk-access-remote"></a>
 #### Connecting Remotely 
 
 **Step 1**
