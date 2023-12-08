@@ -19,7 +19,7 @@
 
 MariaDB is a very handy tool available to webmasters who want to take advantage of dynamic web pages which run on languages such as PHP, as well as softwares like WordPress that may have been manually installed \(not installed using Softaculous\).
 
-More information about MariaDB can be found at [Wikipedia](https://en.wikipedia.org/wiki/MariaDB) and [official website](https://mariadb.org/).
+More information about MariaDB can be found at <a href="https://en.wikipedia.org/wiki/MariaDB" target="_blank">Wikipedia</a> and <a href="https://mariadb.org/" target="_blank">official website</a>.
 
 [Top](#top)<a id="cpanel"></a>
 # cPanel Procedure 
@@ -49,7 +49,7 @@ In the `Add user to database` section of the resulting page, select your newly c
 [Top](#top)<a id="cpanel-access"></a>
 ### Accessing the database 
 
-Below are some tips to connect to your database either through cPanel via phpmyadmin, locally via code, or remotely through code or other client \( eg. mysql command line or some other utility such as a GUI listed on the [MaraiDB website](https://mariadb.com/kb/en/graphical-and-enhanced-clients/) \).
+Below are some tips to connect to your database either through cPanel via phpmyadmin, locally via code, or remotely through code or other client \( eg. MariaDB's mysql command line or some other utility such as a GUI listed on the [MaraiDB website](https://mariadb.com/kb/en/graphical-and-enhanced-clients/) \).
 
 [Top](#top)<a id="cpanel-access-local"></a>
 #### Local connections 
@@ -91,18 +91,18 @@ These links should open a new browser tab or window.
 
 Official MariaDB blogs:
 
-[PHP Example](https://mariadb.com/resources/blog/how-to-connect-python-programs-to-mariadb/)
+<a href="https://mariadb.com/resources/blog/how-to-connect-python-programs-to-mariadb/" target="_blank">PHP Example</a>
 
-[Python mariabd module example](https://mariadb.com/resources/blog/how-to-connect-python-programs-to-mariadb/)
+<a href="https://mariadb.com/resources/blog/how-to-connect-python-programs-to-mariadb/" target="_blank">Python mariabd module example</a>
 
-[Python sqlalchemy module example](https://mariadb.com/resources/blog/using-sqlalchemy-with-mariadb-connector-python-part-1/)
+<a href="https://mariadb.com/resources/blog/using-sqlalchemy-with-mariadb-connector-python-part-1/" target="_blank">Python sqlalchemy module example</a>
 
 Offical PHP and Python module docs:
 
-[PHP mysqli Docs](https://www.php.net/manual/en/book.mysqli.php)
+<a href="https://www.php.net/manual/en/book.mysqli.php" target="_blank">PHP mysqli Docs</a>
 
-[Python mariadb module docs](https://mariadb-corporation.github.io/mariadb-connector-python/)
+<a href="https://mariadb-corporation.github.io/mariadb-connector-python/" target="_blank">Python mariadb module docs</a>
 
-[Python sqlalchemy module docs](https://docs.sqlalchemy.org/en/20/)
+<a href="https://docs.sqlalchemy.org/en/20/" target="_blank">Python sqlalchemy module docs</a>
 
 You can find other language examples using your favourite search engine.
