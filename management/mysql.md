@@ -93,19 +93,19 @@ You can assign roles: Read & Write, Read Only, Write Only, and Customer.  There 
 
 ## Accessing the database 
 
-Below are some tips to connect to your database either through cPanel via phpmyadmin, locally via code, or remotely through code or other client \(e.g. MariaDB's mysql command line or some other utility such as a GUI listed on the [MariaDB website](https://mariadb.com/kb/en/graphical-and-enhanced-clients/)\).
+Below are some tips to connect to your database either through Plesk via phpmyadmin, locally via code, or remotely through code or other client \(e.g. MariaDB's mysql command line or some other utility such as a GUI listed on the [MariaDB website](https://mariadb.com/kb/en/graphical-and-enhanced-clients/)\).
 
 [Top](#top)
 
 ### Local connections 
 
-If you are connecting locally, then your `HOST` is `localhost`. Your database name is the name you specified, but prefixed with your cPanel username and then an underscore \(e.g. CPANEL\_DATABASE\).
+If you are connecting locally, then your `HOST` is `localhost`. Your database name is the name you specified, but prefixed with your Plesk username and then an underscore \(e.g. PLESK_USERNAME\_DATABASE\).
 
 [Top](#top)
 
 ### Managing the database with phpMyAdmin 
 
-By using the phpMyAdmin button on cPanel's homepage, you can control and manage your databases and issue commands. More information about phpMyAdmin is available at the [official site](https://www.phpmyadmin.net).
+By using the phpMyAdmin button on Plesk's homepage, you can control and manage your databases and issue commands. More information about phpMyAdmin is available at the [official site](https://www.phpmyadmin.net).
 
 [Top](#top)
 
@@ -113,7 +113,7 @@ By using the phpMyAdmin button on cPanel's homepage, you can control and manage 
 
 **Step 1**
 
-Login to your cPanel.
+Login to Plesk.
 
 **Step 2**
 
