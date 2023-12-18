@@ -23,8 +23,3 @@
 ![](https://www.heliohost.org/load/server_load_lily.gif)
 
 ![](https://www.heliohost.org/load/server_uptime_lily.gif)
-
-## Cody
-
-![](https://www.heliohost.org/load/server_load_cody.gif)
-
