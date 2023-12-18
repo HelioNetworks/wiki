@@ -1,6 +1,6 @@
 # Changing Your Main Domain
 
-To change your main domain \(the location of where your visitors will navigate to\), you will need to submit a request containing **your username** and **the domain you want to change to** to the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add).
+To change your main domain \(the location of where your visitors will navigate to\), you will need to submit a request containing **your username** and **the domain you want to change to** in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add).
 
 However, before requesting to change your main domain, read up on [Parked (Alias), Addon and Sub Domains](parked-addon-and-sub-domains.md) as a useful alternative to changing your main domain. You can host up to 10 domains on your one hosting account, so most of the time it's pointless to change your main domain when you can simply add the new domain as an alias.
 
