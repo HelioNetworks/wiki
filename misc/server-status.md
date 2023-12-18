@@ -6,12 +6,6 @@
 
 ![](https://heliohost.org/load/server_uptime_tommy.gif)
 
-## Ricky
-
-![](https://www.heliohost.org/load/server_load_ricky.gif)
-
-![](https://www.heliohost.org/load/server_uptime_ricky.gif)
-
 ## Johnny
 
 ![](https://www.heliohost.org/load/server_load_johnny.gif)
