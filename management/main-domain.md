@@ -1,11 +1,13 @@
 # Changing Your Main Domain
-{% hint style="danger" %} Please note that this wiki page is heavily outdated. Some information may be out of date, or entirely not work.  {% endhint %}
-To change your main domain \(the location of where your visitors will navigate to\), you will need to submit the main domain change form located below. However, before requesting to change your main domain, read up on [Parked, Addon and Sub Domains](parked-addon-and-sub-domains.md) as a useful automated alternative to changing your main domain. You can host as many domains as you want on your one hosting account so most of the time it's pointless to change your main domain when you can simply add the new domain as an alias.
 
-If you have read up on Alias and Addon domains yet you prefer to change your main domain, then submit a request at [http://heliohost.org/home/support/scripts/domain](http://heliohost.org/home/support/scripts/domain).
+To change your main domain \(the location of where your visitors will navigate to\), you will need to submit a request containing **your username** and **the domain you want to change to** to the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add).
+
+However, before requesting to change your main domain, read up on [Parked (Alias), Addon and Sub Domains](parked-addon-and-sub-domains.md) as a useful alternative to changing your main domain. You can host up to 10 domains on your one hosting account, so most of the time it's pointless to change your main domain when you can simply add the new domain as an alias.
+
+If you have read up on [Parked (Alias), Addon and Sub Domains](parked-addon-and-sub-domains.md) yet you prefer to change your main domain, then post a topic in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add) and make sure you provide **your username** and **the domain you want to change to**, so the Admins can make the changes for you. 
 
 {% hint style="warning" %}
-Make sure the domain you're changing to isn't already added to cPanel as an Alias or an Addon domain. Otherwise, the main domain change will fail.
+Make sure the domain you're changing to isn't already added to Plesk as an Alias or an Addon domain. Otherwise, the main domain change will fail.
 {% endhint %}
 
 Depending on the server because of the Apache service, the main domain change might take between a few seconds and a few days, up to 48 hours.
