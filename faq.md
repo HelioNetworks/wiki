@@ -24,11 +24,11 @@ It is also possible that this was an error in our system. If you suspect that th
 
 ## Why does my new subdomain show a "Queued" page?
 
-All domain and subdomain changes take approximately one day to go into effect. Seeing the queued page is normal and only means the change hasn't taken effect yet. If you continuously see this page, try [clearing your browser cache](https://wiki.helionet.org/misc/clear-your-cache). Also, see this [post](http://www.helionet.org/index/topic/8604-web-page-update-delay/).
+All domain and subdomain changes take approximately 2 hours to go into effect. Seeing the queued page is normal and only means the change hasn't taken effect yet. If you continuously see this page, try [clearing your browser cache](https://wiki.helionet.org/misc/clear-your-cache). Also, see this [post](http://www.helionet.org/index/topic/8604-web-page-update-delay/).
 
 ## Why can't I log in?
 
-If you just registered, please wait 48 hours for your Plesk account to become active. If you have waited that time and still see a Account Queued page, try [refreshing your browser's cache](https://wiki.helionet.org/misc/clear-your-cache). If you are still experiencing problems, make sure you are entering your username in all lowercase letters, i.e. "wizard", not "Wizard" or "WIZARD".
+If you just registered, please wait 2 hours for your Plesk account to become active. If you have waited that time and still see a Account Queued page, try [refreshing your browser's cache](https://wiki.helionet.org/misc/clear-your-cache). If you are still experiencing problems, make sure you are entering your username in all lowercase letters, i.e. "wizard", not "Wizard" or "WIZARD".
 
 ## How do I keep my account active/from being suspended?
 
