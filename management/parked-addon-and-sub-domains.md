@@ -38,7 +38,7 @@ You can also configure the domain to be redirected to another URL. Just click on
 
 ### What do I do now?
 
-You will need to wait approximately 24 hours until your parked domain will become active. If you still see a message saying `HelioHost Account Queued` after that period, then [please clear your cache](../misc/clear-your-cache.md).
+You will need to wait approximately 2 hours until your parked domain will become active. If you still see a message saying `HelioHost Account Queued` after that period, then [please clear your cache](../misc/clear-your-cache.md).
 
 To check that your nameservers \(NS Records\) are properly configured, go to [https://byrondallas.heliohost.org/php/tools/dns_records.php?domain=&rec=NS](https://byrondallas.heliohost.org/php/tools/dns_records.php?domain=&rec=NS).
 
@@ -61,7 +61,7 @@ The parked domain you have just set up will be be configured to reflect the `Doc
 
 ### What do I do now?
 
-You will need to wait approximately 48 hours until your addon domain will become active. If you still see a message saying `HelioHost Account Queued` after that period, then please [clear your cache](../misc/clear-your-cache.md).
+You will need to wait approximately 2 hours until your addon domain will become active. If you still see a message saying `HelioHost Account Queued` after that period, then please [clear your cache](../misc/clear-your-cache.md).
 
 To check that your nameservers \(NS Records\) are properly configured, go to [https://byrondallas.heliohost.org/php/tools/dns_records.php?domain=&rec=NS](https://byrondallas.heliohost.org/php/tools/dns_records.php?domain=&rec=NS).
 
@@ -79,4 +79,4 @@ After logging into your cPanel account, click on the "Subdomains" button within 
 
 ### What do I do now?
 
-You will need to wait approximately 24 hours until your subdomain become active. If you still see a message saying "HelioHost Account Queued" after that period, then please [clear your cache](../misc/clear-your-cache.md).
+You will need to wait approximately 2 hours until your subdomain become active. If you still see a message saying "HelioHost Account Queued" after that period, then please [clear your cache](../misc/clear-your-cache.md).
