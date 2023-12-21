@@ -6,9 +6,9 @@ There are a number of reasons why we might suspend you. To keep your account act
 
 To ensure that old, unused HelioHost accounts are not filling up our server with useless data, we have an inactivity policy in place which will suspend you if you do not login to cPanel at least once every 30 days. If your account is to be suspended due to inactivity, you will receive an email warning you that you must login to cPanel soon. You will also receive an email when your account is suspended, and is queued for deletion.
 
-To activate a suspended account which was suspended due to inactivity, go to [http://www.heliohost.org/home/support/scripts/renew](http://www.heliohost.org/home/support/scripts/renew).
+To activate a suspended account which was suspended due to inactivity, go to [http://www.heliohost.org/renew](http://www.heliohost.org/renew).
 
-If you receive an inactivity email even though you have logged into cPanel recently, then you might be logged into cPanel using a faulty URL. When you login to cPanel, ensure that the URL ends in `.phpcp` or `.php` , NOT `.html` .
+If you receive an inactivity email even though you have logged into Plesk recently, then you might be logged into Plesk using a faulty URL. When you login to Plesk, ensure that the URL ends in `.phpcp` or `.php` , NOT `.html` .
 
 ## Terms of Service
 
