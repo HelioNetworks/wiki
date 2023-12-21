@@ -19,5 +19,5 @@ To move to another server without donating, refer to the following instructions:
 5. Wait for your new account to become active \(Johnny can take up to 24 hours, Ricky and Tommy activate within minutes\).
 6. Restore your backups.
 
-ASP.NET require a request on [Lily](../servers/virtual/lily.md). Please post on our [forums](https://www.helionet.org/index/forum/45-customer-service/) to request it. [Ruby on Rails](../tutorials/ror.md) is only available on Tommy.
+ASP.NET requires a request for an account on [Lily](../servers/virtual/lily.md). Please post on our [forums](https://www.helionet.org/index/forum/45-customer-service/) to request it. [Ruby on Rails](../tutorials/ror.md) is only available on Tommy.
 
