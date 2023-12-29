@@ -28,7 +28,6 @@
   * [Flask](tutorials/flask.md)
   * [Ghost CMS](tutorials/ghost.md)
   * [Golang as CGI](tutorials/golang.md)
-  * [How to Access cPanel](tutorials/how-to-access-cpanel.md)
   * [Node.js](tutorials/node.js/README.md)
     * [Next.js](tutorials/node.js/next.js.md)
     * [Express.js](tutorials/node.js/express.js.md)
@@ -67,6 +66,7 @@
 ## Miscellaneous <a href="#misc" id="misc"></a>
 
 * [Clear Your Cache](misc/clear-your-cache.md)
+* [WordPress](misc/wordpress.md)
 * [Contributing](misc/contributing.md)
 * [Server Load and Uptime](misc/server-status.md)
 * [Staff](misc/staff/README.md)
