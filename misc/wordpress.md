@@ -4,7 +4,7 @@ WordPress is a popular content management system (CMS) that allows users to easi
 
 However, WordPress is known to require a lot of server resources, as it's not very well optimized. Also, the more pages or plugins a WordPress site has, the bigger the site load will be.
 
-Exceeding the account load limits will cause your customer account to be [suspended for high server usage](/accounts/suspension-policy.md#high-server-usage).
+Exceeding the account load limits will cause your user account to be [suspended for high server usage](/accounts/suspension-policy.md#high-server-usage).
 
 {% hint style="warning" %}
 If you use WordPress, we recommend you [monitor your site load here](https://heliohost.org/dashboard/load/)
