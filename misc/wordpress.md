@@ -42,5 +42,5 @@ If moving away from WordPress is not an option for you, here are other things to
 * Use Cloudflare caching
 * Use Cloudflare and the **Super Page Cache for Cloudflare** WordPress plugin to [mitigate load spikes or other high load issues](https://helionet.org/index/topic/57606-handling-cpu-load-spikes-or-high-load-using-cloudflare/)
 * Analyze access logs looking for IPs with thousands of page hits and blocking them in Cloudflare or `.htaccess`
-* Convert to a static site (customers have mentioned **WP2Static** as being a useful plugin that converts WordPress sites to static sites)
+* Convert to a static site (users have mentioned **WP2Static** as being a useful plugin that converts WordPress sites to static sites)
 * Upgrade to a [VPS](https://heliohost.org/vps/)
