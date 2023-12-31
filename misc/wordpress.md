@@ -28,14 +28,14 @@ Here are [some comparison calculations](https://helionet.org/index/topic/57357-s
 
 Our first recommendation is to switch to anything other than WordPress:
 
-### WordPress Alternatives:
-* Some of our users have switched from WordPress to Joomla and liked it
-* Another popular alternative is Gatsby. You can check out a guide on migrating your site [here](https://www.gatsbyjs.com/blog/2019-03-21-migrating-from-wordpress-to-gatsby/)
-* For static blog generators, Publii may be an option for you. Please note that as it's local, you will need to upload every time you post. It's not for Android or iOS, and it cannot be synced unless you use a cloud syncing service for the local files. You can check out a guide on how to import data from your WordPress site into Publii [here](https://getpublii.com/docs/import-wordpress-into-static-html-site.html)
-* Jekyll is a popular static site generator 
-* Hugo is one of the most popular open-source static site generators
-* Grav is an open-source flat-file CMS (Content Management System) 
-* Eleventy (11ty) offers a simple 'zero-config' option to quickly get a site built
+### WordPress Alternatives
+* Some of our users have switched from WordPress to **Joomla** and liked it
+* Another popular alternative is **Gatsby**. You can check out a guide on migrating your site [here](https://www.gatsbyjs.com/blog/2019-03-21-migrating-from-wordpress-to-gatsby/)
+* For static blog generators, **Publii** may be an option for you. Please note that as it's local, you will need to upload every time you post. It's not for Android or iOS, and it cannot be synced unless you use a cloud syncing service for the local files. You can check out a guide on how to import data from your WordPress site into Publii [here](https://getpublii.com/docs/import-wordpress-into-static-html-site.html)
+* **Jekyll** is a popular static site generator 
+* **Hugo** is one of the most popular open-source static site generators
+* **Grav** is an open-source flat-file CMS (Content Management System) 
+* **Eleventy** (11ty) offers a simple 'zero-config' option to quickly get a site built
 
 ### How To Reduce WordPress Server Load
 
