@@ -4,7 +4,7 @@ WordPress is a popular content management system (CMS) that allows users to easi
 
 However, WordPress is known to require a lot of server resources, as it's not very well optimized. Also, the more pages or plugins a WordPress site has, the bigger the site load will be.
 
-Exceeding the account load limits will cause your customer account to be [suspended for high server usage](/accounts/suspension-policy.md#high-server-usage).
+Exceeding the account load limits will cause your user account to be [suspended for high server usage](/accounts/suspension-policy.md#high-server-usage).
 
 {% hint style="warning" %}
 If you use WordPress, we recommend you [monitor your site load here](https://heliohost.org/dashboard/load/)
@@ -38,9 +38,9 @@ If moving away from WordPress is not an option for you, here are other things to
 * Disable uptime monitors
 * Disable logins
 * Disable unneeded plugins and themes
-* Use caching plugins to reduce the load (customers have mentioned that **WP Fastest Cache** plugin can be useful)
+* Use caching plugins to reduce the load (users have mentioned that **WP Fastest Cache** plugin can be useful)
 * Use Cloudflare caching
 * Use Cloudflare and the **Super Page Cache for Cloudflare** WordPress plugin to [mitigate load spikes or other high load issues](https://helionet.org/index/topic/57606-handling-cpu-load-spikes-or-high-load-using-cloudflare/)
 * Analyze access logs looking for IPs with thousands of page hits and blocking them in Cloudflare or `.htaccess`
-* Convert to a static site (customers have mentioned **WP2Static** as being a useful plugin that converts WordPress sites to static sites)
+* Convert to a static site (users have mentioned **WP2Static** as being a useful plugin that converts WordPress sites to static sites)
 * Upgrade to a [VPS](https://heliohost.org/vps/)
