@@ -20,9 +20,7 @@ At HelioHost, we have a Terms of Service which all members are required to follo
 
 ## High Server Usage
 
-To ensure that every site on HelioHost is not slowed down by just one site hogging the server resources, we enforce a High Server Usage policy on all websites, which ensures that no website increases the server load in a massive scale. If your site is found increasing the server load by 20.00 or more, then your account will be permanently suspended.
-
-HelioHost runs an auto-suspension script that monitors all processes. If any of your processes use more than 20% CPU \(calculated over 10 seconds\) or 20% memory, Plesk processes exempt, our script will automatically detect those processes and suspend your account.
+To ensure that every site on HelioHost is not slowed down by just one site hogging the server resources, we enforce a High Server Usage policy on all websites, which ensures that no website increases the server load in a massive scale. On Johnny and Tommy we enforce a memory limit of no more than 100 GB, and a CPU limit of 10,000 per day. If you exceed those amounts you will get suspended. You can monitor your load numbers on [the load page within your dashboard](https://heliohost.org/dashboard/load/).
 
 ## Cron Job Limit
 
