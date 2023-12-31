@@ -1,4 +1,4 @@
-# Wordpress
+# WordPress
 
 WordPress is a popular content management system (CMS) that allows users to easily create and manage websites.
 
@@ -12,9 +12,9 @@ If you use WordPress, we recommend you [monitor your site load here](https://hel
 If at any point you become concerned about your account server usage load getting you suspended, you can add "deny from all" to the bottom of your `.htaccess` file to take the site offline. Once that's been done, the site should stop generating load practically instantly.
 {% endhint %}
 
-## But my Wordpress Site is Brand New / Has No Plugins / Gets Hardly Any Visitor Traffic
+## But my WordPress Site is Brand New / Has No Plugins / Gets Hardly Any Visitor Traffic
 
-Wordpress causes 0 load with 0 traffic, but sites built with WordPress are prime targets for bot attacks. When bots discover your site URL address, they will keep trying to hack in, which causes load on the server resources.
+WordPress causes 0 load with 0 traffic, but sites built with WordPress are prime targets for bot attacks. When bots discover your site URL address, they will keep trying to hack in, which causes load on the server resources.
 
 Even if your WordPress install is brand new, with no plugins, and your site gets few visitors, there is still a risk of suspension for high load due to bots spamming your site.
 
@@ -26,10 +26,16 @@ Here are [some comparison calculations](https://helionet.org/index/topic/57357-s
 
 ## How Can I Keep My Server Load Low?
 
-Our first recommendation is to switch to anything other than Wordpress:
-* Some of our users have switched from WordPress to Joomla and liked it
-* Another popular alternative is Gatsby. You can check out a guide on migrating your site [here](https://www.gatsbyjs.com/blog/2019-03-21-migrating-from-wordpress-to-gatsby/)
-* For static blog generators, Publii may be an option for you. Please note that as it's local, you will need to upload every time you post. It's not for Android or iOS, and it cannot be synced unless you use a cloud syncing service for the local files.
+Our first recommendation is to switch to anything other than WordPress:
+
+### WordPress Alternatives
+* Some of our users have switched from WordPress to **Joomla** and liked it
+* Another popular alternative is **Gatsby**. You can check out a guide on migrating your site [here](https://www.gatsbyjs.com/blog/2019-03-21-migrating-from-wordpress-to-gatsby/)
+* For static blog generators, **Publii** may be an option for you. Please note that as it's local, you will need to upload every time you post. It's not for Android or iOS, and it cannot be synced unless you use a cloud syncing service for the local files. You can check out a guide on how to import data from your WordPress site into Publii [here](https://getpublii.com/docs/import-wordpress-into-static-html-site.html)
+* **Jekyll** is a popular static site generator 
+* **Hugo** is one of the most popular open-source static site generators
+* **Grav** is an open-source flat-file CMS (Content Management System) 
+* **Eleventy** (11ty) offers a simple 'zero-config' option to quickly get a site built
 
 ### How To Reduce WordPress Server Load
 
