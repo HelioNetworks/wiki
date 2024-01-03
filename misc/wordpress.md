@@ -35,7 +35,7 @@ Our first recommendation is to switch to anything other than WordPress:
 * **Jekyll** is a popular static site generator 
 * **Hugo** is one of the most popular open-source static site generators
 * **Grav** is an open-source flat-file CMS (Content Management System) 
-* **Eleventy** (11ty) offers a simple 'zero-config' option to quickly get a site built
+* **Eleventy** (11ty) offers a simple 'zero-config' option to quickly get a site built. Since it runs on Node, which consumes a lot of memory, we recommend running the build process locally, and then deploying the static pages to your hosting account.
 
 ### How To Reduce WordPress Server Load
 
