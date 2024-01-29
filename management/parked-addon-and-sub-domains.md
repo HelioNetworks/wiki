@@ -27,18 +27,20 @@ Well, let's say your main domain goes down due to the domain host having problem
 
 ### How can I create a Parked Domain?
 
-After logging into your personal cPanel, click on the `Aliases` button and enter the domain you wish to park into the text box provided. Once you are done, submit the form. After that, navigate to your domain registrar's website and configure your domain with the following nameservers:
+To create a parked domain, you will need to submit a request containing **your hosting account username**, **alias (domain you want to park)**, and **destination (where you want the alias to point to)** in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add).
+
+The parked domain will be automatically be configured to reflect your `public_html` directory. If you want it to reflect a different directory, you will need to request an `Addon Domain` instead.
+
+You will need to point your new domain to the following nameservers:
 
 * `ns1.heliohost.org`
 * `ns2.heliohost.org`
 
-The parked domain you have just setup will be automatically be configured to reflect your `public_html` directory. If you want it to reflect a different directory, you will need to configure an `Addon Domain` instead.
-
-You can also configure the domain to be redirected to another URL. Just click on `Manage Redirection` and enter the URL you wish to redirect.
+You can also configure the domain to be redirected to another URL. 
 
 ### What do I do now?
 
-You will need to wait approximately 2 hours until your parked domain will become active. If you still see a message saying `HelioHost Account Queued` after that period, then [please clear your cache](../misc/clear-your-cache.md).
+You will need to wait approximately 2 hours until your parked domain will become active. If you still see a message saying `HelioHost Account Queued` after that period, then please [clear your cache](../misc/clear-your-cache.md).
 
 To check that your nameservers \(NS Records\) are properly configured, go to [https://byrondallas.heliohost.org/php/tools/dns_records.php?domain=&rec=NS](https://byrondallas.heliohost.org/php/tools/dns_records.php?domain=&rec=NS).
 
@@ -46,18 +48,20 @@ To check that your nameservers \(NS Records\) are properly configured, go to [ht
 
 ### What is an Addon Domain?
 
-An addon domain is a domain which reflects the contents of a folder in your cPanel File Manager.
+An addon domain is a domain which reflects the contents of a folder in your Plesk File Manager.
 
 An example of an addon domain is that `mysite.heliohost.org/addon` is the **SAME** as `addondomain.heliohost.org`.
 
 ### How can I create an Addon Domain?
 
-After logging into your cPanel account, click on the `Addon Domains` and fill in the details and submit the form. After that, navigate to your domain registrar's website and configure your domain with the following nameservers:
+To create an addon domain, you will need to submit a request containing **your hosting account username**, **addon domain you want**, and **document root or destination (the directory or folder you want the addon domain to point to)** in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add).
+
+The parked domain will be configured to reflect the `Document Root` you specified.
+
+You will need to point your new domain to the following nameservers:
 
 * `ns1.heliohost.org`
 * `ns2.heliohost.org`
-
-The parked domain you have just set up will be be configured to reflect the `Document Root` you specified.
 
 ### What do I do now?
 
@@ -75,8 +79,10 @@ A previous use for this was a subdomain like `blog.mysite.heliohost.org` serving
 
 ### How can I create a subdomain?
 
-After logging into your cPanel account, click on the "Subdomains" button within the domains sub-section and fill in the details such as the subdomain and the domain you want the subdomain to be attached too. The subdomain you have just setup will be be configured to reflect the document root you specified. Therefore, if your document route was `/public_html/foo` your new subdomain will serve the files located in that directory.
+To create a subdomain, you will need to submit a request containing **your hosting account username**, **the subdomain you want added**, and **the domain you want the subdomain to be attached to** in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add).
+
+The subdomain will be be configured to reflect the document root you specified. Therefore, if your document route was `/public_html/foo` your new subdomain will serve the files located in that directory.
 
 ### What do I do now?
 
-You will need to wait approximately 2 hours until your subdomain become active. If you still see a message saying "HelioHost Account Queued" after that period, then please [clear your cache](../misc/clear-your-cache.md).
+You will need to wait approximately 2 hours until your subdomain will become active. If you still see a message saying `HelioHost Account Queued` after that period, then please [clear your cache](../misc/clear-your-cache.md).
