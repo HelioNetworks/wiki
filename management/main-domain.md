@@ -10,7 +10,7 @@ If you have read up on [Parked (Alias), Addon and Sub Domains](parked-addon-and-
 Make sure the domain you're changing to isn't already added to Plesk as an Alias or an Addon domain. Otherwise, the main domain change will fail.
 {% endhint %}
 
-Depending on the server because of the Apache service, the main domain change might take between a few seconds and a few days, up to 48 hours.
+You will need to wait approximately 2 hours until your addon domain will become active. If you still see a message saying `HelioHost Account Queued` after that period, then please [clear your cache](../misc/clear-your-cache.md).
 
 You will need to point your new domain to the following nameservers:
 
