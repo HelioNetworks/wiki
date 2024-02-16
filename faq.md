@@ -52,7 +52,7 @@ If you would like to have one account on Ricky and one on Johnny, you may do so 
 
 To delete your HelioHost Plesk account, post a topic in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add).
 
-To delete your HelioNet Forum account, post a topic in the [Contact HelioNet forum]([https://helionet.org/index/forum/4-contact-helionet/?do=add).
+To delete your HelioNet Forum account, post a topic in the [Contact HelioNet forum](https://helionet.org/index/forum/4-contact-helionet/?do=add).
 
 ## How do I change my main domain?
 
