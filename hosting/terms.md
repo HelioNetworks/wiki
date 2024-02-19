@@ -7,6 +7,7 @@ Helio Networks \("HelioNet"\) will not be held liable for use of any of it's ser
 By signing up with HelioHost for any service, you agree to the following:
 
 * Each person is allowed to have one account unless permitted in writing by an administrator of HelioHost.
+* You must be at least 13 years old to use HelioHost.
 * Your site will contain no illegal content.
 * No phishing. Your site will not collect or attempt to collect personal information by deception.
 * You may not infringe on any copyrights through your site.
