@@ -32,6 +32,8 @@
     * [Next.js](tutorials/node.js/next.js.md)
     * [Express.js](tutorials/node.js/express.js.md)
   * [Perl](tutorials/perl.md)
+  * [Plesk](tutorials/plesk/README.md)
+    * [Account Backups](tutorials/plesk/extract-backup-file.md)
   * [Python](tutorials/python.md)
   * [Ruby on Rails](tutorials/ror.md)
   * [External DNS Hosting](tutorials/external-dns-hosting/README.md)
