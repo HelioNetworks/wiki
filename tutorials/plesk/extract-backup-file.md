@@ -2,9 +2,9 @@
 
 ## Where to Download Your Account Backup
 
-If the HelioHost team made a backup of your hosting account data, you can retrieve it by visiting [https://heliohost.org/backup](https://heliohost.org/backup/) and following the instructions on the page to download the file.
+If the HelioHost team made a backup of your hosting account data, you can retrieve it by visiting **[https://heliohost.org/backup](https://heliohost.org/backup/)** and following the instructions on the page to download the file.
 
-Inside the downloaded backup file, there will be a large file named **backup_user-data_##########.tzst** which contains all your files.  
+Inside the downloaded backup file, there will be a large file named `backup_user-data_##########.tzst` which contains all your files.  
 
 The file will be in a format called **Z-standard** and will need to be extracted.
 
@@ -23,6 +23,10 @@ Download and install the version of 7-Zip which supports Zstandard here: [https:
 * Open the next folder, named **YourAccountUsername.heliohost.us** or **YourAccountUsername.helioho.st**
 * Navigate to the file named **backup_user-data_##########.tzst** 
   * Open the file to access your data
+
+### Screenshot Example
+
+![](../../.gitbook/assets/extract-plesk-backup-file.png)
 
 ### Further Support
 
