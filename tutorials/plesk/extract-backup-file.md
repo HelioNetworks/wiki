@@ -12,7 +12,7 @@ The file will be in a format called `Z-standard` and will need to be extracted.
 
 ### Download and Install 7-Zip with Zstandard Support
 
-Download and install the version of 7-Zip which supports Zstandard here: [https://github.com/mcmilk/7-Zip-zstd](https://github.com/mcmilk/7-Zip-zstd)
+Download and install the version of 7-Zip which supports Zstandard here: [https://github.com/mcmilk/7-Zip-zstd](https://github.com/mcmilk/7-Zip-zstd/releases)
 
 ### Access Your Files
 
