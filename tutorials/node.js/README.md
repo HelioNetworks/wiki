@@ -22,10 +22,6 @@ Because nothing blocks, scalable systems are very reasonable to develop in Node.
 
 Your Node.js files will go into your user directory (NOT `httpdocs`).
 
-```text
-/
-```
-
 ![](../../.gitbook/assets/FileManger.png)
 
 In that folder create an `app.js` file:
