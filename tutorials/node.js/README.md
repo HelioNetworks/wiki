@@ -9,8 +9,8 @@
 
 ## About Node.js
 
-As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. In the
-Node.js applications many connections can be handled concurrently. Upon each connection, the callback is fired, but if
+As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. In 
+Node.js applications, many connections can be handled concurrently. Upon each connection, the callback is fired, but if
 there is no work to be done, Node.js will sleep.
 
 This is in contrast to today's more common concurrency model, in which OS threads are employed. Thread-based networking
@@ -21,10 +21,6 @@ Because nothing blocks, scalable systems are very reasonable to develop in Node.
 ## How to setup Node.js
 
 Your Node.js files will go into your user directory (NOT `httpdocs`).
-
-```text
-/
-```
 
 ![](../../.gitbook/assets/FileManger.png)
 
@@ -52,6 +48,10 @@ In Plesk, go to "Website & Domains".
 
 Under the domain you'd like to use for Node.js, select `Node.js`.
 
+{% hint style="warning" %}
+If you do not see `Node.js` listed, you may need to [Change View in Plesk](#change-view-in-plesk)
+{% endhint %}
+
 ![](../../.gitbook/assets/NodejsLink.png)
 
 Here, you're able to configure settings for your application.
@@ -62,9 +62,14 @@ You don't need to worry about environment variables on this simple example. Sele
 
 ![](../../.gitbook/assets/NPMInstall.png)
 
-In order for the Node.js application to be deployed, it requires an Apache restart, so this could take anywhere from a few
-minutes to a few hours. If it's been more than 2 hours, and it still isn't working, please
-open [a customer service ticket](https://www.helionet.org/index/forum/45-customer-service/) and let us know.
+In order for the Node.js application to be deployed, it requires an Apache restart. Apache is restarted every 2 hours, so you may need to wait anywhere from a few
+minutes to up to 2 hours maximum. If it's been more than 2 hours, and the Node.js application still isn't working, please submit a request **containing your hosting account username** in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add).
 
-Once the Node.js application has been deployed you should be able to go to `domain.heliohost.org/` and see the
+Once the Node.js application has been deployed you should be able to go to `domain.heliohost.org` and see the
 text `Node.js is working.`.
+
+### Change View in Plesk {#change-view-in-plesk}
+
+If you do not see `Node.js` listed under the domain you'd like to use, you will need to change your Plesk dashboard View settings. To do this, go to "Website & Domains", select "Set View", scroll down to "View Mode", and change the selected view. Now, you should be able to find `Node.js` listed.
+
+![](../../.gitbook/assets/NodejsSetViewInPlesk.png)
