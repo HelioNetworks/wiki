@@ -70,7 +70,6 @@ text `Node.js is working.`.
 
 ### Change View in Plesk {#change-view-in-plesk}
 
-If you do not see `Node.js` listed under the domain you'd like to use, you will need to change your Plesk dashboard View settings.  
-To do this, go to "Website & Domains", select "Set View", and change the selected view. Now, you should be able to find `Node.js` listed.
+If you do not see `Node.js` listed under the domain you'd like to use, you will need to change your Plesk dashboard View settings. To do this, go to "Website & Domains", select "Set View", scroll down to "View Mode", and change the selected view. Now, you should be able to find `Node.js` listed.
 
 ![](../../.gitbook/assets/NodejsSetViewInPlesk.png)
