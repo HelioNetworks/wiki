@@ -9,8 +9,8 @@
 
 ## About Node.js
 
-As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. In the
-Node.js applications many connections can be handled concurrently. Upon each connection, the callback is fired, but if
+As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. In 
+Node.js applications, many connections can be handled concurrently. Upon each connection, the callback is fired, but if
 there is no work to be done, Node.js will sleep.
 
 This is in contrast to today's more common concurrency model, in which OS threads are employed. Thread-based networking
