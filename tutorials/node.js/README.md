@@ -52,6 +52,10 @@ In Plesk, go to "Website & Domains".
 
 Under the domain you'd like to use for Node.js, select `Node.js`.
 
+{% hint style="warning" %}
+If you do not see `Node.js` listed, you may need to [Change View in Plesk](#change-view-in-plesk)
+{% endhint %}
+
 ![](../../.gitbook/assets/NodejsLink.png)
 
 Here, you're able to configure settings for your application.
@@ -68,3 +72,9 @@ open [a customer service ticket](https://www.helionet.org/index/forum/45-custome
 
 Once the Node.js application has been deployed you should be able to go to `domain.heliohost.org/` and see the
 text `Node.js is working.`.
+
+### Change View in Plesk {#change-view-in-plesk}
+
+To change your View setting, go to "Website & Domains", select "Set View", and change the selected view. Now, you should be able to find `Node.js` listed.
+
+![](../../.gitbook/assets/NodejsSetViewInPlesk.png)
