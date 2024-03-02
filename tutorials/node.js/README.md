@@ -66,9 +66,8 @@ You don't need to worry about environment variables on this simple example. Sele
 
 ![](../../.gitbook/assets/NPMInstall.png)
 
-In order for the Node.js application to be deployed, it requires an Apache restart, so this could take anywhere from a few
-minutes to a few hours. If it's been more than 2 hours, and it still isn't working, please
-open [a customer service ticket](https://www.helionet.org/index/forum/45-customer-service/) and let us know.
+In order for the Node.js application to be deployed, it requires an Apache restart. Apache is restarted every 2 hours, so you may need to wait anywhere from a few
+minutes to up to 2 hours maximum. If it's been more than 2 hours, and the Node.js application still isn't working, please submit a request **containing your hosting account username** in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add).
 
 Once the Node.js application has been deployed you should be able to go to `domain.heliohost.org` and see the
 text `Node.js is working.`.
