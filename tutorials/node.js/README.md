@@ -70,7 +70,7 @@ In order for the Node.js application to be deployed, it requires an Apache resta
 minutes to a few hours. If it's been more than 2 hours, and it still isn't working, please
 open [a customer service ticket](https://www.helionet.org/index/forum/45-customer-service/) and let us know.
 
-Once the Node.js application has been deployed you should be able to go to `domain.heliohost.org/` and see the
+Once the Node.js application has been deployed you should be able to go to `domain.heliohost.org` and see the
 text `Node.js is working.`.
 
 ### Change View in Plesk {#change-view-in-plesk}
