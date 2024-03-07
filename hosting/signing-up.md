@@ -38,7 +38,16 @@ Unfortunately, Hotmail have blocked HelioNet's emails which means that it is imp
 
 ### I've signed up - what now?
 
-As there are lots of accounts ready to be created, your account will be entered into a queue of accounts. You will need to wait approximately 48 hours for your account to be created. You will not be able to login to your cPanel until your account is "active", and you will not be able to access your site 24 hours until your cPanel is active. To be given an approximation of the completion time, go to [https://www.heliohost.org/status/](https://www.heliohost.org/status/).
+{% hint style="info" %}  
+It can take **up to 2 hours** for your account to be fully active.  
+{% endhint %}
+
+In the meantime you may see the Plesk default page, the CentOS default page, 404 errors, SSL errors, etc. Please be patient and wait for the full 2 hours before assuming anything is broken.  
+
+#### Check Account Activation Status
+To check the status of your account and see an approximation of the activation completion time, go to [https://www.heliohost.org/status](https://www.heliohost.org/status/).  
+
+If after a full 2 hours, you still see a message saying `HelioHost Account Queued` or are still seeing the Plesk default page, please [clear your cache](../misc/clear-your-cache.md).
 
 ### I have chosen to use a domain other than .heliohost.org
 
