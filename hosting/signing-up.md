@@ -60,5 +60,5 @@ To check that your nameservers have been properly configured, go to [http://byro
 
 ### I have received an email saying that my account failed to be created?
 
-Please create a new topic in our [customer service forum](https://www.helionet.org/index/forum/45-customer-service/).
+Please create a new topic in our [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add) and make sure you **provide your hosting account username** so we can investigate this for you.
 
