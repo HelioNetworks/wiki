@@ -28,7 +28,7 @@ To prevent the server getting overloaded from masses of new accounts, we put a l
 
 [HelioNet](https://wiki.helionet.org/hosting/helionet) is a Discussion board where users like yourself can request support, the friendly staff and the community will attempt to answer your questions as best as they can. So if you get stuck, you can post on the HelioNet forum. By signing up to HelioNet and providing your username in the signup form, the administrators can easily identify you.
 
-If you haven't registered yet, do it at [http://www.helionet.org/](http://www.helionet.org/).
+If you haven't registered yet, do it at [http://www.helionet.org](http://www.helionet.org/).
 
 ### Why can't I use a Hotmail email address?
 
