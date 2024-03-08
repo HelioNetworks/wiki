@@ -24,11 +24,19 @@ Johnny is our experimental server which gives users the ability to use dangerous
 
 To prevent the server getting overloaded from masses of new accounts, we put a limit on the number of people who can signup which resets daily. The system resets at 00:00 UTC. To find out when to signup, go to [http://flazepe.heliohost.org/?node=hhsignups](https://flazepe.heliohost.org/?node=hhsignups).
 
-### Why should I signup to HelioNet as well?
+### Should I signup to HelioNet as well?
 
-[HelioNet](https://wiki.helionet.org/hosting/helionet) is a Discussion board where users like yourself can request support, the friendly staff and the community will attempt to answer your questions as best as they can. So if you get stuck, you can post on the HelioNet forum. By signing up to HelioNet and providing your username in the signup form, the administrators can easily identify you.
+#### What is HelioNet?
 
-If you haven't registered yet, do it at [http://www.helionet.org](http://www.helionet.org/).
+HelioNet is located at [http://www.helionet.org](https://www.helionet.org) and is a discussion board where users like yourself can request support. The friendly staff and the community will attempt to answer your questions as best as they can.  
+
+{% hint style="info" %}
+When you create your hosting account, a HelioNet forum account with the same username and password is created for you.   
+{% endhint %}
+
+If you need assistance, you can post on the HelioNet forum and the administrators can easily identify you by username.
+
+Learn more about the history of HelioNet [here](https://wiki.helionet.org/hosting/helionet).
 
 ### Why can't I use a Hotmail email address?
 
