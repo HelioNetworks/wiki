@@ -34,6 +34,7 @@
   * [Perl](tutorials/perl.md)
   * [Plesk](tutorials/plesk/README.md)
     * [Account Backups](tutorials/plesk/extract-backup-file.md)
+    * [Viewing Error Logs](tutorials/plesk/view-error-logs.md)
   * [Python](tutorials/python.md)
   * [Ruby on Rails](tutorials/ror.md)
   * [External DNS Hosting](tutorials/external-dns-hosting/README.md)
