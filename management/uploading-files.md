@@ -42,7 +42,9 @@ Web Disk acts like any other folder, and can be browsed using your normal file b
 
 The Plesk online file manager is a great built-in facility available to all users as part of HelioHost. It has all the features you could need to manage the files for your website, even the invisible and hidden ones. 
 
-**Warning: Do not bookmark your Plesk File Manager, as your visits are not recorded and you will be suspended for inactivity after 30 days.**
+{% hint style="warning" %}
+Do not bookmark your Plesk File Manager, as your visits are not recorded and you will be suspended for inactivity after 30 days.
+{% endhint %}
 
 ## **PyDio**
 
