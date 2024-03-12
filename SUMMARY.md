@@ -42,6 +42,7 @@
 * [FAQ](faq.md)
 * [Servers](servers/README.md)
   * [Physical](servers/physical/README.md)
+    * [Annie](servers/physical/annie.md)
     * [Charlie](servers/physical/charlie.md)
     * [Eddie](servers/physical/eddie.md)
     * [Sparkie](servers/physical/sparkie.md)
