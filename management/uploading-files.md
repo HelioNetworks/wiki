@@ -38,11 +38,11 @@ The host is [http://yoursite.heliohost.org:2077](http://yoursite.heliohost.org:2
 
 Web Disk acts like any other folder, and can be browsed using your normal file browsing program like Windows Explorer \(for Windows\) and Finder \(for Mac\). On Windows computers, it will be available via 'My Computer'. On Mac computers, your site will be listed under the 'Shared' section of Finder.
 
-## cPanel File Manager
+## Plesk File Manager
 
-As an online file manager, you can use the built-in File Manager available from your personal cPanel. It has all the features you could need to manage the files in your website, even the invisible and hidden ones. As an online file manager, it is a great built-in facility available to all users as part of HelioHost.
+The Plesk online file manager is a great built-in facility available to all users as part of HelioHost. It has all the features you could need to manage the files for your website, even the invisible and hidden ones. 
 
-**Warning: Do not bookmark your cPanel File Manager, as your visits are not recorded and you will be suspended for inactivity after 30 days.**
+**Warning: Do not bookmark your Plesk File Manager, as your visits are not recorded and you will be suspended for inactivity after 30 days.**
 
 ## **PyDio**
 
