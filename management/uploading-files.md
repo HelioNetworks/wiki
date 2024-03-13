@@ -16,8 +16,8 @@ If you are having problems connecting to the FTP service, then it might be a tem
 | Port | 1342 | 1373 | 1373 |
 | Protocol | SFTP - SSH File Transfer Protocol | SFTP - SSH File Transfer Protocol | SFTP - SSH File Transfer Protocol |
 | Logon Type | Normal | Normal | Normal |
-| User | Your cPanel username | Your cPanel username | Your cPanel username |
-| Password | Your cPanel password | Your cPanel password | Your cPanel password |
+| User | Your Plesk username | Your Plesk username | Your Plesk username |
+| Password | Your Plesk password | Your Plesk password | Your Plesk password |
 
 ### Step-by-step: Connect to your server with SFTP using FileZilla
 
