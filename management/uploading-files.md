@@ -8,7 +8,7 @@ Once connected, you can perform the appropriate actions just as you would with a
 
 To connect to your site's FTP server, you will need to use an FTP Client, such as [FileZilla](http://filezilla-project.org/), which is completely free software used by millions across the world. The various settings you will need to connect to the servers are given in the table below.
 
-If you are having problems connecting to the FTP service, then it might be a temporary failure with the service due to high server load. You can retrieve real-time statistics on server load \(including FTP service\) at [https://heliohost.grd.net.pl/monitor](https://heliohost.grd.net.pl/monitor)
+If you are having problems connecting to the FTP service, then it might be a temporary failure with the service due to high server load. You can retrieve real-time statistics on server load \(including FTP service\) at [https://status.heliohost.org](https://status.heliohost.org/)
 
 | Parameter | Tommy | Ricky | Johnny |
 | :--- | :--- | :--- | :--- |
