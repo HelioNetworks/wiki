@@ -28,16 +28,6 @@ If you are having problems connecting to the FTP service, then it might be a tem
 5. Click `Connect`
 6. Approve the remote server key, and check the box to not ask you about this server again.
 
-## WebDisk
-
-As an alternative to FTP, Web Disk is another useful service for transferring files in an efficient manner. The Web Disk uses the `DAV` protocol, which can be extremely useful in different situations. Although Web Disk is slightly slower and more complicated to setup, it is much more reliable and doesn't require any additional software on most operating systems.
-
-To learn how to use Web Disk, then use the 'Web Disk' section of your personal cPanel. From that section, click on the 'Access Web Disk' button, click on your operating system, and follow the instructions given.
-
-The host is [http://yoursite.heliohost.org:2077](http://yoursite.heliohost.org:2077/) , replacing `yoursite.heliohost.org` with your main domain. cPanel will also allow you to download a script which will automatically setup Web Disk on your computer. If the script fails to work, manually setup Web Disk. If you are still experiencing problems, try using the non-SSL version of Web Disk.
-
-Web Disk acts like any other folder, and can be browsed using your normal file browsing program like Windows Explorer \(for Windows\) and Finder \(for Mac\). On Windows computers, it will be available via 'My Computer'. On Mac computers, your site will be listed under the 'Shared' section of Finder.
-
 ## Plesk File Manager
 
 The Plesk online file manager is a great built-in facility available to all users as part of HelioHost. It has all the features you could need to manage the files for your website, even the invisible and hidden ones. 
