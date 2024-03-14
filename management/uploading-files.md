@@ -8,7 +8,7 @@ Once connected, you can perform the appropriate actions just as you would with a
 
 To connect to your site's FTP server, you will need to use an FTP Client, such as [FileZilla](http://filezilla-project.org/), which is completely free software used by millions across the world. The various settings you will need to connect to the servers are given in the table below.
 
-If you are having problems connecting to the FTP service, then it might be a temporary failure with the service due to high server load. You can retrieve real-time statistics on server load \(including FTP service\) at [https://heliohost.grd.net.pl/monitor](https://heliohost.grd.net.pl/monitor)
+If you are having problems connecting to the FTP service, then it might be a temporary failure with the service due to high server load. You can retrieve real-time statistics on server load \(including FTP service\) at [https://status.heliohost.org](https://status.heliohost.org/)
 
 | Parameter | Tommy | Ricky | Johnny |
 | :--- | :--- | :--- | :--- |
@@ -16,8 +16,8 @@ If you are having problems connecting to the FTP service, then it might be a tem
 | Port | 1342 | 1373 | 1373 |
 | Protocol | SFTP - SSH File Transfer Protocol | SFTP - SSH File Transfer Protocol | SFTP - SSH File Transfer Protocol |
 | Logon Type | Normal | Normal | Normal |
-| User | Your cPanel username | Your cPanel username | Your cPanel username |
-| Password | Your cPanel password | Your cPanel password | Your cPanel password |
+| User | Your Plesk username | Your Plesk username | Your Plesk username |
+| Password | Your Plesk password | Your Plesk password | Your Plesk password |
 
 ### Step-by-step: Connect to your server with SFTP using FileZilla
 
@@ -28,21 +28,13 @@ If you are having problems connecting to the FTP service, then it might be a tem
 5. Click `Connect`
 6. Approve the remote server key, and check the box to not ask you about this server again.
 
-## WebDisk
+## Plesk File Manager
 
-As an alternative to FTP, Web Disk is another useful service for transferring files in an efficient manner. The Web Disk uses the `DAV` protocol, which can be extremely useful in different situations. Although Web Disk is slightly slower and more complicated to setup, it is much more reliable and doesn't require any additional software on most operating systems.
+The Plesk online file manager is a great built-in facility available to all users as part of HelioHost. It has all the features you could need to manage the files for your website, even the invisible and hidden ones. 
 
-To learn how to use Web Disk, then use the 'Web Disk' section of your personal cPanel. From that section, click on the 'Access Web Disk' button, click on your operating system, and follow the instructions given.
-
-The host is [http://yoursite.heliohost.org:2077](http://yoursite.heliohost.org:2077/) , replacing `yoursite.heliohost.org` with your main domain. cPanel will also allow you to download a script which will automatically setup Web Disk on your computer. If the script fails to work, manually setup Web Disk. If you are still experiencing problems, try using the non-SSL version of Web Disk.
-
-Web Disk acts like any other folder, and can be browsed using your normal file browsing program like Windows Explorer \(for Windows\) and Finder \(for Mac\). On Windows computers, it will be available via 'My Computer'. On Mac computers, your site will be listed under the 'Shared' section of Finder.
-
-## cPanel File Manager
-
-As an online file manager, you can use the built-in File Manager available from your personal cPanel. It has all the features you could need to manage the files in your website, even the invisible and hidden ones. As an online file manager, it is a great built-in facility available to all users as part of HelioHost.
-
-**Warning: Do not bookmark your cPanel File Manager, as your visits are not recorded and you will be suspended for inactivity after 30 days.**
+{% hint style="warning" %}
+Do not bookmark your Plesk File Manager, as your visits are not recorded and you will be suspended for inactivity after 30 days.
+{% endhint %}
 
 ## **PyDio**
 

@@ -1,2 +1,2 @@
-# cPanel and Management
+# Plesk and Management
 
