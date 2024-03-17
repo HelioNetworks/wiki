@@ -49,7 +49,7 @@ On HelioHost, each person/user is only allowed one account. [Multiple accounts w
 
 ### Inactive Accounts
 
-If it has been 30 days or more since your last Plesk login, your account was likely [suspended for inactivity](//accounts/suspension-policy.md#inactivity-policy).
+If it has been 30 days or more since your last Plesk login, your account was likely [suspended due to inactivity](../accounts/suspension-policy.md#inactivity-policy).
 
 To activate a suspended account which was suspended due to inactivity, go to [https://www.heliohost.org/renew](https://www.heliohost.org/renew/).
 
