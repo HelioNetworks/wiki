@@ -56,10 +56,10 @@ Then type the name of your new file: `heliobot.py`.
 
 You want to create this bot in your home directory so random hackers and bots on the internet can't access it directly. Make sure it says `Add a file to: /` not `Add a file to: /httpdocs` or any other folder.
 
-Locate the new file, and right click on it. Select `Edit`, and click `Edit` again on the box that pops up. Then copy/paste this code in:
+Scroll down in the file manager and clcik on the new `heliobot.py` file to edit it. Then copy/paste this code in:
 
 ```python
-#!/usr/bin/python3.7
+#!/usr/bin/python3.10
 
 import os
 import discord
@@ -68,41 +68,43 @@ from dotenv import load_dotenv
 load_dotenv()
 token = os.getenv('DISCORD_TOKEN')
 
-client = discord.Client()
+import certifi
+os.environ["SSL_CERT_FILE"] = certifi.where()
 
-@client.event
-async def on_member_join(member):
-    await member.create_dm()
-    await member.dm_channel.send(
-        f'Hi {member.name}, welcome to my Discord server!'
-    )
+client = discord.Client(intents=discord.Intents.default())
 
-@client.event
-async def on_message(message):
-    if message.author == client.user:
-        return
+class MyClient(discord.Client):
+    async def on_ready(self):
+        print(f'Logged in as {self.user} (ID: {self.user.id})')
+        print('------')
 
-    if message.content == '!heliobot':
-        await message.channel.send(f'Hello, how are you today?')
+    async def on_message(self, message):
+        # we do not want the bot to reply to itself
+        if message.author.id == self.user.id:
+            return
 
+        if message.content.startswith('!hello'):
+            await message.reply('Hello!', mention_author=True)
+
+
+intents = discord.Intents.default()
+intents.message_content = True
+
+client = MyClient(intents=intents)
 client.run(token)
 ```
 
-The first line is called the shebang, and it tells the system which version of python you want to use.
+The first line is called the shebang, and it tells the system which version of python you want to use. Johnny and Tommy also have Python 2.7, and Python 3.6, but we recommend using Python 3.10 like in the example.
 
-{% hint style="danger" %}
-Tommy and Johnny have `python3.7` but on Ricky you would have to change it to `python3.9`!
-{% endhint %}
-
-Once you have your code copy/pasted in click save changes in the top right corner, and the close the tab. We need the bot to be executable so right click on it in the file manager and select `Change Permissions`.
+Once you have your code copy/pasted in click save in the bottom left corner. Now we need the bot to be executable so in the file manager click the `rw- r-- r--` on the heliobot.py line. 
 
 ![](../.gitbook/assets/change_permissions.png)
 
-Set the permissions to `755`.
+Check all three of the `Execute/Search` boxes so it looks like this and then click save in the bottom left corner.
 
 ![](../.gitbook/assets/755_permissions.png)
 
-Now we need to provide our discord token to the bot so click +file again and this time name the file `.env`.
+Now we need to provide our Discord token to the bot so click the `+` plus sign, and select `Create File` again and this time name the file `.env`.
 
 ![](../.gitbook/assets/dot_env.png)
 
