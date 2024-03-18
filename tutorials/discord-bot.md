@@ -1,5 +1,3 @@
-# Discord Bot
-{% hint style="danger" %} Please note that this wiki page is heavily outdated. Some information may be out of date, or entirely not work.  {% endhint %}
 ## Preface
 
 This guide will work on any of the HelioHost servers.
@@ -12,21 +10,17 @@ Bots and apps are the lifeblood of the Discord development community. They come 
 
 ## How to get Started with a Discord Bot
 
-First you'll need to have a discord account, and a discord channel that you'll add the bot to later. Here's a good guide to get started:
+First you'll need to have a Discord account, and a Discord channel that you'll add the bot to later. Here's a good guide to get started:
 
 {% embed url="https://www.howtogeek.com/364075/how-to-create-set-up-and-manage-your-discord-server/" caption="" %}
 
 ### Create the Bot
 
-Once you have your discord server all set up it's time to create the bot through discord's site. Go to [http://discordapp.com/developers/applications](http://discordapp.com/developers/applications) and make sure you're logged in. Then click `New Applcation` in the top right.
+Once you have your discord server all set up it's time to create the bot through discord's site. Go to [https://discordapp.com/developers/applications](https://discordapp.com/developers/applications) and make sure you're logged in. Then click `New Applcation` in the top right.
 
 ![](../.gitbook/assets/new_application.png)
 
-Type a name and hit create. I decided to name my bot `HelioBot`. Now, on the left, click `Bot`.
-
-![](../.gitbook/assets/select_bot%20%281%29.png)
-
-Then, click `Add Bot` on the right followed by confirming that you do want to add a bot.
+Type a name and hit create. I decided to name my bot `HelioBot`.
 
 ### Add the Bot to your Discord Server
 
@@ -48,21 +42,21 @@ Click `Authorize` and complete the reCAPTCHA to add the bot to the Discord serve
 
 ### Write the Bot Script in Python
 
-Log in at [https://www.heliohost.org/login/](https://www.heliohost.org/login/) and continue to cPanel. Then load up the file manager.
+Log in at [https://www.heliohost.org/login/](https://www.heliohost.org/login/) and continue to Plesk. Then load up the file manager.
 
 ![](../.gitbook/assets/file_manager.png)
 
-In the top left corner click `+ File` and then type the name of your new file: `heliobot.py`.
+In the top left corner click the `+` plus sign, and select `Create File`.
 
 ![](../.gitbook/assets/plus_file.png)
 
-You want to create this bot in your home directory:
+Then type the name of your new file: `heliobot.py`.
 
-```text
-/home/username/heliobot.py
-```
+![](../.gitbook/assets/create_heliobot.png)
 
--because you don't want to accidentally make it public. Click `Create new file` to create the new file. Locate the new file, and right click on it. Select `Edit`, and click `Edit` again on the box that pops up. Then copy/paste this code in:
+You want to create this bot in your home directory so random hackers and bots on the internet can't access it directly. Make sure it says `Add a file to: /` not `Add a file to: /httpdocs` or any other folder.
+
+Locate the new file, and right click on it. Select `Edit`, and click `Edit` again on the box that pops up. Then copy/paste this code in:
 
 ```python
 #!/usr/bin/python3.7
