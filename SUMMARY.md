@@ -14,6 +14,7 @@
   * [Moving your account](accounts/moving-your-account.md)
   * [Suspension Policy](accounts/suspension-policy.md)
 * [Plesk and Management](management/README.md)
+  * [How to Access Plesk](management/how-to-access-plesk.md)
   * [Uploading Files](management/uploading-files.md)
   * [Changing Your Main Domain](management/main-domain.md)
   * [Creating MySQL Databases via Plesk](management/mysql.md)
