@@ -114,7 +114,11 @@ Go back to the Discord bot page and click bot on the left navigation again.
 
 ![](../.gitbook/assets/select_bot.png)
 
-Reset the token for your bot, and then copy/paste it.
+The first thing we need to do on this page is enable `presence intent`, `server members intent`, and `message content intent`. If you're sure your bot doesn't need all three of these enable just what you need, but for simplicity of this guide we're going to enable all three, and then save the changes.
+
+![](../.gitbook/assets/discord_intents.png)
+
+On the same page click the `Reset Token` button, and then copy/paste the token.
 
 ![](../.gitbook/assets/copy_token.png)
 
