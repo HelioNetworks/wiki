@@ -15,7 +15,7 @@ To move to another server without donating, refer to the following instructions:
 3. Wait for for your account to be deleted \(usually a few hours\).
 4. [Sign up to HelioHost again.](https://www.heliohost.org/signup/) Make sure you choose the server you require.
 5. Wait for your new account to become active \(Johnny can take up to 24 hours, Ricky and Tommy activate within minutes\).
-6. Restore your backups.
+6. Restore your backups. \(Visit our tutorial page for guidance on [How to Extract Your Account Data from the Backup File](../tutorials/plesk/extract-backup-file.md).\)
 
 ASP.NET requires a request for an account on [Lily](../servers/virtual/lily.md). Please post on our [forums](https://www.helionet.org/index/forum/45-customer-service/) to request it.
 
