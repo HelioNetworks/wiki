@@ -110,10 +110,6 @@ Now we need to provide our Discord token to the bot so click the `+` plus sign, 
 
 **Make sure you start the filename with a period.** It's easy to miss that in the screenshot. This file needs to be in the **same** directory as your Python script.
 
-```text
-/home/username/.env
-```
-
 Go back to the Discord bot page and click bot on the left navigation again.
 
 ![](../.gitbook/assets/select_bot.png)
