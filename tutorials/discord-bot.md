@@ -114,27 +114,19 @@ Go back to the Discord bot page and click bot on the left navigation again.
 
 ![](../.gitbook/assets/select_bot.png)
 
-Locate the token for your bot and click `Copy` on it.
+Reset the token for your bot, and then copy/paste it.
 
 ![](../.gitbook/assets/copy_token.png)
 
-If you ever think someone has gotten your token, for instance if you posted it on a public wiki like I just did, be sure to come back to this page and regenerate it. Anyone who has your token can do whatever permissions you granted your bot to your server. Now you need to paste this token into your `.env` file that you created, but likely you won't even be able to see your `.env` file because files that start with a dot in Linux are considered hidden files. So on the file manager, click `Settings` in the top right corner and make sure you have hidden files shown.
-
-![](../.gitbook/assets/show_dot_files.png)
-
-Now you should be able to see the `.env` file, right click on it, and select `Edit`. Then paste the token into the file like this:
+If you ever think someone has gotten your token, for instance if you posted it on a public wiki like I just did, be sure to come back to this page and reset it. Anyone who has your token can do whatever permissions you granted your bot to your server. Now you need to paste this token into your `.env` file that you created. So go back to the Plesk file manager and click the `.env` file to edit it. Paste the token into the file like this:
 
 ![](../.gitbook/assets/paste_the_token.png)
 
-Make sure the line starts with `DISCORD_TOKEN=` like that. Then click `Save Changes` and close the tab. Saving your token separate from your code is good practice because this way you can share the code on GitHub or something like that without worrying about people getting access to your bot.
+Make sure the line starts with `DISCORD_TOKEN=` like that. Then click `Save Changes` and close the tab. Saving your token separate from your Python code is good practice because this way you can share the code on GitHub or something like that without worrying about people getting access to your bot.
 
 ### Starting and Stopping Your Bot
 
-You have a functional bot now, but you need a way to start and stop it. We'll use CGI to do that so you can control your bot through your web page. With the file manager, navigate to `public_html/cgi-bin` and create a new file called `start.py`.
-
-```text
-/home/username/public_html/cgi-bin/start.py
-```
+You have a functional bot now, but you need a way to start and stop it. We'll use Bash CGI to do that so you can control your bot through your web page. With the file manager, navigate to `httpdocs/cgi-bin` and create a new file called `start.sh`.
 
 Paste in this code into the new file:
 
