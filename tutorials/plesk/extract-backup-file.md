@@ -1,4 +1,4 @@
-# Extracting a Plesk Backup File
+# Plesk Backup Files
 
 ## Where to Download Your Account Backup
 
@@ -28,9 +28,29 @@ Download and install the version of 7-Zip which supports Zstandard here: [https:
 
 ![](../../.gitbook/assets/extract-plesk-backup-file.png)
 
+## Making Your Own Manual Account Backup
+
+Follow the navigation steps below to make a backup of your hosting account inside Plesk:  
+
+### Login > Plesk > Websites & Domains > [ domain ] > Backup & Restore
+
+#### Screenshot:
+
+![](../../.gitbook/assets/plesk-make-account-backup.png)
+
+## Scheduling Automated Account Backups
+
+Follow the navigation steps below to set up or modify your scheduled account backup settings inside Plesk:
+
+### Login > Plesk > Websites & Domains > [ domain ] > Backup & Restore > Schedule
+
+![](../../.gitbook/assets/plesk-schedule-account-backup.png)
+
+After clicking the `Schedule` button, adjust the settings as needed.
+
 ### Further Support
 
-If after following the above steps, you are unable to download or extract your backup data, please post a topic in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add) and make sure you provide details of the problem, including what steps you have tried, and any error messages encountered.
+If after following the above steps, you are unable to download or extract your backup data or make your own account backup, please post a topic in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add) and make sure you provide details of the problem, including what steps you have tried, and any error messages encountered.
 
 ## References
 
