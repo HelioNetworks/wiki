@@ -34,7 +34,7 @@
     * [Express.js](tutorials/node.js/express.js.md)
   * [Perl](tutorials/perl.md)
   * [Plesk](tutorials/plesk/README.md)
-    * [Account Backups](tutorials/plesk/extract-backup-file.md)
+    * [Account Backups](tutorials/plesk/account-backups.md)
     * [Viewing Error Logs](tutorials/plesk/view-error-logs.md)
   * [Python](tutorials/python.md)
   * [Ruby on Rails](tutorials/ror.md)
