@@ -11,7 +11,7 @@ After donating, please make a post on the [customer service forum](https://www.h
 To move to another server without donating, refer to the following instructions:
 
 1. Make a backup of all your files, databases, etc. ready for restoring \(as your current account will be deleted\).
-2. [Request an account deletion.](http://www.heliohost.org/classic/support/scripts/delete)
+2. [Request an account deletion.](https://heliohost.org/dashboard/delete/)
 3. Wait for for your account to be deleted \(usually a few hours\).
 4. [Sign up to HelioHost again.](https://www.heliohost.org/signup/) Make sure you choose the server you require.
 5. Wait for your new account to become active \(Johnny can take up to 24 hours, Ricky and Tommy activate within minutes\).
