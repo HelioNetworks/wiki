@@ -130,7 +130,13 @@ Make sure the line starts with `DISCORD_TOKEN=` like that. Then click `Save Chan
 
 ### Starting and Stopping Your Bot
 
-You have a functional bot now, but you need a way to start and stop it. We'll use Bash CGI to do that so you can control your bot through your web page. With the file manager, navigate to `/httpdocs` and create a new directory called `bot_control`.
+You have a functional bot now, but you need a way to start and stop it.
+
+{% hint style="warning" %}
+Side note: Previous versions of this guide used Python scripts to start and stop the Discord bot. Unfortunately, the people who wanted to write their bot in Node.js always complained that they didn't want to use Python for anything. Likewise, if we used Node.js to start and stop the bot, the Python people would inevitably complain about not wanting to use Node.js for anything. Therefore, we wrote the start and stop scripts in Bash CGI to make absolutely sure that no one is happy.
+{% endhint %}
+
+We'll use Bash CGI to do that so you can control your bot through your web page. With the file manager, navigate to `/httpdocs` and create a new directory called `bot_control`.
 
 ![](../.gitbook/assets/bot_control.png)
 
