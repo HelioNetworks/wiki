@@ -114,7 +114,7 @@ Go back to the Discord bot page and click bot on the left navigation again.
 
 ![](../.gitbook/assets/select_bot.png)
 
-The first thing we need to do on this page is enable `presence intent`, `server members intent`, and `message content intent`. If you're sure your bot doesn't need all three of these enable just what you need, but for simplicity of this guide we're going to enable all three, and then save the changes.
+The first thing we need to do on this page is enable `Presence Intent`, `Server Members Intent`, and `Message Content Intent`. If you're sure your bot doesn't need all three of these enable just what you need, but for simplicity of this guide we're going to enable all three, and then save the changes.
 
 ![](../.gitbook/assets/discord_intents.png)
 
@@ -130,37 +130,55 @@ Make sure the line starts with `DISCORD_TOKEN=` like that. Then click `Save Chan
 
 ### Starting and Stopping Your Bot
 
-You have a functional bot now, but you need a way to start and stop it. We'll use Bash CGI to do that so you can control your bot through your web page. With the file manager, navigate to `httpdocs/cgi-bin` and create a new file called `start.sh`.
+You have a functional bot now, but you need a way to start and stop it. We'll use Bash CGI to do that so you can control your bot through your web page. With the file manager, navigate to `/httpdocs` and create a new directory called `bot_control`.
+
+![](../.gitbook/assets/bot_control.png)
 
 Paste in this code into the new file:
 
-```python
-#!/usr/bin/python3.7
+```bash
+#!/bin/bash
 
-import os, subprocess, signal
+# edit these to match your username, main domain, and bot filename
+username="krydos"
+main_domain="krydos.heliohost.org"
+bot_name="heliobot.py"
 
-print("Content-Type: text/html\n\n")
+###################################################################
 
-counter = 0
-p = subprocess.Popen(['ps', '-u', 'username'], stdout=subprocess.PIPE)
-# must match your username --------^^^^^^^^
-
-out, err = p.communicate()
-for line in out.splitlines():
-  if 'heliobot.py'.encode('utf-8') in line:
-#     ^^^^^^^^^^^----- this has to match the filename of your bot script
-
-    counter += 1
-    print("Bot already running.")
-
-if counter == 0:
-  subprocess.Popen("/home/username/heliobot.py")
-#                         ^^^^^^^^-- be sure to update it to your username
-
-  print("Bot started!")
+printf 'Content-Type: text/html\n\n'
+running=`ps aux|grep -v grep|grep "^$username"|grep -c "$bot_name"`
+file_base=`echo $bot_name|tr -cd "a-zA-Z0-9"`
+log_name="$file_base.txt"
+if [ "$QUERY_STRING" == "" ]; then
+    if [ $running -ne 0 ]; then
+        echo "$bot_name is running. <a href='?action=stop'>Stop</a> - "
+    else
+        echo "$bot_name is not running. <a href='?action=start'>Start</a> - "
+    fi
+    echo "<a href='https://heliohost.org/dashboard/load/' target='_blank'>Check Load</a><br><br>Logs: <a href='?action=clear'>Clear</a><pre>"
+    tail -30 /home/$main_domain/httpdocs/$log_name
+    echo "</pre><script>reloading = setTimeout('window.location.reload();', 10000);</script>"
+fi
+if [ "$QUERY_STRING" == "action=stop" ]; then
+    pid=`ps aux|grep -v grep|grep "^$username"|grep "$bot_name"|tail -1|awk '{print $2}'`
+    if [ ${#pid} -ne 0 ]; then
+        kill $pid
+    fi
+    echo "<html><head><meta http-equiv='refresh' content='0; url=https://$main_domain/bot_control.sh' /></head><body>Stopping $bot_name...</body></html>"
+fi
+if [ "$QUERY_STRING" == "action=start" ]; then
+    /home/$main_domain/$bot_name >> /home/$main_domain/httpdocs/$log_name 2>&1 &
+    echo "<html><head><meta http-equiv='refresh' content='0; url=https://$main_domain/bot_control.sh' /></head><body>Starting $bot_name...</body></html>"
+fi
+if [ "$QUERY_STRING" == "action=clear" ]; then
+    cat /dev/null > /home/$main_domain/httpdocs/$log_name
+    echo "<html><head><meta http-equiv='refresh' content='0; url=https://$main_domain/bot_control.sh' /></head><body>Clearing logs...</body></html>"
+fi
+exit 0
 ```
 
-Now, we need to set the permissions of this `start.py` file to be executable. On the file manager right click on `start.py` and select `Change Permissions`.
+Now, we need to set the permissions of this `bot_control.sh` file to be executable. On the file manager click the `rw- r-- r--` and check all the `Execucte/search` boxes just like we did the heliobot.py file earlier.
 
 ![](../.gitbook/assets/change_permissions.png)
 
