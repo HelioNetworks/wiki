@@ -1,6 +1,8 @@
 # Why was my account suspended?
 
-Usually, people's accounts are suspended for two reasons. The first reason is database corruption, which is fairly common due to cPanel's method of storing data.The second reason is that you have violated the [Terms](terms.md), usually due to abusing our server's resources. This article is for all those who fail to understand why it is important for us to keep resource usage in check.
+Usually, people's accounts are suspended for violating our [Terms of Service](terms.md). Some reasons for suspension include [having more than one account](../accounts/suspension-policy.md#duplicate-accounts), account [inactivity](../accounts/suspension-policy.md#inactivity-policy), and most commonly [high server usage](../accounts/suspension-policy.md#high-server-usage).
+
+This article is for all those who fail to understand why it is important for us to keep resource usage in check.
 
 The goal of HelioHost, as outlined in [What is HelioHost?](heliohost.md), is to provide the best service for the most people. However, it is impossible to fully satisfy this goal, due to resource limitations and server limits. Therefore, we must try our best to create the best experience for most, not all people.
 
@@ -10,5 +12,5 @@ We must suspend these accounts because they are causing other people's hosting e
 
 We hope that this explanation has given you useful information on why some accounts must be suspended, and hope that you understand why we choose to act the way we do.
 
-For more information, refer [here](../accounts/suspension-policy.md).
+For more information, refer to our [Suspension Policy](../accounts/suspension-policy.md).
 
