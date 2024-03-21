@@ -237,6 +237,6 @@ On Johnny and Tommy you are limited to 100 GB of memory and 10000 CPU per day, a
 
 ![](../.gitbook/assets/bot_dashboard.png)
 
-If the followed the guide exactly your bot will use about 50 GB or memory per day, which is half of your allowed amount. If you edit your bot code, make your bot more complicated, and import more modules it will increase the memory usage though. Obviously if you have some sort of memory leak it could easily allow your bot to continue consuming more and more memory until you get suspended.
+If you followed the guide exactly your bot will use about 50 GB or memory per day, which is half of your allowed amount. If you edit your bot code, make your bot more complicated, and import more modules it will increase the memory usage though. Obviously if you have some sort of memory leak it could easily allow your bot to continue consuming more and more memory until you get suspended.
 
 If everything is working you can shut your bot down by clicking the Stop button on the bot_control dashobard. It's a good idea to keep your bot offline if you don't need it so you don't cause too much load. If you're having trouble staying under the limits you could also consider [moving to a VPS](https://heliohost.org/vps/) where you have root SSH access, dedicated memory and CPU, and no load limits.
