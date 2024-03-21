@@ -16,7 +16,7 @@ First you'll need to have a Discord account, and a Discord channel that you'll a
 
 ### Create the Bot
 
-Once you have your discord server all set up it's time to create the bot through discord's site. Go to [https://discordapp.com/developers/applications](https://discordapp.com/developers/applications) and make sure you're logged in. Then click `New Applcation` in the top right.
+Once you have your Discord server all set up it's time to create the bot through Discord's site. Go to [https://discordapp.com/developers/applications](https://discordapp.com/developers/applications) and make sure you're logged in. Then click `New Applcation` in the top right.
 
 ![](../.gitbook/assets/new_application.png)
 
@@ -32,7 +32,7 @@ Then check the bot box under `SCOPES`, and scroll down and select `Administrator
 
 ![](../.gitbook/assets/bot_admin.png)
 
-Click copy next to the URL that is generated and open that URL in a new tab. Then, select your discord server from the dropdown menu.
+Click copy next to the URL that is generated and open that URL in a new tab. Then, select your Discord server from the dropdown menu.
 
 ![](../.gitbook/assets/add_to_server.png)
 
@@ -139,6 +139,10 @@ Side note: Previous versions of this guide used Python scripts to start and stop
 We'll use Bash CGI to do that so you can control your bot through your web page. With the file manager, navigate to `/httpdocs` and create a new directory called `bot_control`.
 
 ![](../.gitbook/assets/bot_control.png)
+
+Now create a new file names `.htaccess` in the `/httpdocs/bot_control` directory.
+
+![](../.gitbook/assets/create_htaccess.png)
 
 Paste in this code into the new file:
 
