@@ -225,5 +225,18 @@ It should respond to you.
 
 ![](../.gitbook/assets/testing_discord_bot.png)
 
-If it doesn't work go back and check all the steps again to make sure you did everything correctly. If you can't figure out what is wrong let us know by opening [a customer service ticket](https://www.helionet.org/index/forum/45-customer-service/). If everything is working you can shut your bot down by going to `domain.heliohost.org/cgi-bin/stop.py` Then watch your discord and after a few minutes your bot should show up as offline. It's a good idea to keep your bot offline if you don't need it so you don't cause too much load. We recommend monitoring your load by clicking the account load button in cPanel. If you get to 80+ it might be time to shut down the bot or consider [moving to a VPS](https://www.heliohost.org/vps/) where you can run your bot as much as you want and have root shell access as well.
+If it doesn't work go back and check all the steps again to make sure you did everything correctly. You can also check out the logs in the bot_control dashboard to see if there is any errors listed. For example, if you try to import a modules that isn't already installed it will give an error like this:
 
+![](../.gitbook/assets/bot_error.png)
+
+If you can't figure out what is wrong let us know by opening [a customer service ticket](https://helionet.org/index/forum/45-customer-service/?do=add).
+
+### Watch Your Load
+
+On Johnny and Tommy you are limited to 100 GB of memory and 10000 CPU per day, and bots use a lot of system resources so we recommend keeping an eye on your load if you don't want to get suspended. On the bot_control dashboard it shows the current memory usage, and the estimated usage over the next 24 hours if your bot continues using the same amount of memory.
+
+![](../.gitbook/assets/bot_dashboard.png)
+
+If the followed the guide exactly your bot will use about 50 GB or memory per day, which is half of your allowed amount. If you edit your bot code, make your bot more complicated, and import more modules it will increase the memory usage though. Obviously if you have some sort of memory leak it could easily allow your bot to continue consuming more and more memory until you get suspended.
+
+If everything is working you can shut your bot down by clicking the Stop button on the bot_control dashobard. It's a good idea to keep your bot offline if you don't need it so you don't cause too much load. If you're having trouble staying under the limits you could also consider [moving to a VPS](https://heliohost.org/vps/) where you have root SSH access, dedicated memory and CPU, and no load limits.
