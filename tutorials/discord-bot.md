@@ -207,7 +207,9 @@ fi
 exit 0
 ```
 
-Now, we need to set the permissions of this `index.sh` file to be executable. On the file manager click the `rw- r-- r--` and check all the `Execute/search` boxes just like we did the heliobot.py file earlier.
+Be sure to edit the three variables at the top of the file to match your username, main domain, and bot filename.
+
+Now, we need to set the permissions of this `index.sh` file to be executable. On the file manager click the `rw- r-- r--` and check all the `Execute/Search` boxes just like we did the heliobot.py file earlier.
 
 ![](../.gitbook/assets/755_permissions.png)
 
