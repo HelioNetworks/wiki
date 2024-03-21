@@ -140,9 +140,21 @@ We'll use Bash CGI to do that so you can control your bot through your web page.
 
 ![](../.gitbook/assets/bot_control.png)
 
-Now create a new file names `.htaccess` in the `/httpdocs/bot_control` directory.
+Now create a new file named `.htaccess` in the `/httpdocs/bot_control` directory.
 
 ![](../.gitbook/assets/create_htaccess.png)
+
+Paste this code into the new `.htaccess` file.
+
+```
+Options +ExecCGI
+AddHandler cgi-script .sh
+DirectoryIndex index.sh
+```
+
+Next create a new file named `index.sh` in the `/httpdocs/bot_control` directory.
+
+![](../.gitbook/assets/create_indexsh.png)
 
 Paste in this code into the new file:
 
@@ -157,92 +169,54 @@ bot_name="heliobot.py"
 ###################################################################
 
 printf 'Content-Type: text/html\n\n'
-running=`ps aux|grep -v grep|grep "^$username"|grep -c "$bot_name"`
+temp=`ps aux|grep -v grep|grep "^$username"`
+running=`echo "$temp"|grep -c "$bot_name"`
 file_base=`echo $bot_name|tr -cd "a-zA-Z0-9"`
 log_name="$file_base.txt"
 if [ "$QUERY_STRING" == "" ]; then
     if [ $running -ne 0 ]; then
-        echo "$bot_name is running. <a href='?action=stop'>Stop</a> - "
+        mem_kb=`echo "$temp"|grep "$bot_name"|awk '{print $6}'`
+        mem_mb=$( echo "scale=2;$mem_kb/1024"|bc )
+        mem_24=$( echo "scale=2;$mem_kb*1440/1048576"|bc )
+        echo "$bot_name is running. <a href='?action=stop'>Stop</a><br>Current memory usage: $mem_mb MB<br>Estimated 24 hour usage: $mem_24 GB - "
     else
         echo "$bot_name is not running. <a href='?action=start'>Start</a> - "
     fi
-    echo "<a href='https://heliohost.org/dashboard/load/' target='_blank'>Check Load</a><br><br>Logs: <a href='?action=clear'>Clear</a><pre>"
-    tail -30 /home/$main_domain/httpdocs/$log_name
+    echo "<a href='https://heliohost.org/dashboard/load/' target='_blank'>Check Load</a><br><br>Logs: <a href='?action=clear'>Clear Logs</a> - <a href='/bot_control/$log_name'>Full Logs</a><pre>"
+    tail -30 /home/$main_domain/httpdocs/bot_control/$log_name
     echo "</pre><script>reloading = setTimeout('window.location.reload();', 10000);</script>"
 fi
+ts=`date +"%y-%m-%d %H:%M:%S"`
 if [ "$QUERY_STRING" == "action=stop" ]; then
-    pid=`ps aux|grep -v grep|grep "^$username"|grep "$bot_name"|tail -1|awk '{print $2}'`
+    echo "[$ts] Stopping $bot_name." >> /home/$main_domain/httpdocs/bot_control/$log_name
+    pid=`echo "$temp"|grep "$bot_name"|tail -1|awk '{print $2}'`
     if [ ${#pid} -ne 0 ]; then
         kill $pid
     fi
-    echo "<html><head><meta http-equiv='refresh' content='0; url=https://$main_domain/bot_control.sh' /></head><body>Stopping $bot_name...</body></html>"
+    echo "Stopping $bot_name...<script>window.location.replace('/bot_control/');</script>"
 fi
 if [ "$QUERY_STRING" == "action=start" ]; then
-    /home/$main_domain/$bot_name >> /home/$main_domain/httpdocs/$log_name 2>&1 &
-    echo "<html><head><meta http-equiv='refresh' content='0; url=https://$main_domain/bot_control.sh' /></head><body>Starting $bot_name...</body></html>"
+    echo "[$ts] Starting $bot_name." >> /home/$main_domain/httpdocs/bot_control/$log_name
+    /home/$main_domain/$bot_name >> /home/$main_domain/httpdocs/bot_control/$log_name 2>&1 &
+    echo "Starting $bot_name...<script>window.location.replace('/bot_control/');</script>"
 fi
 if [ "$QUERY_STRING" == "action=clear" ]; then
-    cat /dev/null > /home/$main_domain/httpdocs/$log_name
-    echo "<html><head><meta http-equiv='refresh' content='0; url=https://$main_domain/bot_control.sh' /></head><body>Clearing logs...</body></html>"
+    cat /dev/null > /home/$main_domain/httpdocs/bot_control/$log_name
+    echo "Clearing logs...<script>window.location.replace('/bot_control/');</script>"
 fi
 exit 0
 ```
 
-Now, we need to set the permissions of this `bot_control.sh` file to be executable. On the file manager click the `rw- r-- r--` and check all the `Execucte/search` boxes just like we did the heliobot.py file earlier.
-
-![](../.gitbook/assets/change_permissions.png)
-
-Set the permissions of the `start.py` file to `755`.
-
-![](../.gitbook/assets/755_permissions.png)
-
-We also need a way to stop the bot so create `stop.py` in the `cgi-bin` directory.
-
-```text
-/home/username/public_html/cgi-bin/stop.py
-```
-
-Paste this code into the new `stop.py` script:
-
-```python
-#!/usr/bin/python3.7
-
-import os, subprocess, signal
-
-print("Content-Type: text/html\n\n")
-
-counter = 0
-p = subprocess.Popen(['ps', '-u', 'username'], stdout=subprocess.PIPE)
-# must match your username --------^^^^^^^^
-
-out, err = p.communicate()
-for line in out.splitlines():
-  if 'heliobot.py'.encode('utf-8') in line:
-#     ^^^^^^^--- this has to match the filename of your loop
-
-    counter += 1
-    pid = int(line.split(None, 1)[0])
-    print("Stopping bot.")
-    os.kill(pid, signal.SIGTERM)
-
-if counter == 0:
-  print("Already stopped.")
-```
-
-Right click on the `stop.py` file and select `Change Permissions`.
-
-![](../.gitbook/assets/change_permissions.png)
-
-And change `stop.py` to `755` permissions as well.
+Now, we need to set the permissions of this `index.sh` file to be executable. On the file manager click the `rw- r-- r--` and check all the `Execute/search` boxes just like we did the heliobot.py file earlier.
 
 ![](../.gitbook/assets/755_permissions.png)
 
 ### Test It Out
 
-Now everything should be ready to be tested. Open your browser and go to `domain.heliohost.org/cgi-bin/start.py` and it should start the bot. You can check if the bot is running by going to Discord and seeing if HelioBot is showing up as online now. If it is, test it out by typing the command:
+Now everything should be ready to be tested. Open your browser and go to `yourdomain.helioho.st/bot_control/` and when you click Start it should start the bot. You can check if the bot is running by going to Discord and seeing if HelioBot is showing up as online now. If it is, test it out by typing the command:
 
 ```text
-!heliobot
+!hello
 ```
 
 It should respond to you.
