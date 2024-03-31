@@ -16,10 +16,6 @@ Go into your project root (if you don't have a project, you can use this example
 
 Your Node.js files will go into your user directory (NOT `httpdocs`).
 
-```text
-/
-```
-
 ![](../../.gitbook/assets/plesk_file_manager.png)
 
 **Note: delete the content inside `httpdocs`**
