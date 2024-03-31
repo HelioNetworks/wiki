@@ -10,14 +10,14 @@ To connect to your site's FTP server, you will need to use an FTP Client, such a
 
 If you are having problems connecting to the FTP service, then it might be a temporary failure with the service due to high server load. You can retrieve real-time statistics on server load \(including FTP service\) at [https://status.heliohost.org](https://status.heliohost.org/)
 
-| Parameter | Tommy | Ricky | Johnny |
-| :--- | :--- | :--- | :--- |
-| Host | `tommy2.heliohost.org` | `ricky.heliohost.org` | `johnny.heliohost.org` |
-| Port | 1373 | 1373 | 1373 |
-| Protocol | SFTP - SSH File Transfer Protocol | SFTP - SSH File Transfer Protocol | SFTP - SSH File Transfer Protocol |
-| Logon Type | Normal | Normal | Normal |
-| User | Your Plesk username | Your Plesk username | Your Plesk username |
-| Password | Your Plesk password | Your Plesk password | Your Plesk password |
+| Parameter | Tommy | Johnny |
+| :--- | :--- | :--- |
+| Host | `tommy2.heliohost.org` | `johnny.heliohost.org` |
+| Port | 1373 | 1373 |
+| Protocol | SFTP - SSH File Transfer Protocol | SFTP - SSH File Transfer Protocol |
+| Logon Type | Normal | Normal |
+| User | Your Plesk username | Your Plesk username |
+| Password | Your Plesk password | Your Plesk password |
 
 ### Step-by-step: Connect to your server with SFTP using FileZilla
 
