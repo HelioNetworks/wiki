@@ -1,6 +1,6 @@
 # Uploading Files
 
-## FTP/SFTP
+## FTP / SFTP
 
 Just one of the ways to upload and modify your website is through [FTP \(File Transfer Protocol\)](http://en.wikipedia.org/wiki/FTP), which allows you to connect to your site and perform various file operations directly from your computer.
 
@@ -19,6 +19,8 @@ If you are having problems connecting to the FTP service, then it might be a tem
 | User | Your Plesk username | Your Plesk username |
 | Password | Your Plesk password | Your Plesk password |
 
+## FileZilla
+
 ### Step-by-step: Connect to your server with SFTP using FileZilla
 
 1. Click `File → Site Manager`
@@ -29,7 +31,8 @@ If you are having problems connecting to the FTP service, then it might be a tem
 6. Approve the remote server key, and check the box to not ask you about this server again.
 
 {% hint style="info" %}
-You can manage your files with SFTP, or FTPS (on Port 21). We recommend not using FTP because it is insecure, but it's available too.
+You can manage your files with SFTP, or FTPS (on Port 21).  
+We recommend not using FTP because it is insecure, but it's available too.
 {% endhint %}
 
 ## Plesk File Manager
@@ -47,4 +50,3 @@ Pydio, formerly known as AjaXplorer, is another online file manager which uses A
 ## Net2FTP
 
 Yet another online file manager is net2FTP. Net2FTP can be accessed directly from [its website](http://net2ftp.com/). Alternatively, you can [download a copy](http://net2ftp.com/index.php?state=homepage&state2=3) and run it from your own website.
-
