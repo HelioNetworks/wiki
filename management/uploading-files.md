@@ -12,8 +12,8 @@ If you are having problems connecting to the FTP service, then it might be a tem
 
 | Parameter | Tommy | Ricky | Johnny |
 | :--- | :--- | :--- | :--- |
-| Host | `tommy.heliohost.org` | `ricky.heliohost.org` | `johnny.heliohost.org` |
-| Port | 1342 | 1373 | 1373 |
+| Host | `tommy2.heliohost.org` | `ricky.heliohost.org` | `johnny.heliohost.org` |
+| Port | 1373 | 1373 | 1373 |
 | Protocol | SFTP - SSH File Transfer Protocol | SFTP - SSH File Transfer Protocol | SFTP - SSH File Transfer Protocol |
 | Logon Type | Normal | Normal | Normal |
 | User | Your Plesk username | Your Plesk username | Your Plesk username |
