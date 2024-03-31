@@ -1,14 +1,7 @@
 # Ricky
 
-Ricky is meant to be a stable production server, after [Stevie](../physical/stevie.md) crashed due to disk failure. To maintain stability, he does not have as many services as Tommy or Johnny. Most notably Ricky is lacking Tomcat/Java, ASP.net, and Ruby on Rails. If you need to host a production site with advanced features, choose [Tommy](tommy.md).
+Ricky, our last cPanel server, was [powered off in July 2023](https://helionet.org/index/topic/56303-farewell-ricky/). 
 
-## Features
+We will eventually be rebuilding Ricky with Plesk. However, there is no estimated timeframe for this, since there are many other higher-priority projects to be completed first.
 
-* [Plesk](../../features/plesk.md)
-* [MySQL](../../management/mysql.md)
-* [Perl](../../tutorials/perl.md)
-* [PHP](../../features/php.md)
-* [PostgreSQL](../../features/postgresql.md)
-* [Python](../../features/python.md)
-* [Softaculous](../../features/softaculous.md)
-
+Once the rebuild is completed, an announcement will be posted in the HelioNet [News](https://helionet.org/index/forum/1-news/) section, as well as elsewhere on our site and our social media.
