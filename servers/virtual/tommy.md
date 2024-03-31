@@ -6,7 +6,6 @@ Tommy is one of our fastest and most stable servers, with its hardware being amo
 
 * [Plesk](../../features/plesk.md)
 * [Golang](../../tutorials/golang.md)
-* [JSP](../../features/java.md)
 * [MySQL](../../management/mysql.md)
 * [Node.js](../../tutorials/node.js/)
 * [Perl](../../tutorials/perl.md)
