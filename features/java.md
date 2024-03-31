@@ -1,4 +1,15 @@
-# Java/JSP
-{% hint style="danger" %} Java is not currently available on Plesk. The following information only applied to cPanel, which we no longer use. {% endhint %}
-Java/JSP is only supported on [Tommy](../servers/virtual/tommy.md) and [Johnny](../servers/virtual/johnny.md). [Ricky](../servers/virtual/ricky.md) does not support it. Since JSP causes high load, we require each user to request it individually. To do this, log in to cPanel and press `Java Tomcat`. After you will join a queue for a Java slot. On Tommy, this process only takes a few hours. However, on Johnny, this can take days to weeks.
+# Java / JSP
 
+{% hint style="danger" %}
+Java / JSP is not currently available on the free hosting service.
+{% endhint %}
+
+Support for Java was removed in 2021 when HelioHost switched to Plesk.
+
+There is no estimated timeframe as to when Java support will be implemented again. 
+
+Although it is on the roadmap, there are many other higher-priority projects to be completed first.
+
+As soon as Java support returns, it will be announced in the HelioNet [News](https://helionet.org/index/forum/1-news/) section, as well as elsewhere on our site and our social media.  
+
+## In the meantime, you will need a [VPS](https://heliohost.org/vps/) to run Java.
