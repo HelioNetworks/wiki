@@ -20,7 +20,7 @@ Your Node.js files will go into your user directory (NOT `httpdocs`).
 /
 ```
 
-![](../../.gitbook/assets/FileManger.png)
+![](../../.gitbook/assets/plesk_file_manager.png)
 
 **Note: delete the content inside `httpdocs`**
 
