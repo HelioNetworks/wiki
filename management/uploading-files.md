@@ -33,7 +33,7 @@ If you are having problems connecting to the FTP service, then it might be a tem
 The Plesk online file manager is a great built-in facility available to all users as part of HelioHost. It has all the features you could need to manage the files for your website, even the invisible and hidden ones. 
 
 {% hint style="warning" %}
-Do not bookmark your Plesk File Manager, as your visits are not recorded and you will be suspended for inactivity after 30 days.
+Do not bookmark your Plesk File Manager, as your visits are not recorded and you will be [suspended for inactivity](https://wiki.helionet.org/accounts/suspension-policy#inactivity-policy) after 30 days.
 {% endhint %}
 
 ## **PyDio**
