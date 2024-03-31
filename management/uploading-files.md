@@ -28,6 +28,10 @@ If you are having problems connecting to the FTP service, then it might be a tem
 5. Click `Connect`
 6. Approve the remote server key, and check the box to not ask you about this server again.
 
+{% hint style="info" %}
+You can manage your files with SFTP, or FTPS (on Port 21). We recommend not using FTP because it is insecure, but it's available too.
+{% endhint %}
+
 ## Plesk File Manager
 
 The Plesk online file manager is a great built-in facility available to all users as part of HelioHost. It has all the features you could need to manage the files for your website, even the invisible and hidden ones. 
