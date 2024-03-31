@@ -10,11 +10,11 @@ If you prefer visual guidance, we have a video tutorial available for you to wat
 To follow the written instructions, please continue reading below.
 {% endhint %}
 
-Go into your project root (if you don't have a project, you can use this example project [here](https://github.com/HelioNetworks/Node.JS-Example)).
+Go into your project root. (If you don't have a project, you can use this example project [here](https://github.com/HelioNetworks/Node.JS-Example).)
 
 ## How to Setup Express.js
 
-Your Node.js files will go into your user directory (NOT `httpdocs`).
+Your Node.js files will go into your user directory (**not** `httpdocs`).
 
 ![](../../.gitbook/assets/plesk_file_manager.png)
 
@@ -72,11 +72,11 @@ Under the domain you'd like to use for Node.js, select `Node.js`.
 
 ## Server Setup
 
-Upload all your files to your server. Then go to the Node.js section and set the following.
+Upload all your files to your server. Then go to the Node.js section and set the following:  
 
 * Node.js Version: minimum 14.21.0, though it is recommend to use the latest available, currently 17.9.1.
-* Application Root: `/` (This is the folder where you uploaded your project)
-* Application Startup File: `app.js` (The entry point of our app, use the file we created earlier)
+* Application Root: `/` (This is the folder where you uploaded your project.)
+* Application Startup File: `app.js` (The entry point of our app, use the file we created earlier.)
 * Here, you're able to configure settings for your application.
 
 ![](../../.gitbook/assets/NodejsSettings.png)
