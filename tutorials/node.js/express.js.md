@@ -3,14 +3,11 @@
 ## About Express.js
 Express.js is a web application framework for Node.js. It provides a set of tools and features to build web applications and APIs quickly and easily. Express.js simplifies common tasks like routing, handling HTTP requests and responses, setting up middleware, and managing sessions. It is lightweight and flexible, allowing developers to structure their applications as they see fit. It is commonly used for building RESTful APIs or server-side applications.
 
-
-
 ## Setup
 
 **Note: If you prefer visual guidance, we have a video tutorial available for you to watch. Click [here](https://www.youtube.com/watch?v=Ak2yI8w-mew&ab_channel=HelioHost) to access the video. If you want to follow the written instructions, please continue reading below.**
 
 Go into your project root (if you don't have a project, you can use this example project [here](https://github.com/HelioNetworks/Node.JS-Example)).
-
 
 ## How to setup Express.js
 
@@ -71,6 +68,7 @@ Under the domain you'd like to use for Node.js, select `Node.js`.
 ![](../../.gitbook/assets/NodejsLink.png)
 
 ## Server setup
+
 Upload all your files to your server. Then go to the Node.js section and set the following.
 
 * Node.js Version: minimum 14.21.0, though it is recommend to use the latest available, currently 17.9.1.
@@ -79,9 +77,6 @@ Upload all your files to your server. Then go to the Node.js section and set the
 * Here, you're able to configure settings for your application.
 
 ![](../../.gitbook/assets/NodejsSettings.png)
-
-
-
 
 ## Starting the server
 
