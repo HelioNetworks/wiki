@@ -6,7 +6,7 @@ Please note that this wiki page is heavily outdated. Some information may be out
 
 ## Preface
 
-Ghost requires Node.js which is available on the Tommy plan, Johnny plan, and VPS plans.
+Ghost requires Node.js which is available on the [Tommy](https://heliohost.org/tommy/) plan, Johnny plan, and [VPS](https://heliohost.org/vps/) plans.
 
 ## About Ghost
 
