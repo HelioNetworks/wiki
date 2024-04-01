@@ -1,21 +1,10 @@
 # Johnny
 
-Johnny is similar to Ricky, but he allows dangerous services such as Java/JSP to his users. Johnny is hosted on [Sparkie](../physical/sparkie.md).\
-\
-Also, per Krydos:\
-![](../../.gitbook/assets/image.png)
-
-
-"A lot of people don’t know this, but Johnny was actually born female. That’s why his trans mode is on. His name used to be Joanna" - Krydos\
-\
-_`Referring to Strict Mode in MySQL`_
-
-
+Johnny is similar to Ricky, and he is hosted on [Sparkie](../physical/sparkie.md).
 
 ## Features
 
 * [Plesk](../../features/Plesk.md)
-* [JSP](../../features/java.md)
 * [MySQL](../../management/mysql.md)
 * [Perl](../../tutorials/perl.md)
 * [PHP](../../features/php.md)
