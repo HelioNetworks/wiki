@@ -14,9 +14,9 @@ Johnny is our free server, still offering great stability, speed, and uptime.
 
 ## During signup
 
-### I get a message saying that the signup limit has been exceeded?
+### I get a message saying "That plan is already full for the day"?
 
-To prevent the server getting overloaded from masses of new accounts, we put a limit on the number of people who can signup which resets daily. The system resets at 00:00 UTC. To find out when to signup, go to [http://flazepe.heliohost.org/?node=hhsignups](https://flazepe.heliohost.org/?node=hhsignups).
+To prevent the free Johnny server getting overloaded from masses of new accounts, we put a limit on the number of people who can sign up. This limit resets [every 12 hours](https://helionet.org/index/topic/59660-midnight-and-noon/), at midnight UTC and noon UTC. To find out when to signup, go to [http://flazepe.heliohost.org/?node=hhsignups](https://flazepe.heliohost.org/?node=hhsignups).
 
 ### Should I signup to HelioNet as well?
 
