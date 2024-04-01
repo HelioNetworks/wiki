@@ -14,7 +14,7 @@ The support staff is fluent and reliable only in English.
 
 ## Why does HelioHost crash?
 
-Currently we are running about 20000 different accounts on one server, Johnny. Sometimes, that's a bit too much for Johnny and some user will abuse resources, both causing the server to crash. We try to fix this as quickly as we can. Since the server and Plesk are handling such a high volume of users, errors are bound to come up. We also try to fix these ASAP. Also, when [djbob](misc/staff/ashoat.md) works on the server, he occasionally screws up, which also causes crashes.
+Currently, we are running about 20000 different accounts on one server, Johnny. Sometimes, that's a bit too much for Johnny and some user will abuse resources, both causing the server to crash. We try to fix this as quickly as we can. Since the server and Plesk are handling such a high volume of users, errors are bound to come up. We also try to fix these ASAP. Also, when [djbob](misc/staff/ashoat.md) works on the server, he occasionally screws up, which also causes crashes.
 
 ## Why was my account suspended?
 
@@ -28,7 +28,7 @@ All domain and subdomain changes take **up to 2 hours** to go into effect as the
 
 ## Why can't I log in?
 
-If you just registered, please wait **up to 2 hours** for your Plesk account to become active. If it has been longer than a full 2 hours, and still see an `Account Queued` page, try [clearing your browser cache](https://wiki.helionet.org/misc/clear-your-cache). If you are still experiencing problems, make sure you are entering your username in all lowercase letters, i.e. "wizard", not "Wizard" or "WIZARD".
+If you just registered, please wait **up to 2 hours** for your Plesk account to become active. If it has been longer than a full 2 hours, and you still see an `Account Queued` page, try [clearing your browser cache](https://wiki.helionet.org/misc/clear-your-cache). If you are still experiencing problems, make sure you are entering your username in all lowercase letters, i.e. "wizard", not "Wizard" or "WIZARD".
 
 ## How do I keep my account active /prevent being suspended?
 
@@ -40,7 +40,7 @@ Each server has a daily limit for sign-ups so that it doesn't crash from all the
 
 ## What if I have at least $1 and don't want to wait to sign up?
 
-We offer various [Donor Plans](https://heliohost.org/tommy/), so for a one-time donation of as little as $1, you can open an account any time of day.
+We offer various [Donor Plans](https://heliohost.org/tommy/), so for a one-time donation of as little as $1 USD, you can open an account any time of day.
 
 ## My account was deleted. Can I get my data back?
 
@@ -73,7 +73,7 @@ As an alternative to changing your main domain, consider using [Parked, Addon, a
 
 ## Can I PM an administrator for help?
 
-No, do not PM the administrators expecting support unless we explicitly tell you to. Please use the [Customer Service forum](https://www.helionet.org/index/forum/45-customer-service/) instead. Also, in order for us to provide the best and most efficient support, please provide your **username**, **domain name**, and **server name** along with any requests, so we can help you as quickly as possible. If you are sending your support request via email, make sure to contact us from the same email address you signed up with.
+No, do not PM the administrators expecting support unless we explicitly tell you to. Please use the [Customer Service forum](https://www.helionet.org/index/forum/45-customer-service/) instead. Also, in order for us to provide the best and most efficient support, please provide your **username**, **domain name**, and **server name** along with any requests. If you are sending your support request via email, make sure to contact us from the same email address you signed up with.
 
 ## The server is slow / Feature XYZ doesn't work / Something's wrong with my account / etc.
 
@@ -87,7 +87,7 @@ To browse the available options, login to Plesk and select Softaculous from the 
 
 ![](.gitbook/assets/softaculous_menu_item.png) 
 
-If you need a system-wide feature installed, post your request on our [Customer Service forum](https://www.helionet.org/index/forum/45-customer-service/).
+If you need a system-wide feature installed, please post a request in our [Customer Service forum](https://www.helionet.org/index/forum/45-customer-service/), making sure to provide your **username**, **domain name**, **server name**, and any applicable **version numbers**.
 
 ## Can I use SSH?
 
