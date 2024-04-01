@@ -22,7 +22,7 @@ To prevent the server getting overloaded from masses of new accounts, we put a l
 
 #### What is HelioNet?
 
-HelioNet is located at [http://www.helionet.org](https://www.helionet.org) and is a discussion board where users like yourself can request support. The friendly staff and the community will attempt to answer your questions as best as they can.  
+HelioNet is located at [http://helionet.org](https://helionet.org) and is a discussion board where users like yourself can request support. The friendly staff and the community will attempt to answer your questions as best as they can.  
 
 {% hint style="info" %}
 When you create your hosting account, a HelioNet forum account with the same username and password is created for you.   
@@ -47,7 +47,7 @@ It can take **up to 2 hours** for your account to be fully active.
 In the meantime you may see the Plesk default page, the CentOS default page, 404 errors, SSL errors, etc. Please be patient and wait for the full 2 hours before assuming anything is broken.  
 
 #### Check Account Activation Status
-To check the status of your account and see an approximation of the activation completion time, go to [https://www.heliohost.org/status](https://www.heliohost.org/status/).  
+To check the status of your account and see an approximation of the activation completion time, go to [https://heliohost.org/status](https://heliohost.org/status/).  
 
 If after a full 2 hours, you still see a message saying `HelioHost Account Queued` or are still seeing the Plesk default page, please [clear your cache](../misc/clear-your-cache.md).
 
