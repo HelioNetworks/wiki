@@ -44,7 +44,7 @@ No. We do not keep backups of your data nor is it our responsibility to \(See th
 
 ## Can I have more than one account?
 
-No. It's one account per user.
+No. It's [one account per user](/accounts/suspension-policy.md#duplicate-accounts).
 
 ## How do I delete my hosting account?
 
