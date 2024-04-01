@@ -3,28 +3,24 @@
 ## About Express.js
 Express.js is a web application framework for Node.js. It provides a set of tools and features to build web applications and APIs quickly and easily. Express.js simplifies common tasks like routing, handling HTTP requests and responses, setting up middleware, and managing sessions. It is lightweight and flexible, allowing developers to structure their applications as they see fit. It is commonly used for building RESTful APIs or server-side applications.
 
-
-
 ## Setup
 
-**Note: If you prefer visual guidance, we have a video tutorial available for you to watch. Click [here](https://www.youtube.com/watch?v=Ak2yI8w-mew&ab_channel=HelioHost) to access the video. If you want to follow the written instructions, please continue reading below.**
+{% hint style="info" %}
+If you prefer visual guidance, we have a video tutorial available for you to watch **[here](https://www.youtube.com/watch?v=Ak2yI8w-mew&ab_channel=HelioHost)**.  
+To follow the written instructions, please continue reading below.
+{% endhint %}
 
-Go into your project root (if you don't have a project, you can use this example project [here](https://github.com/HelioNetworks/Node.JS-Example)).
+Go into your project root. (If you don't have a project, you can use this example project [here](https://github.com/HelioNetworks/Node.JS-Example).)
 
+## How to Setup Express.js
 
-## How to setup Express.js
+Your Node.js files will go into your user directory (**not** `httpdocs`).
 
-Your Node.js files will go into your user directory (NOT `httpdocs`).
+![](../../.gitbook/assets/plesk_file_manager.png)
 
-```text
-/
-```
+### Note: Delete the content inside `httpdocs`
 
-![](../../.gitbook/assets/FileManger.png)
-
-**Note: delete the content inside `httpdocs`**
-
-if you don't use the example Create a new file `app.js` and put this inside:
+If you're not using the above example, then create a new file `app.js` and put this inside:
 
 ```javascript
 const http = require('http');
@@ -74,33 +70,34 @@ Under the domain you'd like to use for Node.js, select `Node.js`.
 
 ![](../../.gitbook/assets/NodejsLink.png)
 
-## Server setup
-Upload all your files to your server. Then go to the Node.js section and set the following.
+## Server Setup
+
+Upload all your files to your server. Then go to the Node.js section and set the following:  
 
 * Node.js Version: minimum 14.21.0, though it is recommend to use the latest available, currently 17.9.1.
-* Application Root: `/` (This is the folder where you uploaded your project)
-* Application Startup File: `app.js` (The entry point of our app, use the file we created earlier)
+* Application Root: `/` (This is the folder where you uploaded your project.)
+* Application Startup File: `app.js` (The entry point of our app, use the file we created earlier.)
 * Here, you're able to configure settings for your application.
 
 ![](../../.gitbook/assets/NodejsSettings.png)
 
+## Starting the Server
 
-
-
-## Starting the server
-
-Once all of the above steps are done, you can press the Enable Node.js button.
+Once all of the above steps are done, press the `Enable Node.js` button.
 
 ![](../../.gitbook/assets/enableNodeJs.png)
 
-Then you need to press the NPM install button.
+Then you need to press the `NPM install` button.
 
 ![](../../.gitbook/assets/NPMInstall.png)
 
-After that finished you just need to wait for the server to update your account and start using Node.js, this may take a while.
+Finally, you will need to wait **up to 2 hours** for the server to update.
 
-In order for the Node.js application to be deployed, it requires an Apache restart, so this could take anywhere from a few minutes to a few hours. If it's been more than 2 hours, and it still isn't working, please
-open [a customer service ticket](https://www.helionet.org/index/forum/45-customer-service/) and let us know.
+{% hint style="info" %}
+Node.js application deployment requires an Apache restart.  
+Apache is restarted every 2 hours, so please be patient.  
+{% endhint %}
 
-Once the Node.js application has been deployed you should be able to go to the domain you selected and see the
-text `Node.js is working.`.
+If it's been more than 2 hours, and it still isn't working even after you have [cleared your cache](../misc/clear-your-cache.md), then please open a request in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide your **username** and **domain name** so the issue can be investigated.
+
+Once the Node.js application has been deployed, you should be able to go to the domain you selected and see the text `Node.js is working.`
