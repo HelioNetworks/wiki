@@ -27,7 +27,6 @@
   * [Discord Bot](tutorials/discord-bot.md)
   * [Django](tutorials/django.md)
   * [Flask](tutorials/flask.md)
-  * [Ghost CMS](tutorials/ghost.md)
   * [Golang as CGI](tutorials/golang.md)
   * [Node.js](tutorials/node.js/README.md)
     * [Next.js](tutorials/node.js/next.js.md)
