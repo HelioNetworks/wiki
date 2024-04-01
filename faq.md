@@ -83,7 +83,9 @@ If you need a system-wide feature installed, post your request on our [Customer 
 
 ## Can I use SSH?
 
-No. We don't offer SSH for security reasons.
+On hosting accounts, SSH access is disabled for security reasons.
+
+If you require SSH access, it is only available on the [VPS Plans](https://heliohost.org/vps/).
 
 ## Your hosting SUCKS! So do YOU!!!
 
