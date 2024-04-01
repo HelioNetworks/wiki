@@ -32,7 +32,7 @@ If you just registered, please wait 2 hours for your Plesk account to become act
 
 ## How do I keep my account active/from being suspended?
 
-Login to [heliohost.org](https://www.heliohost.org) or [https://heliohost.org/login/](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days.
+Login to [heliohost.org](https://www.heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days.
 
 ## What is a Daily Signup Limit and why is it stopping me from registering?
 
