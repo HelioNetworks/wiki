@@ -38,6 +38,10 @@ Login to [heliohost.org](https://www.heliohost.org) or [heliohost.org/login](htt
 
 Each server has a daily limit for sign-ups so that it doesn't crash from all the people wanting to use HelioHost. Free signups on Johnny now reset [every 12 hours](https://helionet.org/index/topic/59660-midnight-and-noon/) at midnight UTC and noon UTC.
 
+## What if I have $1 and don't want to wait to sign up?
+
+We offer various [Donor Plans](https://heliohost.org/tommy/), so for a one-time donation of as little as $1, you can open an account any time of day.
+
 ## My account was deleted. Can I get my data back?
 
 No. We do not keep backups of your data nor is it our responsibility to \(See the [Terms of Service](hosting/terms.md)\). You must backup your own data regularly. However, if your HelioHost Plesk account was deleted due to inactivity, feel free to create a new account.
