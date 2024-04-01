@@ -28,7 +28,7 @@ All domain and subdomain changes take approximately 2 hours to go into effect. S
 
 ## Why can't I log in?
 
-If you just registered, please wait 2 hours for your Plesk account to become active. If you have waited that time and still see a Account Queued page, try [refreshing your browser's cache](https://wiki.helionet.org/misc/clear-your-cache). If you are still experiencing problems, make sure you are entering your username in all lowercase letters, i.e. "wizard", not "Wizard" or "WIZARD".
+If you just registered, please wait **up to 2 hours** for your Plesk account to become active. If it has been longer than a full 2 hours, and still see an `Account Queued` page, try [refreshing your browser's cache](https://wiki.helionet.org/misc/clear-your-cache). If you are still experiencing problems, make sure you are entering your username in all lowercase letters, i.e. "wizard", not "Wizard" or "WIZARD".
 
 ## How do I keep my account active/from being suspended?
 
@@ -36,7 +36,7 @@ Login to [heliohost.org](https://www.heliohost.org) or [heliohost.org/login](htt
 
 ## What is a Daily Signup Limit and why is it stopping me from registering?
 
-Each server has a daily limit for sign-ups so that it doesn't crash from all the people wanting to use HelioHost. The sign-up limit resets each day at 00:00/12am UTC.
+Each server has a daily limit for sign-ups so that it doesn't crash from all the people wanting to use HelioHost. Free signups on Johnny now reset [every 12 hours](https://helionet.org/index/topic/59660-midnight-and-noon/) at midnight UTC and noon UTC.
 
 ## My account was deleted. Can I get my data back?
 
