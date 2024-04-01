@@ -46,8 +46,6 @@ No. We do not keep backups of your data nor is it our responsibility to \(See th
 
 No. It's one account per user.
 
-If you would like to have one account on Ricky and one on Johnny, you may do so by request only \(post in the [Customer Service forum](https://www.helionet.org/index/forum/45-customer-service/)\).
-
 ## How do I delete my hosting account?
 
 To delete your HelioHost Plesk account, post a topic in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add).
