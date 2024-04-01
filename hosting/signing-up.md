@@ -4,19 +4,13 @@
 
 ### Why should I choose Tommy?
 
-Tommy is our flagship production server. This server offers everything that HelioHost has plus a great uptime.
+Tommy is our flagship production server, one of our fastest and most stable servers, with the newest hardware between our servers. Because of this stability, he is recommended if you want to host a production site.
 
-If you only need PHP, MySQL, and good uptime, it might be easier to get an account on Ricky.
-
-If you need Node.js, JSP, or Ruby on Rails, and a good uptime, Tommy is the server for you.
-
-### Why should I choose Ricky?
-
-Because Ricky does not offer dangerous services, he is a stable server. If you do not require dangerous services, then we recommend Ricky.
+Tommy is closed for free signups, but [Donor Signups](https://heliohost.org/tommy/) are always available.
 
 ### Why should I choose Johnny?
 
-Johnny is our experimental server which gives users the ability to use dangerous services such as JSP, whereas Ricky cannot. However, Johnny is not as stable as Ricky or Tommy due to these high load services. If you need these services but don't care too much about uptime, choose Johnny.
+Johnny is our free server, still offering great stability, speed, and uptime. 
 
 ## During signup
 
