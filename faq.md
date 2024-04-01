@@ -73,7 +73,13 @@ Please post the issue in the [Customer Service forum](https://www.helionet.org/i
 
 ## Can Feature XYZ be installed?
 
-If you need a system-wide feature installed, post your request on our [Customer Service forum](https://www.helionet.org/index/forum/45-customer-service/). Stuff like phpBB and Wordpress can be installed via Softaculous.
+Softaculous returned to Johnny and Tommy servers in [March 2024](https://helionet.org/index/topic/59683-softaculous-has-returned/), making it possible to install the latest version of 459 different software packages with just a single click.
+
+To browse the available options, login to Plesk and select Softaculous from the menu:
+
+![](.gitbook/assets/softaculous_menu_item.png) 
+
+If you need a system-wide feature installed, post your request on our [Customer Service forum](https://www.helionet.org/index/forum/45-customer-service/).
 
 ## Can I use SSH?
 
