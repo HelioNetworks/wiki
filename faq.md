@@ -6,7 +6,7 @@ There is a difference between "Professional-Grade Hosting" and "Professional-Gra
 
 ## I log in frequently but am still receiving inactivity emails, what gives?
 
-To ensure that your logins are logged, login to [heliohost.org](https://www.heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days.
+To ensure that your logins are logged, login to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days.
 
 ## Why must all posts on HelioNet be in English?
 
@@ -18,13 +18,13 @@ Currently, we are running about 20000 different accounts on one server, Johnny. 
 
 ## Why was my account suspended?
 
-If you have not broken our [Terms of Service](hosting/terms.md), then you probably were suspended for [inactivity](/accounts/suspension-policy.md#inactivity-policy). Renew your account [here](http://www.heliohost.org/renew/). If you have overused cron or have broken any of the other ToS, shame on you.
+If you have not broken our [Terms of Service](hosting/terms.md), then you probably were suspended for [inactivity](/accounts/suspension-policy.md#inactivity-policy). Renew your account [here](http://heliohost.org/renew/). If you have overused cron or have broken any of the other ToS, shame on you.
 
-It is also possible that this was an error in our system. If you suspect that this is the case, report the error in a new post [here](https://www.helionet.org/index/forum/81-suspended-and-queued-accounts/), making sure to provide your **username**.
+It is also possible that this was an error in our system. If you suspect that this is the case, report the error in a new post [here](https://helionet.org/index/forum/81-suspended-and-queued-accounts/), making sure to provide your **username**.
 
 ## Why does my new subdomain show a "Queued" page?
 
-All domain and subdomain changes take **up to 2 hours** to go into effect as they require an Apache restart. Seeing the queued page is normal and only means the change hasn't taken effect yet. If it's been longer than a full 2 hours, try [clearing your browser cache](https://wiki.helionet.org/misc/clear-your-cache). Also, see this [post](http://www.helionet.org/index/topic/8604-web-page-update-delay/).
+All domain and subdomain changes take **up to 2 hours** to go into effect as they require an Apache restart. Seeing the queued page is normal and only means the change hasn't taken effect yet. If it's been longer than a full 2 hours, try [clearing your browser cache](https://wiki.helionet.org/misc/clear-your-cache). Also, see this [post](http://helionet.org/index/topic/8604-web-page-update-delay/).
 
 ## Why can't I log in?
 
@@ -32,7 +32,7 @@ If you just registered, please wait **up to 2 hours** for your Plesk account to 
 
 ## How do I keep my account active /prevent being suspended?
 
-Login to [heliohost.org](https://www.heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days.
+Login to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days.
 
 ## What is a Daily Signup Limit and why is it stopping me from registering?
 
@@ -73,11 +73,11 @@ As an alternative to changing your main domain, consider using [Parked, Addon, a
 
 ## Can I PM an administrator for help?
 
-No, do not PM the administrators expecting support unless we explicitly tell you to. Please use the [Customer Service forum](https://www.helionet.org/index/forum/45-customer-service/) instead. Also, in order for us to provide the best and most efficient support, please provide your **username**, **domain name**, and **server name** along with any requests. If you are sending your support request via email, make sure to contact us from the same email address you signed up with.
+No, do not PM the administrators expecting support unless we explicitly tell you to. Please use the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/) instead. Also, in order for us to provide the best and most efficient support, please provide your **username**, **domain name**, and **server name** along with any requests. If you are sending your support request via email, make sure to contact us from the same email address you signed up with.
 
 ## The server is slow / Feature XYZ doesn't work / Something's wrong with my account / etc.
 
-Please post the issue in the [Customer Service forum](https://www.helionet.org/index/forum/45-customer-service/) and we will try to solve the problem. Also, in order for us to provide the best and most efficient support, please provide your **username**, **domain name**, **server name**, and any **error messages** you are encountering.
+Please post the issue in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/) and we will try to solve the problem. Also, in order for us to provide the best and most efficient support, please provide your **username**, **domain name**, **server name**, and any **error messages** you are encountering.
 
 ## Can Feature XYZ be installed?
 
@@ -87,7 +87,7 @@ To browse the available options, login to Plesk and select Softaculous from the 
 
 ![](.gitbook/assets/softaculous_menu_item.png) 
 
-If you need a system-wide feature installed, please post a request in our [Customer Service forum](https://www.helionet.org/index/forum/45-customer-service/), making sure to provide your **username**, **domain name**, **server name**, and any applicable **version numbers**.
+If you need a system-wide feature installed, please post a request in our [Customer Service forum](https://helionet.org/index/forum/45-customer-service/), making sure to provide your **username**, **domain name**, **server name**, and any applicable **version numbers**.
 
 ## Can I use SSH?
 
@@ -97,8 +97,8 @@ If you require SSH access, it is only available on the [VPS Plans](https://helio
 
 ## Your hosting SUCKS! So do YOU!!!
 
-Please see [this](http://www.helionet.org/index/topic/4723-suspended/page__p__46231#entry46231).
+Please see [this](http://helionet.org/index/topic/4723-suspended/page__p__46231#entry46231).
 
 ## I still have a question about HelioHost.
 
-Post in the [Questions forum](https://www.helionet.org/index/forum/48-questions/) and we'll try to help you the best we can.
+Post in the [Questions forum](https://helionet.org/index/forum/48-questions/) and we'll try to help you the best we can.
