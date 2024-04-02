@@ -78,6 +78,8 @@ and then run the command:
 go build
 ```
 
+**Note:** If the `go build` command does not work, you may need to use `go build golang.go` instead.
+
 ![](../.gitbook/assets/go_build.png)
 
 If everything goes well you should now have an executable named `golang.cgi`.
