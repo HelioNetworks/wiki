@@ -104,7 +104,7 @@ Check the 3 `Execute / Search` boxes to set the permissions to `755` to make the
 
 ![](../.gitbook/assets/755_permissions.png)
 
-Make sure `rwx r-x r-x` (`755`) is displayed under the Permissions column.
+Make sure that you now see `rwx r-x r-x` (`755`) displayed for this file in the Permissions column.
 
 ### Test the Golang CGI
 
