@@ -21,7 +21,7 @@ HelioHost accounts can use the following scripting languages:
 * [ASP.NET](../features/asp.net.md)
 * [Golang](../tutorials/golang.md)
 * [Java/JSP](../features/java.md)
-* [Node.js](../tutorials/node.js/)
+* [Node.js](../tutorials/node.js/README.md)
 * [PHP](../features/php.md)
 * [Python](../features/python.md), [Django](../tutorials/django.md), and [Flask](../tutorials/flask.md)
 * [Perl](../tutorials/perl.md)
