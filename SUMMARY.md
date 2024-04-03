@@ -18,7 +18,6 @@
   * [Uploading Files](management/uploading-files.md)
   * [Changing Your Main Domain](management/main-domain.md)
   * [Creating MySQL Databases via Plesk](management/mysql.md)
-  * [Installing Let's Encrypt SSL Certificate via Plesk](management/johnny-ssl.md)
   * [Parked, Addon, and Sub Domains](management/parked-addon-and-sub-domains.md)
   * [Using SSL](management/ssl.md)
 * [Tutorials](tutorials/README.md)
