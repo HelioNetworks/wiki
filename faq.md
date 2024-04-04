@@ -95,6 +95,12 @@ On hosting accounts, SSH access is disabled for security reasons.
 
 If you require SSH access, it is only available on the [VPS Plans](https://heliohost.org/vps/).
 
+## Does Heliohost support sockets? Which ports are open?
+
+Both our [Tommy](/servers/virtual/tommy.md) and [Johnny](/servers/virtual/johnny.md) servers have zero inbound ports available to be opened. All ports that are currently open already have services listening. 
+
+If you need a port opened, you'll need to get one of our [VPS Plans](https://heliohost.org/vps/), and you will then have all 65535 ports available to open or close as you want.
+
 ## Your hosting SUCKS! So do YOU!!!
 
 Please see [this](http://helionet.org/index/topic/4723-suspended/page__p__46231#entry46231).
