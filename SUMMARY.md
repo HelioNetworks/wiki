@@ -70,9 +70,9 @@
 
 * [Clear Your Cache](misc/clear-your-cache.md)
 * [WordPress](misc/wordpress.md)
-* [Contributing](misc/contributing.md)
 * [Server Load and Uptime](misc/server-status.md)
 * [How You Can Help](misc/how-you-can-help.md)
+  * [Contributing to the Wiki](misc/contributing.md)
 * [Staff](misc/staff/README.md)
   * [Ashoat](misc/staff/ashoat.md)
   * [Krydos](misc/staff/krydos.md)
