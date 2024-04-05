@@ -21,3 +21,9 @@ If you're not familiar with the Brave browser, check out [https://privacytests.o
 #### Turn Brave Shields Down
 
 Using Brave's ad-blocker is a great way to support us with donations instead of viewing ads. However, as a non-profit fully funded by advertising revenue and donations, we appreciate you viewing our ads to help us stay in business. To double your donations from Brave, you can disable the Brave shields on our pages to view our ads, while also auto-contributing.
+
+## Use Our Affiliate Links
+
+HelioHost has an affiliate agreement with Namecheap, so if you're in the market for a new domain we highly recommend purchasing it from them. Once you set the nameservers to `ns1.heliohost.org` and `ns2.heliohost.org`, we can host the website on your brand new domain for you. Click the banner below to use our affiliate link to shop for your new domain:
+
+[![Namecheap Affiliate Banner](https://heliohost.org/images/mail/namecheap.png)](https://heliohost.org/partners/namecheap)
