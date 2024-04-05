@@ -18,9 +18,13 @@ If you use the Brave web browser, you can now donate to us by clicking the trian
 
 If you're not familiar with the Brave browser, check out [https://privacytests.org](https://privacytests.org/). Brave is based on Chromium just like Chrome and Edge, but has a built in ad-blocker and annoyance blocker that is better than most extensions you can install on any of the other browsers. You can even get paid to visit websites if you enable the option in the settings and set up a crypto wallet.
 
-#### Turn Brave Shields Down
+#### Turn Brave Ad-Blocker Off
 
 Using Brave's ad-blocker is a great way to support us with donations instead of viewing ads. However, as a non-profit fully funded by advertising revenue and donations, we appreciate you viewing our ads to help us stay in business. To double your donations from Brave, you can disable the Brave shields on our pages to view our ads, while also auto-contributing.
+
+## Add Our Sites to your Ad-blocker 'Allow' List
+<!-- TODO: Add Ricky & Morty to the list of sites to allow ads on, as they get up and running. -->
+If you don't view our ads, we don't earn any ad revenue from your visits to our site. It's free to allow our ads, and we promise they're not too annoying. Make sure to add `heliohost.org`, `helionet.org`, `tommy.heliohost.org`, `johnny.heliohost.org`, and `wiki.helionet.org` to your 'Allow List'. Who knows? You might even see an ad for something amazing that you want to check out.
 
 ## Use Our Affiliate Links
 
