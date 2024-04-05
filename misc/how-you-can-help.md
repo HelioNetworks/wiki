@@ -40,10 +40,32 @@ After checking if your preferred domain name is available, there will sometimes 
 
 Spread the word about our community-powered free hosting service with some graphics to put on your websites.
 
-## Put our Banner on your Site
+### Put our Banner on your Site
 
 You can find some user-contributed HelioHost banner graphics to use in [this HelioNet forum thread](https://helionet.org/index/topic/28401-put-our-banner-on-your-site/).
 
-## Put our Badge on your Site
+### Put our Badge on your Site
 
 Find a user-contributed configurable HelioHost badge to add to your site in [this HelioNet forum thread](https://helionet.org/index/topic/31107-badge/).
+
+## Recommend Us
+
+### Recommend us on AlternativeTo
+
+If you can think of a competitor to what we offer, find them on [AlternativeTo.net](https://alternativeto.net/) and make sure HelioHost is listed on their page as an alternative option.
+
+To give HelioHost an upvote as an alternative to our competitors, use the links in [this HelioNet forum thread](https://helionet.org/index/topic/28394-upvote-heliohost-on-alternativetonet/#comment-129850)
+
+### Mention us on Quora
+
+Answer a question with a description of HelioHost on [Quora.com](https://www.quora.com/search?q=Web%20Hosting%20Providers) (Must be logged in to your Quora account to view this link.)
+
+## Review Us
+
+Write a review about HelioHost at the sites below:
+
+* [Sitejabber](https://www.sitejabber.com/reviews/heliohost.org)
+
+* [Free-Webhosts.com](http://www.free-webhosts.com/reviews/add-review.php?hostname=HelioHost)
+
+* [WHTop](http://www.whtop.com/review/heliohost.org#reviews-open)
