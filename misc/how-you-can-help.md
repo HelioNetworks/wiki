@@ -32,6 +32,14 @@ HelioHost has an affiliate agreement with Namecheap, so if you're in the market 
 
 [![Namecheap Affiliate Banner](https://heliohost.org/images/mail/namecheap.png)](https://heliohost.org/partners/namecheap)
 
+## Spread the Word
+
+Spread the word about our community-powered free hosting service with some graphics to put on your websites.
+
 ## Put a HelioHost Banner on your Site
 
-Spread the word about our community-powered free hosting service by putting our banner on your site. You will find some user-contributed banner graphics to use in [this HelioNet forum thread](https://helionet.org/index/topic/28401-put-our-banner-on-your-site/).
+You can find some user-contributed banner graphics to use in [this HelioNet forum thread](https://helionet.org/index/topic/28401-put-our-banner-on-your-site/).
+
+## Put a HelioHost Badge on your Site
+
+Find a user-contributed configurable badge to add to your site in [this HelioNet forum thread](https://helionet.org/index/topic/31107-badge/).
