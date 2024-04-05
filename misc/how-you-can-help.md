@@ -14,7 +14,7 @@ In some countries, you can donate on the [HelioHost Facebook page](https://www.f
 
 ### Donate via Brave browser
 
-If you use the Brave web browser, you can now donate to us by clicking the triangle shape while viewing [heliohost.org](https://heliohost.org/) or [helionet.org](https://helionet.org/) or Plesk, and then clicking Send Contribution. If you have auto-contribute enabled, you can donate to us simply by using our website and forum as you normally would.
+HelioHost is a Verified Creator in the Brave Creators program. This means that if you use the Brave web browser, you can now donate to us by clicking the triangle shape while viewing [heliohost.org](https://heliohost.org/) or [helionet.org](https://helionet.org/) or Plesk, and then clicking Send Contribution. If you have auto-contribute enabled, you can donate to us simply by using our website and forum as you normally would.
 
 If you're not familiar with the Brave browser, check out [https://privacytests.org](https://privacytests.org/). Brave is based on Chromium just like Chrome and Edge, but has a built in ad-blocker and annoyance blocker that is better than most extensions you can install on any of the other browsers. You can even get paid to visit websites if you enable the option in the settings and set up a crypto wallet.
 
@@ -31,3 +31,7 @@ If you don't view our ads, we don't earn any ad revenue from your visits to our 
 HelioHost has an affiliate agreement with Namecheap, so if you're in the market for a new domain we highly recommend purchasing it from them. Once you set the nameservers to `ns1.heliohost.org` and `ns2.heliohost.org`, we can host the website on your brand new domain for you. Click the banner below to use our affiliate link to shop for your new domain:
 
 [![Namecheap Affiliate Banner](https://heliohost.org/images/mail/namecheap.png)](https://heliohost.org/partners/namecheap)
+
+## Put a HelioHost Banner on your Site
+
+Spread the word about our community-powered free hosting service by putting our banner on your site. You will find some user-contributed banner graphics to use in [this HelioNet forum thread](https://helionet.org/index/topic/28401-put-our-banner-on-your-site/).
