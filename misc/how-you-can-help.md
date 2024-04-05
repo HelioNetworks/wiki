@@ -22,9 +22,9 @@ If you're not familiar with the Brave browser, check out [https://privacytests.o
 
 Using Brave's ad-blocker is a great way to support us with donations instead of viewing ads. However, as a non-profit fully funded by advertising revenue and donations, we appreciate you viewing our ads to help us stay in business. To double your donations from Brave, you can disable the Brave shields on our pages to view our ads, while also auto-contributing.
 
-## Add Our Sites to your Ad-blocker 'Allow' List
+## Allow Ads on Our Sites
 <!-- TODO: Add Ricky & Morty to the list of sites to allow ads on, as they get up and running. -->
-If you don't view our ads, we don't earn any ad revenue from your visits to our site. It's free to allow our ads, and we promise they're not too annoying. Make sure to add `heliohost.org`, `helionet.org`, `tommy.heliohost.org`, `johnny.heliohost.org`, and `wiki.helionet.org` to your 'Allow List'. Who knows? You might even see an ad for something amazing that you want to check out.
+If you don't view our ads, we don't earn any ad revenue from your visits to our site. It's free to allow our ads, and we promise they're not too annoying. Make sure to add `heliohost.org`, `helionet.org`, `tommy.heliohost.org`, `johnny.heliohost.org`, and `wiki.helionet.org` to your ad-blocker's 'Allow List'. Who knows? You might even see an ad for something amazing that you want to check out.
 
 ## Use Our Affiliate Links
 
@@ -36,10 +36,10 @@ HelioHost has an affiliate agreement with Namecheap, so if you're in the market 
 
 Spread the word about our community-powered free hosting service with some graphics to put on your websites.
 
-## Put a HelioHost Banner on your Site
+## Put our Banner on your Site
 
-You can find some user-contributed banner graphics to use in [this HelioNet forum thread](https://helionet.org/index/topic/28401-put-our-banner-on-your-site/).
+You can find some user-contributed HelioHost banner graphics to use in [this HelioNet forum thread](https://helionet.org/index/topic/28401-put-our-banner-on-your-site/).
 
-## Put a HelioHost Badge on your Site
+## Put our Badge on your Site
 
-Find a user-contributed configurable badge to add to your site in [this HelioNet forum thread](https://helionet.org/index/topic/31107-badge/).
+Find a user-contributed configurable HelioHost badge to add to your site in [this HelioNet forum thread](https://helionet.org/index/topic/31107-badge/).
