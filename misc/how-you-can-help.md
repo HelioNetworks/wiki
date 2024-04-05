@@ -6,7 +6,7 @@ HelioHost provides community-powered free hosting for everyone. There are severa
 
 ### Donate via PayPal or Crypto
 
-The best way to help us keep providing free hosting is by donating at [https://heliohost.org/donate](https://heliohost.org/donate/). You can donate via PayPal or the cryptocurrencies listed on the page.
+The best way to help us keep providing free hosting is by donating at [heliohost.org/donate](https://heliohost.org/donate/). You can donate via PayPal or the cryptocurrencies listed on the page.
 
 ### Donate via Facebook 
 
@@ -16,7 +16,7 @@ In some countries, you can donate on the [HelioHost Facebook page](https://www.f
 
 HelioHost is a Verified Creator in the Brave Creators program. This means that if you use the Brave web browser, you can now donate to us by clicking the triangle shape while viewing [heliohost.org](https://heliohost.org/) or [helionet.org](https://helionet.org/) or Plesk, and then clicking Send Contribution. If you have auto-contribute enabled, you can donate to us simply by using our website and forum as you normally would.
 
-If you're not familiar with the Brave browser, check out [https://privacytests.org](https://privacytests.org/). Brave is based on Chromium just like Chrome and Edge, but has a built in ad-blocker and annoyance blocker that is better than most extensions you can install on any of the other browsers. You can even get paid to visit websites if you enable the option in the settings and set up a crypto wallet.
+If you're not familiar with the Brave browser, check out [PrivacyTests.org](https://privacytests.org/). Brave is based on Chromium just like Chrome and Edge, but has a built in ad-blocker and annoyance blocker that is better than most extensions you can install on any of the other browsers. You can even get paid to visit websites if you enable the option in the settings and set up a crypto wallet.
 
 #### Turn Brave Ad-Blocker Off
 
@@ -69,3 +69,13 @@ Write a review about HelioHost at the sites below:
 * [Free-Webhosts.com](http://www.free-webhosts.com/reviews/add-review.php?hostname=HelioHost)
 
 * [WHTop](http://www.whtop.com/review/heliohost.org#reviews-open)
+
+## Social Media
+
+### Mention us on Facebook
+
+Let your Facebook friends know about us by posting on your timeline using [this link](https://www.facebook.com/share.php?u=http://www.heliohost.org/).
+
+### Post about us on X (formerly Twitter)
+
+Let your followers know you're hosting your website with us by using `@HelioHost` in your tweet. You can use [this link](https://twitter.com/intent/tweet?text=My%20website%20is%20on%20%40heliohost%20the%20community%20powered%20free%20web%20host%20for%20everyone.%20Get%20your%20own%20free%20website%20at%20http%3A%2F%2Fheliohost.org%2F).
