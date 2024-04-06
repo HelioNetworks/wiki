@@ -12,6 +12,10 @@ The best way to help us keep providing free hosting is by donating at [heliohost
 
 A lot of employers will make a donation match to approved 501(c)(3) charities, which is what HelioHost is. So, if you donate $100 your job might match your donation and send another $100 to us. You can ask at work to see if your company has a donation matching program like this.
 
+### Donate via CharityVest
+
+You can donate via [CharityVest](https://charityvest.org/) and it will be fee free, since HelioHost is registered with the PayPal Giving Fund, which is the method CharityVest uses to [enable electronic payments to charities](https://www.charityvest.org/blog/charityvest-implements-paypal-grant-payments-to-enable-electronic-payments-to-charities).
+
 ### Donate via Facebook 
 
 In some countries, you can donate on the [HelioHost Facebook page](https://www.facebook.com/HelioHost.org).
