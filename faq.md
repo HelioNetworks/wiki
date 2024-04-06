@@ -60,6 +60,10 @@ Because wiping an account is destructive, we have to verify your identity before
 
 To request that we reset your account so you can start over, send an email **from the same email address as your hosting account** to `support@heliohost.org` so we can verify your identity and wipe your account. Alternatively, you can make a post on the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) from a forum account with the same email address as your hosting account.
 
+### VPS Rebuilds
+
+Due to certain users abusing our generosity in the past and requesting 50 or so rebuilds in less than a month, we now limit each VPS to **1 free rebuild per month**. After that, you can purchase additional rebuilds for $1 USD each.
+
 ## How do I delete my hosting account?
 
 To delete your HelioHost Plesk account, post a topic in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add).
