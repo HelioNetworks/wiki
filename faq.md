@@ -52,7 +52,7 @@ However, if your HelioHost Plesk account was deleted due to inactivity, feel fre
 
 ## Can I have more than one account?
 
-No. It's [one account per user](/accounts/suspension-policy.md#duplicate-accounts).
+No. It's [one account per user](/accounts/suspension-policy.md#duplicate-accounts). This means that you cannot have more than 1 account, even if you use different email addresses. The limit is **1 account per human being**.
 
 ## How do I delete my hosting account?
 
