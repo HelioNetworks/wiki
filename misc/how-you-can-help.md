@@ -12,6 +12,10 @@ The best way to help us keep providing free hosting is by donating at [heliohost
 
 A lot of employers will make a donation match to approved 501(c)(3) charities, which is what HelioHost is. So, if you donate $100 your job might match your donation and send another $100 to us. You can ask at work to see if your company has a donation matching program like this.
 
+### Donate via CharityVest
+
+You can donate via [CharityVest](https://charityvest.org/) and it will be fee free, since HelioHost is registered with the PayPal Giving Fund, which is the method CharityVest uses to [enable electronic payments to charities](https://www.charityvest.org/blog/charityvest-implements-paypal-grant-payments-to-enable-electronic-payments-to-charities).
+
 ### Donate via Facebook 
 
 In some countries, you can donate on the [HelioHost Facebook page](https://www.facebook.com/HelioHost.org).
@@ -28,7 +32,7 @@ Using Brave's ad-blocker is a great way to support us with donations instead of 
 
 ## Allow Ads on Our Sites
 <!-- TODO: Add Ricky & Morty to the list of sites to allow ads on, as they get up and running. -->
-If you don't view our ads, we don't earn any ad revenue from your visits to our site. It's free to allow our ads, and we promise they're not too annoying. Make sure to add `heliohost.org`, `helionet.org`, `tommy.heliohost.org`, `johnny.heliohost.org`, and `wiki.helionet.org` to your ad-blocker's 'Allow List'. Who knows? You might even see an ad for something amazing that you want to check out.
+If you don't view our ads, we don't earn any ad revenue from your visits to our site. It's free to allow our ads, and we promise they're not too annoying. Make sure to add `heliohost.org`, `helionet.org`, `tommy.heliohost.org`, `johnny.heliohost.org`, and `wiki.helionet.org` to your ad-blocker 'Allow List'. Who knows? You might even see an ad for something amazing that you want to check out.
 
 ## Use Our Affiliate Links
 
@@ -37,7 +41,7 @@ HelioHost has an affiliate agreement with Namecheap, so if you're in the market 
 [![Namecheap Affiliate Banner](https://heliohost.org/images/mail/namecheap.png)](https://heliohost.org/partners/namecheap)
 
 {% hint style="info" %}
-After checking if your preferred domain name is available, there will sometimes be a Promo Code you can use at checkout, to get a very low price for the first year.
+After checking if your preferred domain name is available, there will sometimes be a `Promo Code` you can use at checkout, to get a very low price for the first year.
 {% endhint %}
 
 ## Spread the Word
