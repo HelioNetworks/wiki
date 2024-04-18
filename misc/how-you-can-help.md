@@ -14,7 +14,7 @@ A lot of employers will make a donation match to approved 501(c)(3) charities, w
 
 ### Donate via CharityVest
 
-You can donate via [CharityVest](https://charityvest.org/) and it will be fee free, since HelioHost is registered with the PayPal Giving Fund, which is the method CharityVest uses to [enable electronic payments to charities](https://www.charityvest.org/blog/charityvest-implements-paypal-grant-payments-to-enable-electronic-payments-to-charities).
+You can [donate to Helio Networks via CharityVest](https://www.charityvest.org/charity/helio-networks-d5b1f0df-8759-41c4-91b3-e9e75099579d) and it will be fee free, since HelioHost is registered with the PayPal Giving Fund, which is the method CharityVest uses to [enable electronic payments to charities](https://www.charityvest.org/blog/charityvest-implements-paypal-grant-payments-to-enable-electronic-payments-to-charities).
 
 ### Donate via Facebook 
 
