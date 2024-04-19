@@ -12,9 +12,9 @@ The best way to help us keep providing free hosting is by donating at [heliohost
 
 A lot of employers will make a donation match to approved 501(c)(3) charities, which is what HelioHost is. So, if you donate $100 your job might match your donation and send another $100 to us. You can ask at work to see if your company has a donation matching program like this.
 
-### Donate via CharityVest
+### Donate via Charityvest
 
-You can donate via [CharityVest](https://charityvest.org/) and it will be fee free, since HelioHost is registered with the PayPal Giving Fund, which is the method CharityVest uses to [enable electronic payments to charities](https://www.charityvest.org/blog/charityvest-implements-paypal-grant-payments-to-enable-electronic-payments-to-charities).
+You can [donate to Helio Networks via Charityvest](https://www.charityvest.org/charity/helio-networks-d5b1f0df-8759-41c4-91b3-e9e75099579d) and it will be fee free, since HelioHost is registered with the PayPal Giving Fund, which is the method Charityvest uses to [enable electronic payments to charities](https://www.charityvest.org/blog/charityvest-implements-paypal-grant-payments-to-enable-electronic-payments-to-charities).
 
 ### Donate via Facebook 
 
@@ -41,7 +41,7 @@ HelioHost has an affiliate agreement with Namecheap, so if you're in the market 
 [![Namecheap Affiliate Banner](https://heliohost.org/images/mail/namecheap.png)](https://heliohost.org/partners/namecheap)
 
 {% hint style="info" %}
-After checking if your preferred domain name is available, there will sometimes be a `Promo Code` you can use at checkout, to get a very low price for the first year.
+After checking if your preferred domain name is available, there will sometimes be a Promo Code you can use at checkout, to get a very low price for the first year.
 {% endhint %}
 
 ## Spread the Word
