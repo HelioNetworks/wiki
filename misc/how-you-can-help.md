@@ -41,7 +41,7 @@ HelioHost has an affiliate agreement with Namecheap, so if you're in the market 
 [![Namecheap Affiliate Banner](https://heliohost.org/images/mail/namecheap.png)](https://heliohost.org/partners/namecheap)
 
 {% hint style="info" %}
-After checking if your preferred domain name is available, there will sometimes be a `Promo Code` you can use at checkout, to get a very low price for the first year.
+After checking if your preferred domain name is available, there will sometimes be a Promo Code you can use at checkout, to get a very low price for the first year.
 {% endhint %}
 
 ## Spread the Word
