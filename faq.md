@@ -6,7 +6,7 @@ There is a difference between "Professional-Grade Hosting" and "Professional-Gra
 
 ## I log in frequently but am still receiving inactivity emails, what gives?
 
-To ensure that your logins are logged, login to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days. For more details, review our [Inactivity Policy](https://wiki.helionet.org/accounts/suspension-policy#inactivity-policy).
+To ensure that your logins are logged, log in to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days. For more details, review our [Inactivity Policy](https://wiki.helionet.org/accounts/suspension-policy#inactivity-policy).
 
 ## Why must all posts on HelioNet be in English?
 
