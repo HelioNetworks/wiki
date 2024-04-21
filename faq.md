@@ -31,11 +31,19 @@ It is also possible that this was an error in our system. If you suspect that th
 
 ## Why does my new subdomain show a "Queued" page?
 
-All domain and subdomain changes take **up to 2 hours** to go into effect as they require an Apache restart. Seeing the queued page is normal and only means the change hasn't taken effect yet. If it's been longer than a full 2 hours, try [clearing your browser cache](https://wiki.helionet.org/misc/clear-your-cache).
+{% hint style="info" %}
+All domain and subdomain changes take **up to 2 hours** to go into effect as they require an Apache restart. 
+{% endhint %}
+
+During the first 2 hours, seeing the queued page is normal and only means the change hasn't taken effect yet. If it's been longer than **a full 2 hours**, try [clearing your browser cache](https://wiki.helionet.org/misc/clear-your-cache).
 
 ## Why can't I log in?
 
-If you just registered, please wait **up to 2 hours** for your Plesk account to become active. If it has been longer than a full 2 hours, and you still see an `Account Queued` page, try [clearing your browser cache](https://wiki.helionet.org/misc/clear-your-cache). If you are still experiencing problems, make sure you are entering your username in all lowercase letters, i.e. "wizard", not "Wizard" or "WIZARD".
+{% hint style="info" %}
+If you just registered, please wait **up to 2 hours** for your Plesk account to become fully active.
+{% endhint %}
+
+If it has been longer than **a full 2 hours** since you registered and you still see an `Account Queued` page, try [clearing your browser cache](https://wiki.helionet.org/misc/clear-your-cache). If you are still experiencing problems, make sure you are entering your username in all lowercase letters, i.e. "wizard", not "Wizard" or "WIZARD".
 
 ## How do I keep my account active / prevent being suspended?
 
