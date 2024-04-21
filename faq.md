@@ -35,7 +35,7 @@ It is also possible that this was an error in our system. If you suspect that th
 All domain and subdomain changes take **up to 2 hours** to go into effect as they require an Apache restart. 
 {% endhint %}
 
-During the first 2 hours, seeing the queued page is normal and only means the change hasn't taken effect yet. If it's been longer than **a full 2 hours**, try [clearing your browser cache](https://wiki.helionet.org/misc/clear-your-cache).
+During the first 2 hours, seeing the queued page is normal and only means the change hasn't taken effect yet. If it's been longer than **a full 2 hours**, try [clearing your browser cache](/misc/clear-your-cache.md).
 
 ## Why can't I log in?
 
@@ -43,11 +43,11 @@ During the first 2 hours, seeing the queued page is normal and only means the ch
 If you just registered, please wait **up to 2 hours** for your Plesk account to become fully active.
 {% endhint %}
 
-If it has been longer than **a full 2 hours** since you registered and you still see an `Account Queued` page, try [clearing your browser cache](https://wiki.helionet.org/misc/clear-your-cache). If you are still experiencing problems, make sure you are entering your username in all lowercase letters, i.e. "wizard", not "Wizard" or "WIZARD".
+If it has been longer than **a full 2 hours** since you registered and you still see an `Account Queued` page, try [clearing your browser cache](/misc/clear-your-cache.md). If you are still experiencing problems, make sure you are entering your username in all lowercase letters, i.e. "wizard", not "Wizard" or "WIZARD".
 
 ## How do I keep my account active / prevent being suspended?
 
-Login to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days. For more details, review our [Inactivity Policy](https://wiki.helionet.org/accounts/suspension-policy#inactivity-policy).
+Login to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days. For more details, review our [Inactivity Policy](/accounts/suspension-policy.md#inactivity-policy).
 
 ## What is a Daily Signup Limit and why is it stopping me from registering?
 
