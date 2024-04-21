@@ -6,7 +6,7 @@ There is a difference between "Professional-Grade Hosting" and "Professional-Gra
 
 ## I log in frequently but am still receiving inactivity emails, what gives?
 
-To ensure that your logins are logged, log in to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days. For more details, review our [Inactivity Policy](https://wiki.helionet.org/accounts/suspension-policy#inactivity-policy).
+To ensure that your logins are logged, log in to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days. For more details, review our [Inactivity Policy](/accounts/suspension-policy.md#inactivity-policy).
 
 ## Why must all posts on HelioNet be in English?
 
@@ -18,14 +18,14 @@ Currently, we are running about 20000 different accounts on one server, Johnny. 
 
 ## Why was my account suspended?
 
-Our [Suspension Policy](https://wiki.helionet.org/accounts/suspension-policy) provides comprehensive details on why we will suspend accounts.
+Our [Suspension Policy](/accounts/suspension-policy.md) provides comprehensive details on why we will suspend accounts.
 
-A few common reasons for account suspensions are:
+A few common reasons for account suspensions are: 
 
-- [Terms of Service](hosting/terms.md) violation(s).
+- [Terms of Service](/hosting/terms.md) violation(s).
 - [Account Inactivity](/accounts/suspension-policy.md#inactivity-policy). Renew your account [here](http://heliohost.org/renew/).
-- [Duplicate Accounts](https://wiki.helionet.org/accounts/suspension-policy#duplicate-accounts). The limit is 1 account per human being.
-- Exceeding the [Cron Job Limit](https://wiki.helionet.org/accounts/suspension-policy#cron-job-limit).
+- [Duplicate Accounts](/accounts/suspension-policy.md#duplicate-accounts). The limit is 1 account per human being.
+- Exceeding the [Cron Job Limit](/accounts/suspension-policy.md#cron-job-limit).
 
 It is also possible that this was an error in our system. If you suspect that this is the case, report the error in a new post [here](https://helionet.org/index/forum/81-suspended-and-queued-accounts/), making sure to provide your **username**.
 
