@@ -47,7 +47,7 @@ If it has been longer than **a full 2 hours** since you registered and you still
 
 ## How do I keep my account active / prevent being suspended?
 
-Login to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days.
+Login to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days. For more details, review our [Inactivity Policy](https://wiki.helionet.org/accounts/suspension-policy#inactivity-policy).
 
 ## What is a Daily Signup Limit and why is it stopping me from registering?
 
