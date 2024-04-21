@@ -31,7 +31,7 @@ It is also possible that this was an error in our system. If you suspect that th
 
 ## Why does my new subdomain show a "Queued" page?
 
-All domain and subdomain changes take **up to 2 hours** to go into effect as they require an Apache restart. Seeing the queued page is normal and only means the change hasn't taken effect yet. If it's been longer than a full 2 hours, try [clearing your browser cache](https://wiki.helionet.org/misc/clear-your-cache). Also, see this [post](http://helionet.org/index/topic/8604-web-page-update-delay/).
+All domain and subdomain changes take **up to 2 hours** to go into effect as they require an Apache restart. Seeing the queued page is normal and only means the change hasn't taken effect yet. If it's been longer than a full 2 hours, try [clearing your browser cache](https://wiki.helionet.org/misc/clear-your-cache).
 
 ## Why can't I log in?
 
