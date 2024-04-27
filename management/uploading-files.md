@@ -50,3 +50,7 @@ Pydio, formerly known as AjaXplorer, is another online file manager which uses A
 ## Net2FTP
 
 Yet another online file manager is net2FTP. Net2FTP can be accessed directly from [its website](http://net2ftp.com/). Alternatively, you can [download a copy](http://net2ftp.com/index.php?state=homepage&state2=3) and run it from your own website.
+
+## WebDAV
+
+WebDAV / Web Disk / File Sharing has been [deprecated in Plesk](https://docs.plesk.com/release-notes/obsidian/deprecation-plan/), however SFTP is a much better choice anyway.
