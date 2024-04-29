@@ -6,7 +6,7 @@ There is a difference between "Professional-Grade Hosting" and "Professional-Gra
 
 ## I log in frequently but am still receiving inactivity emails, what gives?
 
-To ensure that your logins are logged, login to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days.
+To ensure that your logins are logged, log in to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days. For more details, review our [Inactivity Policy](/accounts/suspension-policy.md#inactivity-policy).
 
 ## Why must all posts on HelioNet be in English?
 
@@ -18,21 +18,36 @@ Currently, we are running about 20000 different accounts on one server, Johnny. 
 
 ## Why was my account suspended?
 
-If you have not broken our [Terms of Service](hosting/terms.md), then you probably were suspended for [inactivity](/accounts/suspension-policy.md#inactivity-policy). Renew your account [here](http://heliohost.org/renew/). If you have overused cron or have broken any of the other ToS, shame on you.
+Our [Suspension Policy](/accounts/suspension-policy.md) provides comprehensive details on why we will suspend accounts.
+
+A few common reasons for account suspensions are: 
+
+- [Terms of Service](/hosting/terms.md) violation(s).
+- [Account Inactivity](/accounts/suspension-policy.md#inactivity-policy). Renew your account [here](http://heliohost.org/renew/).
+- [Duplicate Accounts](/accounts/suspension-policy.md#duplicate-accounts). The limit is 1 account per human being.
+- Exceeding the [Cron Job Limit](/accounts/suspension-policy.md#cron-job-limit).
 
 It is also possible that this was an error in our system. If you suspect that this is the case, report the error in a new post [here](https://helionet.org/index/forum/81-suspended-and-queued-accounts/), making sure to provide your **username**.
 
 ## Why does my new subdomain show a "Queued" page?
 
-All domain and subdomain changes take **up to 2 hours** to go into effect as they require an Apache restart. Seeing the queued page is normal and only means the change hasn't taken effect yet. If it's been longer than a full 2 hours, try [clearing your browser cache](https://wiki.helionet.org/misc/clear-your-cache). Also, see this [post](http://helionet.org/index/topic/8604-web-page-update-delay/).
+{% hint style="info" %}
+All domain and subdomain changes take **up to 2 hours** to go into effect as they require an Apache restart. 
+{% endhint %}
+
+During the first 2 hours, seeing the queued page is normal and only means the change hasn't taken effect yet. If it's been longer than **a full 2 hours**, try [clearing your browser cache](/misc/clear-your-cache.md).
 
 ## Why can't I log in?
 
-If you just registered, please wait **up to 2 hours** for your Plesk account to become active. If it has been longer than a full 2 hours, and you still see an `Account Queued` page, try [clearing your browser cache](https://wiki.helionet.org/misc/clear-your-cache). If you are still experiencing problems, make sure you are entering your username in all lowercase letters, i.e. "wizard", not "Wizard" or "WIZARD".
+{% hint style="info" %}
+If you just registered, please wait **up to 2 hours** for your Plesk account to become fully active.
+{% endhint %}
 
-## How do I keep my account active /prevent being suspended?
+If it has been longer than **a full 2 hours** since you registered and you still see an `Account Queued` page, try [clearing your browser cache](/misc/clear-your-cache.md). If you are still experiencing problems, make sure you are entering your username in all lowercase letters, i.e. "wizard", not "Wizard" or "WIZARD".
 
-Login to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days.
+## How do I keep my account active / prevent being suspended?
+
+Login to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days. For more details, review our [Inactivity Policy](/accounts/suspension-policy.md#inactivity-policy).
 
 ## What is a Daily Signup Limit and why is it stopping me from registering?
 
@@ -85,7 +100,7 @@ As an alternative to changing your main domain, consider using [Parked, Addon, a
 
 ## Can I PM an administrator for help?
 
-No, do not PM the administrators expecting support unless we explicitly tell you to. Please use the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/) instead. Also, in order for us to provide the best and most efficient support, please provide your **username**, **domain name**, and **server name** along with any requests. If you are sending your support request via email, make sure to contact us from the same email address you signed up with.
+No, do not PM the administrators expecting support unless we explicitly tell you to. Please use the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/) instead. Also, in order for us to provide the best and most efficient support, please provide your **username**, **domain name**, and **server name** along with any requests. If you are sending your support request via email to `support@heliohost.org`, make sure to contact us **from the same email address as your hosting account**.
 
 ## The server is slow / Feature XYZ doesn't work / Something's wrong with my account / etc.
 
