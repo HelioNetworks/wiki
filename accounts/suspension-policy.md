@@ -22,9 +22,9 @@ At HelioHost, we have a Terms of Service which all members are required to follo
 
 To ensure that every site on HelioHost is not slowed down by just one site hogging the server resources, we enforce a High Server Usage policy on all websites, which ensures that no website increases the server load in a massive scale. On Johnny and Tommy we enforce a memory limit of no more than 100 GB, and a CPU limit of 10,000 per day. If you exceed those amounts you will get suspended. You can monitor your load numbers on [the load page within your dashboard](https://heliohost.org/dashboard/load/).
 
-## Cron Job Limit
+## Cron Jobs
 
-To ensure that your site does not increase the server load significantly, we have a cron job limit which states that you can only run 2 jobs per day. Remember that it is two runs \(eg. One cron job, Runs twice a day\) **not** two separate jobs \(eg. Two cron jobs, Each runs twenty times a day\). If you are caught going over this limit, your account will be permanently suspended.
+There is no limit on the number of cron jobs (Plesk calls them `Scheduled Tasks`) you can run, but they count towards your total account load. This means that running too many cron jobs or having one job run too frequently can increase your risk of getting suspended under the [High Server Usage](/accounts/suspension-policy.md#high-server-usage) policy. For example, sometimes people start a cronjob to run every 1 minute and then get suspended for high load pretty quick because of it. You can monitor your account load numbers on [the load page within your dashboard](https://heliohost.org/dashboard/load/).
 
 ## Duplicate Accounts
 
