@@ -4,13 +4,13 @@ There are a number of reasons why we might suspend you. To keep your account act
 
 ## Inactivity Policy
 
-To ensure that old, unused HelioHost accounts are not filling up our server with useless data, we have an inactivity policy in place which will suspend you if you do not login to [heliohost.org](https://www.heliohost.org) or [https://heliohost.org/login/](https://heliohost.org/login/) at least once every 30 days. Each time you login, your last login date is set to the current time, so your account will then remain active for another 30 days.
+To ensure that old, unused HelioHost accounts are not filling up our server with useless data, we have an inactivity policy in place which will suspend you if you do not login to [heliohost.org](https://heliohost.org/) or [heliohost.org/login](https://heliohost.org/login/) at least once every 30 days. Each time you login, your last login date is set to the current time, so your account will then remain active for another 30 days.
 
 If your account is to be suspended due to inactivity, you will receive an email warning you that you must login soon. You will also receive an email when your account is suspended, and is queued for deletion.
 
-To activate a suspended account which was suspended due to inactivity, go to [http://www.heliohost.org/renew](http://www.heliohost.org/renew).
+To activate a suspended account which was suspended due to inactivity, go to [heliohost.org/renew](http://heliohost.org/renew/)
 
-If you receive an inactivity email even though you have logged into Plesk recently, then you might be logged into Plesk using a faulty URL. To ensure that your logins are logged, login at [heliohost.org](https://www.heliohost.org) or [https://heliohost.org/login/](https://heliohost.org/login/) at least once a month.
+If you receive an inactivity email even though you have logged into Plesk recently, then you might be logged into Plesk using a faulty URL. To ensure that your logins are logged, login at [heliohost.org](https://heliohost.org/) or [heliohost.org/login](https://heliohost.org/login/) at least once a month.
 
 ## Terms of Service
 
@@ -34,4 +34,4 @@ If you are caught with two or more accounts, you will be asked which one\(s\) yo
 
 ## Further Information
 
-If you have been suspended for something, and the renew script doesn't work, and you're not sure why or what for, then please don't hesitate to post in the [Customer Service forum](https://www.helionet.org/index/forum/45-customer-service/) on [HelioNet](../hosting/helionet.md), making sure to **provide your domain name, username, and server name up front** so we can provide you with the best and most efficient support.
+If you have been suspended for something, and the renew script doesn't work, and you're not sure why or what for, then please don't hesitate to post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/) on [HelioNet](../hosting/helionet.md), making sure to **provide your domain name, username, and server name up front** so we can provide you with the best and most efficient support.
