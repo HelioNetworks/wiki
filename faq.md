@@ -63,8 +63,6 @@ No. We do not keep backups of your data nor is it our responsibility to, as ment
 
 If you're not sure how to backup your data, please see our tutorials on [Making Your Own Manual Account Backup](/tutorials/plesk/account-backups.md#making-your-own-manual-account-backup) and [Scheduling Automated Account Backups](/tutorials/plesk/account-backups.md#scheduling-automated-account-backups).  
 
-However, if your HelioHost Plesk account was deleted due to inactivity, feel free to create a new account.
-
 ## Can I have more than one account?
 
 No. It's [one account per user](/accounts/suspension-policy.md#duplicate-accounts). This means that you cannot have more than 1 account, even if you use different email addresses. The limit is **1 account per human being**.
