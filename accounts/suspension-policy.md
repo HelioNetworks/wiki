@@ -6,7 +6,7 @@ There are a number of reasons why we might suspend you. To keep your account act
 
 To ensure that old, unused HelioHost accounts are not filling up our server with useless data, we have an inactivity policy in place which will suspend you if you do not log in to [heliohost.org](https://heliohost.org/) or [heliohost.org/login](https://heliohost.org/login/) at least once every 30 days. Each time you log in, your last login date is set to the current time, so your account will then remain active for another 30 days.
 
-If your account is to be suspended due to inactivity, you will receive an email warning you that you must log in soon. You will also receive an email when your account is suspended and is queued for deletion.
+If your account is to be suspended due to inactivity, you will receive an email warning you that you must log in soon at 28 days. You will also receive another email when your website is taken offline at 30 days.
 
 To activate a suspended account which was suspended due to inactivity, go to [heliohost.org/renew](http://heliohost.org/renew/)
 
