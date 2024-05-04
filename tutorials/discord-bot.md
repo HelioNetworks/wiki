@@ -169,7 +169,7 @@ bot_name="heliobot.py"
 ###################################################################
 
 printf 'Content-Type: text/html\n\n'
-temp=`ps aux|grep -v grep|grep "^$username"`
+temp=`ps axo user:16,pid,pcpu,pmem,vsz,rss,tty,stat,start,time,comm|grep -v grep|grep "^$username"`
 running=`echo "$temp"|grep -c "$bot_name"`
 file_base=`echo $bot_name|tr -cd "a-zA-Z0-9"`
 log_name="$file_base.txt"
