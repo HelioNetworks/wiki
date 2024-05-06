@@ -39,7 +39,7 @@
   * [External DNS Hosting](tutorials/external-dns-hosting/README.md)
     * [Cloudflare](tutorials/external-dns-hosting/cloudflare.md)
   * [Common Errors](tutorials/common-errors/README.md)
-    * [open_basedir Restriction](tutorials/common-errors/open-basedir-restriction.md)
+    * [open_basedir restriction](tutorials/common-errors/open-basedir-restriction.md)
 * [FAQ](faq.md)
 * [Servers](servers/README.md)
   * [Physical](servers/physical/README.md)
