@@ -1,4 +1,4 @@
-# Table of Contents
+# Table of contents
 
 * [Home](README.md)
 * [Hosting](hosting/README.md)
@@ -45,14 +45,14 @@
     * [Charlie](servers/physical/charlie.md)
     * [Eddie](servers/physical/eddie.md)
     * [Sparkie](servers/physical/sparkie.md)
-    * [Stevie](servers/physical/stevie.md)
+    * [Stevie - Decommissioned](servers/physical/stevie.md)
   * [Virtual](servers/virtual/README.md)
+    * [Johnny - Free](servers/virtual/johnny.md)
+    * [Tommy - Donor](servers/virtual/tommy.md)
+    * [Lily](servers/virtual/lily.md)
     * [Brody](servers/virtual/brody.md)
     * [Cody](servers/virtual/cody.md)
-    * [Johnny](servers/virtual/johnny.md)
-    * [Lily](servers/virtual/lily.md)
-    * [Ricky](servers/virtual/ricky.md)
-    * [Tommy](servers/virtual/tommy.md)
+    * [Ricky - Decommissioned](servers/virtual/ricky.md)
 * [Features](features/README.md)
   * [ASP.NET](features/asp.net.md)
   * [Plesk](features/plesk.md)
