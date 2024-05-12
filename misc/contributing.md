@@ -6,12 +6,12 @@ description: >-
 
 # Contributing to the Wiki
 
-1. Sign In/Create a Github & Gitbook Account.
+1. Sign In/Create a Github and Gitbook Account.
 2. Fork [this repository](https://github.com/HelioNetworks/heliohost-wiki) on Github.
    * [GitBook's Markdown Guide](https://docs.gitbook.com/content-creation/editor/markdown) provides the syntax when making modifications.
 3. [Import via Git Sync](https://docs.gitbook.com/content-editor/import#importing-via-git-sync)
    * Make sure to choose Sync from Github -> Gitbook!
-4. Hit the "Create a Change Request" Button.&#x20;
+4. Hit the "Create a Change Request" Button.
 5. Once satisfied with edits, follow the process to merge the edits into the "Main Repository".
 6. Celebrate?
 
