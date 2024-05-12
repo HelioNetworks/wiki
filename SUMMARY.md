@@ -38,6 +38,8 @@
   * [Ruby on Rails](tutorials/ror.md)
   * [External DNS Hosting](tutorials/external-dns-hosting/README.md)
     * [Cloudflare](tutorials/external-dns-hosting/cloudflare.md)
+* [Common Errors](common-errors/README.md)
+  * [open_basedir restriction](common-errors/open-basedir-restriction.md)
 * [FAQ](faq.md)
 * [Servers](servers/README.md)
   * [Physical](servers/physical/README.md)
