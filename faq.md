@@ -25,7 +25,7 @@ A few common reasons for account suspensions are:
 - [Terms of Service](/hosting/terms.md) violation(s).
 - [Account Inactivity](/accounts/suspension-policy.md#inactivity-policy). Renew your account [here](http://heliohost.org/renew/).
 - [Duplicate Accounts](/accounts/suspension-policy.md#duplicate-accounts). The limit is 1 account per human being.
-- Exceeding the [Cron Job Limit](/accounts/suspension-policy.md#cron-job-limit).
+- Exceeding the [High Server Usage](/accounts/suspension-policy.md#high-server-usage) limits. On Johnny and Tommy, we enforce a memory limit of no more than 100 GB and a CPU limit of 10,000 per day. You can monitor your load numbers on [the load page within your dashboard](https://heliohost.org/dashboard/load/).
 
 It is also possible that this was an error in our system. If you suspect that this is the case, report the error in a new post [here](https://helionet.org/index/forum/81-suspended-and-queued-accounts/), making sure to provide your **username**.
 
@@ -62,8 +62,6 @@ We offer various [Donor Plans](https://heliohost.org/tommy/), so for a one-time 
 No. We do not keep backups of your data nor is it our responsibility to, as mentioned in our [Terms of Service](hosting/terms.md). You must backup your own data regularly.  
 
 If you're not sure how to backup your data, please see our tutorials on [Making Your Own Manual Account Backup](/tutorials/plesk/account-backups.md#making-your-own-manual-account-backup) and [Scheduling Automated Account Backups](/tutorials/plesk/account-backups.md#scheduling-automated-account-backups).  
-
-However, if your HelioHost Plesk account was deleted due to inactivity, feel free to create a new account.
 
 ## Can I have more than one account?
 
