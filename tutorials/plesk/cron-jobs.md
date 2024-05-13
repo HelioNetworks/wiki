@@ -15,3 +15,5 @@ Scheduled tasks run in a chroot environment with limited access to binaries and 
 
 This means you cannot directly access certain programs or scripts outside of your home directory.
 {% endhint %}
+
+To work around the chroot, you can create a Flask or Python CGI endpoint like `domain.helioho.st/update` and then use the "Fetch a URL" option inside Scheduled Tasks to access it via `https`.
