@@ -8,12 +8,21 @@ To access the cronjob section, navigate to:
 
 ![Scheduled Tasks](../../.gitbook/assets/plesk-scheduled-tasks.png)
 
+# Cron jobs are chrooted
+
 {% hint style="info" %}
 Scheduled tasks run in a chroot environment with limited access to binaries and executables.  
-
 This means you cannot directly access certain programs or scripts outside of your home directory.
 {% endhint %}
 
-To work around the chroot, you can create a Flask or Python CGI endpoint like `domain.helioho.st/update` and then use the "Fetch a URL" option inside Scheduled Tasks to access it via `https`.
+## To Work Around the chroot
+
+## Flask endpoint
+
+Set up a Flask application and create an endpoint like `domain.helioho.st/update`, then use the "Fetch a URL" option inside Scheduled Tasks to access it via `https`.
+
+## Python CGI
+
+Set up a Python script in the `cgi-bin` directory, then use the "Fetch a URL" option inside Scheduled Tasks to access the file via `https`.
 
 ![Schedule a Task](../../.gitbook/assets/plesk-schedule-a-task.png)
