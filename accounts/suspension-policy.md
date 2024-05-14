@@ -32,8 +32,8 @@ In Plesk, cron jobs are called [Scheduled Tasks](../tutorials/plesk/cron-jobs.md
 
 Each person/user is only allowed one account on HelioHost. Even if you use different email addresses. The limit is 1 account per human being. If you require more than one website, then many features of another HelioHost account are already possible with your current account. Read up on [Parked, Addon and Sub Domains](../management/parked-addon-and-sub-domains.md) for more information on how to make multiple websites on one account.
 
-If you are caught with two or more accounts, you will be asked which one\(s\) you would like to be deleted, and if you do not reply we will permanently suspend all of them.
+If you are caught with two or more accounts, you will be asked which one(s) you would like to be deleted, and if you do not reply we will permanently suspend all of them.
 
 ## Further Information
 
-If you have been suspended for something, and the renew script doesn't work, and you're not sure why or what for, then please don't hesitate to post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/), making sure to **provide your domain name, username, and server name up front** so we can provide you with the best and most efficient support.
+If you have been suspended for something and you're not sure why or what for, or the renew script doesn't work, please don't hesitate to post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/), making sure to provide your **username**, **domain name**, and **server name** up front so we can provide you with the best and most efficient support.
