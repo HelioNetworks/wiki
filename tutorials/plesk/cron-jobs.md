@@ -6,6 +6,12 @@
 
 In Plesk, cron jobs are called `Scheduled Tasks`. 
 
+## Cron Jobs Affect Account Load
+
+{% hint style="warning" %}
+Scheduled Tasks count towards your total account load. This means that running too many cronjobs or starting a cronjob to run every 1 minute risks your account getting suspended for [high server usage](../../accounts/suspension-policy.md#high-server-usage). Refer to the [Cron Jobs section of our Suspension Policy](../../accounts/suspension-policy.md#cron-jobs) for more details.
+{% endhint %}
+
 ## Setting up a Scheduled Task
 
 To access the cron job section, navigate to:  
@@ -38,9 +44,3 @@ Set up a Python script in the `cgi-bin` directory, then use the "Fetch a URL" op
 If you're new to Python or want a more detailed guide, check out this [Python tutorial](../python.md) to help you get started.
 
 ![](../../.gitbook/assets/plesk-schedule-a-task.png)
-
-## Cron Jobs Affect Account Load
-
-{% hint style="warning" %}
-Scheduled Tasks count towards your total account load. This means that running too many cronjobs or starting a cronjob to run every 1 minute risks your account getting suspended for [high server usage](../../accounts/suspension-policy.md#high-server-usage). Refer to the [Cron Jobs section of our Suspension Policy](../../accounts/suspension-policy.md#cron-jobs) for more details.
-{% endhint %}
