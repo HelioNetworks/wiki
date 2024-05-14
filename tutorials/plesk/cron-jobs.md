@@ -2,8 +2,6 @@
 
 <!-- Note: Variations of the term 'cron job', including 'cronjob', 'cron jobs', and 'cronjobs' have been used in this document to enhance discoverability in Wiki search queries.  -->
 
-## Cron Jobs / Scheduled Tasks
-
 In Plesk, cron jobs are called `Scheduled Tasks`. 
 
 ## Cron Jobs Affect Account Load
