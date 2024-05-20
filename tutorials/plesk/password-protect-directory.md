@@ -58,6 +58,8 @@ To add more users, click the `Add User` button and repeat the above steps. To ch
 
 ## Add File(s) to Protected Directory
 
+Since directory listing is not enabled, there must be at least one file inside the password protected directory, or else a `403 Forbidden` error will result.
+
 Using Plesk's File Manager or your preferred method of [uploading files](../../management/uploading-files.md), navigate to `httpdocs/protected-files` (or `public_html/protected-files` if you were transferred from the old cPanel), and add your file(s).
 
 ![](../../.gitbook/assets/plesk-access-protected-directory-file-manager.png)
