@@ -27,3 +27,17 @@ Click the `Add Protected Directory` button and enter the details below:
 You should see a confirmation message of: `Protected directory / [directory] was successfully created`
 
 ![](../../.gitbook/assets/plesk-protected-directory-created.png)
+
+The directory will appear in the list of your domain's protected directories.
+
+## Add User Permissions
+
+To access the protected directory, it must have at least one user associated with it. To add a user, click on the directory name:
+
+![](../../.gitbook/assets/plesk-protected-directories-list.png)
+
+Click on the `Add User` button, enter a Username and Password for the new user, and click on the `Create` button. 
+
+You should see a confirmation message of: `The protected directory user [username] was created`.
+
+![](../../.gitbook/assets/plesk-protected-directories-user-created.png)
