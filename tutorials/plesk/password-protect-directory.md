@@ -47,3 +47,25 @@ Enter a Username and Password for the new user, and click on the `Create` button
 You should see a confirmation message of: `The protected directory user [username] was created`.
 
 ![](../../.gitbook/assets/plesk-protected-directories-user-created.png)
+
+The user will appear in the list of the protected directory's users. 
+
+To add more users, click the `Add User` button and repeat the above steps. To change the password of an existing user, click on the key image.
+
+![](../../.gitbook/assets/plesk-protected-directories-list-of-users.png)
+
+## Access the Protected Directory
+
+The examples below demonstate where to locate a new password protected directory named `protected-files` that was created directly inside the account root directory.
+
+## File Manager Access
+
+Using Plesk's File Manager, navigate to: `httpdocs/protected-files` (or `public_html/protected-files` if you were transferred from the old cPanel). 
+
+![](../../.gitbook/assets/plesk-access-protected-directory-file-manager.png)
+
+## Web Browser Access
+
+In a web browser, navigate to: `domain.helioho.st/protected-files`.
+
+![](../../.gitbook/assets/plesk-access-protected-directory-in-browser.png)
