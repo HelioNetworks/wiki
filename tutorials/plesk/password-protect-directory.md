@@ -1,10 +1,12 @@
 # Password Protect a Directory in Plesk
 
-## How to password protect a directory
+## Login to Plesk
 
 Navigate to: 
 
-### Login > Plesk > Websites & Domains > [ domain ] > `Password-Protected-Directories`
+**Login > Plesk > Websites & Domains > [ domain ] > `Password-Protected-Directories`**
+
+## Add Protected Directory
 
 ![](../../.gitbook/assets/plesk-password-protected-directories.png)
 
