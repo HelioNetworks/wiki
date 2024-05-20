@@ -1,7 +1,9 @@
 # Password Protect a Directory in Plesk
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Password protection can take **up to 2 hours** to go into effect as it requires an Apache restart.
+
+We recommend you ensure that password protection is in place before uploading any sensitive files.
 {% endhint %}
 
 ## Login to Plesk
@@ -54,18 +56,45 @@ To add more users, click the `Add User` button and repeat the above steps. To ch
 
 ![](../../.gitbook/assets/plesk-protected-directories-list-of-users.png)
 
-## Access the Protected Directory
+## Add File(s) to Protected Directory
 
-The examples below demonstate where to locate a new password protected directory named `protected-files` that was created directly inside the account root directory.
-
-## File Manager Access
-
-Using Plesk's File Manager, navigate to: `httpdocs/protected-files` (or `public_html/protected-files` if you were transferred from the old cPanel). 
+Using Plesk's File Manager or your preferred method of [uploading files](../../management/uploading-files.md), navigate to `httpdocs/protected-files` (or `public_html/protected-files` if you were transferred from the old cPanel), and add your file(s).
 
 ![](../../.gitbook/assets/plesk-access-protected-directory-file-manager.png)
 
+For testing purposes, you could create a file called `test.html` file and paste in the content below:
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My Protected File</title>
+</head>
+<body>
+    HelioHost rules!
+</body>
+</html>
+```
+
+## Wait for Apache Restart
+
+{% hint style="warning" %}
+Password protection can take **up to 2 hours** to go into effect as it requires an Apache restart.
+{% endhint %}
+
 ## Web Browser Access
 
-In a web browser, navigate to: `domain.helioho.st/protected-files`.
+Within **up to 2 hours** of password protection being activated on your directory, navigate to `domain.helioho.st/protected-files/test.html` in your web browser.
 
 ![](../../.gitbook/assets/plesk-access-protected-directory-in-browser.png)
+
+## Enter Username and Password
+
+Enter the Username and Password you created, once you are signed in successfully, you should see a message of `HelioHost rules!`
+
+![](../../.gitbook/assets/plesk-access-protected-file-success.png)
+
+## Additional Guidance
+
+This [Plesk article](https://docs.plesk.com/en-US/obsidian/customer-guide/websites-and-domains/restricting-access-to-content.65152/) contains extra details and a walkthrough video.
