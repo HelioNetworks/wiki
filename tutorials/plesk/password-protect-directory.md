@@ -18,15 +18,15 @@ Navigate to:
 
 Click the `Add Protected Directory` button and enter the details below:  
 
-* In the `Directory name` field, enter the path, relative to your domain root directory, to the directory you want to protect
-  * Your domain root directory is `httpdocs` or if you were transferred from the old cPanel it will be called `public_html`
-  * The specified directory will be created if it does not already exist
-* Optionally, add a directory title in the `Title of the protected area` field
-* Click the `Create` button
+* In the `Directory name` field, enter the path, relative to your domain root directory, to the directory you want to protect.
+  * Your domain root directory is `httpdocs` (if you were transferred from the old cPanel it will be called `public_html`).
+  * The specified directory will be created if it does not already exist.
+* Optionally, add a directory title in the `Title of the protected area` field.
+* Click the `Create` button.
 
 ![](../../.gitbook/assets/plesk-create-protected-directory.png)
 
-You should see a confirmation message of: `Protected directory / [directory] was successfully created`
+You should see a confirmation message that says: `Protected directory / [directory] was successfully created`.
 
 ![](../../.gitbook/assets/plesk-protected-directory-created.png)
 
@@ -46,7 +46,7 @@ Enter a Username and Password for the new user, and click on the `Create` button
 
 ![](../../.gitbook/assets/plesk-protected-directories-create-user.png)
 
-You should see a confirmation message of: `The protected directory user [username] was created`.
+You should see a confirmation message that says: `The protected directory user [username] was created`.
 
 ![](../../.gitbook/assets/plesk-protected-directories-user-created.png)
 
@@ -64,7 +64,7 @@ Using Plesk's File Manager or your preferred method of [uploading files](../../m
 
 ![](../../.gitbook/assets/plesk-access-protected-directory-file-manager.png)
 
-For testing purposes, you could create a file called `test.html` file and paste in the content below:
+For testing purposes, you could create a file called `test.html` and paste in the content below:
 
 ```html
 <!doctype html>
@@ -93,10 +93,10 @@ Within **up to 2 hours** of password protection being activated on your director
 
 ## Enter Username and Password
 
-Enter the Username and Password you created, once you are signed in successfully, you should see a message of `HelioHost rules!`
+Enter the Username and Password you created, and once you are signed in successfully, you should see a message that says: `HelioHost rules!`.
 
 ![](../../.gitbook/assets/plesk-access-protected-file-success.png)
 
 ## Additional Guidance
 
-This [Plesk article](https://docs.plesk.com/en-US/obsidian/customer-guide/websites-and-domains/restricting-access-to-content.65152/) contains extra details and a walkthrough video.
+This [Plesk article](https://docs.plesk.com/en-US/obsidian/customer-guide/websites-and-domains/restricting-access-to-content.65152/) contains extra details and a walkthrough video which may be helpful.
