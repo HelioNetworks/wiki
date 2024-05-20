@@ -1,5 +1,9 @@
 # Password Protect a Directory in Plesk
 
+{% hint style="info" %}
+Password protection can take **up to 2 hours** to go into effect as it requires an Apache restart.
+{% endhint %}
+
 ## Login to Plesk
 
 Navigate to: 
