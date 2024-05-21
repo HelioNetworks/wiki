@@ -94,7 +94,7 @@ Screenshot taken from [https://krydos.heliohost.org/flasktest/](https://krydos.h
 
 ![](../.gitbook/assets/flask_test.png)
 
-{% hint style="warn" %}
+{% hint style="warning" %}
 Since WSGI uses server side caching, your changes might not appear immediately, and **in some cases might take several hours to update**.  
 
 We recommend developing your Flask app on your home computer and hosting the production copy on the server.
