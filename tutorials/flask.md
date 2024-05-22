@@ -3,13 +3,13 @@
 ### Flask on the Tommy and Johnny servers uses Python 3.10. 
 
 {% hint style="info" %} 
-If you need to run Flask on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/)
+If you need to run Flask on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
 {% endhint %}
 
 ## About Flask
 
 Flask is a Python web framework built with a small core and easy-to-extend philosophy.  
-Read more: [Full Stack Python](https://www.fullstackpython.com/flask.html)
+Read more at [Full Stack Python](https://www.fullstackpython.com/flask.html).
 
 ## How To Setup Flask on Plesk
 
@@ -102,13 +102,13 @@ Flask changes can take **up to 2 hours** to appear consistently on your site bec
 If you want site changes to take effect immediately, please refer to the options below.
 {% endhint %}
 
-### How Caching Works
+### What Caching Does
 
 If there are 20 Apache processes, each time you refresh your site you are randomly assigned to one of these processes. If the process has already displayed your site, it shows the cached version of your code; otherwise it shows the new code changes. This means that during the first 2 hours of site changes, you may intermittently see old or new content depending on which process you get assigned to. This situation will resolve when Apache is restarted, which happens every 2 hours.
 
-## Working Around Caching
+## Options to Work Around Caching
 
-### Option 1: Request Manual Reload Ability
+### 1. Request Manual Reload Ability
 
 A new feature currently in beta is the ability for users to restart their Flask app themselves. 
 
@@ -118,13 +118,13 @@ Once your domain has been changed to enable manual reloads, editing your `flask.
 
 Please let us know if you experience unexpected results with this new feature.
 
-### Option 2: Local Development
+### 2. Use Local Development Environment
 
 Another option to have code changes appear immediately is to develop your Flask app on your home computer. Once you are finished building your app you could then host the production copy on the server.
 
-### Option 3: VPS 
+### 3. VPS
 
-You may prefer to explore one of our paid options for [VPS Plans](https://heliohost.org/vps/) depending on your requirements.
+You may prefer to explore one of our paid [VPS Plan](https://heliohost.org/vps/) options, depending on your requirements.
 
 ## Troubleshooting
 
