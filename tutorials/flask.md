@@ -104,17 +104,17 @@ If you want site changes to take effect immediately, please refer to the options
 
 ### What Caching Does
 
-If there are 20 Apache processes, each time you refresh your site you are randomly assigned to one of these processes. If the process has already displayed your site, it shows the cached version of your code; otherwise it shows the new code changes. This means that during the first 2 hours of site changes, you may intermittently see old or new content depending on which process you get assigned to. This situation will resolve when Apache is restarted, which happens every 2 hours.
+Multiple Apache processes are running on the server, and each time you refresh your site you are randomly assigned to one of these processes. If that particular process has already displayed your site, it shows the cached version of your code; otherwise, it shows the new code changes. This means that during the first 2 hours after a site change, you may intermittently see old or new content, depending on which process you get assigned to. This situation will resolve when Apache is restarted, which happens every 2 hours.
 
 ## Options to Work Around Caching
 
-### 1. Request Manual Reload Ability
+### 1. Request WSGI Control Access
 
 A new feature currently in beta is the ability for users to restart their Flask app themselves. 
 
-To request this, please raise a request in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/) and provide your **username**, **server name**, and the **domain name(s)** you want to be given Flask app reload ability for. (If you have 2 Flask apps on 2 different domains, you need to request the ability to reload for each domain.)
+To request this, please create a new post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/) and provide your **username**, **server name**, and the **domain name(s)** you want to be given WSGI Control Access for. (If you have 2 Flask apps on 2 different domains, you need to request WSGI Control Access for each domain.)
 
-Once your domain has been changed to enable manual reloads, editing your `flask.wsgi` file will reload your Flask app so new code changes load immediately. The edits to the file can be as simple as adding or removing a space or a blank line. As long as the file's `last modified date` changes it will discard the cache and reload your Flask app.
+Once you have been given WSGI Control Access, you can edit your `flask.wsgi` to reload your Flask app so new code changes load immediately. The edits to the file can be as simple as adding or removing a space or a blank line. As long as the file's `last modified date` changes it will discard the cache and reload your Flask app.
 
 Please let us know if you experience unexpected results with this new feature.
 
