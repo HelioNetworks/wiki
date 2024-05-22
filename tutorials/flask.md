@@ -120,7 +120,7 @@ Please let us know if you experience unexpected results with this new feature.
 
 ### 2. Use Local Development Environment
 
-Another option to have code changes appear immediately is to develop your Flask app on your home computer. Once you are finished building your app you could then host the production copy on the server.
+Another option to see code changes reflected immediately is to develop your Flask app on your home computer and then host the production copy on the server.
 
 ### 3. VPS
 
@@ -128,7 +128,7 @@ You may prefer to explore one of our paid [VPS Plan](https://heliohost.org/vps/)
 
 ## Troubleshooting
 
-If you receive an error of `You don't have permission to access /flasktest/flask.wsgi/ on this server`, you may need to add `AddHandler cgi-script .py`to your `.htaccess` file.
+If you receive an error of `You don't have permission to access /flasktest/flask.wsgi/ on this server`, you may need to add `AddHandler cgi-script .py` on a new line in your `.htaccess` file.
 
 ## Running Flask at the Webroot
 
