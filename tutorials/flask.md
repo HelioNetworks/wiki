@@ -112,7 +112,7 @@ Multiple Apache processes are running on the server, and each time you refresh y
 
 A new feature currently in beta is the ability for users to restart their Flask app themselves. 
 
-To request this, please create a new post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/) and provide your **username**, **server name**, and the **domain name(s)** you want to be given WSGI Control Access for. (If you have 2 Flask apps on 2 different domains, you need to request WSGI Control Access for each domain.)
+To request this, please create a new post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) and provide your **username**, **server name**, and the **domain name(s)** you want to be given WSGI Control Access for. (If you have 2 Flask apps on 2 different domains, you need to request WSGI Control Access for each domain.)
 
 Once you have been given WSGI Control Access, you can edit your `flask.wsgi` to reload your Flask app so new code changes load immediately. The edits to the file can be as simple as adding or removing a space or a blank line. As long as the file's `last modified date` changes it will discard the cache and reload your Flask app.
 
