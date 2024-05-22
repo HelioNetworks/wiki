@@ -94,11 +94,37 @@ Screenshot taken from [https://krydos.heliohost.org/flasktest/](https://krydos.h
 
 ![](../.gitbook/assets/flask_test.png)
 
-{% hint style="warning" %}
-Since WSGI uses server side caching, your changes might not appear immediately, and **in some cases might take several hours to update**.  
+## WSGI Uses Caching
 
-We recommend developing your Flask app on your home computer and hosting the production copy on the server.
+{% hint style="warning" %}
+Flask changes can take **up to 2 hours** to appear consistently on your site because WSGI uses server side caching.
+
+If you want site changes to take effect immediately, please refer to the options below.
 {% endhint %}
+
+### How Caching Works
+
+If there are 20 Apache processes, each time you refresh your site you are randomly assigned to one of these processes. If the process has already displayed your site, it shows the cached version of your code; otherwise it shows the new code changes. This means that during the first 2 hours of site changes, you may intermittently see old or new content depending on which process you get assigned to. This situation will resolve when Apache is restarted, which happens every 2 hours.
+
+## Working Around Caching
+
+### Option 1: Request Manual Reload Ability
+
+A new feature currently in beta is the ability for users to restart their Flask app themselves. 
+
+To request this, please raise a request in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/) and provide your **username**, **server name**, and the **domain name(s)** you want to be given Flask app reload ability for. (If you have 2 Flask apps on 2 different domains, you need to request the ability to reload for each domain.)
+
+Once your domain has been changed to enable manual reloads, editing your `flask.wsgi` file will reload your Flask app so new code changes load immediately. The edits to the file can be as simple as adding or removing a space or a blank line. As long as the file's `last modified date` changes it will discard the cache and reload your Flask app.
+
+Please let us know if you experience unexpected results with this new feature.
+
+### Option 2: Local Development
+
+Another option to have code changes appear immediately is to develop your Flask app on your home computer. Once you are finished building your app you could then host the production copy on the server.
+
+### Option 3: VPS 
+
+You may prefer to explore one of our paid options for [VPS Plans](https://heliohost.org/vps/) depending on your requirements.
 
 ## Troubleshooting
 
