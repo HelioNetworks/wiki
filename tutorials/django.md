@@ -1,6 +1,6 @@
 # Django
 
-Django is a web development framework designed specifically for Python. Like Ruby on Rails does for Ruby, Django aims to provide a Model-View-Controller framework for web application development as well as a large set of prebuilt libraries to simplify the development of common web app features. Django's modularity also allows easy scalability and enables the reuse of various code blocks, under the policy of "Don't Repeat Yourself".
+Django is a web development framework designed specifically for Python. Like Ruby on Rails does for Ruby, Django aims to provide an MVC (Model-View-Controller) architecture for web application development as well as a large set of prebuilt libraries to simplify the development of common web app features. Django's modularity also allows easy scalability and enables the reuse of various code blocks, aligning to the DRY ("Don't Repeat Yourself") software development principle.
 
 ## Details
 
