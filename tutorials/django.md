@@ -27,21 +27,19 @@ Using the WSGI loader for a shared hosting environment is ideal because it conse
 
 We offer the complete, unadulterated Django package.
 
-### MySQL
+## Modules
 
-Our Python installation includes the MySQL extension for interfacing with the MySQL database engine.
+You can see the modules that are currently installed on Python 3.10 used by Django:
 
-### PostgreSQL
+### Johnny
 
-Our Python installation includes the PostgreSQL extension for interfacing with the PostgreSQL database engine.
+* [Python 3.10](https://krydos2.heliohost.org/pyinfo/info3.10.py)
 
-### SQLite
+### Tommy
 
-Our Python installation includes the SQLite extension for interfacing with the SQLite database engine.
+* [Python 3.10](https://krydos.heliohost.org/pyinfo/info3.10.py)
 
-### Extensive Prebuilt Libraries
-
-If you need any additional libraries installed be sure to ask at [https://www.helionet.org](https://www.helionet.org/index/).
+To request modules, please raise a request in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide your **username**, your **server**, and **the module(s) you need** including any relevant **version numbers** for them.
 
 ## Disabled
 
