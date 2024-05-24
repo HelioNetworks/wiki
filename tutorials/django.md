@@ -83,11 +83,11 @@ We don't offer shell (command line) access to our users. Many Django tutorials a
 
 There are two ways to configure Django to work with the mod_wsgi loader in Apache. You can either create a separate daemon for each Django process (daemon mode), or embed Django into the Apache daemon (embedded mode). While daemon mode tends to be the standard among Django admins because of the increased control it offers, we use embedded mode because it can be setup on a per-user basis without very much root-level configuration. Embedded mode is slightly harder to get working (see directions below), and might break compatibility with some Django tutorials. In most cases it should not be a problem.
 
-## Getting started with Django 1.11
+## Getting started with Django 4.1
 
-The official Django 1.11 documentation [is available here](https://docs.djangoproject.com/en/1.11/). The following guide is based on [this post](https://www.helionet.org/index/topic/27585-django-on-tommy/?p=126077). It's suggested to follow the [introduction tutorial](https://docs.djangoproject.com/en/1.11/intro/tutorial01/) to start off with Django: another suggestion is to try and test the package locally before uploading it online, since shell access (sometimes useful for debugging) is not provided on HelioHost.
+The official Django 4.1 documentation [is available here](https://docs.djangoproject.com/en/4.1). The following guide has been adapted from [this post](https://www.helionet.org/index/topic/27585-django-on-tommy/?p=126077). It's suggested to follow the [introduction tutorial](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) to start off with Django: another suggestion is to try and test the package locally before uploading it online, since shell access (sometimes useful for debugging) is not provided on HelioHost.
 
-Django 1.10 and later (available on Tommy and Johnny) comes with a new structure to manage its web-apps, so we're going to look in details how to set it up on a shared hosting like HelioHost. This small tutorial has been thought for Linux users, but Windows users should work it out easily.
+Django 4.1 and later (available on Tommy and Johnny) comes with a new structure to manage its web-apps, so we're going to look in details how to set it up on a shared hosting like HelioHost. This small tutorial has been thought for Linux users, but Windows users should work it out easily.
 
 Let's start by creating an empty "dumb" application to play with: refer to the official documentation for instructions on how to setup Django on a personal computer (we suggest using virtualenv, to differentiate each Django installation for each project).
 
@@ -107,13 +107,16 @@ This should return a directory structure like this:
 $ tree ../hello/
 ../hello/
 ├── db.sqlite3
-├── hello/
-│   ├── __init__.py
-│   ├── __pycache__/
-│   │   ├── ...
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
+├── hello
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-310.pyc
+│   │   ├── settings.cpython-310.pyc
+│   │   └── urls.cpython-310.pyc
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
 └── manage.py
 
 2 directories, 10 files
@@ -123,17 +126,19 @@ Run the included testing server:
 
 ```text
 $ python3 manage.py runserver 0.0.0.0:8000
+Watching for file changes with StatReloader
 Performing system checks...
 
 System check identified no issues (0 silenced).
-March 20, 2017 - 16:42:48
-Django version 1.10.6, using settings 'hello.settings'
+May 24, 2024 - 22:44:26
+Django version 4.1, using settings 'hello.settings'
 Starting development server at http://0.0.0.0:8000/
 Quit the server with CONTROL-C.
-...
 ```
 
-Now you can point your browser to the address stated ([http://127.0.0.1:8000](http://127.0.0.1:8000/)), and you should see the Django `hello world` debug message.
+Now you can point your browser to the address stated ([http://127.0.0.1:8000](http://127.0.0.1:8000/)), and you should see the Django `The install worked successfully! Congratulations!` debug message.
+
+![](../.gitbook/assets/django-install-success.png)
 
 Let's set the project up to work on HelioHost; we need to rename and link back the `wsgi.py` file.
 
