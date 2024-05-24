@@ -35,6 +35,7 @@
     * [Account Backups](tutorials/plesk/account-backups.md)
     * [Viewing Error Logs](tutorials/plesk/view-error-logs.md)
     * [Cron Jobs / Scheduled Tasks](tutorials/plesk/cron-jobs.md)
+    * [Password Protect a Directory](tutorials/plesk/password-protect-directory.md)
   * [Python](tutorials/python.md)
   * [Ruby on Rails](tutorials/ror.md)
   * [External DNS Hosting](tutorials/external-dns-hosting/README.md)
