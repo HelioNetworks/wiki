@@ -1,4 +1,6 @@
-# HelioHost
+# Home
+
+## HelioHost
 
 [HelioHost](https://heliohost.org/) is a 501(c)(3) non-profit organization powered by a community of hobbyists that offers full-featured web hosting services for free.
 
