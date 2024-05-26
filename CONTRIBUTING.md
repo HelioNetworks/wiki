@@ -8,7 +8,7 @@ Before opening a pull request, please read our [Code Style](./misc/code-style.md
 * Fork [this repository](https://github.com/HelioNetworks/heliohost-wiki) on GitHub.
 * Find the file you would like to edit, and then edit it. Use [GitBook's Markdown Guide](https://docs.gitbook.com/content-creation/editor/markdown) for the syntax. 
 
-When you are done, create a pull request to the main repository and we will provide feedback or merge it.
+When you are done, create a pull request to the repository's main branch and we will provide feedback or merge it.
 
 ## Other Ways to Help
 
