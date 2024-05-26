@@ -8,9 +8,9 @@ This [Wiki](https://wiki.helionet.org/) contains many articles related to [Helio
 
 ## Contributing
 
-We are community powered, which means everyone is welcome to [contribute to our Wiki](contributing.md).
+We are community powered, which means everyone is welcome to [contribute to our Wiki](CONTRIBUTING.md).
 
-There are many [other ways you can help](./misc/how-you-can-help.md) support our mission of providing full-featured web hosting for free.
+There are many [other ways you can help](./misc/how-you-can-help.md) support our mission of providing full-featured web hosting for free and contribute to our community.
 
 ## Useful Links
 
