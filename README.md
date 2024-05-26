@@ -14,8 +14,7 @@ There are many [other ways you can help](./misc/how-you-can-help.md) support our
 
 ## Useful Links
 
-* [HelioHost](https://www.heliohost.org/)
-* [HelioNet](https://www.helionet.org/index/)
-* [Sign Up](https://www.heliohost.org/signup/)
+* [HelioHost](https://heliohost.org/)
+* [HelioNet](https://helionet.org/index/)
+* [Sign Up](https://heliohost.org/signup/)
 * [FAQ](faq.md)
-
