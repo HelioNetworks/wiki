@@ -1,6 +1,6 @@
 # Contributing
 
-We welcome contributions to our community powered Wiki. 
+We welcome contributions to our community powered [Wiki](https://wiki.helionet.org/). 
 
 Before opening a pull request, please read our [Code Style](./misc/code-style.md) guidelines, to help us maintain consistency across user guidance documentation.
 
