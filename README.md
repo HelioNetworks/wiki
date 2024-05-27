@@ -6,7 +6,7 @@
 
 ## Welcome to the HelioHost Wiki
 
-This [Wiki](https://wiki.helionet.org/) contains many articles related to [HelioHost](hosting/heliohost.md) and [its services](hosting/what-heliohost-offers.md), which can be really handy for getting the best out of your hosting experience. As well as answering many [Frequently Asked Questions](faq.md), our user-friendly how-to documents include [tutorials](tutorials/README.md) to help you explore various technologies, and a growing [common errors](./common-errors/README.md) section to point you in the right direction if you get a bit stuck.
+This [Wiki](https://wiki.helionet.org/) contains many articles related to [HelioHost](hosting/heliohost.md) and [its services](hosting/what-heliohost-offers.md), which can be really handy for getting the best out of your hosting experience. As well as answering many [Frequently Asked Questions](faq.md), our user-friendly how-to documents include [Tutorials](tutorials/README.md) to help you explore various technologies, and a growing [Common Errors](./common-errors/README.md) section to point you in the right direction if you get a bit stuck.
 
 ## Contributing
 
