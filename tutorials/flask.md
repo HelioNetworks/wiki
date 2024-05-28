@@ -121,7 +121,7 @@ Please let us know if you experience unexpected results with this new feature.
 #### Account Resets Remove WSGI Control Access
 
 {% hint style="info" %}
-Account resets will default to WSGI Control Access being disabled. If you [request an account reset](../faq.md#how-do-i-reset-my-hosting-account-to-start-fresh) and want WSGI Control Access enabled, please specify this in your reset request.
+If you [request an account reset](../faq.md#how-do-i-reset-my-hosting-account-to-start-fresh) and want WSGI Control Access re-enabled after the reset, please specify this in your reset request. By default, account resets will disable WSGI Control Access.
 {% endhint %}
 
 ### 2. Use Local Development Environment
