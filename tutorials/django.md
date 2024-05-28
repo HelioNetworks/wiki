@@ -47,6 +47,12 @@ Once you have been given WSGI Control Access, you can edit your `dispatch.wsgi` 
 
 Please let us know if you experience unexpected results with this new feature.
 
+#### Account Resets Remove WSGI Control Access
+
+{% hint style="info" %}
+Account resets will default to WSGI Control Access being disabled. If you [request an account reset](../faq.md#how-do-i-reset-my-hosting-account-to-start-fresh) and want WSGI Control Access enabled, please specify this in your reset request.
+{% endhint %}
+
 ### 2. Use Local Development Environment
 
 Another option to see code changes reflected immediately is to develop your Django app on your home computer and then host the production copy on the server.
