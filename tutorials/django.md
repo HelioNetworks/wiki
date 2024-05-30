@@ -23,6 +23,12 @@ Django is a web development framework designed specifically for Python. Like Rub
 
 Using the WSGI loader for a shared hosting environment is ideal because it conserves memory and enhances security.
 
+{% hint style="warning" %}
+Django changes can take **up to 2 hours** to appear consistently on your site because [WSGI uses server side caching](#wsgi-uses-server-side-caching)
+
+If you want site changes to take effect immediately, we offer a few [options to work around caching](#options-to-work-around-caching).
+{% endhint %}
+
 ### Complete Django
 
 We offer the complete, unadulterated Django package, including extensions to interface with [MySQL](../management/mysql.md), [PostgreSQL](../features/postgresql.md), and [SQLite](../features/sqlite.md) database engines.
@@ -30,44 +36,6 @@ We offer the complete, unadulterated Django package, including extensions to int
 ### Additional Libraries
 
 To request additional libraries, please raise a request in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide your **username**, your **server**, and **the libraries you need** including any relevant **version numbers** for them.
-
-#### WSGI Uses Caching
-
-{% hint style="warning" %}
-Django changes can take **up to 2 hours** to appear consistently on your site because WSGI uses server side caching.
-
-If you want site changes to take effect immediately, please refer to the [options below](/tutorials/django.md#options-to-work-around-caching).
-{% endhint %}
-
-#### What Caching Does
-
-Multiple Apache processes are running on the server, and each time you refresh your site you are randomly assigned to one of these processes. If that particular process has already displayed your site, it shows the cached version of your code; otherwise, it shows the new code changes. This means that during the first 2 hours after a site change, you may intermittently see old or new content, depending on which process you get assigned to. This situation will resolve when Apache is restarted, which happens every 2 hours.
-
-## Options to Work Around Caching
-
-### 1. Request WSGI Control Access
-
-A new feature currently in beta is the ability for users to restart their Django app themselves. 
-
-To request this, please create a new post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) and provide your **username**, **server name**, and the **domain name(s)** you want to be given WSGI Control Access for. (If you have 2 Django apps on 2 different domains, you need to request WSGI Control Access for each domain.)
-
-Once you have been given WSGI Control Access, you can edit your `dispatch.wsgi` to reload your Django app so new code changes load immediately. The edits to the file can be as simple as adding or removing a space or a blank line. As long as the file's `last modified date` changes it will discard the cache and reload your Django app.
-
-Please let us know if you experience unexpected results with this new feature.
-
-#### Account Resets Remove WSGI Control Access
-
-{% hint style="info" %}
-If you [request an account reset](../faq.md#how-do-i-reset-my-hosting-account-to-start-fresh) and want WSGI Control Access re-enabled after the reset, please specify this in your reset request. By default, account resets will disable WSGI Control Access.
-{% endhint %}
-
-### 2. Use Local Development Environment
-
-Another option to see code changes reflected immediately is to develop your Django app on your home computer and then host the production copy on the server.
-
-### 3. VPS
-
-You may prefer to explore one of our paid [VPS Plan](https://heliohost.org/vps/) options, depending on your requirements.
 
 ## Disabled
 
@@ -250,6 +218,40 @@ In your web browser, navigate to `domain.helioho.st/djangotest`
 If you did everything right it should look like this: 
 
 ![](../.gitbook/assets/django-install-success.png)
+
+## WSGI Uses Server Side Caching
+
+### What WSGI Server Side Caching Does
+
+Multiple Apache processes are running on the server, and each time you refresh your site you are randomly assigned to one of these processes. If that particular process has already displayed your site, it shows the cached version of your code; otherwise, it shows the new code changes. This means that during the first 2 hours after a site change, you may intermittently see old or new content, depending on which process you get assigned to. This situation will resolve when Apache is restarted, which happens every 2 hours.
+
+## Options to Work Around Caching
+
+### 1. Request WSGI Control Access
+
+A new feature currently in beta is the ability for users to restart their Django app themselves. 
+
+To request this, please create a new post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) and provide your **username**, **server name**, and the **domain name(s)** you want to be given WSGI Control Access for. (If you have 2 Django apps on 2 different domains, you need to request WSGI Control Access for each domain.)
+
+Once you have been given WSGI Control Access, you can edit your `dispatch.wsgi` to reload your Django app so new code changes load immediately. The edits to the file can be as simple as adding or removing a space or a blank line. As long as the file's `last modified date` changes it will discard the cache and reload your Django app.
+
+Please let us know if you experience unexpected results with this new feature.
+
+#### Account Resets Remove WSGI Control Access
+
+{% hint style="info" %}
+If you [request an account reset](../faq.md#how-do-i-reset-my-hosting-account-to-start-fresh) and want WSGI Control Access re-enabled after the reset, please specify this in your reset request. By default, account resets will disable WSGI Control Access.
+{% endhint %}
+
+### 2. Use Local Development Environment
+
+Another option to see code changes reflected immediately is to develop your Django app on your home computer and then host the production copy on the server.
+
+### 3. VPS
+
+You may prefer to explore one of our paid [VPS Plan](https://heliohost.org/vps/) options, depending on your requirements.
+
+
 
 ## References
 
