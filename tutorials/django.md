@@ -42,7 +42,7 @@ Multiple Apache processes are running on the server, and each time you refresh y
 A new feature currently in beta is the ability for users to restart their Django app themselves. 
 
 To request this, please create a new post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) and provide your **username**, **server name**, and the **domain name(s)** you want to be given WSGI Control Access for. (If you have 2 Django apps on 2 different domains, you need to request WSGI Control Access for each domain.)
-<!-- TODO: Confirm if `dispatch.wsgi` is the correct file to edit -->
+
 Once you have been given WSGI Control Access, you can edit your `dispatch.wsgi` to reload your Django app so new code changes load immediately. The edits to the file can be as simple as adding or removing a space or a blank line. As long as the file's `last modified date` changes it will discard the cache and reload your Django app.
 
 Please let us know if you experience unexpected results with this new feature.
@@ -91,189 +91,175 @@ There are two ways to configure Django to work with the mod_wsgi loader in Apach
 
 ## Getting started with Django 4.1
 
-The official Django 4.1 documentation [is available here](https://docs.djangoproject.com/en/4.1). We recommend following the [introduction tutorial](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) to start off with Django. Another suggestion is to try and test the package locally before uploading it online, since shell access (sometimes useful for debugging) is not provided on HelioHost.
+The official Django 4.1 documentation [is available here](https://docs.djangoproject.com/en/4.1). We recommend following the [introduction tutorial](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) to start off with. We also suggest using virtualenv to differentiate each Django installation for each project.
 
-Django 4.1 and later (available on Tommy and Johnny) comes with a new structure to manage its web-apps, so we're going to look in details how to set it up on a shared hosting like HelioHost. This small tutorial has been thought for Linux users, but Windows users should work it out easily.
+### 1. Create a directory on your main domain called `djangotest`. 
 
-Let's start by creating an empty "dumb" application to play with: refer to the official documentation for instructions on how to setup Django on a personal computer (we suggest using virtualenv, to differentiate each Django installation for each project).
+If you were transferred from the old cPanel, your main domain will be parked on the `public_html` directory.
 
-**Conventions:** All the following commands don't need root access to be executed, but the shell commands are preceded by a `$` (dollar sign) to differentiate them from the output.  
-The python executable name used on the local computer is python3 (as on a Fedora OS), but this could change according with the distribution used (e.g. Ubuntu could name it `python3.6`): change it accordingly to your executable name.
+If you created a new account on Plesk, your directory will be `httpdocs`.
 
-On your local computer, open a terminal, create a new project and perform the minimal configuration:
-
-```text
-$ django-admin startproject hello
-$ cd hello/ && python3 manage.py migrate
-```
-
-This should return a directory structure like this:
+### 2. Create an `.htaccess` file inside the `djangotest` directory with these contents:
 
 ```text
-$ tree ../hello/
-../hello/
-├── db.sqlite3
-├── hello
-│   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-310.pyc
-│   │   ├── settings.cpython-310.pyc
-│   │   └── urls.cpython-310.pyc
-│   ├── asgi.py
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-└── manage.py
-
-2 directories, 10 files
-```
-
-Run the included testing server:
-
-```text
-$ python3 manage.py runserver 0.0.0.0:8000
-Watching for file changes with StatReloader
-Performing system checks...
-
-System check identified no issues (0 silenced).
-May 24, 2024 - 22:44:26
-Django version 4.1, using settings 'hello.settings'
-Starting development server at http://0.0.0.0:8000/
-Quit the server with CONTROL-C.
-```
-
-Now you can point your browser to the address stated ([http://127.0.0.1:8000](http://127.0.0.1:8000/)), and you should see the Django `The install worked successfully! Congratulations!` debug message.
-
-![](../.gitbook/assets/django-install-success.png)
-
-Let's set the project up to work on HelioHost; we need to rename and link back the `wsgi.py` file.
-
-```text
-$ cd hello/
-$ mv wsgi.py dispatch.wsgi
-```
-
-(Windows users should skip the following step and manually copy `dispatch.wsgi` to `wsgi.py` each time they overwrite `dispatch.wsgi`):
-
-```text
-$ ln -s dispatch.wsgi wsgi.py
-```
-
-In this way, you can go on doing any edit you need on `wsgi.py`, since it's just a symbolic link to `dispatch.wsgi`, which is a configuration file needed to make your Django web app work on HelioHost.
-
-Then create a `.htaccess` file in `/home/username/public_html/hello/` containing the instructions for the Apache web server to redirect HTTP requests to your Django app.
-
-The content should be:
-
-```text
+Options +ExecCGI
 RewriteEngine On
 RewriteBase /
 RewriteRule ^(media/.*)$ - [L]
 RewriteRule ^(admin_media/.*)$ - [L]
-RewriteRule ^(hello/dispatch\.wsgi/.*)$ - [L]
-RewriteRule ^(.*)$ hello/hello/dispatch.wsgi/$1 [QSA,PT,L]
+RewriteRule ^(djangotest/dispatch\.wsgi/.*)$ - [L]
+RewriteRule ^(.*)$ djangotest/djangotest/dispatch.wsgi/$1 [QSA,PT,L]
 ```
 
-This instructs Apache to redirect all the requests (except those requesting something from `media/` or `admin_media/`) to the dispatcher file.
+### 3. Create another `djangotest` directory within the first `djangotest` directory
 
-We are not done yet: we need to tell the dispatcher file `dispatch.wsgi` how to load your Django settings; change it from:
+This directory structure is standard for a Django project. Please note that you cannot name the project folder `django`, it will not work. This is why we're using the name `djangotest` in this example.
 
-```text
-import os
-
-from django.core.wsgi import get_wsgi_application
-
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "hello.settings")
-
-application = get_wsgi_application()
-```
-
-To something like:
+### 4. Create a `dispatch.wsgi` inside the second `djangotest` directory with these contents:
 
 ```text
 import os, sys
 
-# edit your username below
-sys.path.append("/home/username_on_heliohost/public_html/hello")
+# edit your path below
+sys.path.append("/home/domain.helioho.st/httpdocs/djangotest")
 
 from django.core.wsgi import get_wsgi_application
-
-os.environ['DJANGO_SETTINGS_MODULE'] = 'hello.settings'
-
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djangotest.settings')
 application = get_wsgi_application()
 ```
 
-Change `username_on_heliohost` to the HelioHost username used on the web server.  
-In order to allow the web server to serve your Django app, you need to add the web server address in the app settings. Change `hello/settings.py` and change:
+Make sure you edit the path: 
+On Plesk, your path is `/home/domain.helioho.st/httpdocs/djangotest`
+If you were transferred from cPanel, your path is `/home/domain.helioho.st/public_html/djangotest`
+
+### 5. Create a `__init__.py` file inside the second `djangotest` directory
+
+This file should remain empty.
+
+### 6. Create a `urls.py` file inside the second `djangotest` directory with these contents:
 
 ```text
-ALLOWED_HOSTS = []
+from django.contrib import admin
+from django.urls import path
+
+urlpatterns = [
+#    path('admin/', admin.site.urls),
+]
 ```
 
-to
+### 7. Create a `settings.py` file inside the second `djangotest` directory with these contents:
 
 ```text
-ALLOWED_HOSTS = ["*"]
+from pathlib import Path
+
+# Build paths inside the project like this: BASE_DIR / 'subdir'.
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+# Quick-start development settings - unsuitable for production
+# See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = 'django-makeyoursecretbetterthanthis'
+
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True
+
+ALLOWED_HOSTS = ['*']
+
+# Application definition
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+]
+MIDDLEWARE = [
+    'django.middleware.security.SecurityMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+]
+ROOT_URLCONF = 'djangotest.urls'
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [],
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+        },
+    },
+]
+WSGI_APPLICATION = 'djangotest.wsgi.application'
+# Database
+# https://docs.djangoproject.com/en/4.1/ref/settings/#databases
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+# Password validation
+# https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
+AUTH_PASSWORD_VALIDATORS = [
+    {
+        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+    },
+    {
+        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+    },
+    {
+        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+    },
+    {
+        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+    },
+]
+# Internationalization
+# https://docs.djangoproject.com/en/4.1/topics/i18n/
+LANGUAGE_CODE = 'en-us'
+TIME_ZONE = 'UTC'
+USE_I18N = True
+USE_TZ = True
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/4.1/howto/static-files/
+STATIC_URL = 'static/'
+# Default primary key field type
+# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 ```
-
-So your website (say `djangoprogrammer.heliohost.org`, every custom domain you set up like `djangoprogrammer.com` and every subdomain such as `www`) can be served by your application.
-
-Now upload the content of the `hello/` folder to your `public_html/` folder, using whichever method you prefer, so the final content on the HelioHost web server should be something like:
+### 8. Make sure your directory structure and files look like this:
 
 ```text
-$ tree home/
-home/
-└── username_on_heliohost/
-    └── public_html/
-        ├── db.sqlite3
-        ├── manage.py
-        └── hello/
-            ├── .htaccess
-            ├── dispatch.wsgi
-            ├── __init__.py
-            ├── __pycache__/
-            │   ├── ...
-            ├── settings.py
-            ├── urls.py
-            └── wsgi.py -> dispatch.wsgi
+djangotest/
+├── djangotest
+│   ├── dispatch.wsgi
+│   ├── __init__.py
+│   ├── settings.py
+│   └── urls.py
+└── .htaccess
+
+1 directory, 5 files
 ```
 
-```text
-4 directories, 10 files
-```
+### 9. Visit Your Site
 
-If you want ready made template, on you computer having python 3:
+In your web browser, navigate to `domain.helioho.st/djangotest`
 
-First install cookiecutter:
+If you did everything right it should look like this: 
 
-```text
-$ pip install cookiecutter
-```
-
-If you are using git:
-
-```text
-$ cookiecutter https://github.com/rahul-gj/cookiecutter-helio.git
-```
-
-If you are not using git then download `cookiecutter-helio-master.zip` file from [https://github.com/rahul-gj/cookiecutter-helio](https://github.com/rahul-gj/cookiecutter-helio):
-
-```text
-$ cookiecutter path/to/cookiecutter-helio-master.zip
-```
-
-The shell will then asks few questions. Answer them:
-
-```text
-$ project_name [mysite]: hello--> Choose any name
-$ helio_user [user_name]: yourusername    --> Type your username on heliohost.org
-```
-
-The hello will be created on your working directory. Copy the content of that folder (`hello` folder and `manage.py` file) to your `public_html` folder.
-
-Eventually you can point your browser to your website address(es) and you should see your Django application being online!
+![](../.gitbook/assets/django-install-success.png)
 
 ## References
 
 * This tutorial is adapted from [this post](https://helionet.org/index/topic/53855-how-to-use-django-on-plesk/) and [this post](https://www.helionet.org/index/topic/27585-django-on-tommy/?p=126077) on the [HelioNet](https://helionet.org/) forum.
-* GitHub repository for cookiecutter recipe for HelioHost at [https://github.com/rahul-gj/cookiecutter-helio](https://github.com/rahul-gj/cookiecutter-helio).
+* A ready made template using an older Django version (1.11) is available at [https://github.com/rahul-gj/cookiecutter-helio](https://github.com/rahul-gj/cookiecutter-helio).
