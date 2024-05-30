@@ -12,12 +12,10 @@ Django is a web development framework designed specifically for Python. Like Rub
 
 ## Details
 
-| Server | Django Version | Python Version | Python Path | Loader | Python Modules Installed
+| Server | Django Version | Python Version | Python Path | Loader | Modules Installed
 | :--: | :--: | :--: | :--: | :--: | :--: |
 | Tommy | 4.1.1 | 3.10 | /usr/bin/python3.10 | WSGI |  [View](https://krydos.heliohost.org/pyinfo/info3.10.py)
 | Johnny | 4.1.5 | 3.10 | /usr/bin/python3.10 | WSGI | [View](https://krydos2.heliohost.org/pyinfo/info3.10.py) 
-
-To request modules, please raise a request in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide your **username**, your **server**, and **the module(s) you need** including any relevant **version numbers** for them.
 
 ## Enabled
 
@@ -25,12 +23,28 @@ To request modules, please raise a request in the [Customer Service forum](https
 
 Using the WSGI loader for a shared hosting environment is ideal because it conserves memory and enhances security.
 
+### MySQL
+
+Our Python installation includes the MySQL extension for interfacing with the MySQL database engine.
+
+### PostgreSQL
+
+Our Python installation includes the PostgreSQL extension for interfacing with the PostgreSQL database engine.
+
+### SQLite
+
+Our Python installation includes the SQLite extension for interfacing with the SQLite database engine.
+
+### Additional Libraries
+
+To request additional libraries, please raise a request in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide your **username**, your **server**, and **the libraries you need** including any relevant **version numbers** for them.
+
 #### WSGI Uses Caching
 
 {% hint style="warning" %}
 Django changes can take **up to 2 hours** to appear consistently on your site because WSGI uses server side caching.
 
-If you want site changes to take effect immediately, please refer to the options below.
+If you want site changes to take effect immediately, please refer to the [options below](/tutorials/django.md#options-to-work-around-caching).
 {% endhint %}
 
 #### What Caching Does
@@ -101,7 +115,7 @@ RewriteRule ^(.*)$ djangotest/djangotest/dispatch.wsgi/$1 [QSA,PT,L]
 
 ### 3. Create another `djangotest` directory within the first `djangotest` directory
 
-This directory structure is standard for a Django project. Please note that you cannot name the project folder `django`, it will not work. This is why we're using the name `djangotest` in this example.
+This directory structure is standard for a Django project. Please note that you cannot name the project folder `django`, it will not work. This is why the name `djangotest` is being used in this example.
 
 ### 4. Create a `dispatch.wsgi` inside the second `djangotest` directory with these contents:
 
@@ -116,8 +130,10 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djangotest.settings')
 application = get_wsgi_application()
 ```
 
-Make sure you edit the path: 
+Make sure you edit the path:
+
 On Plesk, your path is `/home/domain.helioho.st/httpdocs/djangotest`
+
 If you were transferred from cPanel, your path is `/home/domain.helioho.st/public_html/djangotest`
 
 ### 5. Create a `__init__.py` file inside the second `djangotest` directory
