@@ -25,7 +25,7 @@ Using the WSGI loader for a shared hosting environment is ideal because it conse
 
 ### Complete Django
 
-We offer the complete, unadulterated Django package, including extensions to interface with MySQL, PostgreSQL, and SQLite database engines.
+We offer the complete, unadulterated Django package, including extensions to interface with [MySQL](../management/mysql.md), [PostgreSQL](../features/postgresql.md), and [SQLite](../features/sqlite.md) database engines.
 
 ### Additional Libraries
 
