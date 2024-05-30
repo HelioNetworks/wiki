@@ -91,7 +91,7 @@ There are two ways to configure Django to work with the mod_wsgi loader in Apach
 
 ## Getting started with Django 4.1
 
-The official Django 4.1 documentation [is available here](https://docs.djangoproject.com/en/4.1). The following guide has been adapted from [this post](https://www.helionet.org/index/topic/27585-django-on-tommy/?p=126077). It's suggested to follow the [introduction tutorial](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) to start off with Django: another suggestion is to try and test the package locally before uploading it online, since shell access (sometimes useful for debugging) is not provided on HelioHost.
+The official Django 4.1 documentation [is available here](https://docs.djangoproject.com/en/4.1). We recommend following the [introduction tutorial](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) to start off with Django. Another suggestion is to try and test the package locally before uploading it online, since shell access (sometimes useful for debugging) is not provided on HelioHost.
 
 Django 4.1 and later (available on Tommy and Johnny) comes with a new structure to manage its web-apps, so we're going to look in details how to set it up on a shared hosting like HelioHost. This small tutorial has been thought for Linux users, but Windows users should work it out easily.
 
@@ -275,6 +275,5 @@ Eventually you can point your browser to your website address(es) and you should
 
 ## References
 
-* The original discussion from which the tutorial for Django 1.10 came out - [http://www.helionet.org/index/topic/27585-django-on-tommy/](http://www.helionet.org/index/topic/27585-django-on-tommy/).
+* This tutorial is adapted from [this post](https://helionet.org/index/topic/53855-how-to-use-django-on-plesk/) and [this post](https://www.helionet.org/index/topic/27585-django-on-tommy/?p=126077) on the [HelioNet](https://helionet.org/) forum.
 * GitHub repository for cookiecutter recipe for HelioHost at [https://github.com/rahul-gj/cookiecutter-helio](https://github.com/rahul-gj/cookiecutter-helio).
-
