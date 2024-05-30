@@ -12,10 +12,12 @@ Django is a web development framework designed specifically for Python. Like Rub
 
 ## Details
 
-| Server | Django Version | Python Version | Python Path | Loader |
-| :--- | :--- | :--- | :--- | :--- |
-| Tommy | 4.1.1 | 3.10 | /usr/bin/python3.10 | WSGI |
-| Johnny | 4.1.5 | 3.10 | /usr/bin/python3.10 | WSGI |
+| Server | Django Version | Python Version | Python Path | Loader | Python Modules Installed
+| :--: | :--: | :--: | :--: | :--: | :--: |
+| Tommy | 4.1.1 | 3.10 | /usr/bin/python3.10 | WSGI |  [View](https://krydos.heliohost.org/pyinfo/info3.10.py)
+| Johnny | 4.1.5 | 3.10 | /usr/bin/python3.10 | WSGI | [View](https://krydos2.heliohost.org/pyinfo/info3.10.py) 
+
+To request modules, please raise a request in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide your **username**, your **server**, and **the module(s) you need** including any relevant **version numbers** for them.
 
 ## Enabled
 
@@ -64,20 +66,6 @@ You may prefer to explore one of our paid [VPS Plan](https://heliohost.org/vps/)
 ### Complete Django
 
 We offer the complete, unadulterated Django package.
-
-## Modules
-
-You can see the modules that are currently installed on Python 3.10 used by Django:
-
-### Johnny
-
-* [Python 3.10](https://krydos2.heliohost.org/pyinfo/info3.10.py)
-
-### Tommy
-
-* [Python 3.10](https://krydos.heliohost.org/pyinfo/info3.10.py)
-
-To request modules, please raise a request in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide your **username**, your **server**, and **the module(s) you need** including any relevant **version numbers** for them.
 
 ## Disabled
 
