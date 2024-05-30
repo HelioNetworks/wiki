@@ -13,7 +13,7 @@ Django is a web development framework designed specifically for Python. Like Rub
 ## Details
 
 | Server | Django Version | Python Version | Python Path | Loader | Modules Installed
-| :--: | :--: | :--: | :--: | :--: | :--: |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | Tommy | 4.1.1 | 3.10 | /usr/bin/python3.10 | WSGI |  [View](https://krydos.heliohost.org/pyinfo/info3.10.py)
 | Johnny | 4.1.5 | 3.10 | /usr/bin/python3.10 | WSGI | [View](https://krydos2.heliohost.org/pyinfo/info3.10.py) 
 
@@ -23,17 +23,9 @@ Django is a web development framework designed specifically for Python. Like Rub
 
 Using the WSGI loader for a shared hosting environment is ideal because it conserves memory and enhances security.
 
-### MySQL
+### Complete Django
 
-Our Python installation includes the MySQL extension for interfacing with the MySQL database engine.
-
-### PostgreSQL
-
-Our Python installation includes the PostgreSQL extension for interfacing with the PostgreSQL database engine.
-
-### SQLite
-
-Our Python installation includes the SQLite extension for interfacing with the SQLite database engine.
+We offer the complete, unadulterated Django package, including extensions to interface with MySQL, PostgreSQL, and SQLite database engines.
 
 ### Additional Libraries
 
@@ -76,10 +68,6 @@ Another option to see code changes reflected immediately is to develop your Djan
 ### 3. VPS
 
 You may prefer to explore one of our paid [VPS Plan](https://heliohost.org/vps/) options, depending on your requirements.
-
-### Complete Django
-
-We offer the complete, unadulterated Django package.
 
 ## Disabled
 
