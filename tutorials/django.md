@@ -265,5 +265,5 @@ If you did everything right it should look like this:
 
 ## References
 
-* This tutorial is adapted from [this post](https://helionet.org/index/topic/53855-how-to-use-django-on-plesk/) and [this post](https://www.helionet.org/index/topic/27585-django-on-tommy/?p=126077) on the [HelioNet](https://helionet.org/) forum.
+* This tutorial is adapted from [this post](https://helionet.org/index/topic/53855-how-to-use-django-on-plesk/) and [this post](https://www.helionet.org/index/topic/27585-django-on-tommy/?p=126077) on the HelioNet forum.
 * A ready made template using an older Django version (1.11) is available at [https://github.com/rahul-gj/cookiecutter-helio](https://github.com/rahul-gj/cookiecutter-helio).
