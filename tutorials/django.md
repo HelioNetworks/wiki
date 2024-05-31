@@ -45,14 +45,14 @@ We don't offer shell (command line) access to our users. Many Django tutorials a
 
 ### WSGI Daemon Mode
 
-There are two ways to configure Django to work with the mod_wsgi loader in Apache. You can either create a separate daemon for each Django process (daemon mode), or embed Django into the Apache daemon (embedded mode). While daemon mode tends to be the standard among Django admins because of the increased control it offers, we use embedded mode because it can be setup on a per-user basis without very much root-level configuration. Embedded mode is slightly harder to get working (see directions below), and might break compatibility with some Django tutorials. In most cases it should not be a problem.
+There are two ways to configure Django to work with the mod_wsgi loader in Apache. You can either create a separate daemon for each Django process (daemon mode) or embed Django into the Apache daemon (embedded mode). While daemon mode tends to be the standard among Django admins because of the increased control it offers, we use embedded mode because it can be set up on a per-user basis without very much root-level configuration. Embedded mode is slightly harder to get working (see directions below), and might break compatibility with some Django tutorials. In most cases, it should not be a problem.
 
 ## Getting started with Django 4.1
 
 The official Django 4.1 documentation [is available here](https://docs.djangoproject.com/en/4.1). We recommend following the [introduction tutorial](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) to start off with. We also suggest using `virtualenv` to differentiate each Django installation for each project. The below tutorial has been designed for Linux users, but Windows users should work it out easily. 
 
 **Conventions:** The following commands don't need root access to be executed. Shell commands are preceded by a `$` (dollar sign) to differentiate them from the output.  
-The python executable name used on the local computer is `python3`, but this could change according with the distribution used, so change it as needed to match your system requirements. 
+The Python executable name used on the local computer is `python3`, but this can vary depending on the distribution used, so change it as needed to match your system requirements. 
 
 ### 1. Create a new project called `djangotest`
 
@@ -76,10 +76,8 @@ $ tree ../djangotest/
 ├── db.sqlite3
 ├── djangotest
 │   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-310.pyc
-│   │   ├── settings.cpython-310.pyc
-│   │   └── urls.cpython-310.pyc
+│   ├── __pycache__/
+│   │   ├── ...
 │   ├── asgi.py
 │   ├── settings.py
 │   ├── urls.py
@@ -108,7 +106,7 @@ Quit the server with CONTROL-C.
 
 ### 4. Open Test Server in Browser
 
-By using the test server, you can develop the app on your local computer and changes you made will take effect immediately.  
+By using the test server, you can develop the app on your local computer and changes you make will take effect immediately.  
 
 Point your web browser to [http://127.0.0.1:8000](http://127.0.0.1:8000/) and you should see a message confirming the installation worked successfully:
 
@@ -124,10 +122,10 @@ If you want changes to your deployed site to take effect immediately, we offer a
 
 ### 6. Rename the `wsgi.py` file to `dispatch.wsgi`
 
-To prepare the project for deployment, from within the second (inner) `djangotest` folder, rename the `wsgi.py` file to `dispatch.wsgi`.
+To prepare the project for deployment, rename the `wsgi.py` file to `dispatch.wsgi`. Both files are inside the second (inner) `djangotest` folder.
 
 ```text
-$ mv wsgi.py dispatch.wsgi
+$ mv djangotest/wsgi.py djangotest/dispatch.wsgi
 ```
 
 ### 7. Create an `.htaccess` file 
@@ -165,7 +163,7 @@ To the below:
 ```text
 import os, sys
 
-# EDIT PATH BELOW
+# edit your path below
 sys.path.append("/home/domain.helioho.st/httpdocs/djangotest")
 
 from django.core.wsgi import get_wsgi_application
@@ -173,7 +171,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djangotest.settings')
 application = get_wsgi_application()
 ```
 
-#### Make sure to edit the path
+#### Make sure to edit your path
 If you were transferred from the old cPanel, your main domain will be parked on the `public_html` directory.  
 If you created a new account on Plesk, your directory will be `httpdocs`.
 
