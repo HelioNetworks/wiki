@@ -97,9 +97,9 @@ Screenshot taken from [https://krydos.heliohost.org/flasktest/](https://krydos.h
 ## WSGI Uses Caching
 
 {% hint style="warning" %}
-Flask changes can take **up to 2 hours** to appear consistently on your site because WSGI uses server side caching.
+Flask changes can take **up to 2 hours** to appear consistently on your site because [WSGI uses server side caching](#wsgi-uses-caching).
 
-If you want site changes to take effect immediately, please refer to the options below.
+If you want site changes to take effect immediately, please refer to the [options below](#options-to-work-around-caching).
 {% endhint %}
 
 ### What Caching Does
@@ -144,4 +144,4 @@ If you prefer to run Flask at the webroot instead, this is possible with some sl
 
 ### References
 
-This tutorial is adapted from the **[How to Use Flask on Plesk](https://helionet.org/index/topic/53856-how-to-use-flask-on-plesk/)** post on the HelioNet forum, answered by Krydos.
+This tutorial is adapted from the [How to Use Flask on Plesk](https://helionet.org/index/topic/53856-how-to-use-flask-on-plesk/) post on the HelioNet forum, answered by Krydos.
