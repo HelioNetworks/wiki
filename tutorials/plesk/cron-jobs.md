@@ -1,13 +1,11 @@
 # Cron Jobs
 
-<!-- Note: Variations of the term 'cron job', including 'cronjob', 'cron jobs', and 'cronjobs' have been used in this document to enhance discoverability in Wiki search queries.  -->
-
 In Plesk, cron jobs are called `Scheduled Tasks`. 
 
 ## Cron Jobs Affect Account Load
 
 {% hint style="warning" %}
-Scheduled Tasks count towards your total account load. This means that running too many cronjobs or starting a cronjob to run every 1 minute risks your account getting suspended for [high server usage](../../accounts/suspension-policy.md#high-server-usage). Refer to the [Cron Jobs section of our Suspension Policy](../../accounts/suspension-policy.md#cron-jobs) for more details.
+Scheduled Tasks count towards your total account load. This means that running too many cron jobs or starting a cron job to run every 1 minute risks your account getting suspended for [high server usage](../../accounts/suspension-policy.md#high-server-usage). Refer to the [Cron Jobs section of our Suspension Policy](../../accounts/suspension-policy.md#cron-jobs) for more details.
 {% endhint %}
 
 ## Setting up a Scheduled Task
