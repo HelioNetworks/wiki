@@ -74,7 +74,7 @@
 
 * [Clear Your Cache](misc/clear-your-cache.md)
 * [WordPress](misc/wordpress.md)
-* [Contributing to the Wiki](misc/contributing.md)
+* [Contributing to the Wiki](CONTRIBUTING.md)
 * [Server Load and Uptime](misc/server-status.md)
 * [How You Can Help](misc/how-you-can-help.md)
 * [Staff](misc/staff/README.md)
