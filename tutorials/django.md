@@ -8,11 +8,11 @@ If you need to run Django on another version of Python, you'll need to get a [VP
 
 ## About Django
 
-Django is a web development framework designed specifically for Python. Like Ruby on Rails does for Ruby, Django aims to provide an MVC (Model-View-Controller) architecture for web application development as well as a large set of prebuilt libraries to simplify the development of common web app features. Django's modularity also allows easy scalability and enables the reuse of various code blocks, aligning to the DRY ("Don't Repeat Yourself") software development principle.
+Django is a web development framework designed specifically for Python. As Ruby on Rails does for Ruby, Django aims to provide an MVC (Model-View-Controller) architecture for web application development as well as a large set of prebuilt libraries to simplify the development of common web app features. Django's modularity also allows easy scalability and enables the reuse of various code blocks, aligning to the DRY ("Don't Repeat Yourself") software development principle.
 
 ## Details
 
-| Server | Django Version | Python Version | Python Path | Loader | Modules Installed
+| Server | Django Version | Python Version | Python Path | Loader | Python Modules Installed
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Tommy | 4.1.1 | 3.10 | /usr/bin/python3.10 | WSGI |  [View](https://krydos.heliohost.org/pyinfo/info3.10.py)
 | Johnny | 4.1.5 | 3.10 | /usr/bin/python3.10 | WSGI | [View](https://krydos2.heliohost.org/pyinfo/info3.10.py) 
@@ -117,7 +117,7 @@ Point your web browser to [http://127.0.0.1:8000](http://127.0.0.1:8000/) and yo
 {% hint style="warning" %}
 Django changes can take **up to 2 hours** to appear consistently on your site because [WSGI uses server side caching](#wsgi-uses-server-side-caching).
 
-If you want changes to your deployed site to take effect immediately, we offer a few [options to work around caching](#options-to-work-around-caching).
+If you want site changes to take effect immediately, we offer a few [options to work around caching](#options-to-work-around-caching).
 {% endhint %}
 
 ### 6. Rename the `wsgi.py` file to `dispatch.wsgi`
@@ -244,7 +244,7 @@ home/
 ### 12. Visit Your Deployed Site
 
 {% hint style="warning" %}
-Django changes can take **up to 2 hours** to appear consistently on your site because [WSGI uses server side caching](#wsgi-uses-server-side-caching)
+Django changes can take **up to 2 hours** to appear consistently on your site because [WSGI uses server side caching](#wsgi-uses-server-side-caching).
 
 If you want site changes to take effect immediately, we offer a few [options to work around caching](#options-to-work-around-caching).
 {% endhint %}
@@ -290,4 +290,4 @@ You may prefer to explore one of our paid [VPS Plan](https://heliohost.org/vps/)
 ## References
 
 * This tutorial is adapted from [this post](https://helionet.org/index/topic/53855-how-to-use-django-on-plesk/) and [this post](https://www.helionet.org/index/topic/27585-django-on-tommy/?p=126077) on the HelioNet forum.
-* A ready made template using an older Django version (1.11) is available at [https://github.com/rahul-gj/cookiecutter-helio](https://github.com/rahul-gj/cookiecutter-helio).
+* A ready-made template using an older Django version (1.11) is available at [https://github.com/rahul-gj/cookiecutter-helio](https://github.com/rahul-gj/cookiecutter-helio).
