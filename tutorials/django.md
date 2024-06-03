@@ -3,7 +3,7 @@
 ### Django on the Tommy and Johnny servers uses Python 3.10. 
 
 {% hint style="info" %} 
-If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/)
+If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
 {% endhint %}
 
 ## About Django
@@ -24,7 +24,7 @@ Django is a web development framework designed specifically for Python. Like Rub
 Using the WSGI loader for a shared hosting environment is ideal because it conserves memory and enhances security.
 
 {% hint style="warning" %}
-Django changes can take **up to 2 hours** to appear consistently on your site because [WSGI uses server side caching](#wsgi-uses-server-side-caching)
+Django changes can take **up to 2 hours** to appear consistently on your site because [WSGI uses server side caching](#wsgi-uses-server-side-caching).
 
 If you want site changes to take effect immediately, we offer a few [options to work around caching](#options-to-work-around-caching).
 {% endhint %}
@@ -115,7 +115,7 @@ Point your web browser to [http://127.0.0.1:8000](http://127.0.0.1:8000/) and yo
 ### 5. Configuring the Project for Deployment
 
 {% hint style="warning" %}
-Django changes can take **up to 2 hours** to appear consistently on your site because [WSGI uses server side caching](#wsgi-uses-server-side-caching)
+Django changes can take **up to 2 hours** to appear consistently on your site because [WSGI uses server side caching](#wsgi-uses-server-side-caching).
 
 If you want changes to your deployed site to take effect immediately, we offer a few [options to work around caching](#options-to-work-around-caching).
 {% endhint %}
@@ -276,7 +276,7 @@ Please let us know if you experience unexpected results with this new feature.
 #### Account Resets Remove WSGI Control Access
 
 {% hint style="info" %}
-If you [request an account reset](../faq.md#how-do-i-reset-my-hosting-account-to-start-fresh) and want WSGI Control Access re-enabled after the reset, please specify this in your reset request. By default, account resets will disable WSGI Control Access.
+If you [request an account reset](../faq.md#how-do-i-reset-my-hosting-account-to-start-fresh) you will need to re-request WSGI Control Access after the reset has been completed. By default, account resets will disable WSGI Control Access.
 {% endhint %}
 
 ### 2. Use Local Development Environment
