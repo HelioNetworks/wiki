@@ -2,7 +2,7 @@
 
 ## Your homepage says "Professional-Grade Hosting", but your support sucks / isn't helping me / is run by a number of volunteers, what gives?‌
 
-There is a difference between "Professional-Grade Hosting" and "Professional-Grade Customer Support". Most people are used to having dedicated customer support staff that will answer every little question; this comes standard with paid hosting. However, we don't do that here. Among the five of us, we have the collective knowledge and technical expertise of any other support staff, but in order for us to help you, we expect from you a certain competency. You must try to spell and use grammar correctly \(to the best of your ability\). You must provide necessary information \(e.g. **username** and **domain name**\). You must be able to read instructions, and you must be able to follow instructions. We will treat you with respect and professionalism if you follow these guidelines. We will probably be very annoyed if u tyep liek dis.‌
+There is a difference between "Professional-Grade Hosting" and "Professional-Grade Customer Support". Most people are used to having dedicated customer support staff that will answer every little question; this comes standard with paid hosting. However, we don't do that here. Among the five of us, we have the collective knowledge and technical expertise of any other support staff, but in order for us to help you, we expect from you a certain competency. You must try to spell and use grammar correctly (to the best of your ability). You must provide necessary information (e.g. **username** and **domain name**). You must be able to read instructions, and you must be able to follow instructions. We will treat you with respect and professionalism if you follow these guidelines. We will probably be very annoyed if u tyep liek dis.‌
 
 ## I log in frequently but am still receiving inactivity emails, what gives?
 
@@ -72,6 +72,8 @@ No. It's [one account per user](/accounts/suspension-policy.md#duplicate-account
 Because wiping an account is destructive, we have to verify your identity before we do so. This is to prevent someone from pretending to be you and deleting all your data.
 
 To request that we reset your account so you can start over, send an email **from the same email address as your hosting account** to `support@heliohost.org` so we can verify your identity and wipe your account. Alternatively, you can make a post on the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) from a forum account with the same email address as your hosting account.
+
+If you had WSGI Control Access on your account for [Flask](/tutorials/flask.md) or [Django](/tutorials/django.md) and you want this re-enabled after the reset, please specify this in your reset request. By default, account resets will disable WSGI Control Access.
 
 Once your account has been reset, you will receive an email with a link to restart your account. **You will have 7 days to use the link.** If you don't use the link to restart your account within 7 days, you will need to signup for a brand new account.
 
