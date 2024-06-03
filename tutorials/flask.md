@@ -97,9 +97,9 @@ Screenshot taken from [https://krydos.heliohost.org/flasktest/](https://krydos.h
 ## WSGI Uses Caching
 
 {% hint style="warning" %}
-Flask changes can take **up to 2 hours** to appear consistently on your site because WSGI uses server side caching.
+Flask changes can take **up to 2 hours** to appear consistently on your site because [WSGI uses server side caching](#wsgi-uses-caching).
 
-If you want site changes to take effect immediately, please refer to the options below.
+If you want site changes to take effect immediately, please refer to the [options below](#options-to-work-around-caching).
 {% endhint %}
 
 ### What Caching Does
@@ -117,6 +117,12 @@ To request this, please create a new post in the [Customer Service forum](https:
 Once you have been given WSGI Control Access, you can edit your `flask.wsgi` to reload your Flask app so new code changes load immediately. The edits to the file can be as simple as adding or removing a space or a blank line. As long as the file's `last modified date` changes it will discard the cache and reload your Flask app.
 
 Please let us know if you experience unexpected results with this new feature.
+
+#### Account Resets Remove WSGI Control Access
+
+{% hint style="info" %}
+If you [request an account reset](../faq.md#how-do-i-reset-my-hosting-account-to-start-fresh) and want WSGI Control Access re-enabled after the reset, please specify this in your reset request. By default, account resets will disable WSGI Control Access.
+{% endhint %}
 
 ### 2. Use Local Development Environment
 
@@ -138,4 +144,4 @@ If you prefer to run Flask at the webroot instead, this is possible with some sl
 
 ### References
 
-This tutorial is adapted from the **[How to Use Flask on Plesk](https://helionet.org/index/topic/53856-how-to-use-flask-on-plesk/)** post on the HelioNet forum, answered by Krydos.
+This tutorial is adapted from the [How to Use Flask on Plesk](https://helionet.org/index/topic/53856-how-to-use-flask-on-plesk/) post on the HelioNet forum, answered by Krydos.
