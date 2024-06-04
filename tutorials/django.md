@@ -1,14 +1,21 @@
 # Django
 
-Django is a web development framework designed specifically for Python. Like Ruby on Rails does for Ruby, Django aims to provide a Model-View-Controller framework for web application development as well as a large set of prebuilt libraries to simplify the development of common web app features. Django's modularity also allows easy scalability and enables the reuse of various code blocks, under the policy of "Don't Repeat Yourself".
+### Django on the Tommy and Johnny servers uses Python 3.10. 
+
+{% hint style="info" %} 
+If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
+{% endhint %}
+
+## About Django
+
+Django is a web development framework designed specifically for Python. As Ruby on Rails does for Ruby, Django aims to provide an MVC (Model-View-Controller) architecture for web application development as well as a large set of prebuilt libraries to simplify the development of common web app features. Django's modularity also allows easy scalability and enables the reuse of various code blocks, aligning to the DRY ("Don't Repeat Yourself") software development principle.
 
 ## Details
 
-| Server | Django Version | Python Version | Python Path | Loader |
-| :--- | :--- | :--- | :--- | :--- |
-| Tommy | 2.1.13 | 3.7 | /usr/bin/python3.7 | WSGI |
-| Ricky | 2.1.15 | 3.9 | /usr/bin/python3.9 | WSGI |
-| Johnny | 2.1.15 | 3.7 | /usr/bin/python3.7 | WSGI |
+| Server | Django Version | Python Version | Python Path | Loader | Python Modules Installed
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Tommy | 4.1.1 | 3.10 | /usr/bin/python3.10 | WSGI |  [View](https://krydos.heliohost.org/pyinfo/info3.10.py)
+| Johnny | 4.1.5 | 3.10 | /usr/bin/python3.10 | WSGI | [View](https://krydos2.heliohost.org/pyinfo/info3.10.py) 
 
 ## Enabled
 
@@ -16,217 +23,271 @@ Django is a web development framework designed specifically for Python. Like Rub
 
 Using the WSGI loader for a shared hosting environment is ideal because it conserves memory and enhances security.
 
+{% hint style="warning" %}
+Django changes can take **up to 2 hours** to appear consistently on your site because [WSGI uses server side caching](#wsgi-uses-server-side-caching).
+
+If you want site changes to take effect immediately, we offer a few [options to work around caching](#options-to-work-around-caching).
+{% endhint %}
+
 ### Complete Django
 
-We offer the complete, unadulterated Django package.
+We offer the complete, unadulterated Django package, including extensions to interface with [MySQL](../management/mysql.md), [PostgreSQL](../features/postgresql.md), and [SQLite](../features/sqlite.md) database engines.
 
-### MySQL
+### Additional Libraries
 
-Our Python installation includes the MySQL extension for interfacing with the MySQL database engine.
-
-### PostgreSQL
-
-Our Python installation includes the PostgreSQL extension for interfacing with the PostgreSQL database engine.
-
-### SQLite
-
-Our Python installation includes the SQLite extension for interfacing with the SQLite database engine.
-
-### Extensive Prebuilt Libraries
-
-If you need any additional libraries installed be sure to ask at [https://www.helionet.org](https://www.helionet.org/index/).
+To request additional libraries, please raise a request in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide your **username**, your **server**, and **the libraries you need** including any relevant **version numbers** for them.
 
 ## Disabled
 
 ### Shell Access
 
-We don't offer shell \(command line\) access to our users. Many Django tutorials and installation instructions assume that users have command line access, which may make working with Python & Django more difficult. Most people tend to develop on their home computer and then upload to their web server, which almost negates the need for this feature. Furthermore, most configuration done through the command line can be done through other methods, such as FTP and manual file editing.
+We don't offer shell (command line) access to our users. Many Django tutorials and installation instructions assume that users have command line access, which may make working with Python & Django more difficult. Most people tend to develop on their home computer and then upload to their web server, which almost negates the need for this feature. Furthermore, most configuration done through the command line can be done through other methods, such as FTP and manual file editing.
 
 ### WSGI Daemon Mode
 
-There are two ways to configure Django to work with the mod\_wsgi loader in Apache. You can either create a separate daemon for each Django process \(daemon mode\), or embed Django into the Apache daemon \(embedded mode\). While daemon mode tends to be the standard among Django admins because of the increased control it offers, we use embedded mode because it can be setup on a per-user basis without very much root-level configuration. Embedded mode is slightly harder to get working \(see directions below\), and might break compatibility with some Django tutorials. In most cases it should not be a problem.
+There are two ways to configure Django to work with the mod_wsgi loader in Apache. You can either create a separate daemon for each Django process (daemon mode) or embed Django into the Apache daemon (embedded mode). While daemon mode tends to be the standard among Django admins because of the increased control it offers, we use embedded mode because it can be set up on a per-user basis without very much root-level configuration. Embedded mode is slightly harder to get working (see directions below), and might break compatibility with some Django tutorials. In most cases, it should not be a problem.
 
-## Getting started with Django 1.11
+## Getting started with Django 4.1
 
-The official Django 1.11 documentation [is available here](https://docs.djangoproject.com/en/1.11/). The following guide is based on [this post](https://www.helionet.org/index/topic/27585-django-on-tommy/?p=126077). It's suggested to follow the [introduction tutorial](https://docs.djangoproject.com/en/1.11/intro/tutorial01/) to start off with Django: another suggestion is to try and test the package locally before uploading it online, since shell access \(sometimes useful for debugging\) is not provided on HelioHost.
+The official Django 4.1 documentation [is available here](https://docs.djangoproject.com/en/4.1). We recommend following the [introduction tutorial](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) to start off with. We also suggest using `virtualenv` to differentiate each Django installation for each project. The below tutorial has been designed for Linux users, but Windows users should work it out easily. 
 
-Django 1.10 and later \(available on Tommy and Johnny\) comes with a new structure to manage its web-apps, so we're going to look in details how to set it up on a shared hosting like HelioHost. This small tutorial has been thought for Linux users, but Windows users should work it out easily.
+**Conventions:** The following commands don't need root access to be executed. Shell commands are preceded by a `$` (dollar sign) to differentiate them from the output.  
+The Python executable name used on the local computer is `python3`, but this can vary depending on the distribution used, so change it as needed to match your system requirements. 
 
-Let's start by creating an empty "dumb" application to play with: refer to the official documentation for instructions on how to setup Django on a personal computer \(we suggest using virtualenv, to differentiate each Django installation for each project\).
-
-**Conventions:** All the following commands don't need root access to be executed, but the shell commands are preceded by a `$` \(dollar sign\) to differentiate them from the output.  
-The python executable name used on the local computer is python3 \(as on a Fedora OS\), but this could change according with the distribution used \(e.g. Ubuntu could name it `python3.6`\): change it accordingly to your executable name.
+### 1. Create a new project called `djangotest`
 
 On your local computer, open a terminal, create a new project and perform the minimal configuration:
 
 ```text
-$ django-admin startproject hello
-$ cd hello/ && python3 manage.py migrate
+$ django-admin startproject djangotest
+$ cd djangotest/ && python3 manage.py migrate
 ```
 
-This should return a directory structure like this:
+### 2. Verify Project Structure
+
+The below directory structure, with a `djangotest` folder nested inside another `djangotest` folder, is standard for a Django project. Please note that you cannot name the project folder `django`, it will not work. This is why the name `djangotest` has been used for this tutorial.
+
+Make sure that your directory structure and files look like this:
 
 ```text
-$ tree ../hello/
-../hello/
+$ tree ../djangotest/
+
+../djangotest/
 ├── db.sqlite3
-├── hello/
-│   ├── __init__.py
-│   ├── __pycache__/
-│   │   ├── ...
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
+├── djangotest
+│   ├── __init__.py
+│   ├── __pycache__/
+│   │   ├── ...
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
 └── manage.py
 
 2 directories, 10 files
 ```
 
-Run the included testing server:
+### 3. Run the Test Server
+
+Inside the first (outer) `djangotest` folder, start the testing server.
 
 ```text
 $ python3 manage.py runserver 0.0.0.0:8000
+
+Watching for file changes with StatReloader
 Performing system checks...
 
 System check identified no issues (0 silenced).
-March 20, 2017 - 16:42:48
-Django version 1.10.6, using settings 'hello.settings'
+May 31, 2024 - 18:12:55
+Django version 4.1, using settings 'djangotest.settings'
 Starting development server at http://0.0.0.0:8000/
 Quit the server with CONTROL-C.
-...
 ```
 
-Now you can point your browser to the address stated \([http://127.0.0.1:8000](http://127.0.0.1:8000/)\), and you should see the Django `hello world` debug message.
+### 4. Open Test Server in Browser
 
-Let's set the project up to work on HelioHost; we need to rename and link back the `wsgi.py` file.
+By using the test server, you can develop the app on your local computer and changes you make will take effect immediately.  
+
+Point your web browser to [http://127.0.0.1:8000](http://127.0.0.1:8000/) and you should see a message confirming the installation worked successfully:
+
+![](../.gitbook/assets/django-install-success.png)
+
+### 5. Configuring the Project for Deployment
+
+{% hint style="warning" %}
+Django changes can take **up to 2 hours** to appear consistently on your site because [WSGI uses server side caching](#wsgi-uses-server-side-caching).
+
+If you want site changes to take effect immediately, we offer a few [options to work around caching](#options-to-work-around-caching).
+{% endhint %}
+
+### 6. Rename the `wsgi.py` file to `dispatch.wsgi`
+
+To prepare the project for deployment, rename the `wsgi.py` file to `dispatch.wsgi`. Both files are inside the second (inner) `djangotest` folder.
 
 ```text
-$ cd hello/
-$ mv wsgi.py dispatch.wsgi
+$ mv djangotest/wsgi.py djangotest/dispatch.wsgi
 ```
 
-\(Windows users should skip the following step and manually copy `dispatch.wsgi` to `wsgi.py` each time they overwrite `dispatch.wsgi`\):
+### 7. Create an `.htaccess` file 
+
+Inside the first (outer) `djangotest` folder, create an `.htaccess` file with these contents:
 
 ```text
-$ ln -s dispatch.wsgi wsgi.py
-```
-
-In this way, you can go on doing any edit you need on `wsgi.py`, since it's just a symbolic link to `dispatch.wsgi`, which is a configuration file needed to make your Django web app work on HelioHost.
-
-Then create a `.htaccess` file in `/home/username/public_html/hello/` containing the instructions for the Apache web server to redirect HTTP requests to your Django app.
-
-The content should be:
-
-```text
+Options +ExecCGI
 RewriteEngine On
 RewriteBase /
 RewriteRule ^(media/.*)$ - [L]
 RewriteRule ^(admin_media/.*)$ - [L]
-RewriteRule ^(hello/dispatch\.wsgi/.*)$ - [L]
-RewriteRule ^(.*)$ hello/hello/dispatch.wsgi/$1 [QSA,PT,L]
+RewriteRule ^(djangotest/dispatch\.wsgi/.*)$ - [L]
+RewriteRule ^(.*)$ djangotest/djangotest/dispatch.wsgi/$1 [QSA,PT,L]
 ```
 
-This instructs Apache to redirect all the requests \(except those requesting something from `media/` or `admin_media/`\) to the dispatcher file.
+This instructs Apache to redirect all the requests (except those requesting something from `media/` or `admin_media/`) to the dispatcher file.
 
-We are not done yet: we need to tell the dispatcher file `dispatch.wsgi` how to load your Django settings; change it from:
+### 8. Edit the `dispatch.wsgi` file
+
+Inside the second (inner) `djangotest` folder, edit the dispatcher file `dispatch.wsgi` to instruct it how to load your Django settings. Change it from:
 
 ```text
 import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "hello.settings")
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djangotest.settings')
 
 application = get_wsgi_application()
 ```
 
-To something like:
+To the below:
 
 ```text
 import os, sys
 
-# edit your username below
-sys.path.append("/home/username_on_heliohost/public_html/hello")
+# edit your path below
+sys.path.append("/home/domain.helioho.st/httpdocs/djangotest")
 
 from django.core.wsgi import get_wsgi_application
-
-os.environ['DJANGO_SETTINGS_MODULE'] = 'hello.settings'
-
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djangotest.settings')
 application = get_wsgi_application()
 ```
 
-Change `username_on_heliohost` to the HelioHost username used on the web server.  
-In order to allow the web server to serve your Django app, you need to add the web server address in the app settings. Change `hello/settings.py` and change:
+#### Make sure to edit your path
+If you were transferred from the old cPanel, your main domain will be parked on the `public_html` directory.  
+If you created a new account on Plesk, your directory will be `httpdocs`.
+
+### 9. Edit the `urls.py` file
+
+Inside the second (inner) `djangotest` folder, edit the `urls.py` file. Change it from:
+
+```text
+from django.contrib import admin
+from django.urls import path
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+]
+```
+
+To the below:
+
+```text
+from django.contrib import admin
+from django.urls import path
+
+urlpatterns = [
+#    path('admin/', admin.site.urls),
+]
+```
+
+Commenting out the path to the admin interface is done for security reasons, to prevent unauthorized access to the admin panel in a production environment.
+
+### 10. Edit the `settings.py` file
+
+Inside the second (inner) `djangotest` folder, edit the `settings.py` file. 
+
+Adding the web server address to the app settings will allow the web server to serve your Django app. Change it from: 
 
 ```text
 ALLOWED_HOSTS = []
 ```
 
-to
+To the below:
 
 ```text
 ALLOWED_HOSTS = ["*"]
 ```
 
-So your website \(say `djangoprogrammer.heliohost.org`, every custom domain you set up like `djangoprogrammer.com` and every subdomain such as `www`\) can be served by your application.
+This will ensure that your website (such as `domain.heliohost.us`) can serve your application from any custom domains you have (such as `domain.com`) as well as every subdomain (such as `www`).
 
-Now upload the content of the `hello/` folder to your `public_html/` folder, using whichever method you prefer, so the final content on the HelioHost web server should be something like:
+### 11. Upload Your Project to HelioHost
+
+Upload the entire first (outer) `djangotest` folder to your main domain. Make sure that your directory structure and files look like this:
 
 ```text
-$ tree home/
 home/
-└── username_on_heliohost/
-    └── public_html/
+└── domain/
+    └── httpdocs/
+        ├── .htaccess
         ├── db.sqlite3
         ├── manage.py
-        └── hello/
-            ├── .htaccess
-            ├── dispatch.wsgi
-            ├── __init__.py
-            ├── __pycache__/
-            │   ├── ...
-            ├── settings.py
-            ├── urls.py
-            └── wsgi.py -> dispatch.wsgi
-```
+        └── djangotest/
+            └── djangotest/
+                ├── __init__.py
+                ├── asgi.py
+                ├── dispatch.wsgi
+                ├── settings.py
+                ├── urls.py
+                └── __pycache__/ 
+                    ├── ...
+``` 
 
-```text
-4 directories, 10 files
-```
+### 12. Visit Your Deployed Site
 
-If you want ready made template, on you computer having python 3:
+{% hint style="warning" %}
+Django changes can take **up to 2 hours** to appear consistently on your site because [WSGI uses server side caching](#wsgi-uses-server-side-caching).
 
-First install cookiecutter:
+If you want site changes to take effect immediately, we offer a few [options to work around caching](#options-to-work-around-caching).
+{% endhint %}
 
-```text
-$ pip install cookiecutter
-```
+In your web browser, navigate to `domain.helioho.st/djangotest`
 
-If you are using git:
+If you did everything right it should look like this: 
 
-```text
-$ cookiecutter https://github.com/rahul-gj/cookiecutter-helio.git
-```
+![](../.gitbook/assets/django-install-success.png)
 
-If you are not using git then download `cookiecutter-helio-master.zip` file from [https://github.com/rahul-gj/cookiecutter-helio](https://github.com/rahul-gj/cookiecutter-helio):
+## WSGI Uses Server Side Caching
 
-```text
-$ cookiecutter path/to/cookiecutter-helio-master.zip
-```
+### What WSGI Server Side Caching Does
 
-The shell will then asks few questions. Answer them:
+Multiple Apache processes are running on the server, and each time you refresh your site you are randomly assigned to one of these processes. If that particular process has already displayed your site, it shows the cached version of your code; otherwise, it shows the new code changes. This means that during the first 2 hours after a site change, you may intermittently see old or new content, depending on which process you get assigned to. This situation will resolve when Apache is restarted, which happens every 2 hours.
 
-```text
-$ project_name [mysite]: hello--> Choose any name
-$ helio_user [user_name]: yourusername    --> Type your username on heliohost.org
-```
+## Options to Work Around Caching
 
-The hello will be created on your working directory. Copy the content of that folder \(`hello` folder and `manage.py` file\) to your `public_html` folder.
+### 1. Request WSGI Control Access
 
-Eventually you can point your browser to your website address\(es\) and you should see your Django application being online!
+A new feature currently in beta is the ability for users to restart their Django app themselves. 
+
+To request this, please create a new post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) and provide your **username**, **server name**, and the **domain name(s)** you want to be given WSGI Control Access for. (If you have 2 Django apps on 2 different domains, you need to request WSGI Control Access for each domain.)
+
+Once you have been given WSGI Control Access, you can edit your `dispatch.wsgi` to reload your Django app so new code changes load immediately. The edits to the file can be as simple as adding or removing a space or a blank line. As long as the file's `last modified date` changes it will discard the cache and reload your Django app.
+
+Please let us know if you experience unexpected results with this new feature.
+
+#### Account Resets Remove WSGI Control Access
+
+{% hint style="info" %}
+If you [request an account reset](../faq.md#how-do-i-reset-my-hosting-account-to-start-fresh) you will need to re-request WSGI Control Access after the reset has been completed. By default, account resets will disable WSGI Control Access.
+{% endhint %}
+
+### 2. Use Local Development Environment
+
+Another option to see code changes reflected immediately is to develop your Django app on your home computer and then host the production copy on the server.
+
+### 3. VPS
+
+You may prefer to explore one of our paid [VPS Plan](https://heliohost.org/vps/) options, depending on your requirements.
 
 ## References
 
-* The original discussion from which the tutorial for Django 1.10 came out - [http://www.helionet.org/index/topic/27585-django-on-tommy/](http://www.helionet.org/index/topic/27585-django-on-tommy/).
-* GitHub repository for cookiecutter recipe for HelioHost at [https://github.com/rahul-gj/cookiecutter-helio](https://github.com/rahul-gj/cookiecutter-helio).
-
+* This tutorial is adapted from [this post](https://helionet.org/index/topic/53855-how-to-use-django-on-plesk/) and [this post](https://www.helionet.org/index/topic/27585-django-on-tommy/?p=126077) on the HelioNet forum.
+* A ready-made template using an older Django version (1.11) is available at [https://github.com/rahul-gj/cookiecutter-helio](https://github.com/rahul-gj/cookiecutter-helio).
