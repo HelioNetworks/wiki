@@ -186,7 +186,7 @@ if [ "$QUERY_STRING" == "" ]; then
     tail -30 /home/$main_domain/httpdocs/bot_control/$log_name
     echo "</pre><script>reloading = setTimeout('window.location.reload();', 10000);</script>"
 fi
-ts=`date +"%y-%m-%d %H:%M:%S"`
+ts=`date +"%Y-%m-%d %H:%M:%S"`
 if [ "$QUERY_STRING" == "action=stop" ]; then
     echo "[$ts] Stopping $bot_name." >> /home/$main_domain/httpdocs/bot_control/$log_name
     pid=`echo "$temp"|grep "$bot_name"|tail -1|awk '{print $2}'`
@@ -197,7 +197,7 @@ if [ "$QUERY_STRING" == "action=stop" ]; then
 fi
 if [ "$QUERY_STRING" == "action=start" ]; then
     echo "[$ts] Starting $bot_name." >> /home/$main_domain/httpdocs/bot_control/$log_name
-    /home/$main_domain/$bot_name >> /home/$main_domain/httpdocs/bot_control/$log_name 2>&1 &
+    /usr/bin/python3.10 -u /home/$main_domain/$bot_name >> /home/$main_domain/httpdocs/bot_control/$log_name 2>&1 &
     echo "Starting $bot_name...<script>window.location.replace('/bot_control/');</script>"
 fi
 if [ "$QUERY_STRING" == "action=clear" ]; then
