@@ -2,7 +2,7 @@
 
 We welcome contributions to our community powered [Wiki](https://wiki.helionet.org/). 
 
-Before opening a pull request, please read our [Code Style](./misc/code-style.md) guidelines, to help us maintain consistency across user guidance documentation.
+Before opening a pull request, please read our [Code Style](misc/code-style.md) guidelines, to help us maintain consistency across user guidance documentation.
 
 * Make a [GitHub](https://github.com/join) and [GitBook](https://app.gitbook.com/join) account if you haven't already.
 * Fork [this repository](https://github.com/HelioNetworks/heliohost-wiki) on GitHub.
@@ -12,4 +12,4 @@ When you are done, create a pull request to the repository's main branch and we 
 
 ## Other Ways to Help
 
-There are many other ways you can help us keep improving. Learn how you can contribute to our community on our [How You Can Help](./misc/how-you-can-help.md) page.
+There are many other ways you can help us keep improving. Learn how you can contribute to our community on our [How You Can Help](misc/how-you-can-help.md) page.
