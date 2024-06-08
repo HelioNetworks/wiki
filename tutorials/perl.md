@@ -17,7 +17,7 @@ HelioHost offers more than 100 Perl libraries by default on all free hosting acc
 
 ### Capability to add Perl libraries
 
-HelioHost users have the optional ability to add extra libraries to their Perl installations. All CPAN libraries can be installed from within your control panel.
+To request additional libraries, please raise a request in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide your **username**, your **server**, and **the libraries you need** including any relevant **version numbers** for them.
 
 ## Disabled
 
