@@ -29,7 +29,7 @@ As a security restriction, we force each Perl script to run as its HelioHost use
 
 Perl scripts are easy to configure and run. Just create a file in your `cgi-bin` directory under `public_html`, and place the Perl shebang line `#!/usr/bin/perl` on the first line of the file. Below this line you may write Perl code. Make sure you make this file's CHMOD permissions `755`, and output a `Content-type` header before anything else.
 
-A good tutorial can be found here: [http://perlmaven.com/installing-perl-and-getting-started](http://perlmaven.com/installing-perl-and-getting-started)
+A good tutorial can be found here: [https://perlmaven.com/installing-perl-and-getting-started](https://perlmaven.com/installing-perl-and-getting-started)
 
 ## Example
 
