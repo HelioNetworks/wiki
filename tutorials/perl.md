@@ -7,7 +7,6 @@ Perl is one of the most established programming languages on the Internet. With 
 | **Server** | Path | Version | Loader |
 | :--- | :--- | :--- | :--- |
 | Tommy | /usr/bin/perl | 5.16.3 | CGI |
-| Ricky | /usr/bin/perl | 5.16.3 | CGI |
 | Johnny | /usr/bin/perl | 5.16.3 | CGI |
 
 ## Enabled
