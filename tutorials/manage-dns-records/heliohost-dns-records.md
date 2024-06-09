@@ -1,8 +1,8 @@
 # Manage HelioHost DNS Records
 
-## Requesting Zone Record Changes
+## Requesting DNS Record Changes
 
-Currently, users cannot directly manage zone records (A, CNAME, TXT) for sites on `helioho.st` and `heliohost.us` domains.
+Currently, users cannot directly manage DNS records (A, CNAME, TXT, and MX) for sites hosted on `helioho.st` and `heliohost.us` domains.
 
 To add or edit a zone record, please submit a request containing **your account username**, **your domain**, and the **zone record(s) to add** in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add).
 
@@ -12,7 +12,7 @@ All zone record changes take **up to 2 hours** to go into effect as they require
 
 ## Public Availability of Zone Records
 
-Please note that records are publicly accessible by anyone once they are published.
+Please note that records are publicly accessible by anyone once they are published. 
 
 ## User Management of Zone Records
 
