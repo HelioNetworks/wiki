@@ -4,7 +4,7 @@
 
 Currently, users cannot directly manage DNS records (A, CNAME, TXT, and MX) for sites hosted on `helioho.st` and `heliohost.us` domains.
 
-To add or edit a zone record, please submit a request containing **your account username**, **your domain**, and the **zone record(s) to add** in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add).
+To add or edit a zone record, please submit a request containing **your account username**, **your domain**, and the **DNS record(s) to add** in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add).
 
 {% hint style="info" %}
 All zone record changes take **up to 2 hours** to go into effect as they require an Apache restart. 
