@@ -11,7 +11,7 @@ HelioHost offers free web hosting for all. With every account comes:
 * Up to [10 Domains](../management/parked-addon-and-sub-domains.md) (Subdomains, Parked Domains, and Addon Domains)
 * Unlimited [FTP](../management/uploading-files.md) Accounts
 * Unlimited [MySQL](../management/mysql.md) / [PostgreSQL](../features/postgresql.md) / [SQLite](../features/sqlite.md) Databases
-* Access to phpMyAdmin/phpPgAdmin
+* Access to [phpMyAdmin](../management/mysql.md#managing-the-database-with-phpmyadmin)
 * Ability to add [Perl](../tutorials/perl.md) Modules
 * [Free SSL](/management/ssl.md) with `SSL It!`
 * [Softaculous](../features/softaculous.md) (Easy installation of popular software such as blogging and forum platforms)
