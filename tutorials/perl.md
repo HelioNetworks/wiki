@@ -56,7 +56,7 @@ Edit the `perl.pl` file's CHMOD permissions to `755` (`rwx r-x r-x`).
 
 ### 3. Open file in your browser
 
-Navigate to `domain.heliohost.us/perl.pl` in your browser. If everything is working you should see `Perl as CGI is working...` displayed in your browser.
+Navigate to `domain.heliohost.us/cgi-bin/perl.pl` in your browser. If everything is working you should see `Perl as CGI is working...` displayed in your browser.
 
 ### 4. Guidance for editing `perl.pl`
 
