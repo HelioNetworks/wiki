@@ -58,7 +58,6 @@
     * [Cody](servers/virtual/cody.md)
     * [Johnny](servers/virtual/johnny.md)
     * [Lily](servers/virtual/lily.md)
-    * [Ricky](servers/virtual/ricky.md)
     * [Tommy](servers/virtual/tommy.md)
 * [Features](features/README.md)
   * [ASP.NET](features/asp.net.md)
