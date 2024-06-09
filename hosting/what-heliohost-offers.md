@@ -1,6 +1,6 @@
 # What HelioHost Offers
 
-HelioHost offers free web hosting for all. Every account includes:
+## HelioHost offers free web hosting for all. Every account includes:
 
 * Access to [Plesk](../tutorials/plesk/README.md)
 * Ability to edit [A, CNAME, TXT, and MX records](../tutorials/dns-record-management/heliohost-dns-records/README.md)
@@ -16,7 +16,7 @@ HelioHost offers free web hosting for all. Every account includes:
 * [Free SSL](/management/ssl.md) with `SSL It!`
 * [Softaculous](../features/softaculous.md) (Easy installation of popular software such as blogging and forum platforms)
 
-HelioHost accounts can use the following scripting languages:
+## HelioHost accounts can use the following scripting languages:
 
 * [ASP.NET](../features/asp.net.md)
 * [Golang](../tutorials/golang.md)
@@ -27,7 +27,7 @@ HelioHost accounts can use the following scripting languages:
 * [Perl](../tutorials/perl.md)
 * [Ruby on Rails](../tutorials/ror.md)
 
-HelioHost offers the following paid options for users who outgrow their free account:
+## HelioHost offers the following paid options for users who outgrow their free account:
 
 * Ability to [donate for additonal storage](../accounts/donation-increase-storage.md)
 * Ability to upgrade to a paid [VPS plan](https://heliohost.org/vps/)
