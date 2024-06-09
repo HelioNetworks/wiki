@@ -9,6 +9,12 @@ Perl is one of the most established programming languages on the Internet. With 
 | [Tommy](../servers/virtual/tommy.md) | /usr/bin/perl | 5.16.3 | CGI |
 | [Johnny](../servers/virtual/johnny.md) | /usr/bin/perl | 5.16.3 | CGI |
 
+### Other Perl versions
+
+{% hint style="info" %} 
+If you need a different version of Perl, you'll need to get a [VPS](https://heliohost.org/vps/).
+{% endhint %}
+
 ## Enabled
 
 ### Extensive set of default libraries
