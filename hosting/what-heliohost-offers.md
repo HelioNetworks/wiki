@@ -1,6 +1,6 @@
 # What HelioHost Offers
 
-HelioHost offers free web hosting for all. With every account comes:
+HelioHost offers free web hosting for all. Every account includes:
 
 * Access to [Plesk](../tutorials/plesk/README.md)
 * Ability to edit [A, CNAME, TXT, and MX records](../tutorials/dns-record-management/heliohost-dns-records/README.md)
