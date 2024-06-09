@@ -13,7 +13,6 @@
   * [International Countries](accounts/international-countries.md)
   * [Moving Your Account](accounts/moving-your-account.md)
   * [Suspension Policy](accounts/suspension-policy.md)
-  * [Donations for Increased Storage](accounts/donation-increase-storage.md)
 * [Plesk and Management](management/README.md)
   * [How to Access Plesk](management/how-to-access-plesk.md)
   * [Uploading Files](management/uploading-files.md)
