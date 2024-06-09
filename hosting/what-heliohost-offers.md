@@ -26,3 +26,8 @@ HelioHost accounts can use the following scripting languages:
 * [Python](../features/python.md), [Django](../tutorials/django.md), and [Flask](../tutorials/flask.md)
 * [Perl](../tutorials/perl.md)
 * [Ruby on Rails](../tutorials/ror.md)
+
+HelioHost offers the following paid options for users who outgrow their free account:
+
+* Ability to [donate for additonal storage](../accounts/donation-increase-storage.md)
+* Ability to upgrade to a paid [VPS plan](https://heliohost.org/vps/)
