@@ -54,16 +54,29 @@ print "Perl as CGI is working...";
 
 Edit the `perl.pl` file's CHMOD permissions to `755` (`rwx r-x r-x`).
 
-### 3. Open file in your browser
+### 4. Open file in your browser
 
 Navigate to `domain.heliohost.us/cgi-bin/perl.pl` in your browser. If everything is working you should see `Perl as CGI is working...` displayed in your browser.
 
-### 4. Guidance for editing `perl.pl`
+## Making Perl executable inside `httpdocs`
+
+If you prefer to make Perl executable directly inside the `httpdocs` folder, you can do this by using an `.htaccess` file with these contents:
+
+```text
+Options +ExecCGI
+AddHandler cgi-script .pl
+``` 
+
+You can then navigate to `domain.heliohost.us/perl.pl` and view the `Perl as CGI is working...` message.
+
+## Guidance for editing `perl.pl`
 
 Leave the first line as the shebang (`#!/usr/bin/perl`).
-Below the shebang, you may write Perl code. 
+
+Below the shebang, you may write Perl code.
+
 Ensure you output a `Content-type` header before anything else.
 
-### 5. Further learning
+## Further learning
 
 A good tutorial can be found here: [https://perlmaven.com/installing-perl-and-getting-started](https://perlmaven.com/installing-perl-and-getting-started)
