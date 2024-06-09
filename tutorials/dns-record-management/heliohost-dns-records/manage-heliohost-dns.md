@@ -10,9 +10,9 @@ To add or edit a zone record, please submit a request containing **your account 
 All zone record changes take **up to 2 hours** to go into effect as they require an Apache restart. 
 {% endhint %}
 
-## Public Availability of Zone Records
+## Public Availability of DNS Records
 
-Please note that records are publicly accessible by anyone once they are published. 
+Please note that DNS records are publicly accessible by anyone once they are published. This means that any information included in the DNS records, such as IP addresses or other data, will be publicly visible and can be accessed by anyone on the internet. Therefore, there is no need to request to send them privately to an admin.
 
 ## User Management of Zone Records
 
