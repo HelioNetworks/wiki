@@ -1,4 +1,4 @@
-# Manage HelioHost DNS Records
+# Manage HelioHost DNS
 
 ## Requesting DNS Record Changes
 
