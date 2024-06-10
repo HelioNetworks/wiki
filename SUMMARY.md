@@ -43,6 +43,7 @@
     * [External DNS Hosting](tutorials/dns-record-management/external-dns-hosting/README.md)
       * [Cloudflare](tutorials/dns-record-management/external-dns-hosting/cloudflare.md)
     * [HelioHost DNS Records](tutorials/dns-record-management/heliohost-dns-records/README.md)
+      * [Google Site Verification](tutorials/dns-record-management/heliohost-dns-records/google-site-verification.md)
       * [Manage HelioHost DNS](tutorials/dns-record-management/heliohost-dns-records/manage-heliohost-dns.md)
 * [Common Errors](common-errors/README.md)
   * [open_basedir restriction](common-errors/open-basedir-restriction.md)
