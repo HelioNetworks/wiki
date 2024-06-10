@@ -1,8 +1,12 @@
 # Manage HelioHost DNS
 
-## Requesting DNS Record Changes
-
 Currently, users cannot directly manage DNS records (A, CNAME, TXT, and MX) for sites hosted on `helioho.st` and `heliohost.us` domains.
+
+## Google Console Verification
+
+To verify site ownership for Google console, we recommend using their [HTML verification](https://support.google.com/webmasters/answer/9008080?hl=en#html_verification) method. 
+
+## Requesting DNS Record Changes
 
 To add or edit a zone record, please submit a request containing **your account username**, **your domain**, and the **DNS record(s) to add** in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add).
 
