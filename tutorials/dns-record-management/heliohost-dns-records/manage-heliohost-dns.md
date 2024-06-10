@@ -2,9 +2,9 @@
 
 Currently, users cannot directly manage DNS records (A, CNAME, TXT, and MX) for sites hosted on `helioho.st` and `heliohost.us` domains.
 
-## Google Console Verification
+## Google Site Verification
 
-To verify site ownership for Google console, we recommend using their [HTML verification](https://support.google.com/webmasters/answer/9008080?hl=en#html_verification) method. 
+Please refer to our [Google Site Verification tutorial](google-site-verification.md) which explains how users can verify their own domains via [HTML verification](https://support.google.com/webmasters/answer/9008080?hl=en#html_verification) without the need to contact an admin or use external DNS.
 
 ## Requesting DNS Record Changes
 
