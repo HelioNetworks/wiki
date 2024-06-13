@@ -30,6 +30,22 @@ If you're not familiar with the Brave browser, check out [PrivacyTests.org](http
 
 Using Brave's ad-blocker is a great way to support us with donations instead of viewing ads. However, as a non-profit fully funded by advertising revenue and donations, we appreciate you viewing our ads to help us stay in business. To double your donations from Brave, you can disable the Brave shields on our pages to view our ads, while also auto-contributing.
 
+### Donate via Edge browser
+
+In some countries, you can donate by visiting [heliohost.org](https://heliohost.org/) using Edge, and clicking the `Donate` button. 
+
+#### Donate Cash in Edge
+
+You can choose to donate cash via Benevity:
+
+![](../.gitbook/assets/edge-donate-cash.png)
+
+#### Donate Rewards Points in Edge
+
+You can choose to donate using Microsoft Rewards points via Benevity:
+
+![](../.gitbook/assets/edge-donate-microsoft-points.png)
+
 ## Allow Ads on Our Sites
 <!-- TODO: Add Ricky & Morty to the list of sites to allow ads on, as they get up and running. -->
 If you don't view our ads, we don't earn any ad revenue from your visits to our site. It's free to allow our ads, and we promise they're not too annoying. Make sure to add `heliohost.org`, `helionet.org`, `tommy2.heliohost.org`, `johnny.heliohost.org`, and `wiki.helionet.org` to your ad-blocker 'Allow List'. Who knows? You might even see an ad for something amazing that you want to check out.
