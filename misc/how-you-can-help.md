@@ -32,7 +32,7 @@ Using Brave's ad-blocker is a great way to support us with donations instead of 
 
 ## Allow Ads on Our Sites
 <!-- TODO: Add Ricky & Morty to the list of sites to allow ads on, as they get up and running. -->
-If you don't view our ads, we don't earn any ad revenue from your visits to our site. It's free to allow our ads, and we promise they're not too annoying. Make sure to add `heliohost.org`, `helionet.org`, `tommy.heliohost.org`, `johnny.heliohost.org`, and `wiki.helionet.org` to your ad-blocker 'Allow List'. Who knows? You might even see an ad for something amazing that you want to check out.
+If you don't view our ads, we don't earn any ad revenue from your visits to our site. It's free to allow our ads, and we promise they're not too annoying. Make sure to add `heliohost.org`, `helionet.org`, `tommy2.heliohost.org`, `johnny.heliohost.org`, and `wiki.helionet.org` to your ad-blocker 'Allow List'. Who knows? You might even see an ad for something amazing that you want to check out.
 
 ## Use Our Affiliate Links
 
