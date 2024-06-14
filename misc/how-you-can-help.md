@@ -32,7 +32,7 @@ Using Brave's ad-blocker is a great way to support us with donations instead of 
 
 ### Donate via Edge browser
 
-In some countries, you can donate by visiting [heliohost.org](https://heliohost.org/) using Edge, and clicking the `Donate` button. 
+In some countries, you can donate using the Edge browser by visiting [heliohost.org](https://heliohost.org/) and clicking the `Donate` button. 
 
 #### Donate Cash in Edge
 
