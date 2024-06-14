@@ -100,7 +100,7 @@ Write a review about HelioHost at the sites below:
 
 Let your Facebook friends know about us by posting on your timeline using [this link](https://www.facebook.com/share.php?u=http://www.heliohost.org/).
 
-### Mention us on X (was Twitter)
+### Mention us on X (formerly Twitter)
 
 Let your followers know you're hosting your website with us by using `@HelioHost` in your tweet. You can use [this link](https://twitter.com/intent/tweet?text=My%20website%20is%20on%20%40heliohost%20the%20community%20powered%20free%20web%20host%20for%20everyone.%20Get%20your%20own%20free%20website%20at%20http%3A%2F%2Fheliohost.org%2F).
 
@@ -110,8 +110,8 @@ HelioHost is community powered. We are active on the platforms below, and welcom
 
 ### [HelioNet forum](https://helionet.org/index/) 
 
-#### Forum users must follow [these rules](../hosting/terms.md#helionet-terms)
+Forum users must follow [these rules](../hosting/terms.md#helionet-terms)
 
 ### [HelioHost Discord channel](https://discord.com/invite/y8QJfXg)
 
-#### Channel users must follow [these rules](https://discord.com/channels/398197622168616962/419629456794058752/1101198173386571816)
+Channel users must follow [these rules](https://discord.com/channels/398197622168616962/419629456794058752/1101198173386571816)
