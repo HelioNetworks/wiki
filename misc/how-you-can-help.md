@@ -48,7 +48,12 @@ You can choose to donate using Microsoft Rewards points via Benevity:
 
 ## Allow Ads on Our Sites
 <!-- TODO: Add Ricky & Morty to the list of sites to allow ads on, as they get up and running. -->
-If you don't view our ads, we don't earn any ad revenue from your visits to our site. It's free to allow our ads, and we promise they're not too annoying. Make sure to add `heliohost.org`, `helionet.org`, `tommy2.heliohost.org`, `johnny.heliohost.org`, and `wiki.helionet.org` to your ad-blocker 'Allow List'. Who knows? You might even see an ad for something amazing that you want to check out.
+If you don't view our ads, we don't earn any ad revenue from your visits to our site. It's free to allow our ads, and we promise they're not too annoying. Who knows? You might even see an ad for something amazing that you want to check out. Make sure to add our sites below to your to your ad-blocker "Allow List": 
+* [heliohost.org](https://heliohost.org/)
+* [helionet.org](https://helionet.org/)
+* [tommy2.heliohost.org](https://tommy2.heliohost.org/)
+* [johnny.heliohost.org](https://johnny.heliohost.org/)
+* [wiki.helionet.org](https://wiki.helionet.org/)
 
 ## Use Our Affiliate Links
 
