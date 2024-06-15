@@ -3,12 +3,12 @@
 ## Django on the Tommy and Johnny servers uses Python 3.10. 
 
 {% hint style="info" %} 
-If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/)
+If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
 {% endhint %}
 
 ## About Django
 
-Django is a web development framework designed specifically for Python. Like Ruby on Rails does for Ruby, Django aims to provide an MVC (Model-View-Controller) architecture for web application development as well as a large set of prebuilt libraries to simplify the development of common web app features. Django's modularity also allows easy scalability and enables the reuse of various code blocks, aligning to the DRY ("Don't Repeat Yourself") software development principle.
+Django is a web development framework designed specifically for Python. As Ruby on Rails does for Ruby, Django aims to provide an MVC (Model-View-Controller) architecture for web application development as well as a large set of prebuilt libraries to simplify the development of common web app features. Django's modularity also allows easy scalability and enables the reuse of various code blocks, aligning to the DRY ("Don't Repeat Yourself") software development principle.
 
 ## Details
 
@@ -23,59 +23,19 @@ Django is a web development framework designed specifically for Python. Like Rub
 
 Using the WSGI loader for a shared hosting environment is ideal because it conserves memory and enhances security.
 
-### MySQL
+{% hint style="warning" %}
+Django changes can take **up to 2 hours** to appear consistently on your site because [WSGI uses server side caching](#wsgi-uses-server-side-caching).
 
-Our Python installation includes the MySQL extension for interfacing with the MySQL database engine.
+If you want site changes to take effect immediately, we offer a few [options to work around caching](#options-to-work-around-caching).
+{% endhint %}
 
-### PostgreSQL
+### Complete Django
 
-Our Python installation includes the PostgreSQL extension for interfacing with the PostgreSQL database engine.
-
-### SQLite
-
-Our Python installation includes the SQLite extension for interfacing with the SQLite database engine.
+We offer the complete, unadulterated Django package, including extensions to interface with [MySQL](../management/mysql.md), [PostgreSQL](../features/postgresql.md), and [SQLite](../features/sqlite.md) database engines.
 
 ### Additional Libraries
 
 To request additional libraries, please raise a request in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide your **username**, your **server**, and **the libraries you need** including any relevant **version numbers** for them.
-
-### WSGI Uses Caching
-
-{% hint style="warning" %}
-Django changes can take **up to 2 hours** to appear consistently on your site because WSGI uses server side caching.
-If you want site changes to take effect immediately, please refer to the [options below](/tutorials/django.md#options-to-work-around-caching).
-{% endhint %}
-
-### What Caching Does
-
-Multiple Apache processes are running on the server, and each time you refresh your site you are randomly assigned to one of these processes. If that particular process has already displayed your site, it shows the cached version of your code; otherwise, it shows the new code changes. This means that during the first 2 hours after a site change, you may intermittently see old or new content, depending on which process you get assigned to. This situation will resolve when Apache is restarted, which happens every 2 hours.
-
-## Options to Work Around Caching
-
-### 1. Request WSGI Control Access
-
-A new feature currently in beta is the ability for users to restart their Django app themselves. 
-To request this, please create a new post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) and provide your **username**, **server name**, and the **domain name(s)** you want to be given WSGI Control Access for. (If you have 2 Django apps on 2 different domains, you need to request WSGI Control Access for each domain.)
-Once you have been given WSGI Control Access, you can edit your `dispatch.wsgi` to reload your Django app so new code changes load immediately. The edits to the file can be as simple as adding or removing a space or a blank line. As long as the file's `last modified date` changes it will discard the cache and reload your Django app.
-Please let us know if you experience unexpected results with this new feature.
-
-#### Account Resets Remove WSGI Control Access
-
-{% hint style="info" %}
-If you [request an account reset](../faq.md#how-do-i-reset-my-hosting-account-to-start-fresh) and want WSGI Control Access re-enabled after the reset, please specify this in your reset request. By default, account resets will disable WSGI Control Access.
-{% endhint %}
-
-### 2. Use Local Development Environment
-
-Another option to see code changes reflected immediately is to develop your Django app on your home computer and then host the production copy on the server.
-
-### 3. VPS
-
-You may prefer to explore one of our paid [VPS Plan](https://heliohost.org/vps/) options, depending on your requirements.
-
-### Complete Django
-
-We offer the complete, unadulterated Django package.
 
 ## Disabled
 
@@ -85,7 +45,7 @@ We don't offer shell (command line) access to our users. Many Django tutorials a
 
 ### WSGI Daemon Mode
 
-There are two ways to configure Django to work with the mod_wsgi loader in Apache. You can either create a separate daemon for each Django process (daemon mode), or embed Django into the Apache daemon (embedded mode). While daemon mode tends to be the standard among Django admins because of the increased control it offers, we use embedded mode because it can be setup on a per-user basis without very much root-level configuration. Embedded mode is slightly harder to get working (see directions below), and might break compatibility with some Django tutorials. In most cases it should not be a problem.
+There are two ways to configure Django to work with the mod_wsgi loader in Apache. You can either create a separate daemon for each Django process (daemon mode) or embed Django into the Apache daemon (embedded mode). While daemon mode tends to be the standard among Django admins because of the increased control it offers, we use embedded mode because it can be set up on a per-user basis without very much root-level configuration. Embedded mode is slightly harder to get working (see directions below), and might break compatibility with some Django tutorials. In most cases, it should not be a problem.
 
 ## Getting started with Django 4.1 on HelioHost
 
