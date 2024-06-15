@@ -1,6 +1,6 @@
 # Django on HelioHost
 
-### Django on the Tommy and Johnny servers uses Python 3.10. 
+## Django on the Tommy and Johnny servers uses Python 3.10. 
 
 {% hint style="info" %} 
 If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/)
@@ -12,10 +12,10 @@ Django is a web development framework designed specifically for Python. Like Rub
 
 ## Details
 
-| Server | Django Version | Python Version | Python Path | Loader | Modules Installed
-| :--: | :--: | :--: | :--: | :--: | :--: |
-| Tommy | 4.1.1 | 3.10 | /usr/bin/python3.10 | WSGI |  [View](https://krydos.heliohost.org/pyinfo/info3.10.py)
-| Johnny | 4.1.5 | 3.10 | /usr/bin/python3.10 | WSGI | [View](https://krydos2.heliohost.org/pyinfo/info3.10.py) 
+| Server | Django Version | Python Version | Python Path         | Loader | Python Modules Installed                                 |
+| :----: | :------------: | :------------: | :-----------------: | :----: | :------------------------------------------------------: |
+| Tommy  | 4.1.1          | 3.10           | /usr/bin/python3.10 | WSGI   | [View](https://krydos.heliohost.org/pyinfo/info3.10.py)  |
+| Johnny | 4.1.5          | 3.10           | /usr/bin/python3.10 | WSGI   | [View](https://krydos2.heliohost.org/pyinfo/info3.10.py) |
 
 ## Enabled
 
@@ -39,14 +39,14 @@ Our Python installation includes the SQLite extension for interfacing with the S
 
 To request additional libraries, please raise a request in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide your **username**, your **server**, and **the libraries you need** including any relevant **version numbers** for them.
 
-#### WSGI Uses Caching
+### WSGI Uses Caching
 
 {% hint style="warning" %}
 Django changes can take **up to 2 hours** to appear consistently on your site because WSGI uses server side caching.
 If you want site changes to take effect immediately, please refer to the [options below](/tutorials/django.md#options-to-work-around-caching).
 {% endhint %}
 
-#### What Caching Does
+### What Caching Does
 
 Multiple Apache processes are running on the server, and each time you refresh your site you are randomly assigned to one of these processes. If that particular process has already displayed your site, it shows the cached version of your code; otherwise, it shows the new code changes. This means that during the first 2 hours after a site change, you may intermittently see old or new content, depending on which process you get assigned to. This situation will resolve when Apache is restarted, which happens every 2 hours.
 
@@ -68,6 +68,7 @@ If you [request an account reset](../faq.md#how-do-i-reset-my-hosting-account-to
 ### 2. Use Local Development Environment
 
 Another option to see code changes reflected immediately is to develop your Django app on your home computer and then host the production copy on the server.
+
 ### 3. VPS
 
 You may prefer to explore one of our paid [VPS Plan](https://heliohost.org/vps/) options, depending on your requirements.
@@ -86,9 +87,9 @@ We don't offer shell (command line) access to our users. Many Django tutorials a
 
 There are two ways to configure Django to work with the mod_wsgi loader in Apache. You can either create a separate daemon for each Django process (daemon mode), or embed Django into the Apache daemon (embedded mode). While daemon mode tends to be the standard among Django admins because of the increased control it offers, we use embedded mode because it can be setup on a per-user basis without very much root-level configuration. Embedded mode is slightly harder to get working (see directions below), and might break compatibility with some Django tutorials. In most cases it should not be a problem.
 
-## Getting started with Django 4.1
+## Getting started with Django 4.1 on HelioHost
 
-The official Django 4.1 documentation [is available here](https://docs.djangoproject.com/en/4.1). We recommend following the [introduction tutorial](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) to start off with. We also suggest using virtualenv to differentiate each Django installation for each project.
+This brief tutorial will guide you through setting up a Django test app without using the command line on your development system.
 
 ### 1. Create a directory on your main domain called `djangotest`. 
 
@@ -251,5 +252,4 @@ If you did everything right it should look like this:
 
 ## References
 
-* This tutorial is adapted from [this post](https://helionet.org/index/topic/53855-how-to-use-django-on-plesk/) and [this post](https://www.helionet.org/index/topic/27585-django-on-tommy/?p=126077) on the HelioNet forum.
-* A ready made template using an older Django version (1.11) is available at [https://github.com/rahul-gj/cookiecutter-helio](https://github.com/rahul-gj/cookiecutter-helio).
+This tutorial is adapted from [this post](https://helionet.org/index/topic/53855-how-to-use-django-on-plesk/)
