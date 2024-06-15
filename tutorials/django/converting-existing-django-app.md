@@ -75,13 +75,13 @@ $ tree ../djangotest/
 ../djangotest/
 ├── db.sqlite3
 ├── djangotest
-│   ├── __init__.py
-│   ├── __pycache__/
-│   │   ├── ...
-│   ├── asgi.py
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
+│   ├── __init__.py
+│   ├── __pycache__/
+│   │   ├── ...
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
 └── manage.py
 
 2 directories, 10 files
