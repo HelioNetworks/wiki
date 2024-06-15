@@ -27,6 +27,7 @@
   * [Discord Bot](tutorials/discord-bot.md)
   * [Django](tutorials/django/README.md)
     * [Django on HelioHost](tutorials/django/django-on-heliohost.md)
+    * [Converting an Existing Django App](tutorials/django/converting-existing-django-app.md)
   * [Flask](tutorials/flask.md)
   * [Golang as CGI](tutorials/golang.md)
   * [Node.js](tutorials/node.js/README.md)
