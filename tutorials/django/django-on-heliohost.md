@@ -51,6 +51,8 @@ There are two ways to configure Django to work with the mod_wsgi loader in Apach
 
 This brief tutorial will guide you through setting up a Django test app without using the command line on your development system.
 
+If you already have an existing Django app or prefer to use the command line, our tutorial on [Converting an Existing Django App](./converting-existing-django-app.md) may suit your needs better. 
+
 ### 1. Create a directory on your main domain called `djangotest`. 
 
 If you were transferred from the old cPanel, your main domain will be parked on the `public_html` directory.
@@ -73,7 +75,7 @@ RewriteRule ^(.*)$ djangotest/djangotest/dispatch.wsgi/$1 [QSA,PT,L]
 
 This directory structure is standard for a Django project. Please note that you cannot name the project folder `django`, it will not work. This is why the name `djangotest` is being used in this example.
 
-### 4. Create a `dispatch.wsgi` inside the second `djangotest` directory with these contents:
+### 4. Create a `dispatch.wsgi` file inside the second `djangotest` directory with these contents:
 
 ```text
 import os, sys
@@ -86,8 +88,9 @@ application = get_wsgi_application()
 
 Make sure you edit the path:
 
-On Plesk, your path is `/home/domain.helioho.st/httpdocs/djangotest`
-If you were transferred from cPanel, your path is `/home/domain.helioho.st/public_html/djangotest`
+On Plesk, your path is `/home/domain.helioho.st/httpdocs/djangotest`.
+
+If you were transferred from cPanel, your path is `/home/domain.helioho.st/public_html/djangotest`.
 
 ### 5. Create a `__init__.py` file inside the second `djangotest` directory
 
@@ -212,4 +215,4 @@ If you did everything right it should look like this:
 
 ## References
 
-This tutorial is adapted from [this post](https://helionet.org/index/topic/53855-how-to-use-django-on-plesk/)
+This tutorial is adapted from [this post](https://helionet.org/index/topic/53855-how-to-use-django-on-plesk/).
