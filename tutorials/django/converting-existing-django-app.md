@@ -31,7 +31,7 @@ If you want site changes to take effect immediately, we offer a few [options to 
 
 ### Complete Django
 
-We offer the complete, unadulterated Django package, including extensions to interface with [MySQL](../management/mysql.md), [PostgreSQL](../features/postgresql.md), and [SQLite](../features/sqlite.md) database engines.
+We offer the complete, unadulterated Django package, including extensions to interface with [MySQL](../../management/mysql.md), [PostgreSQL](../../features/postgresql.md), and [SQLite](../../features/sqlite.md) database engines.
 
 ### Additional Libraries
 
