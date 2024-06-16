@@ -114,7 +114,7 @@ By using the test server, you can develop the app on your local computer and cha
 
 Point your web browser to [http://127.0.0.1:8000](http://127.0.0.1:8000/) and you should see a message confirming the installation worked successfully:
 
-![](../.gitbook/assets/django-install-success.png)
+![](../../.gitbook/assets/django-install-success.png)
 
 ### 5. Configuring the Project for Deployment
 
@@ -259,7 +259,7 @@ In your web browser, navigate to `domain.helioho.st/djangotest`
 
 If you did everything right it should look like this: 
 
-![](../.gitbook/assets/django-install-success.png)
+![](../../.gitbook/assets/django-install-success.png)
 
 ## WSGI Uses Server Side Caching
 
