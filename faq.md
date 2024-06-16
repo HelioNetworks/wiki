@@ -73,9 +73,9 @@ Because wiping an account is destructive, we have to verify your identity before
 
 To request that we reset your account so you can start over, send an email **from the same email address as your hosting account** to `support@heliohost.org` so we can verify your identity and wipe your account. Alternatively, you can make a post on the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) from a forum account with the same email address as your hosting account.
 
-If you had WSGI Control Access on your account for [Flask](/tutorials/flask.md) or [Django](/tutorials/django.md) and you want this re-enabled after the reset, you will need to re-request WSGI Control Access after the reset has been completed. By default, account resets will disable WSGI Control Access.
-
 Once your account has been reset, you will receive an email with a link to restart your account. **You will have 7 days to use the link.** If you don't use the link to restart your account within 7 days, you will need to signup for a brand new account.
+
+If you had WSGI Control Access on your account for [Flask](/tutorials/flask.md) or [Django](/tutorials/django.md) and you want this re-enabled after the reset, you will need to re-request WSGI Control Access after the reset has been completed. By default, account resets will disable WSGI Control Access.
 
 ### VPS Rebuilds
 
