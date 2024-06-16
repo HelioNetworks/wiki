@@ -51,7 +51,7 @@ There are two ways to configure Django to work with the mod_wsgi loader in Apach
 
 This brief tutorial will guide you through setting up a Django test app without using the command line on your development system.
 
-If you already have an existing Django app or prefer to use the command line, our tutorial on [Converting an Existing Django App](./converting-existing-django-app.md) may better suit your needs.
+If you already have an existing Django app or prefer to use the command line, our tutorial on [Converting an Existing Django App](converting-existing-django-app.md) may better suit your needs.
 
 ### 1. Create a directory on your main domain called `djangotest`. 
 
