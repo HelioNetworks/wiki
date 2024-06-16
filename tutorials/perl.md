@@ -1,14 +1,17 @@
 # Perl
 
-Perl is one of the most established programming languages on the Internet. With its powerful string processing capabilities and the optional availability of almost every library imaginable, Perl is an excellent choice for somebody looking to allow flexibility and expandability. At HelioHost, we offer Perl configured with more than 100 basic libraries, and allow easy installation of all additional CPAN modules through your site's control panel. If you're a Perl developer looking for free hosting, HelioHost is the place to be.
+Perl is one of the most established programming languages on the Internet. With its powerful string processing capabilities and the optional availability of almost every library imaginable, Perl is an excellent choice for somebody looking to allow flexibility and expandability. At HelioHost, we offer Perl configured with more than 100 basic libraries and can add additional modules upon request. If you're a Perl developer looking for free hosting, HelioHost is the place to be.
 
 ## Details
 
+{% hint style="info" %} 
+If you need a different version of Perl, you'll need to get a [VPS](https://heliohost.org/vps/).
+{% endhint %}
+
 | **Server** | Path | Version | Loader |
 | :--- | :--- | :--- | :--- |
-| Tommy | /usr/bin/perl | 5.16.3 | CGI |
-| Ricky | /usr/bin/perl | 5.16.3 | CGI |
-| Johnny | /usr/bin/perl | 5.16.3 | CGI |
+| [Tommy](../servers/virtual/tommy.md) | /usr/bin/perl | 5.16.3 | CGI |
+| [Johnny](../servers/virtual/johnny.md) | /usr/bin/perl | 5.16.3 | CGI |
 
 ## Enabled
 
@@ -16,9 +19,9 @@ Perl is one of the most established programming languages on the Internet. With 
 
 HelioHost offers more than 100 Perl libraries by default on all free hosting accounts.
 
-### Capability to add Perl libraries
+### Requesting additional Perl libraries
 
-HelioHost users have the optional ability to add extra libraries to their Perl installations. All CPAN libraries can be installed from within your control panel.
+To request additional libraries, please raise a request in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide your **username**, your **server**, and **the libraries you need** including any relevant **version numbers** for them.
 
 ## Disabled
 
@@ -28,18 +31,52 @@ As a security restriction, we force each Perl script to run as its HelioHost use
 
 ## Getting Started
 
-Perl scripts are easy to configure and run. Just create a file in your `cgi-bin` directory under `public_html`, and place the Perl shebang line `#!/usr/bin/perl` on the first line of the file. Below this line you may write Perl code. Make sure you make this file's CHMOD permissions `755`, and output a `Content-type` header before anything else.
+Perl scripts are easy to configure and run. To test it out with a simple example, follow the steps below:
 
-A good tutorial can be found here: [http://perlmaven.com/installing-perl-and-getting-started](http://perlmaven.com/installing-perl-and-getting-started)
+### 1. Navigate to your main domain
 
-## Example
+If you were transferred from the old cPanel, your main domain will be parked on the `public_html` directory.  
 
-Here is an example of a hello world file:
+If you created a new account on Plesk, your directory will be `httpdocs`.
+
+### 2. Create a `perl.pl` file inside the `cgi-bin` directory with these contents:
 
 ```text
 #!/usr/bin/perl
 
-print "Content-type:text/html\r\n\r\n";
-print "Hello World!";
+print "Content-type: text/html\r\n\r\n";
+print "Perl as CGI is working...";
 ```
 
+### 3. Edit file permissions
+
+Edit the `perl.pl` file's CHMOD permissions to `755` (`rwx r-x r-x`).
+
+### 4. Open file in your browser
+
+Navigate to `domain.heliohost.us/cgi-bin/perl.pl` in your browser. 
+
+If everything is working you should see `Perl as CGI is working...` displayed in your browser.
+
+## Guidance for editing `perl.pl`
+
+Leave the first line as the shebang (`#!/usr/bin/perl`).
+
+Below the shebang, you may write Perl code.
+
+Ensure you output a `Content-type` header before anything else.
+
+## Making Perl executable inside `httpdocs`
+
+If you prefer to make Perl executable directly inside the `httpdocs` folder, you can do this by using an `.htaccess` file with these contents:
+
+```text
+Options +ExecCGI
+AddHandler cgi-script .pl
+``` 
+
+You can then navigate to `domain.heliohost.us/perl.pl` and view the `Perl as CGI is working...` success message.
+
+## Further Learning
+
+A good tutorial can be found here: [https://perlmaven.com/installing-perl-and-getting-started](https://perlmaven.com/installing-perl-and-getting-started)
