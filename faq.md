@@ -128,6 +128,14 @@ Both our [Tommy](/servers/virtual/tommy.md) and [Johnny](/servers/virtual/johnny
 
 If you need a port opened, you'll need to get one of our [VPS Plans](https://heliohost.org/vps/), and you will then have all 65535 ports available to open or close as you want.
 
+## Are directory indexes enabled?
+
+As far as we are aware, it's not currently possible to enable directory indexing (listing). However, it is something we plan on changing eventually because a lot of people like it (even though it's a security vulnerability). 
+
+There is no estimated timeframe as to when this functionality may be implemented, since there are many other higher-priority projects to be completed first.
+
+If directory indexes are enabled in the future, an announcement will be posted in the HelioNet [News](https://helionet.org/index/forum/1-news/) section, as well as elsewhere on our site and our social media.
+
 ## Your hosting SUCKS! So do YOU!!!
 
 Please see [this](http://helionet.org/index/topic/4723-suspended/page__p__46231#entry46231).
