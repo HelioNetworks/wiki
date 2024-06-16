@@ -34,6 +34,10 @@ Please use `https` and no leading `www` when linking to [https://heliohost.org](
 
 Older links that have the `www` will still work with an extra redirect, but this format should no longer be used.
 
+## Internal GitBook Links
+
+When creating links to other GitBook pages on the same level, do not use a leading `./` when linking to the page. While this format will work in the local testing environment, once marged to the main Wiki, sibling pages linked in this way will intermittently lead to the Wiki GitHub repo instead of to the intended Wiki page. <!-- See PRs 117 & 131 -->
+
 ## Users
 
 Generally, guidance would be targeted to 'users', which covers our free users and donor users.
