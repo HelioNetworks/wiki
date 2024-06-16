@@ -1,6 +1,6 @@
-# Django
+# Converting an Existing Django App to work on HelioHost
 
-### Django on the Tommy and Johnny servers uses Python 3.10. 
+## Django on the Tommy and Johnny servers uses Python 3.10. 
 
 {% hint style="info" %} 
 If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
@@ -12,10 +12,10 @@ Django is a web development framework designed specifically for Python. As Ruby 
 
 ## Details
 
-| Server | Django Version | Python Version | Python Path | Loader | Python Modules Installed
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Tommy | 4.1.1 | 3.10 | /usr/bin/python3.10 | WSGI |  [View](https://krydos.heliohost.org/pyinfo/info3.10.py)
-| Johnny | 4.1.5 | 3.10 | /usr/bin/python3.10 | WSGI | [View](https://krydos2.heliohost.org/pyinfo/info3.10.py) 
+| Server | Django Version | Python Version | Python Path         | Loader | Python Modules Installed                                 |
+| :----: | :------------: | :------------: | :-----------------: | :----: | :------------------------------------------------------: |
+| Tommy  | 4.1.1          | 3.10           | /usr/bin/python3.10 | WSGI   | [View](https://krydos.heliohost.org/pyinfo/info3.10.py)  |
+| Johnny | 4.1.5          | 3.10           | /usr/bin/python3.10 | WSGI   | [View](https://krydos2.heliohost.org/pyinfo/info3.10.py) |
 
 ## Enabled
 
@@ -31,7 +31,7 @@ If you want site changes to take effect immediately, we offer a few [options to 
 
 ### Complete Django
 
-We offer the complete, unadulterated Django package, including extensions to interface with [MySQL](../management/mysql.md), [PostgreSQL](../features/postgresql.md), and [SQLite](../features/sqlite.md) database engines.
+We offer the complete, unadulterated Django package, including extensions to interface with [MySQL](../../management/mysql.md), [PostgreSQL](../../features/postgresql.md), and [SQLite](../../features/sqlite.md) database engines.
 
 ### Additional Libraries
 
@@ -47,7 +47,11 @@ We don't offer shell (command line) access to our users. Many Django tutorials a
 
 There are two ways to configure Django to work with the mod_wsgi loader in Apache. You can either create a separate daemon for each Django process (daemon mode) or embed Django into the Apache daemon (embedded mode). While daemon mode tends to be the standard among Django admins because of the increased control it offers, we use embedded mode because it can be set up on a per-user basis without very much root-level configuration. Embedded mode is slightly harder to get working (see directions below), and might break compatibility with some Django tutorials. In most cases, it should not be a problem.
 
-## Getting started with Django 4.1
+## Converting an Existing Django 4.1 App to work on HelioHost
+
+This tutorial will guide you through using the command line on your development system to convert an existing Django app for hosting on HelioHost.
+
+If you prefer not to use the command line, our brief [Django on HelioHost](./django-on-heliohost.md) tutorial may better suit your needs. 
 
 The official Django 4.1 documentation [is available here](https://docs.djangoproject.com/en/4.1). We recommend following the [introduction tutorial](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) to start off with. We also suggest using `virtualenv` to differentiate each Django installation for each project. The below tutorial has been designed for Linux users, but Windows users should work it out easily. 
 
@@ -75,13 +79,13 @@ $ tree ../djangotest/
 ../djangotest/
 ├── db.sqlite3
 ├── djangotest
-│   ├── __init__.py
-│   ├── __pycache__/
-│   │   ├── ...
-│   ├── asgi.py
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
+│   ├── __init__.py
+│   ├── __pycache__/
+│   │   ├── ...
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
 └── manage.py
 
 2 directories, 10 files
@@ -110,7 +114,7 @@ By using the test server, you can develop the app on your local computer and cha
 
 Point your web browser to [http://127.0.0.1:8000](http://127.0.0.1:8000/) and you should see a message confirming the installation worked successfully:
 
-![](../.gitbook/assets/django-install-success.png)
+![](../../.gitbook/assets/django-install-success.png)
 
 ### 5. Configuring the Project for Deployment
 
@@ -172,7 +176,9 @@ application = get_wsgi_application()
 ```
 
 #### Make sure to edit your path
-If you were transferred from the old cPanel, your main domain will be parked on the `public_html` directory.  
+
+If you were transferred from the old cPanel, your main domain will be parked on the `public_html` directory.
+
 If you created a new account on Plesk, your directory will be `httpdocs`.
 
 ### 9. Edit the `urls.py` file
@@ -253,7 +259,7 @@ In your web browser, navigate to `domain.helioho.st/djangotest`
 
 If you did everything right it should look like this: 
 
-![](../.gitbook/assets/django-install-success.png)
+![](../../.gitbook/assets/django-install-success.png)
 
 ## WSGI Uses Server Side Caching
 
@@ -289,5 +295,5 @@ You may prefer to explore one of our paid [VPS Plan](https://heliohost.org/vps/)
 
 ## References
 
-* This tutorial is adapted from [this post](https://helionet.org/index/topic/53855-how-to-use-django-on-plesk/) and [this post](https://www.helionet.org/index/topic/27585-django-on-tommy/?p=126077) on the HelioNet forum.
+* This tutorial is adapted from [this post](https://www.helionet.org/index/topic/27585-django-on-tommy/?p=126077) on the HelioNet forum.
 * A ready-made template using an older Django version (1.11) is available at [https://github.com/rahul-gj/cookiecutter-helio](https://github.com/rahul-gj/cookiecutter-helio).
