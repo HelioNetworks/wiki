@@ -14,7 +14,9 @@ Bots and apps are the lifeblood of the Discord development community. They come 
 
 First you'll need to have a Discord account, and a Discord channel that you'll add the bot to later. Here's a good guide to get started:
 
-{% embed url="https://www.howtogeek.com/364075/how-to-create-set-up-and-manage-your-discord-server/" caption="" %}
+[How to Make, Set Up, and Manage a Discord Server](https://www.howtogeek.com/364075/how-to-create-set-up-and-manage-your-discord-server/)
+
+<!-- {% embed url="https://www.howtogeek.com/364075/how-to-create-set-up-and-manage-your-discord-server/" caption="" %} -->
 
 ### Create the Bot
 
