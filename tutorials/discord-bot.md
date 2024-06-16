@@ -1,3 +1,5 @@
+# Discord Bot
+
 ## Preface
 
 This guide will work on any of the HelioHost servers.
