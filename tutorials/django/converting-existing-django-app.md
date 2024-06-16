@@ -49,6 +49,10 @@ There are two ways to configure Django to work with the mod_wsgi loader in Apach
 
 ## Converting an Existing Django 4.1 App to work on HelioHost
 
+This tutorial will guide you through using the command line on your development system to convert an existing Django app for hosting on HelioHost.
+
+If you prefer not to use the command line, our brief [Django on HelioHost](./django-on-heliohost.md) tutorial may better suit your needs. 
+
 The official Django 4.1 documentation [is available here](https://docs.djangoproject.com/en/4.1). We recommend following the [introduction tutorial](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) to start off with. We also suggest using `virtualenv` to differentiate each Django installation for each project. The below tutorial has been designed for Linux users, but Windows users should work it out easily. 
 
 **Conventions:** The following commands don't need root access to be executed. Shell commands are preceded by a `$` (dollar sign) to differentiate them from the output.  
