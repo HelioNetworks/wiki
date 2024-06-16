@@ -22,8 +22,8 @@ Some users are hesitant to provide their PayPal transaction ID. Please refer to 
 
 ### Crypto Donations
 
-After donating via crypto, please create a post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) with your **account username**, **currency type**, **transaction time** and **transaction amount** so the donation can be verified and your account storage increased.
+Please make sure you consider transaction fees/gas when sending, so it comes out to ~$5/1000MB. After making the donation, please create a post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) with your **account username**, **currency type**, **transaction time** and **transaction amount** so the donation can be verified and your account storage increased.
 
 #### Crypto Verification Timescales
 
-Please be aware that crypto donations can take an hour or two to verify, and in the case of XMR and Aeon, these can take 24 hours to verify.
+Please be aware that crypto donations can take time to verify. In the case of XMR and AEON, these can take several days to verify and are not recommended.
