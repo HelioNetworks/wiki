@@ -10,10 +10,6 @@ Please refer to our [Google Site Verification tutorial](google-site-verification
 
 To add or edit a zone record, please submit a request containing **your account username**, **your domain**, and the **DNS record(s) to add** in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add).
 
-{% hint style="info" %}
-All zone record changes take **up to 2 hours** to go into effect as they require an Apache restart. 
-{% endhint %}
-
 ## Public Availability of DNS Records
 
 Please note that DNS records are publicly accessible by anyone once they are published. This means that any information included in the DNS records, such as IP addresses or other data, will be publicly visible and can be accessed by anyone on the internet. Therefore, there is no need to request to send them privately to an admin.
