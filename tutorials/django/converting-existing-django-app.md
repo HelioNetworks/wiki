@@ -1,4 +1,4 @@
-# Converting an Existing Django App to work on HelioHost
+# Converting an Existing Django App
 
 ## Django on the Tommy and Johnny servers uses Python 3.10. 
 
