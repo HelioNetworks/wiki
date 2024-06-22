@@ -28,7 +28,21 @@ In Plesk, cron jobs are called [Scheduled Tasks](../tutorials/plesk/cron-jobs.md
 
 ## Duplicate Accounts
 
-Each person/user is only allowed one account on HelioHost. Even if you use different email addresses. The limit is 1 account per human being. If you require more than one website, then many features of another HelioHost account are already possible with your current account. Read up on [Parked, Addon and Sub Domains](../management/parked-addon-and-sub-domains.md) for more information on how to make multiple websites on one account.
+Each person/user is only allowed one account on HelioHost. Even if you use different email addresses. The limit is 1 account per human being. 
+
+### Signup page mentions 1 account per person
+
+Below the server choices on the signup page, users are shown a warning that says, **"You may only have one account"**: 
+
+![](../.gitbook/assets/mutiple-acct-warning-1.png)
+
+### Terms of Service page mentions 1 account per person
+
+The first item of the [Terms of Service](../hosting/terms.md), which all users must agree to before creating an account, says, **"Each person is allowed to have one account"**:
+
+![](../.gitbook/assets/mutiple-acct-warning-2.png)
+
+If you require more than one website, then many features of another HelioHost account are already possible with your current account. Read up on [Parked, Addon and Sub Domains](../management/parked-addon-and-sub-domains.md) for more information on how to make multiple websites on one account.
 
 If you are caught with two or more accounts, you will be asked which one(s) you would like to be deleted, and if you do not reply we will permanently suspend all of them.
 
