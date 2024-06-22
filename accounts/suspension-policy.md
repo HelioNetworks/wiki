@@ -14,9 +14,9 @@ If you receive an inactivity email even though you have logged into Plesk recent
 
 ## Terms of Service
 
-At HelioHost, we have a Terms of Service which all members are required to follow. If you break the Terms of Service, then you will be permanently suspended.
+At HelioHost, before users can create an account, they must confirm they agree to follow the [Terms of Service](../hosting/terms.md). 
 
-[Click here to look at the Terms of Service](../hosting/terms.md) which you agree to when you sign up.
+If you break the [Terms of Service](../hosting/terms.md), then you will be permanently suspended.
 
 ## High Server Usage
 
