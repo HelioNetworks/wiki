@@ -32,10 +32,6 @@ If you need assistance, you can post on the HelioNet forum and the administrator
 
 Learn more about [the history of HelioNet](https://wiki.helionet.org/hosting/helionet).
 
-### Why can't I use a Hotmail email address?
-
-Unfortunately, Hotmail has blocked HelioNet's emails which means that it is impossible for us to send emails to people who are on Hotmail or Live. Hotmail simply discards the email - they don't even put it in the Spam or Junk folder. This isn't our fault, sorry for any inconvenience.
-
 ## After Signup
 
 ### I've signed up, what now?
