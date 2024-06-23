@@ -6,5 +6,5 @@ HelioNet created HelioHost, a free "Post to Host" web hosting service, that was 
 
 It has become one of the most active discusions on the Internet with 70,000+ registered memebers.
 
-HelioNet is located at [https://www.helionet.org](https://www.helionet.org/index/).
+HelioNet is located at [https://helionet.org](https://helionet.org/index/).
 
