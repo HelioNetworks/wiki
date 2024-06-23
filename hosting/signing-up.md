@@ -14,19 +14,17 @@ Johnny is our free server, still offering great stability, speed, and uptime.
 
 ## During Signup
 
-### Choosing a username
+### Usernames are not private
 
 When creating your account username, please note that if you need support, you will be asked to provide this username for account identification, where it may be visible to other users. Please avoid using any private information in your username.
 
 ![](../.gitbook/assets/username-is-not-private.png)
 
-### I get a message saying "That plan is already full for the day"?
+### "That plan is already full for the day" message
 
 To prevent the free Johnny server from getting overloaded with masses of new accounts, we put a limit on the number of people who can sign up. This limit resets [every 12 hours](https://helionet.org/index/topic/59660-midnight-and-noon/), at midnight UTC and noon UTC. To find out when to sign up, go to [http://flazepe.heliohost.org/?node=hhsignups](https://flazepe.heliohost.org/?node=hhsignups).
 
-### Should I sign up for HelioNet as well?
-
-#### What is HelioNet?
+### What is HelioNet?
 
 HelioNet is located at [http://helionet.org](https://helionet.org) and is a discussion board where users like yourself can request support. The friendly staff and the community will attempt to answer your questions as best as they can.
 
@@ -40,7 +38,7 @@ Learn more about [the history of HelioNet](https://wiki.helionet.org/hosting/hel
 
 ## After Signup
 
-### I've signed up, what now?
+### Up to 2 hours for activation
 
 {% hint style="info" %}
 It can take **up to 2 hours** for your account to be fully active.
@@ -52,13 +50,13 @@ In the meantime, you may see the Plesk default page, the CentOS default page, 40
 
 ![](../.gitbook/assets/dashboard-up-to-2-hours.png)
 
-#### Check Account Activation Status
+### Check account activation status
 
 To check the status of your account and see an approximation of the activation completion time, go to [https://heliohost.org/status](https://heliohost.org/status/).  
 
 If after **a full 2 hours**, you still see a message saying `HelioHost Account Queued` or are still seeing the Plesk default page, please [clear your cache](../misc/clear-your-cache.md).
 
-### I have chosen to use a domain other than .heliohost.org
+### Using a non-HelioHost domain
 
 You will need to add the following nameservers to your domain via your domain registrar's website:
 
@@ -67,6 +65,6 @@ You will need to add the following nameservers to your domain via your domain re
 
 To check that your nameservers have been properly configured, go to [http://byrondallas.heliohost.org/php/tools/dns\_records.php](http://byrondallas.heliohost.org/php/tools/dns_records.php).
 
-### I have received an email saying that my account failed to be created?
+### "Account failed to be created" email message
 
-Please create a new topic in our [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add) and make sure you **provide your hosting account username** so we can investigate this for you.
+Please create a new topic in our [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add) and make sure you provide your hosting account **username** so we can investigate this for you.
