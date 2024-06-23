@@ -4,7 +4,7 @@
 
 ### Why should I choose Tommy?
 
-Tommy is our flagship production server, one of our fastest and most stable servers, with the newest hardware between our servers. Because of this stability, he is recommended if you want to host a production site.
+Tommy is our flagship production server, one of our fastest and most stable, equipped with the newest hardware among our servers. Because of this stability, he is recommended if you want to host a production site.
 
 Tommy is closed for free signups, but [Donor Signups](https://heliohost.org/tommy/) are always available.
 
@@ -13,6 +13,12 @@ Tommy is closed for free signups, but [Donor Signups](https://heliohost.org/tomm
 Johnny is our free server, still offering great stability, speed, and uptime. 
 
 ## During Signup
+
+### Choosing a username
+
+When creating your account username, please note that if you need support, you will be asked to provide this username for account identification, where it may be visible to other users. Please avoid using any private information in your username.
+
+![](../.gitbook/assets/username-is-not-private.png)
 
 ### I get a message saying "That plan is already full for the day"?
 
@@ -37,10 +43,17 @@ Learn more about [the history of HelioNet](https://wiki.helionet.org/hosting/hel
 ### I've signed up, what now?
 
 {% hint style="info" %}  
-It can take **up to 2 hours** for your account to be fully active.  
+It can take **up to 2 hours** for your account to be fully active.
+While 
 {% endhint %}
 
+W
+
 In the meantime, you may see the Plesk default page, the CentOS default page, 404 errors, SSL errors, etc. Please be patient and wait for **the full 2 hours** before assuming anything is broken.  
+
+
+
+
 
 #### Check Account Activation Status
 
@@ -60,4 +73,3 @@ To check that your nameservers have been properly configured, go to [http://byro
 ### I have received an email saying that my account failed to be created?
 
 Please create a new topic in our [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add) and make sure you **provide your hosting account username** so we can investigate this for you.
-
