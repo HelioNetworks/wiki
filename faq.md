@@ -81,7 +81,7 @@ If you had WSGI Control Access on your account for [Flask](/tutorials/flask.md) 
 
 ### VPS Rebuilds
 
-Due to certain users abusing our generosity in the past and requesting 50 or so rebuilds in less than a month, we now limit each VPS to **1 free rebuild per month**. After that, you can purchase additional rebuilds for $1 USD each.
+Due to certain users abusing our generosity in the past and requesting 50 or so rebuilds in less than a month, we now limit each VPS to **1 free rebuild per month**. After that, you can purchase additional rebuilds for $1 USD by using this link: [https://www.paypal.com/ncp/payment/6Z88J5KJZJ3RJ](https://www.paypal.com/ncp/payment/6Z88J5KJZJ3RJ). 
 
 ## How do I delete my hosting account?
 
