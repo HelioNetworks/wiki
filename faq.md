@@ -73,7 +73,7 @@ No. It's [one account per user](/accounts/suspension-policy.md#duplicate-account
 
 Because wiping an account is destructive, we have to verify your identity before we do so. This is to prevent someone from pretending to be you and deleting all your data.
 
-To request that we reset your account so you can start over, send an email **from the same email address as your hosting account** to `support@heliohost.org` so we can verify your identity and wipe your account. Alternatively, you can make a post on the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) from a forum account with the same email address as your hosting account.
+To request that we reset your account so you can start over, send an email **from the same email address as your hosting account** to `support@heliohost.org` so we can verify your identity and wipe your account. Alternatively, you can make a post on the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) from a forum account with the same email address as your hosting account. If you're not sure what email address is associated with your hosting account, you can check by logging into Plesk and navigating to: Account > My Profile > General > External email address
 
 Once your account has been reset, you will receive an email with a link to restart your account. **You will have 7 days to use the link.** If you don't use the link to restart your account within 7 days, you will need to signup for a brand new account.
 
