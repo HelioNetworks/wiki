@@ -81,7 +81,11 @@ If you had WSGI Control Access on your account for [Flask](/tutorials/flask.md) 
 
 ### VPS Rebuilds
 
-Due to certain users abusing our generosity in the past and requesting 50 or so rebuilds in less than a month, we now limit each VPS to **1 free rebuild per month**. After that, you can purchase additional rebuilds for $1 USD by using this link: [https://www.paypal.com/ncp/payment/6Z88J5KJZJ3RJ](https://www.paypal.com/ncp/payment/6Z88J5KJZJ3RJ). 
+Due to certain users abusing our generosity in the past and requesting 50 or so rebuilds in less than a month, we now limit each VPS to **1 free rebuild per month**. 
+
+#### Purchasing Additional Rebuilds
+
+If you need to purchase an additional rebuild, please use this link to donate $1 USD: [https://www.paypal.com/ncp/payment/6Z88J5KJZJ3RJ](https://www.paypal.com/ncp/payment/6Z88J5KJZJ3RJ). After you have made the donation, please provide your [PayPal Transaction ID](accounts/donation-increase-storage.md#paypal-transaction-id) as part of your rebuild request.
 
 ## How do I delete my hosting account?
 
