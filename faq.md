@@ -99,7 +99,7 @@ To delete your HelioNet Forum account, post a topic in the [Contact HelioNet for
 
 ## How do I change my main domain?
 
-To change the main domain on your HelioHost Plesk account, post a topic in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) and let us know your **username** and **what domain you want added**.
+To change the main domain on your HelioHost Plesk account, post a topic in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) and let us know your **username** and **what domain you want as your new main domain**.
 
 As an alternative to changing your main domain, consider using [Parked, Addon, and/or Sub Domains](management/parked-addon-and-sub-domains.md).
 
