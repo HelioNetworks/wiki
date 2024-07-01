@@ -128,7 +128,9 @@ If you need a system-wide feature installed, please post a request in our [Custo
 
 ## Can I use SSH?
 
-On hosting accounts, secure shell access (SSH) is disabled for security reasons.
+On hosting accounts, secure shell access (SSH) is disabled for security reasons. 
+
+However, it is possible to run jailed shell commands using Plesk's [Scheduled Tasks (cron jobs)](tutorials/plesk/cron-jobs.md) feature. 
 
 If you require SSH access, it is only available on the [VPS Plans](https://heliohost.org/vps/).
 
