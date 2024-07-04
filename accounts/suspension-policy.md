@@ -4,7 +4,7 @@ There are a number of reasons why we might suspend you. To keep your account act
 
 ## Terms of Service
 
-At HelioHost, before users can create an account, they must confirm they agree to follow the [Terms of Service](../hosting/terms.md). 
+Before users can create a HelioHost account, they must confirm they agree to follow the [Terms of Service](../hosting/terms.md). 
 
 ## Three-Strike Policy
 
@@ -12,13 +12,13 @@ At HelioHost, we strive to create a friendly and educational online experience f
 
 This three-strike policy provides offenders with a series of disciplinary actions that offer them multiple chances to change their behavior. Everyone makes mistakes sometimes, so this policy allows users to learn from their mistakes and change their ways. 
 
-We are happy to offer advice to users whose accounts are suspended for high server usage, who are unaware that they can manage multiple sites from a single account, or who may be otherwise unsure of how to correct their [Terms of Service](../hosting/terms.md) violation(s). When we unsuspend accounts, we expect users to make a genuine effort to stop breaking the rules.
+We are happy to offer advice to users whose accounts are suspended for high server usage, who are unaware that they can manage multiple sites from a single account, or who may be otherwise unsure of how to correct their [Terms of Service](../hosting/terms.md) violation(s). When we unsuspend accounts, we expect users to make a genuine effort to stop breaking our rules.
 
-Users who continually break our [Terms of Service](../hosting/terms.md) or who refuse to correct their behavior will have their accounts suspended permanently.
+Users who repeatedly break our [Terms of Service](../hosting/terms.md) or who refuse to correct their behavior will have their accounts suspended permanently.
 
 ## Immediate Account Suspension
 
-Although we prefer to approach [Terms of Service](../hosting/terms.md) violations using our three-strike policy, some offences may result in immediate permanent account suspension without prior warning. Rudeness or disrespect to staff, lying or other dishonesty to staff, harassment of staff, abuse of the hosting service itself, such as creating phishing sites or promoting other illegal activity, or other offenses to be determined at our sole discretion will result in immediate permanent account suspension.
+Although we prefer to approach [Terms of Service](../hosting/terms.md) violations using our three-strike policy, some offences may result in immediate permanent account suspension without prior warning. Rudeness or disrespect to staff, lying or other dishonesty to staff, harassment of staff, abuse of the hosting service itself, such as creating phishing sites or promoting other illegal activity, or other offences to be determined at our sole discretion will result in immediate permanent account suspension.
 
 ## High Server Usage
 
