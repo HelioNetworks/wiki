@@ -6,7 +6,15 @@ There are a number of reasons why we might suspend you. To keep your account act
 
 At HelioHost, before users can create an account, they must confirm they agree to follow the [Terms of Service](../hosting/terms.md). 
 
-If you break the [Terms of Service](../hosting/terms.md), then you will be permanently suspended.
+## Three-Strike Policy
+
+At HelioHost, we strive to create a friendly and educational online experience for all our users. As part of that commitment, we prefer to use a three-strike policy against accounts that violate our [Terms of Service](../hosting/terms.md).
+
+This three-strike policy provides offenders with a series of disciplinary actions that offer them multiple chances to change their behavior. Everyone makes mistakes sometimes, so this policy allows users to learn from their mistakes and change their ways. 
+
+We are happy to offer advice to users whose accounts are suspended for high server usage, who are unaware that they can manage multiple sites from a single account, or who may be otherwise unsure of how to correct their [Terms of Service](../hosting/terms.md) violation(s). When we unsuspend accounts, we expect users to make a genuine effort to stop breaking the rules.
+
+Users who continually break our [Terms of Service](../hosting/terms.md) or who refuse to correct their behavior will have their accounts suspended permanently.
 
 ## High Server Usage
 
