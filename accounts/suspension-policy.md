@@ -52,6 +52,10 @@ If you require more than one website, then many features of another HelioHost ac
 
 If you are caught with two or more accounts, you will be asked which one(s) you would like to be deleted, and if you do not reply we will permanently suspend all of them.
 
+### Managing Accounts on Behalf of Others
+
+Managing someone else's account on their behalf is considered the same as having 2 accounts and will subject you to suspension unless approved ahead of time by an admin.
+
 ## Inactivity Policy
 
 To ensure that old, unused HelioHost accounts are not filling up our server with useless data, we have an inactivity policy in place which will suspend you if you do not log in to [heliohost.org](https://heliohost.org/) or [heliohost.org/login](https://heliohost.org/login/) at least once every 30 days. Each time you log in, your last login date is set to the current time, so your account will then remain active for another 30 days.
