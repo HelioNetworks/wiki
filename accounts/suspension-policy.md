@@ -16,6 +16,10 @@ We are happy to offer advice to users whose accounts are suspended for high serv
 
 Users who continually break our [Terms of Service](../hosting/terms.md) or who refuse to correct their behavior will have their accounts suspended permanently.
 
+## Immediate Account Suspension
+
+Although we prefer to approach [Terms of Service](../hosting/terms.md) violations using our three-strike policy, some offences may result in immediate permanent account suspension without prior warning. Rudeness or disrespect to staff, lying or other dishonesty to staff, harassment of staff, abuse of the hosting service itself, such as creating phishing sites or promoting other illegal activity, or other offenses to be determined at our sole discretion will result in immediate permanent account suspension.
+
 ## High Server Usage
 
 To ensure that every site on HelioHost is not slowed down by just one site hogging the server resources, we enforce a High Server Usage policy on all websites, which ensures that no website increases the server load on a massive scale. 
