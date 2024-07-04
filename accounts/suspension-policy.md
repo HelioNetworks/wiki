@@ -20,9 +20,25 @@ If you break the [Terms of Service](../hosting/terms.md), then you will be perma
 
 ## High Server Usage
 
-To ensure that every site on HelioHost is not slowed down by just one site hogging the server resources, we enforce a High Server Usage policy on all websites, which ensures that no website increases the server load on a massive scale. On Johnny and Tommy, we enforce a memory limit of no more than 100 GB and a CPU limit of 10,000 per day. If you exceed those amounts you will get suspended. You can monitor your load numbers on [the load page within your dashboard](https://heliohost.org/dashboard/load/).
+To ensure that every site on HelioHost is not slowed down by just one site hogging the server resources, we enforce a High Server Usage policy on all websites, which ensures that no website increases the server load on a massive scale. 
 
-## Cron Jobs / Scheduled Tasks
+### Account Load Limits
+
+On Johnny and Tommy, we enforce a memory limit of no more than 100 GB and a CPU limit of 10,000 per day. If you exceed those amounts you will get suspended. You can monitor your account load numbers on [the load page within your dashboard](https://heliohost.org/dashboard/load/).
+
+### Understanding `Memory` and `CPU`
+
+Memory is short-term computer storage, often called RAM (random access memory).
+
+CPU is the brain of a computer that processes instructions and performs calculations, also known as the Central Processing Unit.
+
+### How Account Load is Calculated
+
+Account load totals are calculated by taking a sample once every 60 seconds. So, for instance, if you use 1 MB of memory constantly for the full 24 hours your total would be 1.4 GB at the end of the day. The CPU unit is 1% of the total speed of a CPU core, so if you used 1% of the core constantly for the entire day your total would be 1440 at the end of the day. 
+
+If you have any questions, or need help reducing your account load, don't hesitate to open a support ticket on the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add).
+
+### Cron Jobs / Scheduled Tasks
 
 In Plesk, cron jobs are called [Scheduled Tasks](../tutorials/plesk/cron-jobs.md). There is no limit on the number of cron jobs you can run, but they count towards your total account load. This means that running too many cron jobs or having one cron job run too frequently can increase your risk of getting suspended under the [High Server Usage](/accounts/suspension-policy.md#high-server-usage) policy. For example, sometimes people start a cron job to run every 1 minute and then get suspended for high load pretty quickly because of it. You can monitor your account load numbers on [the load page within your dashboard](https://heliohost.org/dashboard/load/).
 
