@@ -18,7 +18,7 @@ First you'll need to have a Discord account, and a Discord channel that you'll a
 
 ### Create the Bot
 
-Once you have your Discord server all set up it's time to create the bot through Discord's site. Go to [https://discordapp.com/developers/applications](https://discordapp.com/developers/applications) and make sure you're logged in. Then click `New Applcation` in the top right.
+Once you have your Discord server all set up it's time to create the bot through Discord's site. Go to [https://discordapp.com/developers/applications](https://discordapp.com/developers/applications) and make sure you're logged in. Then click `New Application` in the top right.
 
 ![](../.gitbook/assets/new_application.png)
 
@@ -44,7 +44,7 @@ Click `Authorize` and complete the reCAPTCHA to add the bot to the Discord serve
 
 ### Write the Bot Script in Python
 
-Log in at [https://www.heliohost.org/login/](https://www.heliohost.org/login/) and continue to Plesk. Then load up the file manager.
+Log in at [https://heliohost.org/login](https://heliohost.org/login/) and continue to Plesk. Then load up the file manager.
 
 ![](../.gitbook/assets/file_manager.png)
 
@@ -58,7 +58,7 @@ Then type the name of your new file: `heliobot.py`.
 
 You want to create this bot in your home directory so random hackers and bots on the internet can't access it directly. Make sure it says `Add a file to: /` not `Add a file to: /httpdocs` or any other folder.
 
-Scroll down in the file manager and clcik on the new `heliobot.py` file to edit it. Then copy/paste this code in:
+Scroll down in the file manager and click on the new `heliobot.py` file to edit it. Then copy/paste this code in:
 
 ```python
 #!/usr/bin/python3.10
@@ -96,7 +96,7 @@ client = MyClient(intents=intents)
 client.run(token)
 ```
 
-The first line is called the shebang, and it tells the system which version of python you want to use. Johnny and Tommy also have Python 2.7, and Python 3.6, but we recommend using Python 3.10 like in the example.
+The first line is called the shebang, and it tells the system which version of Python you want to use. Johnny and Tommy also have Python 2.7, and Python 3.6, but we recommend using Python 3.10 like in the example.
 
 Once you have your code copy/pasted in click save in the bottom left corner. Now we need the bot to be executable so in the file manager click the `rw- r-- r--` on the heliobot.py line. 
 
@@ -241,4 +241,4 @@ On Johnny and Tommy you are limited to 100 GB of memory and 10000 CPU per day, a
 
 If you followed the guide exactly your bot will use about 50 GB or memory per day, which is half of your allowed amount. If you edit your bot code, make your bot more complicated, and import more modules it will increase the memory usage though. Obviously if you have some sort of memory leak it could easily allow your bot to continue consuming more and more memory until you get suspended.
 
-If everything is working you can shut your bot down by clicking the Stop button on the bot_control dashobard. It's a good idea to keep your bot offline if you don't need it so you don't cause too much load. If you're having trouble staying under the limits you could also consider [moving to a VPS](https://heliohost.org/vps/) where you have root SSH access, dedicated memory and CPU, and no load limits.
+If everything is working you can shut your bot down by clicking the Stop button on the bot_control dashboard. It's a good idea to keep your bot offline if you don't need it so you don't cause too much load. If you're having trouble staying under the limits you could also consider [moving to a VPS](https://heliohost.org/vps/) where you have root SSH access, dedicated memory and CPU, and no load limits.
