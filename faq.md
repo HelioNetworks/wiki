@@ -2,6 +2,8 @@
 
 ## Your homepage says "Professional-Grade Hosting", but your support sucks / isn't helping me / is run by a number of volunteers, what gives?‌
 
+HelioHost is a 501c3 non-profit organization whose mission is to provide free or low cost hosting, and all of our staff are volunteers. We all have full time jobs and lives outside of this project. We run this organization in our free time, and if we don't have very much free time things don't get done very quickly. Most for-profit hosting companies have a staff of full time employees who sit around providing support and working 40 hours a week. It's very rare for any of our volunteers to work more than an hour or so each day. None of our volunteers are required to log a certain number of hours, and may come and go as they please. If we aren't having fun volunteering, providing support, chatting with the community, and developing new features then we take a break and do things that are more fun for us. This is why we don't have ETAs for new features, and this is why things move a little slower than a for-profit company that you might be used to dealing with.
+
 There is a difference between "Professional-Grade Hosting" and "Professional-Grade Customer Support". Most people are used to having dedicated customer support staff that will answer every little question; this comes standard with paid hosting. However, we don't do that here. Among the five of us, we have the collective knowledge and technical expertise of any other support staff, but in order for us to help you, we expect from you a certain competency. You must try to spell and use grammar correctly (to the best of your ability). You must provide necessary information (e.g. **username** and **domain name**). You must be able to read instructions, and you must be able to follow instructions. We will treat you with respect and professionalism if you follow these guidelines. We will probably be very annoyed if u tyep liek dis.‌
 
 ## I log in frequently but am still receiving inactivity emails, what gives?
@@ -71,15 +73,23 @@ No. It's [one account per user](/accounts/suspension-policy.md#duplicate-account
 
 Because wiping an account is destructive, we have to verify your identity before we do so. This is to prevent someone from pretending to be you and deleting all your data.
 
-To request that we reset your account so you can start over, send an email **from the same email address as your hosting account** to `support@heliohost.org` so we can verify your identity and wipe your account. Alternatively, you can make a post on the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) from a forum account with the same email address as your hosting account.
-
-If you had WSGI Control Access on your account for [Flask](/tutorials/flask.md) or [Django](/tutorials/django.md) and you want this re-enabled after the reset, please specify this in your reset request. By default, account resets will disable WSGI Control Access.
+To request that we reset your account so you can start over, send an email **from the same email address as your hosting account** to `support@heliohost.org` so we can verify your identity and wipe your account. Alternatively, you can make a post on the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) from a forum account with the same email address as your hosting account. If you're not sure what email address is associated with your hosting account, you can check by logging into Plesk and navigating to: **Account > My Profile > General > External email address**
 
 Once your account has been reset, you will receive an email with a link to restart your account. **You will have 7 days to use the link.** If you don't use the link to restart your account within 7 days, you will need to signup for a brand new account.
 
+If you had WSGI Control Access on your account for [Flask](/tutorials/flask.md) or [Django](/tutorials/django.md) and you want this re-enabled after the reset, you will need to re-request WSGI Control Access after the reset has been completed. By default, account resets will disable WSGI Control Access.
+
 ### VPS Rebuilds
 
-Due to certain users abusing our generosity in the past and requesting 50 or so rebuilds in less than a month, we now limit each VPS to **1 free rebuild per month**. After that, you can purchase additional rebuilds for $1 USD each.
+Due to certain users abusing our generosity in the past and requesting 50 or so rebuilds in less than a month, we now limit each VPS to **1 free rebuild per month**. 
+
+#### Purchasing Additional VPS Rebuilds
+
+If you need to purchase an additional VPS rebuild, please use the link below to donate $1 USD:
+
+{% embed url="https://www.paypal.com/ncp/payment/6Z88J5KJZJ3RJ" caption="Donate $1 USD for VPS Rebuild" %}
+
+After you have made the donation, please provide your [PayPal Transaction ID](accounts/donation-increase-storage.md#paypal-transaction-id) as part of your VPS rebuild request, so the donation can be verified.
 
 ## How do I delete my hosting account?
 
@@ -89,7 +99,7 @@ To delete your HelioNet Forum account, post a topic in the [Contact HelioNet for
 
 ## How do I change my main domain?
 
-To change the main domain on your HelioHost Plesk account, post a topic in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) and let us know your **username** and **what domain you want added**.
+To change the main domain on your HelioHost Plesk account, post a topic in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) and let us know your **username** and **what domain you want as your new main domain**.
 
 As an alternative to changing your main domain, consider using [Parked, Addon, and/or Sub Domains](management/parked-addon-and-sub-domains.md).
 
@@ -118,7 +128,9 @@ If you need a system-wide feature installed, please post a request in our [Custo
 
 ## Can I use SSH?
 
-On hosting accounts, SSH access is disabled for security reasons.
+On hosting accounts, secure shell access (SSH) is disabled for security reasons. 
+
+However, it is possible to run jailed shell commands using Plesk's [Scheduled Tasks (cron jobs)](tutorials/plesk/cron-jobs.md) feature. 
 
 If you require SSH access, it is only available on the [VPS Plans](https://heliohost.org/vps/).
 
@@ -127,6 +139,14 @@ If you require SSH access, it is only available on the [VPS Plans](https://helio
 Both our [Tommy](/servers/virtual/tommy.md) and [Johnny](/servers/virtual/johnny.md) servers have zero inbound ports available to be opened. All ports that are currently open already have services listening. 
 
 If you need a port opened, you'll need to get one of our [VPS Plans](https://heliohost.org/vps/), and you will then have all 65535 ports available to open or close as you want.
+
+## Are directory indexes enabled?
+
+As far as we are aware, it's not currently possible to enable directory indexing (listing). However, it is something we plan on changing eventually because a lot of people like it (even though it's a security vulnerability). 
+
+There is no estimated timeframe as to when this functionality may be implemented, since there are many other higher-priority projects to be completed first.
+
+If directory indexes are enabled in the future, an announcement will be posted in the HelioNet [News](https://helionet.org/index/forum/1-news/) section, as well as elsewhere on our site and our social media.
 
 ## Your hosting SUCKS! So do YOU!!!
 
