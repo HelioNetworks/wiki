@@ -7,7 +7,8 @@ This tutorial will help you set up a WordPress site using the Hestia Control Pan
 You will need: 
 * A [HelioHost VPS](https://heliohost.org/vps/)
 * Hestia Control Panel installed on your VPS
-  * Your VPS will come with Hestia preinstalled if you requested this during signup. Alternatively, you can install Hestia yourself.
+  * Your VPS will come with Hestia preinstalled if you requested this during signup
+  * Alternatively, you can install Hestia yourself. There is a helpful tutorial [here](https://hestiacp.com/docs/introduction/getting-started.html).
 * A domain or subdomain registered for your WordPress site
   * You can use your own domain or subdomain, or the one free subdomain offered with a VPS plan
 
@@ -41,7 +42,7 @@ We will follow the advice in the warning message and create a standard user acco
 * Enter your domain or subdomain
 * Click the `Save` button at the top right side of the page
 * You should see a message that says: "Domain `domain.com` has been created successfully."
-* Click on `domain.com` link to go to the `Edit Web Domain` settings page
+* Click on the `domain.com` link to go to the `Edit Web Domain` settings page
 
 ![](../../.gitbook/assets/vps-tutorial-wp-hestia-3-domain-created.png)
 
@@ -79,10 +80,10 @@ We will follow the advice in the warning message and create a standard user acco
 
 ![](../../.gitbook/assets/vps-tutorial-wp-hestia-5-visit.png)
 
-## Login to WordPress as Admin
+## WordPress Admin Login
 
 * In your web browser, navigate to `domain.com/wp-admin` 
-* Enter your WordPress user credentials
+* Log in using your WordPress user credentials
 * You should see your WordPress Admin Dashboard
 
 ## Further Support
