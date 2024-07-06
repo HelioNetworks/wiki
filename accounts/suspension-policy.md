@@ -18,7 +18,7 @@ Users who repeatedly break our [Terms of Service](../hosting/terms.md) or who re
 
 ## Immediate Account Suspension
 
-Although we prefer to approach [Terms of Service](../hosting/terms.md) violations using our three-strike policy, some offences may result in immediate permanent account suspension without prior warning. Rudeness or disrespect to staff, lying or other dishonesty to staff, harassment of staff, abuse of the hosting service itself, such as creating phishing sites or promoting other illegal activity, or other offences to be determined at our sole discretion will result in immediate permanent account suspension.
+Although we prefer to approach [Terms of Service](../hosting/terms.md) violations using our three-strike policy, some offenses may result in immediate permanent account suspension without prior warning. Rudeness or disrespect to staff, lying or other dishonesty to staff, harassment of staff, abuse of the hosting service itself, such as creating phishing sites or promoting other illegal activity, or other offenses to be determined at our sole discretion will result in immediate permanent account suspension.
 
 ## High Server Usage
 
