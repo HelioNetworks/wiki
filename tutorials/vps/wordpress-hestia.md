@@ -17,7 +17,7 @@ The below steps demonstrate how to set WordPress up directly on a domain, such a
 ## Create a Standard User Account
 
 In your web browser, navigate to `vps##.heliohost.us` and log in to your Hestia Control Panel.
-* Select the `Web` tab
+* Click on the `Web` tab
 * Click on the `Add Web Domain` button
 
 You will see a warning message that says: "It is strongly advised to create a standard user account before adding a web domain to the server due to the increased privileges the admin account possesses and potential security risks."
@@ -25,11 +25,11 @@ You will see a warning message that says: "It is strongly advised to create a st
 ![](../../.gitbook/assets/vps-tutorial-wp-hestia-1-add-user.png)
 
 We will follow the advice in the warning message and create a standard user account: 
-* Click the `Add User` button
+* Click on the `Add User` button
 * Fill in the form fields
 * Set the `Role` field to `User`
 * Set the `Package` to `Default`
-* Click the `Save` button at the top right side of the page
+* Click on the `Save` button at the top right side of the page
 * You should see a message that says: "User `username` has been created successfully. / Log in as `username`"
 * Click on the link that says: "Log in as `username`"
 
@@ -37,10 +37,10 @@ We will follow the advice in the warning message and create a standard user acco
 
 ## Add Web Domain
 
-* Select the `Web` tab
+* Click on the `Web` tab
 * Click on the `Add Web Domain` button
 * Enter your domain or subdomain
-* Click the `Save` button at the top right side of the page
+* Click on the `Save` button at the top right side of the page
 * You should see a message that says: "Domain `domain.com` has been created successfully."
 * Click on the `domain.com` link to go to the `Edit Web Domain` settings page
 
@@ -49,15 +49,15 @@ We will follow the advice in the warning message and create a standard user acco
 ### Enable SSL
 
 * We recommend that you enable SSL for your domain
-* Select your preferred SSL settings, and click the `Save` button at the top right side of the page
+* Select your preferred SSL settings, and click on the `Save` button at the top right side of the page
 * You can optionally activate `Web Statistics` (or you can return to this page later to activate stats)
   * If activating web stats, you can optionally enable `Statistics Authorization` to keep your statistics login-protected
 * You should see a message that says `Changes have been saved.`
 
 ## Install WordPress
 
-* Click the `Quick Install App` button at the top right side of the page
-* Find WordPress from the list of available apps and click the `Setup` button
+* Click on the `Quick Install App` button at the top right side of the page
+* Find WordPress from the list of available apps and click on the `Setup` button
 
 ## Create WordPress Site
 
@@ -67,7 +67,7 @@ We will follow the advice in the warning message and create a standard user acco
   * WordPress Account Email
   * WordPress Account Password
   * You can optionally specify an `Install Directory` for your WordPress installation (such as `/blog`)
-* Click the `Save` button at the top right side of the page
+* Click on the `Save` button at the top right side of the page
 * You should see a message that says `WordPress installed successfully.`
 
 ## Visit Your WordPress Site
