@@ -59,11 +59,9 @@ We will follow the advice in the warning message and create a standard user acco
 * Click the `Quick Install App` button at the top right side of the page
 * Find WordPress from the list of available apps and click the `Setup` button
 
-![](../../.gitbook/assets/vps-tutorial-wp-hestia-4-ssl-quick-install.png)
-
 ## Create WordPress Site
 
-* Enter the details for your WordPress site
+* Enter the details for your WordPress site:
   * Site Name
   * WordPress Account Username
   * WordPress Account Email
@@ -78,7 +76,7 @@ We will follow the advice in the warning message and create a standard user acco
 * Click on the small `Visit` button next to your domain
 * You should see a fresh WordPress site
 
-![](../../.gitbook/assets/vps-tutorial-wp-hestia-5-visit.png)
+![](../../.gitbook/assets/vps-tutorial-wp-hestia-4-visit.png)
 
 ## WordPress Admin Login
 
