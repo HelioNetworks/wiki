@@ -18,12 +18,11 @@ The below steps demonstrate how to set WordPress up directly on a domain, such a
 If you already have a domain set up inside Hestia that you want to install WordPress on, you can skip right to the [Install WordPress](#install-wordpress) section.
 {% endhint %}
 
-
 ## Create a Standard User Account
 
-The system administrator account that we used to login to Hestia has increased privileges. To prevent introducing potential security risks, we will create an account with fewer permissions that will still enable us to install WordPress.
+The system administrator account we used to log in to Hestia has increased privileges. To prevent potential security risks, we will create an account with fewer permissions that will still enable us to install WordPress.
 
-In your web browser, navigate to `vps##.heliohost.us` and log in to your Hestia Control Panel.
+In your web browser, navigate to `vps##.heliohost.us` and log in to your Hestia Control Panel. Once logged in, follow the steps below: 
 * Click on the `User` tab
 * Click on the `Add User` button
 * Fill in the form fields
