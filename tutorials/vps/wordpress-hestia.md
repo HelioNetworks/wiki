@@ -14,17 +14,17 @@ You will need:
 
 The below steps demonstrate how to set WordPress up directly on a domain, such as `domain.com`. It is also possible to install WordPress on a subdomain (`blog.domain.com`) or within a directory (`domain.com/blog`) by making small adjustments to the steps below.
 
+{% hint style="info" %}
+If you already have a domain set up inside Hestia that you want to install WordPress on, you can skip right to the [Install WordPress](#install-wordpress) section.
+{% endhint %}
+
+
 ## Create a Standard User Account
 
+The system administrator account that we used to login to Hestia has increased privileges. To prevent introducing potential security risks, we'll create an account with fewer permissions that will still enable us to install WordPress.
+
 In your web browser, navigate to `vps##.heliohost.us` and log in to your Hestia Control Panel.
-* Click on the `Web` tab
-* Click on the `Add Web Domain` button
-
-You will see a warning message that says: "It is strongly advised to create a standard user account before adding a web domain to the server due to the increased privileges the admin account possesses and potential security risks."
-
-![](../../.gitbook/assets/vps-tutorial-wp-hestia-1-add-user.png)
-
-We will follow the advice in the warning message and create a standard user account: 
+* Click on the `User` tab
 * Click on the `Add User` button
 * Fill in the form fields
 * Set the `Role` field to `User`
@@ -33,7 +33,7 @@ We will follow the advice in the warning message and create a standard user acco
 * You should see a message that says: "User `username` has been created successfully. / Log in as `username`"
 * Click on the link that says: "Log in as `username`"
 
-![](../../.gitbook/assets/vps-tutorial-wp-hestia-2-login-user.png)
+![](../../.gitbook/assets/vps-tutorial-wp-hestia-1-login-user.png)
 
 ## Add Web Domain
 
@@ -44,9 +44,9 @@ We will follow the advice in the warning message and create a standard user acco
 * You should see a message that says: "Domain `domain.com` has been created successfully."
 * Click on the `domain.com` link to go to the `Edit Web Domain` settings page
 
-![](../../.gitbook/assets/vps-tutorial-wp-hestia-3-domain-created.png)
+![](../../.gitbook/assets/vps-tutorial-wp-hestia-2-domain-created.png)
 
-### Enable SSL
+## Enable SSL
 
 * We recommend that you enable SSL for your domain
 * Select your preferred SSL settings, and click on the `Save` button at the top right side of the page
@@ -56,8 +56,13 @@ We will follow the advice in the warning message and create a standard user acco
 
 ## Install WordPress
 
+* Click on the `Web` tab
+* Click on the small `Edit Domain` button next to your domain
+
+![](../../.gitbook/assets/vps-tutorial-wp-hestia-3-edit-domain.png)
+
 * Click on the `Quick Install App` button at the top right side of the page
-* Find WordPress from the list of available apps and click on the `Setup` button
+* Find WordPress in the list of available apps and click on the `Setup` button
 
 ## Create WordPress Site
 
