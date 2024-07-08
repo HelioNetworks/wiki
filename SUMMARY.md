@@ -24,7 +24,6 @@
 * [Tutorials](tutorials/README.md)
   * [VPS](tutorials/vps/README.md)
     * [Installing NGINX](tutorials/vps/nginx.md)
-    * [Installing WordPress on Hestia](tutorials/vps/wordpress-hestia.md)
   * [Discord Bot](tutorials/discord-bot.md)
   * [Django](tutorials/django/README.md)
     * [Django on HelioHost](tutorials/django/django-on-heliohost.md)

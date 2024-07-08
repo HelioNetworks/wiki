@@ -21,7 +21,7 @@ If you already have a domain set up inside Hestia that you want to install WordP
 
 ## Create a Standard User Account
 
-The system administrator account that we used to login to Hestia has increased privileges. To prevent introducing potential security risks, we'll create an account with fewer permissions that will still enable us to install WordPress.
+The system administrator account that we used to login to Hestia has increased privileges. To prevent introducing potential security risks, we will create an account with fewer permissions that will still enable us to install WordPress.
 
 In your web browser, navigate to `vps##.heliohost.us` and log in to your Hestia Control Panel.
 * Click on the `User` tab
