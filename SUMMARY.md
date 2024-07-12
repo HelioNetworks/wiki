@@ -24,6 +24,7 @@
 * [Tutorials](tutorials/README.md)
   * [VPS](tutorials/vps/README.md)
     * [Installing NGINX](tutorials/vps/nginx.md)
+    * [Setting up Email on Hestia](tutorials/vps/email-hestia.md)
   * [Discord Bot](tutorials/discord-bot.md)
   * [Django](tutorials/django/README.md)
     * [Django on HelioHost](tutorials/django/django-on-heliohost.md)
