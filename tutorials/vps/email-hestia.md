@@ -25,7 +25,7 @@ First, we will make sure the necessary ports are open:
 
 ## Confirm Open Ports
 
-Doublecheck that the following Ports are set to `Accept` connections from IP Address `0.0.0.0/0` (which means it allows all IP ranges):
+Doublecheck that the following ports are set to `Accept` connections from IP Address `0.0.0.0/0` (which means it allows all IP ranges):
 * Hestia: 8083
 * SMTP: 25, 465, 587
 * Web: 80, 443
@@ -124,15 +124,54 @@ After adding all the DNS records to your domain registrar site, return to Hestia
 
 You can access your webmail at `webmail.domain.com`
 
+### Troubleshooting
+
+When trying to access your webmail link, if you receive an error message that says: `Oops... something went wrong! An internal error has occurred. Your request cannot be processed at this time. For administrators: Please check the application and/or server error logs for more information.` then follow the steps below.
+
+![](../../.gitbook/assets/vps-hestia-email-6-oops-error.png)
+
+#### Check Ownership and Permissions
+
+To check the owner and permissions on the files in the `roundcube` folder, open a new terminal window, login to your VPS. Navigate to `/etc/roundcube/` and list the contents of the folder (you need to do this as root).
+
+You should see:  
+```text
+total 92
+drwxr-x--x   3 hestiamail hestiamail  4096 Jul 11 23:54 .
+drwxr-xr-x 120 root       root       12288 Jul 11 23:47 ..
+-rw-r-----   1 hestiamail hestiamail  3719 Jun 26 21:16 config.inc.php
+-rw-r-----   1 hestiamail hestiamail 64583 Jun 26 21:16 defaults.inc.php
+-rw-r-----   1 hestiamail hestiamail  2760 Jun 26 21:16 mimetypes.php
+drwxr-x--x   5 hestiamail hestiamail  4096 Jun 26 21:16 plugins
+```
+
+#### Update Ownership and Permissions
+
+If your files have a different owner or different permissions, we can follow the suggestion in this [this Hestia support post](https://forum.hestiacp.com/t/after-installing-hestia-1-8-11-in-ubuntu-22-04-the-roundcube-cannot-be-opened/12114/2).
+
+To change the file ownership, run the below command as root:
+```text
+chown -R hestiamail:hestiamail /etc/roundcube/
+```
+
+To change the file permissions, run the below command as root:
+```text
+find /etc/roundcube/ -type f -iname "*php" -exec chmod 640 {} \;
+```
+
+#### Check Webmail Again
+
+You should now be able to open `webmail.domain.com` and login with `name@domain.com` and the password you set up.
+
 ## Check Email Trust Score
 
 You can test the likelihood of your emails being received by using GMass's free SMTP Test Tool and a free test email address from mail-tester. 
 
-In one browser tab, visit [mail-tester.com/](https://www.mail-tester.com/) and make a note of the `@mail-tester.com` email address. 
+In a new browser tab, visit [mail-tester.com](https://www.mail-tester.com/) and make a note of the `@mail-tester.com` email address. 
 
-In a second browser tab, visit [https://www.gmass.co/smtp-test](https://www.gmass.co/smtp-test). In the `To email address` field, use the email address from mail-tester. Fill in the rest of your credentials, and click the `Test it` button. 
+In a second new browser tab, visit [https://www.gmass.co/smtp-test](https://www.gmass.co/smtp-test). In the `To email address` field, use the email address from mail-tester. Fill in the rest of your credentials, and click the `Test it` button. 
 
-Once the test email has been sent, return to the mail-tester tab and click the `Then check your score` button to get an analysis of your email settings, and suggestions on what to fix if any misconfigurations are detected.
+Once the test email has been sent, return to the mail-tester tab and click on the `Then check your score` button. You will then get an analysis of your email settings, and suggestions on what to fix if any misconfigurations are detected.
 
 ## Further Support
 
