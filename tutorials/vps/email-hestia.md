@@ -25,7 +25,7 @@ First, we will make sure the necessary ports are open:
 
 ## Confirm Open Ports
 
-Doublecheck that the following ports are set to `Accept` connections from IP Address `0.0.0.0/0` (which means it allows all IP ranges):
+Doublecheck that the following ports are set to `Accept` connections from IP Address `0.0.0.0/0` (which means it allows all IPs):
 * Hestia: 8083
 * SMTP: 25, 465, 587
 * Web: 80, 443
@@ -126,13 +126,18 @@ You can access your webmail at `webmail.domain.com`
 
 ### Troubleshooting
 
-When trying to access your webmail link, if you receive an error message that says: `Oops... something went wrong! An internal error has occurred. Your request cannot be processed at this time. For administrators: Please check the application and/or server error logs for more information.` then follow the steps below.
+When trying to access your webmail link, if you receive an error message that says: `Oops... something went wrong! An internal error has occurred. Your request cannot be processed at this time. For administrators: Please check the application and/or server error logs for more information.`, follow the steps below.
 
 ![](../../.gitbook/assets/vps-hestia-email-6-oops-error.png)
 
 #### Check Ownership and Permissions
 
-To check the owner and permissions on the files in the `roundcube` folder, open a new terminal window, login to your VPS. Navigate to `/etc/roundcube/` and list the contents of the folder (you need to do this as root).
+To check the owner and permissions on the files in the `roundcube` folder, open a new terminal window, login to your VPS. 
+
+Navigate to `/etc/roundcube/` and list the contents of the folder:
+```text
+sudo ls -al
+```
 
 You should see:  
 ```text
@@ -149,14 +154,14 @@ drwxr-x--x   5 hestiamail hestiamail  4096 Jun 26 21:16 plugins
 
 If your files have a different owner or different permissions, we can follow the suggestion in this [this Hestia support post](https://forum.hestiacp.com/t/after-installing-hestia-1-8-11-in-ubuntu-22-04-the-roundcube-cannot-be-opened/12114/2).
 
-To change the file ownership, run the below command as root:
+Change file ownership:
 ```text
-chown -R hestiamail:hestiamail /etc/roundcube/
+sudo chown -R hestiamail:hestiamail /etc/roundcube/
 ```
 
-To change the file permissions, run the below command as root:
+Change file permissions:
 ```text
-find /etc/roundcube/ -type f -iname "*php" -exec chmod 640 {} \;
+sudo find /etc/roundcube/ -type f -iname "*php" -exec chmod 640 {} \;
 ```
 
 #### Check Webmail Again
