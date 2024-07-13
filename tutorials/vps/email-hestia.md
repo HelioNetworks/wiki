@@ -152,7 +152,7 @@ When trying to access your webmail link, if you receive an error message that sa
 
 #### Check Ownership and Permissions
 
-To check the owner and permissions on the files in the `roundcube` folder, open a new terminal window, login to your VPS. 
+To check the owner and permissions on the files in the `roundcube` folder, open a new terminal window and login to your VPS. 
 
 Navigate to `/etc/roundcube/` and list the contents of the folder:
 ```text
@@ -194,7 +194,7 @@ You can test the likelihood of your emails being received by using GMass's free 
 
 In a new browser tab, visit [mail-tester.com](https://www.mail-tester.com/) and make a note of the `@mail-tester.com` email address. 
 
-In a second new browser tab, visit [https://www.gmass.co/smtp-test](https://www.gmass.co/smtp-test). In the `To email address` field, use the email address from mail-tester. Fill in the rest of your credentials, and click the `Test it` button. 
+In a second new browser tab, visit [gmass.co/smtp-test](https://www.gmass.co/smtp-test/). In the `To email address` field, use the email address from mail-tester. Fill in the rest of your credentials, and click the `Test it` button. 
 
 Once the test email has been sent, return to the mail-tester tab and click on the `Then check your score` button. You will then get an analysis of your email settings, and suggestions on what to fix if any misconfigurations are detected.
 
