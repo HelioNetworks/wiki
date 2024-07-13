@@ -102,20 +102,40 @@ We recommend that you enable SSL for your mail domain. Inside Hestia:
 * Select your preferred SSL settings, and click on the `Save` button at the top right side of the page
 * You should see a message that says `Changes have been saved.`
 
+## Update Domain Registrar
+
+Before proceeding, make sure you have logged in to your domain registrar account and added the values shown in Hestia to the DNS management section.
+
+### Namecheap
+
+If you use Namecheap as your domain registrar, the below guidance should help you add the necessary details to their DNS management section.
+
+Login to your Namecheap account, find your domain in the list and click on the `Manage` button:
+
+![](../../.gitbook/assets/vps-hestia-email-4-namecheap-manage-dns.png)
+
+Click on the `Advanced DNS` tab
+
+![](../../.gitbook/assets/vps-hestia-email-5-namecheap-advanced-dns.png)
+
+Enter the DNS record values provided in Hestia into your Namecheap dashboard for the two `A` records, four `TXT` records, and the one `mx` record:
+
+![](../../.gitbook/assets/vps-hestia-email-6-namecheap-a-txt-mx-records.png)
+
 ## Add Mail User Accounts
 
 After adding all the DNS records to your domain registrar site, return to Hestia. Make sure you are logged in as the user who set up the mail domain. 
 * Click on the `Mail` tab
 * Click on the small `Add Mail Account` button next to your domain
 
-![](../../.gitbook/assets/vps-hestia-email-4-add-mail-account.png)
+![](../../.gitbook/assets/vps-hestia-email-7-add-mail-account.png)
 
 ## Add Email Account
 
 * Enter the `Account` name and `Password` for the email account
   * The value you enter for `Account` will be the first part (before the `@domain.com`) of the email address
 
-![](../../.gitbook/assets/vps-hestia-email-5-add-email-address.png)
+![](../../.gitbook/assets/vps-hestia-email-8-add-email-address.png)
 
 * Click on the `Save` button
 * You should see a message that says: "Mail account `name@domain.com` has been created successfully."
@@ -128,7 +148,7 @@ You can access your webmail at `webmail.domain.com`
 
 When trying to access your webmail link, if you receive an error message that says: `Oops... something went wrong! An internal error has occurred. Your request cannot be processed at this time. For administrators: Please check the application and/or server error logs for more information.`, follow the steps below.
 
-![](../../.gitbook/assets/vps-hestia-email-6-oops-error.png)
+![](../../.gitbook/assets/vps-hestia-email-9-oops-error.png)
 
 #### Check Ownership and Permissions
 
