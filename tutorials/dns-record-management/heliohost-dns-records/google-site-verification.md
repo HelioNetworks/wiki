@@ -10,8 +10,8 @@ Go to [https://search.google.com](https://search.google.com/) and login or sign 
 
 Click `add property` and when you select property type select `URL Prefix` and NOT `Domain`. 
 
-![](../../../../../.gitbook/assets/google-verification-choices.png)
+![](../../../.gitbook/assets/google-verification-choices.png)
 
 ### 3. Place the provided `HTML` file on your website
 
-![](../../../../../.gitbook/assets/google-verification-html-file.png)
+![](../../../.gitbook/assets/google-verification-html-file.png)
