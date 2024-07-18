@@ -1,7 +1,7 @@
 # Ruby on Rails
 
 {% hint style="warning" %}
-Ruby on Rails is available on Tommy, Johnny, or the VPS plans.
+Ruby on Rails is available on [Tommy](servers/virtual/tommy.md), [Johnny](servers/virtual/johnny.md), or the [VPS plans](https://heliohost.org/vps/).
 {% endhint %}
 
 ## Preface
