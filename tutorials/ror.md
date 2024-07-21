@@ -48,14 +48,7 @@ Now click `Websites and Domains` on the main left Plesk menu. If you're on the o
 
 ### Enable Ruby
 
-The test Ruby on Rails files are designed for Ruby 3.2.1 so you shouldn't need to change the Ruby version. 
-
-
-Ruby Version
-
-
-
-Change the `Application Mode` from `production` to `development` so you can see errors later, and wait until you see a confirmation message that says `Information: Application mode was successfully updated`. Then click `Enable Ruby` and wait for the confirmation message saying Ruby was enabled:
+The test Ruby on Rails files are designed for Ruby 3.2.1 so ensure you have `Ruby Version` set to `3.2.1-p31`. Change the `Application Mode` from `production` to `development` so you can see errors later, and wait until you see a confirmation message that says `Information: Application mode was successfully updated`. Then click `Enable Ruby` and wait for the confirmation message saying Ruby was enabled:
 
 ![](../.gitbook/assets/ror_enable.png)
 
