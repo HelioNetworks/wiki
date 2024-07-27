@@ -63,7 +63,7 @@ We offer various [Donor Plans](https://heliohost.org/tommy/), so for a one-time 
 
 No. We do not keep backups of your data nor is it our responsibility to, as mentioned in our [Terms of Service](hosting/terms.md). You must backup your own data regularly.  
 
-If you're not sure how to backup your data, please see our tutorials on [Making Your Own Manual Account Backup](/tutorials/plesk/account-backups.md#making-your-own-manual-account-backup) and [Scheduling Automated Account Backups](/tutorials/plesk/account-backups.md#scheduling-automated-account-backups).  
+If you're not sure how to backup your data, please see our [Account Backups](tutorials/plesk/account-backups.md) tutorial page. It contains guidance on creating manual backups which you can download to your local machine, and instructions for setting up scheduled automated backups within Plesk.
 
 ## Can I have more than one account?
 
