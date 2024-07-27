@@ -21,7 +21,7 @@ On Windows you can use [WinRar](https://www.win-rar.com/) or [7-Zip](https://www
 ## Access Your Files
 
 * Navigate to the main backup file named `pleskbackup-YourAccountUsername.tar`
-* Extract the `.tar` file with the version of 7-Zip you just installed
+* Extract the `.tar` file using one of the software packages listed above
 * The files will be extracted to a folder named `pleskbackup-YourAccountUsername`
 * Open the folder and navigate to the `domains` folder
 * Open the next folder, named `YourAccountUsername.heliohost.us` or `YourAccountUsername.helioho.st`
@@ -38,11 +38,31 @@ Follow the navigation steps below to make a backup of your hosting account insid
 
 ![](../../.gitbook/assets/plesk-make-account-backup.png)
 
+Click the `Back Up` button.
+
+![](../../.gitbook/assets/plesk-make-account-backup-2.png)
+
+Select the account content you want to back up, and click on the `OK` button.
+
+![](../../.gitbook/assets/plesk-select-backup-content.png)
+
+## Download Copy of Backup
+
+Once the backup process finishes, click on the green arrow icon to download the backup file to your local computer:
+
+![](../../.gitbook/assets/plesk-download-backup-file.png)
+
+Make your selection about using a password to encrypt users' passwords contained in the Plesk database or not, and click on the `OK` button:
+
+![](../../.gitbook/assets/plesk-download-backup-file-2.png)
+
+Your backup file will be downloaded to your local machine with filename `backup_domain.helioho.st_##########.tar`
+
 ## Schedule Account Backups
 
 Follow the navigation steps below to set up or modify scheduled automated account backup settings inside Plesk:
 
-**Login > Plesk > Websites & Domains > [ domain ] > Backup & Restore > Schedule**
+#### Login > Plesk > Websites & Domains > [ domain ] > Backup & Restore > Schedule
 
 ![](../../.gitbook/assets/plesk-schedule-account-backup.png)
 
