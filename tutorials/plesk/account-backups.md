@@ -54,7 +54,7 @@ After clicking the `Schedule` button, adjust the settings as needed.
 
 ### Further Support
 
-If after following the above steps, you are unable to download or extract your backup data or make your own account backup, please post a topic in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add) and make sure you provide details of the problem, including what steps you have tried, and any error messages encountered.
+If after following the above steps, you are unable to download or extract your backup data or make your own account backup, please post a topic in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add). Please make sure you provide your hosting account **username** and details of the problem, including what steps you have tried, and any **error message(s)** encountered.
 
 ## References
 
