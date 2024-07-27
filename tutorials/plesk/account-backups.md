@@ -32,17 +32,19 @@ On Windows you can use [WinRar](https://www.win-rar.com/) or [7-Zip](https://www
 
 ## Make an Account Backup
 
-Follow the navigation steps below to make a backup of your hosting account inside Plesk:  
+As mentioned in our [Terms of Service](../../hosting/terms.md), it is not HelioHost's responsibility to keep backups of your data. We strongly recommend you backup your data regularly and keep it in a safe place.
+
+Follow the navigation steps below to make a backup of your hosting account inside Plesk:
 
 #### Login > Plesk > Websites & Domains > [ domain ] > Backup & Restore
 
 ![](../../.gitbook/assets/plesk-make-account-backup.png)
 
-Click the `Back Up` button.
+Click the `Back Up` button:
 
 ![](../../.gitbook/assets/plesk-make-account-backup-2.png)
 
-Select the account content you want to back up, and click on the `OK` button.
+Select the account content you want to back up, and click on the `OK` button:
 
 ![](../../.gitbook/assets/plesk-select-backup-content.png)
 
@@ -60,7 +62,7 @@ Your backup file will be downloaded to your local machine with filename `backup_
 
 ## Schedule Account Backups
 
-Follow the navigation steps below to set up or modify scheduled automated account backup settings inside Plesk:
+Follow the navigation steps below to set up or modify scheduled account backup settings inside Plesk:
 
 #### Login > Plesk > Websites & Domains > [ domain ] > Backup & Restore > Schedule
 
