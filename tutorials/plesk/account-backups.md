@@ -16,7 +16,7 @@ On Linux or Mac you can install the `zstd` package and extract it on the command
 
 ### Windows 
 
-On Windows you can use [WinRar](https://www.win-rar.com/) or [7-Zip](https://www.7-zip.org/).
+On Windows you can use [WinRar](https://www.win-rar.com/) or [7-Zip v24+](https://www.7-zip.org/).
 
 ## Access Your Files
 
