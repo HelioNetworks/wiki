@@ -1,6 +1,6 @@
 # Plesk Account Backups
 
-## Download an Account Backup
+## Where to Download Your Account Backup
 
 If the HelioHost team made a backup of your hosting account data, you can retrieve it by visiting [https://heliohost.org/backup](https://heliohost.org/backup/) and following the instructions on the page to download the file.
 
@@ -8,7 +8,7 @@ Inside the downloaded backup file, there will be a large file named `backup_user
 
 The file will be in a format called `Z-standard` and will need to be extracted.
 
-## Extract Data from Backup File
+## How to Extract Your Account Data from the Backup File
 
 ### Linux or Mac
 
@@ -30,7 +30,7 @@ On Windows you can use [WinRar](https://www.win-rar.com/) or [7-Zip v24+](https:
 
 ![](../../.gitbook/assets/extract-plesk-backup-file.png)
 
-## Make an Account Backup
+## Making Your Own Manual Account Backup
 
 As mentioned in our [Terms of Service](../../hosting/terms.md), it is not HelioHost's responsibility to keep backups of your data. We strongly recommend you backup your data regularly and keep it in a safe place.
 
@@ -48,7 +48,7 @@ Select the account content you want to back up, and click on the `OK` button:
 
 ![](../../.gitbook/assets/plesk-select-backup-content.png)
 
-## Download Copy of Backup
+## Downloading a Local Copy of Your Backup
 
 Once the backup process finishes, click on the green arrow icon to download the backup file to your local computer:
 
@@ -60,7 +60,7 @@ Make your selection about using a password to encrypt users' passwords contained
 
 Your backup file will be downloaded to your local machine with filename `backup_domain.helioho.st_##########.tar`
 
-## Schedule Account Backups
+## Scheduling Automated Account Backups
 
 Follow the navigation steps below to set up or modify scheduled account backup settings inside Plesk:
 
