@@ -10,48 +10,70 @@ The file will be in a format called `Z-standard` and will need to be extracted.
 
 ## How to Extract Your Account Data from the Backup File
 
-### Download and Install 7-Zip with Zstandard Support
+### Linux or Mac
 
-Download and install the version of 7-Zip which supports Zstandard here: [https://github.com/mcmilk/7-Zip-zstd](https://github.com/mcmilk/7-Zip-zstd/releases)
+On Linux or Mac you can install the `zstd` package and extract it on the command line. 
 
-### Access Your Files
+### Windows 
+
+On Windows you can use [WinRar](https://www.win-rar.com/) or [7-Zip v24+](https://www.7-zip.org/).
+
+## Access Your Files
 
 * Navigate to the main backup file named `pleskbackup-YourAccountUsername.tar`
-* Extract the `.tar` file with the version of 7-Zip you just installed
+* Extract the `.tar` file using one of the software packages listed above
 * The files will be extracted to a folder named `pleskbackup-YourAccountUsername`
 * Open the folder and navigate to the `domains` folder
 * Open the next folder, named `YourAccountUsername.heliohost.us` or `YourAccountUsername.helioho.st`
 * Navigate to the file named `backup_user-data_##########.tzst` 
 * Open the file to access your data
 
-### Screenshot Example
-
 ![](../../.gitbook/assets/extract-plesk-backup-file.png)
 
 ## Making Your Own Manual Account Backup
 
-Follow the navigation steps below to make a backup of your hosting account inside Plesk:  
+As mentioned in our [Terms of Service](../../hosting/terms.md), it is not HelioHost's responsibility to keep backups of your data. We strongly recommend you backup your data regularly and keep it in a safe place.
 
-### Login > Plesk > Websites & Domains > [ domain ] > Backup & Restore
+Follow the navigation steps below to make a backup of your hosting account inside Plesk:
 
-#### Screenshot:
+#### Login > Plesk > Websites & Domains > [ domain ] > Backup & Restore
 
 ![](../../.gitbook/assets/plesk-make-account-backup.png)
 
+Click the `Back Up` button:
+
+![](../../.gitbook/assets/plesk-make-account-backup-2.png)
+
+Select the account content you want to back up, and click on the `OK` button:
+
+![](../../.gitbook/assets/plesk-select-backup-content.png)
+
+## Downloading a Local Copy of Your Backup
+
+Once the backup process finishes, click on the green arrow icon to download the backup file to your local computer:
+
+![](../../.gitbook/assets/plesk-download-backup-file.png)
+
+Make your selection about using a password to encrypt users' passwords contained in the Plesk database or not, and click on the `OK` button:
+
+![](../../.gitbook/assets/plesk-download-backup-file-2.png)
+
+Your backup file will be downloaded to your local machine with filename `backup_domain.helioho.st_##########.tar`
+
 ## Scheduling Automated Account Backups
 
-Follow the navigation steps below to set up or modify your scheduled account backup settings inside Plesk:
+Follow the navigation steps below to set up or modify scheduled account backup settings inside Plesk:
 
-### Login > Plesk > Websites & Domains > [ domain ] > Backup & Restore > Schedule
+#### Login > Plesk > Websites & Domains > [ domain ] > Backup & Restore > Schedule
 
 ![](../../.gitbook/assets/plesk-schedule-account-backup.png)
 
 After clicking the `Schedule` button, adjust the settings as needed.
 
-### Further Support
+## Further Support
 
-If after following the above steps, you are unable to download or extract your backup data or make your own account backup, please post a topic in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add) and make sure you provide details of the problem, including what steps you have tried, and any error messages encountered.
+If after following the above steps, you are unable to download or extract your backup data or make your own account backup, please post a topic in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add). Please make sure you provide your hosting account **username** and details of the problem, including what steps you have tried, and any **error message(s)** encountered.
 
-## References
+### References
 
 The original discussion which prompted the creation of this tutorial for extracting Plesk backup files can be found [here](https://helionet.org/index/topic/58777-solved-suspended-account/#comment-260423).
