@@ -70,6 +70,10 @@ Follow the navigation steps below to set up or modify scheduled account backup s
 
 After clicking the `Schedule` button, adjust the settings as needed.
 
+Backup files count towards your [1000 MB account storage limit](../../features/storage.md), so we recommend filling in the `Maximum number of full backup files to store` field to a number that makes sense for the total filesize of your account. Otherwise if you leave this field blank, backup files will pile up and increase your file storage unnecessarily, leaving you at risk of [account suspension](../../accounts/suspension-policy.md) for exceeding your disk quota.
+
+![](../../.gitbook/assets/plesk-max-number-of-backups.png)
+
 ## Further Support
 
 If after following the above steps, you are unable to download or extract your backup data or make your own account backup, please post a topic in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add). Please make sure you provide your hosting account **username** and details of the problem, including what steps you have tried, and any **error message(s)** encountered.
