@@ -51,6 +51,7 @@
       * [Manage HelioHost DNS](tutorials/dns-record-management/heliohost-dns-records/manage-heliohost-dns.md)
 * [Common Errors](common-errors/README.md)
   * [open_basedir restriction](common-errors/open-basedir-restriction.md)
+  * [SSL Certificate Problems](common-errors/ssl-certificate.md)
 * [FAQ](faq.md)
 * [Servers](servers/README.md)
   * [Physical](servers/physical/README.md)
