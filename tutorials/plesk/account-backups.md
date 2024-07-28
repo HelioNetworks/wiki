@@ -34,6 +34,10 @@ On Windows you can use [WinRar v6+](https://www.win-rar.com/) or [7-Zip v24+](ht
 
 As mentioned in our [Terms of Service](../../hosting/terms.md), it is not HelioHost's responsibility to keep backups of your data. We strongly recommend you backup your data regularly and keep it in a safe place.
 
+{% hint style="info" %}
+Backups created through Plesk count towards your [1000 MB account storage limit](../../features/storage.md). To avoid [account suspension](../../accounts/suspension-policy.md) for exceeding your disk quota, we recommend regularly downloading and deleting older backups.
+{% endhint %}
+
 Follow the navigation steps below to make a backup of your hosting account inside Plesk:
 
 #### Login > Plesk > Websites & Domains > [ domain ] > Backup & Restore
