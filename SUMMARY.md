@@ -8,7 +8,6 @@
   * [What is HelioNet?](hosting/helionet.md)
   * [Signing up](hosting/signing-up.md)
   * [Why Was My Account Suspended?](hosting/why-was-my-account-suspended.md)
-  * [Repair Times](hosting/repair-times.md)
   * [Terms of Service](hosting/terms.md)
 * [Accounts](accounts/README.md)
   * [International Countries](accounts/international-countries.md)

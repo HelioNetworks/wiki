@@ -6,7 +6,7 @@ HelioHost is a 501(c)(3) non-profit organization whose mission is to provide fre
 
 ## ETA for New Features and Server Repairs
 
-Most for-profit hosting companies have a staff of full time employees who sit around providing support and working 40 hours a week. It's very rare for any of our volunteers to work more than an hour or so each day. None of our volunteers are required to log a certain number of hours, and may come and go as they please. 
+Most for-profit hosting companies have a staff of full time employees who sit around providing support and working 40 hours a week. It's very rare for any of our volunteers to work more than an hour or so each day. None of our volunteers are required to log a certain number of hours and may come and go as they please. 
 
 If we aren't having fun volunteering, providing support, chatting with the community, and developing new features then we take a break and do things that are more fun for us. This is why we don't have SLAs or ETAs for new features or repairs, and this is why things move a little slower than a for-profit company that you might be used to dealing with.
 
@@ -25,4 +25,4 @@ To view the current status of our servers, please visit the page below:
 
 ## Terms of Service
 
-All users must indicate that they read and agree to the [Terms of Service](hosting/terms.md) before creating a free web hosting account on HelioHost.
+All users must indicate that they read and agree to the [Terms of Service](hosting/terms.md) before creating an account on HelioHost.
