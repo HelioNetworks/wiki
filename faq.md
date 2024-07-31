@@ -31,6 +31,7 @@ A few common reasons for account suspensions are:
 - [Terms of Service](/hosting/terms.md) violation(s).
 - [Account Inactivity](/accounts/suspension-policy.md#inactivity-policy). Renew your account [here](http://heliohost.org/renew/).
 - [Duplicate Accounts](/accounts/suspension-policy.md#duplicate-accounts). The limit is 1 account per human being.
+- Exceeding the [Account Storage](accounts/suspension-policy.md#account-storage-limits) limits. On Johnny and Tommy, we offer 1000 MB of free web space. There are also paid options available for [increased account storage](accounts/donation-increase-storage.md) and a range of [VPS Plans](https://heliohost.org/vps/).
 - Exceeding the [High Server Usage](/accounts/suspension-policy.md#high-server-usage) limits. On Johnny and Tommy, we enforce a memory limit of no more than 100 GB and a CPU limit of 10,000 per day. You can monitor your load numbers on [the load page within your dashboard](https://heliohost.org/dashboard/load/).
 
 It is also possible that this was an error in our system. If you suspect that this is the case, report the error in a new post [here](https://helionet.org/index/forum/81-suspended-and-queued-accounts/), making sure to provide your **username**.
