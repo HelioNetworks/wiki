@@ -12,7 +12,7 @@ There is a difference between "Professional-Grade Hosting" and "Professional-Gra
 
 ## I log in frequently but am still receiving inactivity emails, what gives?
 
-To ensure that your logins are logged, log in to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days. For more details, review our [Inactivity Policy](/accounts/suspension-policy.md#inactivity-policy).
+To ensure that your logins are logged, log in to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days. For more details, review our [Inactivity Policy](accounts/suspension-policy.md#inactivity-policy).
 
 ## Why must all posts on HelioNet be in English?
 
@@ -24,15 +24,15 @@ Currently, we are running about 20000 different accounts on one server, Johnny. 
 
 ## Why was my account suspended?
 
-Our [Suspension Policy](/accounts/suspension-policy.md) provides comprehensive details on why we will suspend accounts.
+Our [Suspension Policy](accounts/suspension-policy.md) provides comprehensive details on why we will suspend accounts.
 
 A few common reasons for account suspensions are: 
 
-- [Terms of Service](/hosting/terms.md) violation(s).
-- [Account Inactivity](/accounts/suspension-policy.md#inactivity-policy). Renew your account [here](http://heliohost.org/renew/).
-- [Duplicate Accounts](/accounts/suspension-policy.md#duplicate-accounts). The limit is 1 account per human being.
+- [Terms of Service](hosting/terms.md) violation(s).
+- [Account Inactivity](accounts/suspension-policy.md#inactivity-policy). Renew your account [here](http://heliohost.org/renew/).
+- [Duplicate Accounts](accounts/suspension-policy.md#duplicate-accounts). The limit is 1 account per human being.
 - Exceeding the [Account Storage](accounts/suspension-policy.md#account-storage-limits) limits. On Johnny and Tommy, we offer 1000 MB of free web space. There are also paid options available for [increased account storage](accounts/donation-increase-storage.md) and a range of [VPS Plans](https://heliohost.org/vps/).
-- Exceeding the [High Server Usage](/accounts/suspension-policy.md#high-server-usage) limits. On Johnny and Tommy, we enforce a memory limit of no more than 100 GB and a CPU limit of 10,000 per day. You can monitor your load numbers on [the load page within your dashboard](https://heliohost.org/dashboard/load/).
+- Exceeding the [High Server Usage](accounts/suspension-policy.md#high-server-usage) limits. On Johnny and Tommy, we enforce a memory limit of no more than 100 GB and a CPU limit of 10,000 per day. You can monitor your load numbers on [the load page within your dashboard](https://heliohost.org/dashboard/load/).
 
 It is also possible that this was an error in our system. If you suspect that this is the case, report the error in a new post [here](https://helionet.org/index/forum/81-suspended-and-queued-accounts/), making sure to provide your **username**.
 
@@ -42,7 +42,7 @@ It is also possible that this was an error in our system. If you suspect that th
 All domain and subdomain changes take **up to 2 hours** to go into effect as they require an Apache restart. 
 {% endhint %}
 
-During the first 2 hours, seeing the queued page is normal and only means the change hasn't taken effect yet. If it's been longer than **a full 2 hours**, try [clearing your browser cache](/misc/clear-your-cache.md).
+During the first 2 hours, seeing the queued page is normal and only means the change hasn't taken effect yet. If it's been longer than **a full 2 hours**, try [clearing your browser cache](misc/clear-your-cache.md).
 
 ## Why can't I log in?
 
@@ -50,11 +50,11 @@ During the first 2 hours, seeing the queued page is normal and only means the ch
 If you just registered, please wait **up to 2 hours** for your Plesk account to become fully active.
 {% endhint %}
 
-If it has been longer than **a full 2 hours** since you registered and you still see an `Account Queued` page, try [clearing your browser cache](/misc/clear-your-cache.md). If you are still experiencing problems, make sure you are entering your username in all lowercase letters, i.e. "wizard", not "Wizard" or "WIZARD".
+If it has been longer than **a full 2 hours** since you registered and you still see an `Account Queued` page, try [clearing your browser cache](misc/clear-your-cache.md). If you are still experiencing problems, make sure you are entering your username in all lowercase letters, i.e. "wizard", not "Wizard" or "WIZARD".
 
 ## How do I keep my account active / prevent being suspended?
 
-Login to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days. For more details, review our [Inactivity Policy](/accounts/suspension-policy.md#inactivity-policy).
+Login to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days. For more details, review our [Inactivity Policy](accounts/suspension-policy.md#inactivity-policy).
 
 ## What is a Daily Signup Limit and why is it stopping me from registering?
 
@@ -72,7 +72,7 @@ If you're not sure how to backup your data, please see our [Account Backups](tut
 
 ## Can I have more than one account?
 
-No. It's [one account per user](/accounts/suspension-policy.md#duplicate-accounts). This means that you cannot have more than 1 account, even if you use different email addresses. The limit is **1 account per human being**.
+No. It's [one account per user](accounts/suspension-policy.md#duplicate-accounts). This means that you cannot have more than 1 account, even if you use different email addresses. The limit is **1 account per human being**.
 
 ## How do I reset my hosting account to start fresh?
 
@@ -82,7 +82,7 @@ To request that we reset your account so you can start over, send an email **fro
 
 Once your account has been reset, you will receive an email with a link to restart your account. **You will have 7 days to use the link.** If you don't use the link to restart your account within 7 days, you will need to signup for a brand new account.
 
-If you had WSGI Control Access on your account for [Flask](/tutorials/flask.md) or [Django](/tutorials/django.md) and you want this re-enabled after the reset, you will need to re-request WSGI Control Access after the reset has been completed. By default, account resets will disable WSGI Control Access.
+If you had WSGI Control Access on your account for [Flask](tutorials/flask.md) or [Django](tutorials/django.md) and you want this re-enabled after the reset, you will need to re-request WSGI Control Access after the reset has been completed. By default, account resets will disable WSGI Control Access.
 
 ### VPS Rebuilds
 
@@ -141,7 +141,7 @@ If you require SSH access, it is only available on the [VPS Plans](https://helio
 
 ## Does Heliohost support sockets? Which ports are open?
 
-Both our [Tommy](/servers/virtual/tommy.md) and [Johnny](/servers/virtual/johnny.md) servers have zero inbound ports available to be opened. All ports that are currently open already have services listening. 
+Both our [Tommy](servers/virtual/tommy.md) and [Johnny](servers/virtual/johnny.md) servers have zero inbound ports available to be opened. All ports that are currently open already have services listening. 
 
 If you need a port opened, you'll need to get one of our [VPS Plans](https://heliohost.org/vps/), and you will then have all 65535 ports available to open or close as you want.
 
