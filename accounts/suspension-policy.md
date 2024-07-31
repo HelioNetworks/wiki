@@ -28,6 +28,14 @@ To ensure that every site on HelioHost is not slowed down by just one site hoggi
 
 On Johnny and Tommy, we enforce a memory limit of no more than 100 GB per day and a limit of 10,000 CPU usage per day. If you exceed those amounts you will get suspended. You can monitor your account load numbers on [the load page within your dashboard](https://heliohost.org/dashboard/load/).
 
+### Account Storage Limits
+
+On Johnny and Tommy, we offer 1000 MB of web space. This figure combines your stored files and your databases. This limit should not be a problem to the great majority of free hosting users. 
+
+We offer paid storage upgrade options:
+- Make a one-time [donation to increase your account storage](donation-increase-storage.md) to a maximum of 6000 MB total
+- Sign up for a [VPS plan](https://heliohost.org/vps/) offering storage options ranging from 1 GB to 300 GB
+
 ### Understanding Memory and CPU
 
 Memory is short-term computer storage, often called RAM (random access memory).
