@@ -44,6 +44,14 @@ If you have any questions, or need help reducing your account load, don't hesita
 
 In Plesk, cron jobs are called [Scheduled Tasks](../tutorials/plesk/cron-jobs.md). There is no limit on the number of cron jobs you can run, but they count towards your total account load. This means that running too many cron jobs or having one cron job run too frequently can increase your risk of getting suspended under the [High Server Usage](/accounts/suspension-policy.md#high-server-usage) policy. For example, sometimes people start a cron job to run every 1 minute and then get suspended for high load pretty quickly because of it. You can monitor your account load numbers on [the load page within your dashboard](https://heliohost.org/dashboard/load/).
 
+## Account Storage Limits
+
+On Johnny and Tommy, we offer 1000 MB of web space. This figure combines your stored files (including [account backups](../tutorials/plesk/account-backups.md)) and your databases. This limit should not be a problem to the great majority of free hosting users. 
+
+We offer paid storage upgrade options:
+- Make a one-time [donation to increase your account storage](donation-increase-storage.md) to a maximum of 6000 MB total
+- Sign up for a [VPS plan](https://heliohost.org/vps/) offering storage options ranging from 50 GB to 300 GB total
+
 ## Duplicate Accounts
 
 Each person/user is only allowed one account on HelioHost. Even if you use different email addresses. The limit is 1 account per human being. 
