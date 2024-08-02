@@ -16,7 +16,7 @@ On Linux or Mac you can install the `zstd` package and extract it on the command
 
 ### Windows 
 
-On Windows you can use [WinRar](https://www.win-rar.com/) or [7-Zip v24+](https://www.7-zip.org/).
+On Windows you can use [WinRar v6+](https://www.win-rar.com/) or [7-Zip v24+](https://www.7-zip.org/).
 
 ## Access Your Files
 
@@ -33,6 +33,10 @@ On Windows you can use [WinRar](https://www.win-rar.com/) or [7-Zip v24+](https:
 ## Making Your Own Manual Account Backup
 
 As mentioned in our [Terms of Service](../../hosting/terms.md), it is not HelioHost's responsibility to keep backups of your data. We strongly recommend you backup your data regularly and keep it in a safe place.
+
+{% hint style="info" %}
+Backups created through Plesk count towards your [1000 MB account storage limit](../../features/storage.md). To avoid [account suspension](../../accounts/suspension-policy.md) for exceeding your disk quota, we recommend regularly downloading and deleting older backups.
+{% endhint %}
 
 Follow the navigation steps below to make a backup of your hosting account inside Plesk:
 
@@ -69,6 +73,10 @@ Follow the navigation steps below to set up or modify scheduled account backup s
 ![](../../.gitbook/assets/plesk-schedule-account-backup.png)
 
 After clicking the `Schedule` button, adjust the settings as needed.
+
+Backup files count towards your [1000 MB account storage limit](../../features/storage.md), so we recommend filling in the `Maximum number of full backup files to store` field to a number that makes sense for the total filesize of your account. Otherwise if you leave this field blank, backup files will pile up and increase your file storage unnecessarily, leaving you at risk of [account suspension](../../accounts/suspension-policy.md) for exceeding your disk quota.
+
+![](../../.gitbook/assets/plesk-max-number-of-backups.png)
 
 ## Further Support
 
