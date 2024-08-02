@@ -50,7 +50,7 @@ On Johnny and Tommy, we offer 1000 MB of web space. This figure combines your st
 
 We offer paid storage upgrade options:
 - Make a one-time [donation to increase your account storage](donation-increase-storage.md) to a maximum of 6000 MB total
-- Sign up for a [VPS plan](https://heliohost.org/vps/) offering storage options ranging from 1 GB to 300 GB total
+- Sign up for a [VPS plan](https://heliohost.org/vps/) offering storage options ranging from 50 GB to 300 GB total
 
 ## Duplicate Accounts
 
