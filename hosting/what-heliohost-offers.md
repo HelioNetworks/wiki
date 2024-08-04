@@ -5,7 +5,7 @@
 * Access to [Plesk](../tutorials/plesk/README.md)
 * Ability for users to create, download, and schedule [Account Backups](../tutorials/plesk/account-backups.md)
 * Ability to edit [A, CNAME, TXT, and MX records](../tutorials/dns-record-management/heliohost-dns-records/README.md)
-* [1000 MB of Disk Space](../features/storage.md)
+* [1000 MB of Disk Space](../features/storage.md) with the option to [donate for increased storage of up to 6000 MB total](../accounts/donation-increase-storage.md)
 * [Unlimited Email Accounts](../features/unlimited-email-accounts.md)
 * Unlimited Mailing Lists
 * [Unlimited Bandwidth](../features/unlimited-bandwidth.md)
