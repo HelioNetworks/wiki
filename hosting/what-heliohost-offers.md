@@ -14,7 +14,7 @@
 * Unlimited [MySQL](../management/mysql.md) / [PostgreSQL](../features/postgresql.md) / [SQLite](../features/sqlite.md) Databases
 * Access to [phpMyAdmin](../management/mysql.md#managing-the-database-with-phpmyadmin)
 * Ability to add [Perl](../tutorials/perl.md) Modules
-* [Free SSL](/management/ssl.md) with `SSL It!`
+* [Free SSL](../management/ssl.md) with `SSL It!`
 * [Softaculous](../features/softaculous.md) (Easy installation of popular software such as blogging and forum platforms)
 
 ## HelioHost accounts can use the following scripting languages:
