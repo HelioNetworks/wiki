@@ -36,6 +36,8 @@ As mentioned in our [Terms of Service](../../hosting/terms.md), it is not HelioH
 
 {% hint style="info" %}
 Backups created through Plesk count towards your [1000 MB account storage limit](../../features/storage.md). To avoid [account suspension](../../accounts/suspension-policy.md) for exceeding your disk quota, we recommend regularly downloading and deleting older backups.
+
+If you need more space, you can [donate to increase your account storage](../../accounts/donation-increase-storage.md) from 1000 MB up to a maximum of 6000 MB total. For even more storage, we offer [VPS Plans](https://heliohost.org/vps/) with space ranging from 50 GB to 300 GB.
 {% endhint %}
 
 Follow the navigation steps below to make a backup of your hosting account inside Plesk:
@@ -75,6 +77,8 @@ Follow the navigation steps below to set up or modify scheduled account backup s
 After clicking the `Schedule` button, adjust the settings as needed.
 
 Backup files count towards your [1000 MB account storage limit](../../features/storage.md), so we recommend filling in the `Maximum number of full backup files to store` field to a number that makes sense for the total filesize of your account. Otherwise if you leave this field blank, backup files will pile up and increase your file storage unnecessarily, leaving you at risk of [account suspension](../../accounts/suspension-policy.md) for exceeding your disk quota.
+
+If you need more space, you can [donate to increase your account storage](../../accounts/donation-increase-storage.md) from 1000 MB up to a maximum of 6000 MB total. For even more storage, we offer [VPS Plans](https://heliohost.org/vps/) with space ranging from 50 GB to 300 GB.
 
 ![](../../.gitbook/assets/plesk-max-number-of-backups.png)
 
