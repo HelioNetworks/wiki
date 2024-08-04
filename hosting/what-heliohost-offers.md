@@ -24,7 +24,7 @@
 * [Java / JSP](../features/java.md)
 * [Node.js](../tutorials/node.js/README.md)
 * [PHP](../features/php.md)
-* [Python](../features/python.md), [Django](../tutorials/django.md), and [Flask](../tutorials/flask.md)
+* [Python](../features/python.md), [Django](../tutorials/django/README.md), and [Flask](../tutorials/flask.md)
 * [Perl](../tutorials/perl.md)
 * [Ruby on Rails](../tutorials/ror.md)
 
