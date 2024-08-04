@@ -6,7 +6,7 @@ Python is an easy to learn, powerful programming language. It has efficient high
 
 ## Django
 
-How to create a [Django](../tutorials/django.md) application.  
+How to create a [Django](../tutorials/django/README.md) application.  
 
 ## Python
 
