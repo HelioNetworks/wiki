@@ -4,9 +4,9 @@ If a server takes too long to complete a request (such as loading a webpage), it
 
 ## Apache Restarts
 
-Apache restarts happen every 2 hours on Johnny and Tommy servers. During the restart, your site may display a 504 error to visitors. This typically lasts no longer than a couple of minutes and is resolved once Apache has finished restarting.
+Apache restarts happen every 2 hours on [Johnny](../servers/virtual/johnny.md) and [Tommy](../servers/virtual/tommy.md) servers. During the restart, your site may display a 504 error to visitors. This typically lasts no longer than a couple of minutes and is resolved once Apache has finished restarting.
 
-If you prefer not to have Apache restart, you can sign up for a VPS Plan, where you can leave Apache or Nginx running for months without a restart.
+If you prefer not to have Apache restart, you can sign up for a [VPS Plan](https://heliohost.org/vps/), where you can leave Apache or Nginx running for months without a restart.
 
 ## Software Installation
 
