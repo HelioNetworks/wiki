@@ -82,7 +82,7 @@ To request that we reset your account so you can start over, send an email **fro
 
 Once your account has been reset, you will receive an email with a link to restart your account. **You will have 7 days to use the link.** If you don't use the link to restart your account within 7 days, you will need to signup for a brand new account.
 
-If you had WSGI Control Access on your account for [Flask](tutorials/flask.md) or [Django](tutorials/django.md) and you want this re-enabled after the reset, you will need to re-request WSGI Control Access after the reset has been completed. By default, account resets will disable WSGI Control Access.
+If you had WSGI Control Access on your account for [Flask](tutorials/flask.md) or [Django](tutorials/django/README.md) and you want this re-enabled after the reset, you will need to re-request WSGI Control Access after the reset has been completed. By default, account resets will disable WSGI Control Access.
 
 ### VPS Rebuilds
 
