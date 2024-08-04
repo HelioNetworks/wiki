@@ -3,6 +3,7 @@
 ## HelioHost offers free web hosting for all. Every account includes:
 
 * Access to [Plesk](../tutorials/plesk/README.md)
+* Ability for users to create, download, and schedule [Account Backups](../tutorials/plesk/account-backups.md)
 * Ability to edit [A, CNAME, TXT, and MX records](../tutorials/dns-record-management/heliohost-dns-records/README.md)
 * [1000 MB of Disk Space](../features/storage.md)
 * [Unlimited Email Accounts](../features/unlimited-email-accounts.md)
