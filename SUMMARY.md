@@ -53,7 +53,6 @@
 * [Common Errors](common-errors/README.md)
   * [open_basedir restriction](common-errors/open-basedir-restriction.md)
   * [SSL Certificate Problems](common-errors/ssl-certificate.md)
-  * [504 Gateway Timeout](common-errors/504-gateway-timeout.md)
 * [FAQ](faq.md)
 * [Servers](servers/README.md)
   * [Physical](servers/physical/README.md)
