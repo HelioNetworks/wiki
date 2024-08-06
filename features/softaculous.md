@@ -1,6 +1,6 @@
 # Softaculous
 
-Softaculous is an auto-installer service which allows users to download and install software to create all kinds of amazing websites \(such as a CMS, Forum, or Blog\). 
+Softaculous is an auto-installer service which allows users to download and install software to create all kinds of amazing websites (such as a CMS, Forum, or Blog). 
 
 Softaculous is extremely similar to Fantastico, possibly even better.
 
