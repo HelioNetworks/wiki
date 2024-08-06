@@ -15,3 +15,7 @@ To browse the available options, log in to Plesk and select Softaculous from the
 ### 504 Gateway Timeout
 
 If the Softaculous installer exceeds the default server timeout settings and you receive a 504 timeout error message, please refer to our [504 Gateway Timeout](../common-errors/504-gateway-timeout.md) page for guidance on how to resolve the issue.
+
+## Further Support
+
+If after following above steps, you are still having trouble, please post a topic in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add). Make sure you provide your **username**, **domain name**, the **software** you are trying to install, and any applicable **error message(s)** received.
