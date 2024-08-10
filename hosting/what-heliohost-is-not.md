@@ -14,7 +14,7 @@ As a sign of thanks for HelioHost's most active members, HelioHost will purchase
 
 ### Namecheap
 
-HelioHost has an affiliate agreement with Namecheap, so if you're in the market for a new domain we highly recommend purchasing it from them. Once you set the nameservers to `ns1.heliohost.org` and `ns2.heliohost.org`, we can host the website on your brand new domain for you. Click the banner below to use our affiliate link to shop for your new domain:
+HelioHost has an affiliate agreement with Namecheap, so if you're in the market for a new domain we highly recommend purchasing it from them. Once you set the nameservers to `ns1.heliohost.org` and `ns2.heliohost.org`, we can host the website on your brand new domain for you. Click on the banner below to use our affiliate link to shop for your new domain:
 
 [![Namecheap Affiliate Banner](https://heliohost.org/images/mail/namecheap.png)](https://heliohost.org/partners/namecheap)
 
@@ -30,8 +30,8 @@ Another option is to use a free domain, which you can register at [nic.EU.org](h
 
 ## HelioHost is Not a Website Designer
 
-HelioHost offers free website hosting. HelioHost does NOT create, design, maintain, or handle backups of your website for you, it only gives it a place to be hosted. As mentioned in our [Terms of Service](../hosting/terms.md), you are responsible for ALL maintenance, design, file backups, etc. 
+HelioHost offers free website hosting. HelioHost does NOT create, design, maintain, or handle backups of your website for you, it only gives it a place to be hosted. 
 
 Through Plesk, you can use the [Softaculous](../features/softaculous.md) auto-installer to install popular software (such as a Content Management System (CMS), blogging, and forum platforms) to your website.
 
-Plesk also enables you to [create, download, and schedule backups](../tutorials/plesk/account-backups.md) of your files.
+As mentioned in our [Terms of Service](../hosting/terms.md), it is not HelioHost's responsibility to keep backups of your data. We strongly recommend you backup your data regularly and keep it in a safe place. Plesk enables you to [create, download, and schedule backups](../tutorials/plesk/account-backups.md) of your files.
