@@ -37,7 +37,9 @@ We recommend not using FTP because it is insecure, but it's available too.
 
 ## Plesk File Manager
 
-The Plesk online file manager is a great built-in facility available to all users as part of HelioHost. It has all the features you could need to manage the files for your website, even the invisible and hidden ones. 
+The Plesk online file manager is a great built-in facility available to all users as part of HelioHost. It has all the features you could need to manage the files for your website, even the invisible and hidden ones. Follow the navigation steps below to access the Plesk file manager: 
+
+#### Login > Plesk > Websites & Domains > [ domain ] > Files
 
 {% hint style="warning" %}
 Do not bookmark your Plesk File Manager, as your visits are not recorded and you will be [suspended for inactivity](https://wiki.helionet.org/accounts/suspension-policy#inactivity-policy) after 30 days.
