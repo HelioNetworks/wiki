@@ -2,7 +2,7 @@
 
 HelioHost is a free web host; it is not your one-stop gateway to running a website. This article will explain exactly what HelioHost is NOT.
 
-## HelioHost is NOT a Domain Registrar
+## HelioHost is Not a Domain Registrar
 
 A domain name registrar is a service used to purchase top level domains (TLDs) - i.e. a .com, .org, .net, or similar website name. HelioHost DOES NOT offer domain registration. When you sign up with HelioHost, you can use a free `domain.helioho.st` or `domain.heliohost.us` subdomain (where `domain` is whatever you choose).
 
@@ -30,4 +30,4 @@ Another option is to use a free domain, which you can register at [nic.EU.org](h
 
 ## HelioHost is Not a Website Designer
 
-HelioHost offers free website hosting. HelioHost does NOT create, design, or maintain your website for you, it only gives it a place to be hosted. Through Plesk, you can use their auto-installer to install popular software (such as blogging and forum platforms) to your website, but you are responsible for ALL maintenance, design, etc.
+HelioHost offers free website hosting. HelioHost does NOT create, design, maintain, or handle backups of your website for you, it only gives it a place to be hosted. Through Plesk, you can use the Softaculous auto-installer to install popular software (such as a Content Management System (CMS), blogging, and forum platforms) to your website. Plesk also enables you to create, download, and schedule account backups. You are responsible for ALL maintenance, design, file backups, etc.
