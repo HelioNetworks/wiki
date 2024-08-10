@@ -30,4 +30,4 @@ Another option is to use a free domain, which you can register at [nic.EU.org](h
 
 ## HelioHost is Not a Website Designer
 
-HelioHost offers free website hosting. HelioHost does NOT create, design, maintain, or handle backups of your website for you, it only gives it a place to be hosted. Through Plesk, you can use the Softaculous auto-installer to install popular software (such as a Content Management System (CMS), blogging, and forum platforms) to your website. Plesk also enables you to create, download, and schedule account backups. You are responsible for ALL maintenance, design, file backups, etc.
+HelioHost offers free website hosting. HelioHost does NOT create, design, maintain, or handle backups of your website for you, it only gives it a place to be hosted. Through Plesk, you can use the [Softaculous](../features/softaculous.md) auto-installer to install popular software (such as a Content Management System (CMS), blogging, and forum platforms) to your website. Plesk also enables you to create, download, and schedule account backups. You are responsible for ALL maintenance, design, file backups, etc.
