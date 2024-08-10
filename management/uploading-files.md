@@ -43,10 +43,6 @@ The Plesk online file manager is a great built-in facility available to all user
 Do not bookmark your Plesk File Manager, as your visits are not recorded and you will be [suspended for inactivity](https://wiki.helionet.org/accounts/suspension-policy#inactivity-policy) after 30 days.
 {% endhint %}
 
-## **PyDio**
-
-Pydio, formerly known as AjaXplorer, is another online file manager which uses AJAX to provide the best file manager possible. It includes editors in every occasion, multiple users, and more! Pydio is available for download at [https://pydio.com](https://pydio.com/) and you can install by simply dragging and dropping the contents of the ZIP file to your site.
-
 ## Net2FTP
 
 Yet another online file manager is net2FTP. Net2FTP can be accessed directly from [its website](http://net2ftp.com/). Alternatively, you can [download a copy](http://net2ftp.com/index.php?state=homepage&state2=3) and run it from your own website.
