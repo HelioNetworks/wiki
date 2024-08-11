@@ -48,7 +48,7 @@ If you want site changes to take effect immediately, we offer a few [options to 
 
 ### Complete Django
 
-We offer the complete, unadulterated Django package, including extensions to interface with [MySQL](../management/mysql.md), [PostgreSQL](../features/postgresql.md), and [SQLite](../features/sqlite.md) database engines.
+We offer the complete, unadulterated Django package, including extensions to interface with [MySQL](../../management/mysql.md), [PostgreSQL](../../features/postgresql.md), and [SQLite](../../features/sqlite.md) database engines.
 
 ### Additional Libraries
 
@@ -251,7 +251,7 @@ Please let us know if you experience unexpected results with this new feature.
 #### Account Resets Remove WSGI Control Access
 
 {% hint style="info" %}
-If you [request an account reset](../faq.md#how-do-i-reset-my-hosting-account-to-start-fresh) you will need to re-request WSGI Control Access after the reset has been completed. By default, account resets will disable WSGI Control Access.
+If you [request an account reset](../../faq.md#how-do-i-reset-my-hosting-account-to-start-fresh) you will need to re-request WSGI Control Access after the reset has been completed. By default, account resets will disable WSGI Control Access.
 {% endhint %}
 
 ### 2. Use Local Development Environment
