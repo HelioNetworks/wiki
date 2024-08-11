@@ -1,10 +1,14 @@
 # Django on HelioHost
 
+## About Django
+
+Django is a web development framework designed specifically for Python. As Ruby on Rails does for Ruby, Django aims to provide an MVC (Model-View-Controller) architecture for web application development as well as a large set of prebuilt libraries to simplify the development of common web app features. Django's modularity also allows easy scalability and enables the reuse of various code blocks, aligning to the DRY ("Don't Repeat Yourself") software development principle.
+
+## Django on the Johnny server uses Python 3.12
+
 {% hint style="info" %} 
 If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
 {% endhint %}
-
-## Django on the Johnny servers uses Python 3.12
 
 | Server | Django Version | Python Version | Python Path         | Loader | Python Details                                                  |
 | :----: | :------------: | :------------: | :-----------------: | :----: | :-------------------------------------------------------------: |
@@ -26,13 +30,13 @@ Werkzeug==3.0.3
 
 ## Django on the Tommy server uses Python 3.10
 
+{% hint style="info" %} 
+If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
+{% endhint %}
+
 | Server | Django Version | Python Version | Python Path         | Loader | Python Modules Installed                                       |
 | :----: | :------------: | :------------: | :-----------------: | :----: | :------------------------------------------------------------: |
 | Tommy  | 4.1.1          | 3.10           | /usr/bin/python3.10 | WSGI   | [View pyinfo](https://krydos.heliohost.org/pyinfo/info3.10.py) |
-
-## About Django
-
-Django is a web development framework designed specifically for Python. As Ruby on Rails does for Ruby, Django aims to provide an MVC (Model-View-Controller) architecture for web application development as well as a large set of prebuilt libraries to simplify the development of common web app features. Django's modularity also allows easy scalability and enables the reuse of various code blocks, aligning to the DRY ("Don't Repeat Yourself") software development principle.
 
 ## Enabled
 
