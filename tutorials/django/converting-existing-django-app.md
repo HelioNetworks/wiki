@@ -68,13 +68,13 @@ We don't offer shell (command line) access to our users. Many Django tutorials a
 
 There are two ways to configure Django to work with the mod_wsgi loader in Apache. You can either create a separate daemon for each Django process (daemon mode) or embed Django into the Apache daemon (embedded mode). While daemon mode tends to be the standard among Django admins because of the increased control it offers, we use embedded mode because it can be set up on a per-user basis without very much root-level configuration. Embedded mode is slightly harder to get working (see directions below), and might break compatibility with some Django tutorials. In most cases, it should not be a problem.
 
-## Converting an Existing Django 4.1 App to work on HelioHost
+## Converting an Existing Django App to work on HelioHost
 
 This tutorial will guide you through using the command line on your development system to convert an existing Django app for hosting on HelioHost.
 
 If you prefer not to use the command line, our brief [Django on HelioHost](django-on-heliohost.md) tutorial may better suit your needs. 
 
-The official Django 4.1 documentation [is available here](https://docs.djangoproject.com/en/4.1). We recommend following the [introduction tutorial](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) to start off with. We also suggest using `virtualenv` to differentiate each Django installation for each project. The below tutorial has been designed for Linux users, but Windows users should work it out easily. 
+We recommend referring to the [official Django documentation](https://docs.djangoproject.com/) and following the introduction tutorial relevant to the Django version you are using. Please note the Django versions available are different on the [Johnny](#django-on-the-johnny-server-uses-python-312) and [Tommy](#django-on-the-tommy-server-uses-python-310) servers. We also suggest using `virtualenv` to differentiate each Django installation for each project. The below tutorial has been designed for Linux users, but Windows users should work it out easily. 
 
 **Conventions:** The following commands don't need root access to be executed. Shell commands are preceded by a `$` (dollar sign) to differentiate them from the output.  
 The Python executable name used on the local computer is `python3`, but this can vary depending on the distribution used, so change it as needed to match your system requirements. 
