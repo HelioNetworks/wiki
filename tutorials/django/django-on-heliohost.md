@@ -6,15 +6,29 @@ If you need to run Django on another version of Python, you'll need to get a [VP
 
 ## Django on the Johnny servers uses Python 3.12
 
-| Django Version | Python Version | Python Path         | Loader | Python Details                                                  | Python Modules Installed |
-| :------------: | :------------: | :-----------------: | :----: | :-------------------------------------------------------------: | :---------------: |
-| 4.1.5          | 3.12           | /usr/bin/python3.12 | WSGI   | [View pyinfo](https://krydos2.heliohost.org/pyinfo/info3.12.py) | asgiref==3.8.1, blinker==1.8.2, click==8.1.7, Django==5.0.7, Flask==3.0.3, itsdangerous==2.2.0, Jinja2==3.1.4, MarkupSafe==2.1.5, python-dotenv==1.0.1, sqlparse==0.5.1, Werkzeug==3.0.3 |
+| Django Version | Python Version | Python Path         | Loader | Python Details                                                  |
+| :------------: | :------------: | :-----------------: | :----: | :-------------------------------------------------------------: |
+| 5.0.7          | 3.12           | /usr/bin/python3.12 | WSGI   | [View pyinfo](https://krydos2.heliohost.org/pyinfo/info3.12.py) |
+
+### Python Modules Installed
+
+asgiref==3.8.1  
+blinker==1.8.2  
+click==8.1.7  
+Django==5.0.7  
+Flask==3.0.3  
+itsdangerous==2.2.0  
+Jinja2==3.1.4  
+MarkupSafe==2.1.5  
+python-dotenv==1.0.1  
+sqlparse==0.5.1  
+Werkzeug==3.0.3  
 
 ## Django on the Tommy server uses Python 3.10
 
-| Server | Django Version | Python Version | Python Path         | Loader | Python Modules Installed                                 |
-| :----: | :------------: | :------------: | :-----------------: | :----: | :------------------------------------------------------: |
-| Tommy  | 4.1.1          | 3.10           | /usr/bin/python3.10 | WSGI   | [View pyinfo](https://krydos.heliohost.org/pyinfo/info3.10.py)  |
+| Server | Django Version | Python Version | Python Path         | Loader | Python Modules Installed                                       |
+| :----: | :------------: | :------------: | :-----------------: | :----: | :------------------------------------------------------------: |
+| Tommy  | 4.1.1          | 3.10           | /usr/bin/python3.10 | WSGI   | [View pyinfo](https://krydos.heliohost.org/pyinfo/info3.10.py) |
 
 ## About Django
 
