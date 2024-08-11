@@ -6,11 +6,11 @@ If you need to run Django on another version of Python, you'll need to get a [VP
 
 ## Django on the Johnny servers uses Python 3.12
 
-| Django Version | Python Version | Python Path         | Loader | Python Details                                                  |
-| :------------: | :------------: | :-----------------: | :----: | :-------------------------------------------------------------: |
-| 5.0.7          | 3.12           | /usr/bin/python3.12 | WSGI   | [View pyinfo](https://krydos2.heliohost.org/pyinfo/info3.12.py) |
+| Server | Django Version | Python Version | Python Path         | Loader | Python Details                                                  |
+| :----: | :------------: | :------------: | :-----------------: | :----: | :-------------------------------------------------------------: |
+| Johnny | 5.0.7          | 3.12           | /usr/bin/python3.12 | WSGI   | [View pyinfo](https://krydos2.heliohost.org/pyinfo/info3.12.py) |
 
-### Python Modules Installed
+### Python Modules Installed on Johnny
 
 asgiref==3.8.1  
 blinker==1.8.2  
@@ -64,7 +64,7 @@ We don't offer shell (command line) access to our users. Many Django tutorials a
 
 There are two ways to configure Django to work with the mod_wsgi loader in Apache. You can either create a separate daemon for each Django process (daemon mode) or embed Django into the Apache daemon (embedded mode). While daemon mode tends to be the standard among Django admins because of the increased control it offers, we use embedded mode because it can be set up on a per-user basis without very much root-level configuration. Embedded mode is slightly harder to get working (see directions below), and might break compatibility with some Django tutorials. In most cases, it should not be a problem.
 
-## Getting started with Django 4.1 on HelioHost
+## Getting started with Django on HelioHost
 
 This brief tutorial will guide you through setting up a Django test app without using the command line on your development system.
 
@@ -229,6 +229,38 @@ In your web browser, navigate to `domain.helioho.st/djangotest`
 If you did everything right it should look like this: 
 
 ![](../../.gitbook/assets/django-install-success.png)
+
+## WSGI Uses Server Side Caching
+
+### What WSGI Server Side Caching Does
+
+Multiple Apache processes are running on the server, and each time you refresh your site you are randomly assigned to one of these processes. If that particular process has already displayed your site, it shows the cached version of your code; otherwise, it shows the new code changes. This means that during the first 2 hours after a site change, you may intermittently see old or new content, depending on which process you get assigned to. This situation will resolve when Apache is restarted, which happens every 2 hours.
+
+## Options to Work Around Caching
+
+### 1. Request WSGI Control Access
+
+A new feature currently in beta is the ability for users to restart their Django app themselves. 
+
+To request this, please create a new post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) and provide your **username**, **server name**, and the **domain name(s)** you want to be given WSGI Control Access for. (If you have 2 Django apps on 2 different domains, you need to request WSGI Control Access for each domain.)
+
+Once you have been given WSGI Control Access, you can edit your `dispatch.wsgi` to reload your Django app so new code changes load immediately. The edits to the file can be as simple as adding or removing a space or a blank line. As long as the file's `last modified date` changes it will discard the cache and reload your Django app.
+
+Please let us know if you experience unexpected results with this new feature.
+
+#### Account Resets Remove WSGI Control Access
+
+{% hint style="info" %}
+If you [request an account reset](../faq.md#how-do-i-reset-my-hosting-account-to-start-fresh) you will need to re-request WSGI Control Access after the reset has been completed. By default, account resets will disable WSGI Control Access.
+{% endhint %}
+
+### 2. Use Local Development Environment
+
+Another option to see code changes reflected immediately is to develop your Django app on your home computer and then host the production copy on the server.
+
+### 3. VPS
+
+You may prefer to explore one of our paid [VPS Plan](https://heliohost.org/vps/) options, depending on your requirements.
 
 ## References
 
