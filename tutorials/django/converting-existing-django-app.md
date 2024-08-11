@@ -4,18 +4,39 @@
 
 Django is a web development framework designed specifically for Python. As Ruby on Rails does for Ruby, Django aims to provide an MVC (Model-View-Controller) architecture for web application development as well as a large set of prebuilt libraries to simplify the development of common web app features. Django's modularity also allows easy scalability and enables the reuse of various code blocks, aligning to the DRY ("Don't Repeat Yourself") software development principle.
 
-## Django on the Tommy and Johnny servers uses Python 3.10. 
+## Django on the Johnny server uses Python 3.12
 
 {% hint style="info" %} 
 If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
 {% endhint %}
 
-## Details
+| Server | Django Version | Python Version | Python Path         | Loader | Python Details                                                  |
+| :----: | :------------: | :------------: | :-----------------: | :----: | :-------------------------------------------------------------: |
+| Johnny | 5.0.7          | 3.12           | /usr/bin/python3.12 | WSGI   | [View pyinfo](https://krydos2.heliohost.org/pyinfo/info3.12.py) |
 
-| Server | Django Version | Python Version | Python Path         | Loader | Python Modules Installed                                 |
-| :----: | :------------: | :------------: | :-----------------: | :----: | :------------------------------------------------------: |
-| Tommy  | 4.1.1          | 3.10           | /usr/bin/python3.10 | WSGI   | [View](https://krydos.heliohost.org/pyinfo/info3.10.py)  |
-| Johnny | 4.1.5          | 3.10           | /usr/bin/python3.10 | WSGI   | [View](https://krydos2.heliohost.org/pyinfo/info3.10.py) |
+### Python Modules Installed on Johnny
+
+asgiref==3.8.1  
+blinker==1.8.2  
+click==8.1.7  
+Django==5.0.7  
+Flask==3.0.3  
+itsdangerous==2.2.0  
+Jinja2==3.1.4  
+MarkupSafe==2.1.5  
+python-dotenv==1.0.1  
+sqlparse==0.5.1  
+Werkzeug==3.0.3  
+
+## Django on the Tommy server uses Python 3.10
+
+{% hint style="info" %} 
+If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
+{% endhint %}
+
+| Server | Django Version | Python Version | Python Path         | Loader | Python Modules Installed                                       |
+| :----: | :------------: | :------------: | :-----------------: | :----: | :------------------------------------------------------------: |
+| Tommy  | 4.1.1          | 3.10           | /usr/bin/python3.10 | WSGI   | [View pyinfo](https://krydos.heliohost.org/pyinfo/info3.10.py) |
 
 ## Enabled
 
@@ -282,7 +303,7 @@ Please let us know if you experience unexpected results with this new feature.
 #### Account Resets Remove WSGI Control Access
 
 {% hint style="info" %}
-If you [request an account reset](../faq.md#how-do-i-reset-my-hosting-account-to-start-fresh) you will need to re-request WSGI Control Access after the reset has been completed. By default, account resets will disable WSGI Control Access.
+If you [request an account reset](../../faq.md#how-do-i-reset-my-hosting-account-to-start-fresh) you will need to re-request WSGI Control Access after the reset has been completed. By default, account resets will disable WSGI Control Access.
 {% endhint %}
 
 ### 2. Use Local Development Environment
