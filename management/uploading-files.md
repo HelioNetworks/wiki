@@ -47,11 +47,15 @@ Do not bookmark your Plesk File Manager, as your visits are not recorded and you
 
 ## Net2FTP
 
-Net2FTP is a popular online file manager which can be installed using [Softaculous](../features/softaculous.md), the auto-installer service built right into Plesk. 
-
-Follow the navigation steps below to access the Plesk file manager: 
+Net2FTP is a popular online file manager which can be installed using [Softaculous](../features/softaculous.md), the auto-installer service built right into Plesk. Follow the navigation steps below to install Net2FTP: 
 
 #### Login > Plesk > Softaculous > search for `net2ftp` or find it under the list of `File Management` options
+
+## Pydio
+
+Pydio, formerly known as AjaXplorer, is another online file manager which includes file editors, multiple users, and more. Pydio can be installed using [Softaculous](../features/softaculous.md), the auto-installer service built right into Plesk. Follow the navigation steps below to install Pydio: 
+
+#### Login > Plesk > Softaculous > search for `Pydio` or find it under the list of `File Management` options
 
 ## WebDAV
 
