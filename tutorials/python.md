@@ -17,7 +17,7 @@ The easiest way to get started with Python on a server is with CGI. The only rea
 * Highlight `test.py` and select `Edit in Text Editor`
 * Leave `UTF-8` as the encoding, set `Line break type` to `Convert to Unix style` and copy/paste the below into the large text field:
 ```
-#!/usr/bin/python3.10
+#!/usr/bin/python3.12
 
 print("Content-Type: text/html\n\n")
 
@@ -28,33 +28,40 @@ print("Heliohost rules!")
 
 If everything worked, you should see `Heliohost rules!` displayed in your browser. 
 
-### Code Explanation
+## Code Explanation
 
-In the code pasted in, the first line is called the `shebang`. It tells the server which version of Python to use. On Tommy and Johnny, you can pick between:
+In the code pasted in, the first line is called the `shebang`. It tells the server which version of Python to use. 
 
-| Path                  | Version |
-| ----------------------| ------- |
-| #!/usr/bin/python2.7  | 2.7     |
-| #!/usr/bin/python3.6  | 3.6     |
-| #!/usr/bin/python3.10 | 3.10    |
+## On the Johnny server, you can pick between:
+
+| Server  | Python Version | Python Path           | Python Details                                                  |
+| :-----: | :------------: | :-------------------: | :-------------------------------------------------------------: |
+| Johnny  | 3.9            | #!/usr/bin/python3.9  | [Python 3.9](https://krydos2.heliohost.org/pyinfo/info3.9.py)   |
+| Johnny  | 3.12           | #!/usr/bin/python3.12 | [Python 3.12](https://krydos2.heliohost.org/pyinfo/info3.12.py) |
+
+### Python 3.12 Modules Installed on Johnny
+
+asgiref==3.8.1  
+blinker==1.8.2  
+click==8.1.7  
+Django==5.0.7  
+Flask==3.0.3  
+itsdangerous==2.2.0  
+Jinja2==3.1.4  
+MarkupSafe==2.1.5  
+python-dotenv==1.0.1  
+sqlparse==0.5.1  
+Werkzeug==3.0.3  
+
+## On the Tommy server, you can pick between:
+
+| Server | Python Version | Python Path           | Python Details                                                 |
+| :----: | :------------: | :-------------------: | :------------------------------------------------------------: |
+| Tommy  | 2.7            | #!/usr/bin/python2.7  | [Python 2.7](https://krydos.heliohost.org/pyinfo/info2.7.py)   |
+| Tommy  | 3.6            | #!/usr/bin/python3.6  | [Python 3.6](https://krydos.heliohost.org/pyinfo/info3.6.py)   |
+| Tommy  | 3.10           | #!/usr/bin/python3.10 | [Python 3.10](https://krydos.heliohost.org/pyinfo/info3.10.py) |
 
 The second line of code is the `Content-Type` header. This is important so the server knows what to do with the output that follows. If you forget it your script will give a useless 500 error. The `Content-Type` header always has to have the two end lines immediately after it. That's what the `\n` is.
-
-## Modules
-
-You can see the modules that are currently installed on the Python versions:
-
-### Johnny
-
-* [Python 2.7](https://krydos2.heliohost.org/pyinfo/info2.7.py)
-* [Python 3.6](https://krydos2.heliohost.org/pyinfo/info3.6.py)
-* [Python 3.10](https://krydos2.heliohost.org/pyinfo/info3.10.py)
-
-### Tommy
-
-* [Python 2.7](https://krydos.heliohost.org/pyinfo/info2.7.py)
-* [Python 3.6](https://krydos.heliohost.org/pyinfo/info3.6.py)
-* [Python 3.10](https://krydos.heliohost.org/pyinfo/info3.10.py)
 
 If you don't see the module you need, your script will probably give a useless 500 error when you try to import the missing module. To request modules, please raise a request in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide **your server**, the **version of Python you're using**, and **the module(s) you need** including any relevant **version numbers** for them.
 
