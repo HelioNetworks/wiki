@@ -10,23 +10,9 @@ Flask is a Python web framework built with a small core and easy-to-extend philo
 If you need to run Flask on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
 {% endhint %}
 
-| Server | Flask Version | Python Version | Python Path         | Loader | Python Details                                                  |
-| :----: | :-----------: | :------------: | :-----------------: | :----: | :-------------------------------------------------------------: |
-| Johnny | 3.0.3         | 3.12           | /usr/bin/python3.12 | WSGI   | [View pyinfo](https://krydos2.heliohost.org/pyinfo/info3.12.py) |
-
-### Python 3.12 Modules Installed on Johnny
-
-asgiref==3.8.1  
-blinker==1.8.2  
-click==8.1.7  
-Django==5.0.7  
-Flask==3.0.3  
-itsdangerous==2.2.0  
-Jinja2==3.1.4  
-MarkupSafe==2.1.5  
-python-dotenv==1.0.1  
-sqlparse==0.5.1  
-Werkzeug==3.0.3  
+| Server | Flask Version | Python Version | Python Path         | Loader | Python Modules Installed                                 |
+| :----: | :-----------: | :------------: | :-----------------: | :----: | :------------------------------------------------------: |
+| Johnny | 3.0.3         | 3.12           | /usr/bin/python3.12 | WSGI   | [View](https://krydos2.heliohost.org/pyinfo/info3.12.py) |
 
 ## Flask on the Tommy server uses Python 3.10
 
@@ -34,9 +20,9 @@ Werkzeug==3.0.3
 If you need to run Flask on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
 {% endhint %}
 
-| Server | Flask Version | Python Version | Python Path         | Loader | Python Modules Installed                                       |
-| :----: | :-----------: | :------------: | :-----------------: | :----: | :------------------------------------------------------------: |
-| Tommy  | 2.2.2         | 3.10           | /usr/bin/python3.10 | WSGI   | [View pyinfo](https://krydos.heliohost.org/pyinfo/info3.10.py) |
+| Server | Flask Version | Python Version | Python Path         | Loader | Python Modules Installed                                |
+| :----: | :-----------: | :------------: | :-----------------: | :----: | :-----------------------------------------------------: |
+| Tommy  | 2.2.2         | 3.10           | /usr/bin/python3.10 | WSGI   | [View](https://krydos.heliohost.org/pyinfo/info3.10.py) |
 
 ## How To Setup Flask on Plesk
 
