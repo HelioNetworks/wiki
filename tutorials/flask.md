@@ -1,15 +1,15 @@
 # Flask
 
+## About Flask
+
+Flask is a Python web framework built with a small core and easy-to-extend philosophy.  
+Read more at [Full Stack Python](https://www.fullstackpython.com/flask.html).
+
 ### Flask on the Tommy and Johnny servers uses Python 3.10. 
 
 {% hint style="info" %} 
 If you need to run Flask on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
 {% endhint %}
-
-## About Flask
-
-Flask is a Python web framework built with a small core and easy-to-extend philosophy.  
-Read more at [Full Stack Python](https://www.fullstackpython.com/flask.html).
 
 ## How To Setup Flask on Plesk
 
