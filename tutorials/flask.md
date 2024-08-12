@@ -14,7 +14,7 @@ If you need to run Flask on another version of Python, you'll need to get a [VPS
 | :----: | :-----------: | :------------: | :-----------------: | :----: | :-------------------------------------------------------------: |
 | Johnny | 3.0.3         | 3.12           | /usr/bin/python3.12 | WSGI   | [View pyinfo](https://krydos2.heliohost.org/pyinfo/info3.12.py) |
 
-### Python Modules Installed on Johnny
+### Python 3.12 Modules Installed on Johnny
 
 asgiref==3.8.1  
 blinker==1.8.2  
