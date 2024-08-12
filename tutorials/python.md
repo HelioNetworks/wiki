@@ -34,32 +34,18 @@ In the code pasted in, the first line is called the `shebang`. It tells the serv
 
 ## On the Johnny server, you can pick between:
 
-| Server  | Python Version | Python Path           | Python Details                                                  |
-| :-----: | :------------: | :-------------------: | :-------------------------------------------------------------: |
-| Johnny  | 3.9            | #!/usr/bin/python3.9  | [Python 3.9](https://krydos2.heliohost.org/pyinfo/info3.9.py)   |
-| Johnny  | 3.12           | #!/usr/bin/python3.12 | [Python 3.12](https://krydos2.heliohost.org/pyinfo/info3.12.py) |
-
-### Python 3.12 Modules Installed on Johnny
-
-asgiref==3.8.1  
-blinker==1.8.2  
-click==8.1.7  
-Django==5.0.7  
-Flask==3.0.3  
-itsdangerous==2.2.0  
-Jinja2==3.1.4  
-MarkupSafe==2.1.5  
-python-dotenv==1.0.1  
-sqlparse==0.5.1  
-Werkzeug==3.0.3  
+| Server  | Python Version | Python Path           | Python Modules Installed                                 |
+| :-----: | :------------: | :-------------------: | :------------------------------------------------------: |
+| Johnny  | 3.9            | #!/usr/bin/python3.9  | [View](https://krydos2.heliohost.org/pyinfo/info3.9.py)  |
+| Johnny  | 3.12           | #!/usr/bin/python3.12 | [View](https://krydos2.heliohost.org/pyinfo/info3.12.py) |
 
 ## On the Tommy server, you can pick between:
 
-| Server | Python Version | Python Path           | Python Details                                                 |
-| :----: | :------------: | :-------------------: | :------------------------------------------------------------: |
-| Tommy  | 2.7            | #!/usr/bin/python2.7  | [Python 2.7](https://krydos.heliohost.org/pyinfo/info2.7.py)   |
-| Tommy  | 3.6            | #!/usr/bin/python3.6  | [Python 3.6](https://krydos.heliohost.org/pyinfo/info3.6.py)   |
-| Tommy  | 3.10           | #!/usr/bin/python3.10 | [Python 3.10](https://krydos.heliohost.org/pyinfo/info3.10.py) |
+| Server | Python Version | Python Path           | Python Modules Installed                                |
+| :----: | :------------: | :-------------------: | :-----------------------------------------------------: |
+| Tommy  | 2.7            | #!/usr/bin/python2.7  | [View](https://krydos.heliohost.org/pyinfo/info2.7.py)  |
+| Tommy  | 3.6            | #!/usr/bin/python3.6  | [View](https://krydos.heliohost.org/pyinfo/info3.6.py)  |
+| Tommy  | 3.10           | #!/usr/bin/python3.10 | [View](https://krydos.heliohost.org/pyinfo/info3.10.py) |
 
 The second line of code is the `Content-Type` header. This is important so the server knows what to do with the output that follows. If you forget it your script will give a useless 500 error. The `Content-Type` header always has to have the two end lines immediately after it. That's what the `\n` is.
 
