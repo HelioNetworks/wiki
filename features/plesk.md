@@ -26,4 +26,4 @@ Through Plesk (included with all HelioHost hosting accounts), you can:
 
 ## How do I access my Plesk?
 
-Plesk can be accessed by logging into the HelioHost website, and then pressing the Plesk button.
+Plesk can be accessed by logging into the HelioHost website at [heliohost.org](https://heliohost.org/) or [heliohost.org/login](https://heliohost.org/login/) and clicking on the Plesk button.
