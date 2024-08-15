@@ -26,5 +26,5 @@ With Plesk, which is included with all HelioHost hosting accounts, you can:
 To access Plesk, log in to the HelioHost website at [heliohost.org](https://heliohost.org/) or [heliohost.org/login](https://heliohost.org/login/) and click on the Plesk button.
 
 {% hint style="info" %}
-We strongly recommend that you **do not** bookmark your Plesk dashboard URL. Using the Plesk URL without first logging in at [heliohost.org](https://heliohost.org/) or [heliohost.org/login](https://heliohost.org/login/) will not track your logins and risks your account being [suspended for inactivity](https://wiki.helionet.org/accounts/suspension-policy#inactivity-policy) after 30 days.
+We strongly recommend that you **do not** bookmark your Plesk dashboard URL. Using the Plesk URL without first logging in at [heliohost.org](https://heliohost.org/) or [heliohost.org/login](https://heliohost.org/login/) will not track your logins and risks your account being [suspended for inactivity](../accounts/suspension-policy.md#inactivity-policy) after 30 days.
 {% endhint %}
