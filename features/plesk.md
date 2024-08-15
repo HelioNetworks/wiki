@@ -11,7 +11,7 @@ With Plesk, which is included with all HelioHost hosting accounts, you can:
 * Install Blog, Forum, CMS, or other software with the [Softaculous](softaculous.md) auto-installer service
 * Install software using Plesk Applications Installer (`Plesk > Applications`)
 * Update your HelioHost account information (email address / password)
-* Create and manage FTP accounts (`Plesk > Websites & Domains > [domain] > Dashboard tab > Connection Info for FTP, Database`) for access using external FTP clients
+* Create and manage FTP accounts (`Plesk > Websites & Domains > [domain] > Dashboard tab > Connection Info for FTP, Database`) for access using [external FTP clients](../management/uploading-files.md)
 * Use the built-in Plesk File Manager (`Plesk > Files`)
 * View [error logs](../tutorials/plesk/view-error-logs.md) for your site
 * [Password protect directories](../tutorials/plesk/password-protect-directory.md) on your site
