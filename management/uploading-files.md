@@ -42,7 +42,7 @@ The Plesk online file manager is a great built-in facility available to all user
 #### Login > Plesk > Websites & Domains > [ domain ] > Files
 
 {% hint style="warning" %}
-Do not bookmark your Plesk File Manager, as your visits are not recorded and you will be [suspended for inactivity](https://wiki.helionet.org/accounts/suspension-policy#inactivity-policy) after 30 days.
+Do not bookmark your Plesk File Manager, as your visits are not recorded and you will be [suspended for inactivity](../accounts/suspension-policy.md#inactivity-policy) after after 30 days.
 {% endhint %}
 
 ## Net2FTP
