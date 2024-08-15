@@ -2,7 +2,7 @@
 
 ## What is Plesk?
 
-Plesk is a powerful, yet user-friendly hosting/domain manager. Plesk has a simple-to-use interface that makes editing your hosting details extremely easy.
+Plesk is a powerful, yet user-friendly hosting account dashboard. Plesk has a simple-to-use interface that makes editing your hosting details extremely easy.
 
 ## What can Plesk do?
 
