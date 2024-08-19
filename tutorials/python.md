@@ -32,14 +32,16 @@ If everything worked, you should see `Heliohost rules!` displayed in your browse
 
 In the code pasted in, the first line is called the `shebang`. It tells the server which version of Python to use. 
 
-## On the Johnny server, you can pick between:
+## Python Versions Available
+
+### On the Johnny server, you can pick between:
 
 | Server  | Python Version | Python Path           | Python Modules Installed                                 |
 | :-----: | :------------: | :-------------------: | :------------------------------------------------------: |
 | Johnny  | 3.9            | #!/usr/bin/python3.9  | [View](https://krydos2.heliohost.org/pyinfo/info3.9.py)  |
 | Johnny  | 3.12           | #!/usr/bin/python3.12 | [View](https://krydos2.heliohost.org/pyinfo/info3.12.py) |
 
-## On the Tommy server, you can pick between:
+### On the Tommy server, you can pick between:
 
 | Server | Python Version | Python Path           | Python Modules Installed                                |
 | :----: | :------------: | :-------------------: | :-----------------------------------------------------: |
