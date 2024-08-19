@@ -32,6 +32,8 @@ If everything worked, you should see `Heliohost rules!` displayed in your browse
 
 In the code pasted in, the first line is called the `shebang`. It tells the server which version of Python to use. 
 
+The second line of code is the `Content-Type` header. This is important so the server knows what to do with the output that follows. If you forget it your script will give a useless 500 error. The `Content-Type` header always has to have the two end lines immediately after it. That's what the two `` `\n` `` are.
+
 ## Python Versions Available
 
 ### On the Johnny server, you can pick between:
@@ -48,8 +50,6 @@ In the code pasted in, the first line is called the `shebang`. It tells the serv
 | Tommy  | 2.7            | #!/usr/bin/python2.7  | [View](https://krydos.heliohost.org/pyinfo/info2.7.py)  |
 | Tommy  | 3.6            | #!/usr/bin/python3.6  | [View](https://krydos.heliohost.org/pyinfo/info3.6.py)  |
 | Tommy  | 3.10           | #!/usr/bin/python3.10 | [View](https://krydos.heliohost.org/pyinfo/info3.10.py) |
-
-The second line of code is the `Content-Type` header. This is important so the server knows what to do with the output that follows. If you forget it your script will give a useless 500 error. The `Content-Type` header always has to have the two end lines immediately after it. That's what the `\n` is.
 
 ## Request Additional Python Modules
 
