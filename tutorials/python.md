@@ -49,7 +49,9 @@ In the code pasted in, the first line is called the `shebang`. It tells the serv
 
 The second line of code is the `Content-Type` header. This is important so the server knows what to do with the output that follows. If you forget it your script will give a useless 500 error. The `Content-Type` header always has to have the two end lines immediately after it. That's what the `\n` is.
 
-If you don't see the module you need, your script will probably give a useless 500 error when you try to import the missing module. To request modules, please raise a request in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide **your server**, the **version of Python you're using**, and **the module(s) you need** including any relevant **version numbers** for them.
+## Request Additional Python Modules
+
+If you don't see the module you need, your script will probably give a useless 500 error when you try to import the missing module. To request additional modules, please create a post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide **your account username**, **your server**, the **version of Python you're using**, and **the module(s) you need** including any relevant **version numbers** for them.
 
 ## Extra: Python scripts outside cgi-bin folders
 
