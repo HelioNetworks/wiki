@@ -1,6 +1,6 @@
 # Manage HelioHost DNS
 
-Currently, users cannot directly manage DNS records (A, CNAME, TXT, and MX) for sites hosted on `helioho.st` and `heliohost.us` domains.
+Currently, users cannot directly manage DNS records (A, CNAME, TXT, and MX) for sites using HelioHost nameservers. This means that sites hosted on `helioho.st` and `heliohost.us` domains as well as user-supplied domains which are pointed to our nameservers (which are `ns1.heliohost.org` and `ns2.heliohost.org`) will require a [support request](#requesting-dns-record-changes) for DNS modifications.
 
 ## Google Site Verification
 
