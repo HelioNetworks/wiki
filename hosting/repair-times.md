@@ -25,4 +25,4 @@ To view the current status of our servers, please visit the page below:
 
 ## Terms of Service
 
-All users must indicate that they read and agree to the [Terms of Service](hosting/terms.md) before creating an account on HelioHost.
+All users must indicate that they read and agree to the [Terms of Service](terms.md) before creating an account on HelioHost.
