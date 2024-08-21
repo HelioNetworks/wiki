@@ -1,21 +1,28 @@
 # Converting an Existing Django App to work on HelioHost
 
-## Django on the Tommy and Johnny servers uses Python 3.10. 
+## About Django
+
+Django is a web development framework designed specifically for Python. As Ruby on Rails does for Ruby, Django aims to provide an MVC (Model-View-Controller) architecture for web application development as well as a large set of prebuilt libraries to simplify the development of common web app features. Django's modularity also allows easy scalability and enables the reuse of various code blocks, aligning to the DRY ("Don't Repeat Yourself") software development principle.
+
+## Django on the Johnny server uses Python 3.12
 
 {% hint style="info" %} 
 If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
 {% endhint %}
 
-## About Django
-
-Django is a web development framework designed specifically for Python. As Ruby on Rails does for Ruby, Django aims to provide an MVC (Model-View-Controller) architecture for web application development as well as a large set of prebuilt libraries to simplify the development of common web app features. Django's modularity also allows easy scalability and enables the reuse of various code blocks, aligning to the DRY ("Don't Repeat Yourself") software development principle.
-
-## Details
-
 | Server | Django Version | Python Version | Python Path         | Loader | Python Modules Installed                                 |
 | :----: | :------------: | :------------: | :-----------------: | :----: | :------------------------------------------------------: |
-| Tommy  | 4.1.1          | 3.10           | /usr/bin/python3.10 | WSGI   | [View](https://krydos.heliohost.org/pyinfo/info3.10.py)  |
-| Johnny | 4.1.5          | 3.10           | /usr/bin/python3.10 | WSGI   | [View](https://krydos2.heliohost.org/pyinfo/info3.10.py) |
+| Johnny | 5.0.7          | 3.12           | /usr/bin/python3.12 | WSGI   | [View](https://krydos2.heliohost.org/pyinfo/info3.12.py) |
+
+## Django on the Tommy server uses Python 3.10
+
+{% hint style="info" %} 
+If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
+{% endhint %}
+
+| Server | Django Version | Python Version | Python Path         | Loader | Python Modules Installed                                |
+| :----: | :------------: | :------------: | :-----------------: | :----: | :-----------------------------------------------------: |
+| Tommy  | 4.1.1          | 3.10           | /usr/bin/python3.10 | WSGI   | [View](https://krydos.heliohost.org/pyinfo/info3.10.py) |
 
 ## Enabled
 
@@ -47,13 +54,13 @@ We don't offer shell (command line) access to our users. Many Django tutorials a
 
 There are two ways to configure Django to work with the mod_wsgi loader in Apache. You can either create a separate daemon for each Django process (daemon mode) or embed Django into the Apache daemon (embedded mode). While daemon mode tends to be the standard among Django admins because of the increased control it offers, we use embedded mode because it can be set up on a per-user basis without very much root-level configuration. Embedded mode is slightly harder to get working (see directions below), and might break compatibility with some Django tutorials. In most cases, it should not be a problem.
 
-## Converting an Existing Django 4.1 App to work on HelioHost
+## Converting an Existing Django App to work on HelioHost
 
 This tutorial will guide you through using the command line on your development system to convert an existing Django app for hosting on HelioHost.
 
 If you prefer not to use the command line, our brief [Django on HelioHost](django-on-heliohost.md) tutorial may better suit your needs. 
 
-The official Django 4.1 documentation [is available here](https://docs.djangoproject.com/en/4.1). We recommend following the [introduction tutorial](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) to start off with. We also suggest using `virtualenv` to differentiate each Django installation for each project. The below tutorial has been designed for Linux users, but Windows users should work it out easily. 
+We recommend referring to the [official Django documentation](https://docs.djangoproject.com/) and following the introduction tutorial relevant to the Django version you are using. Please note the Django versions available are different on the [Johnny](#django-on-the-johnny-server-uses-python-312) and [Tommy](#django-on-the-tommy-server-uses-python-310) servers. We also suggest using `virtualenv` to differentiate each Django installation for each project. The below tutorial has been designed for Linux users, but Windows users should work it out easily. 
 
 **Conventions:** The following commands don't need root access to be executed. Shell commands are preceded by a `$` (dollar sign) to differentiate them from the output.  
 The Python executable name used on the local computer is `python3`, but this can vary depending on the distribution used, so change it as needed to match your system requirements. 
@@ -282,7 +289,7 @@ Please let us know if you experience unexpected results with this new feature.
 #### Account Resets Remove WSGI Control Access
 
 {% hint style="info" %}
-If you [request an account reset](../faq.md#how-do-i-reset-my-hosting-account-to-start-fresh) you will need to re-request WSGI Control Access after the reset has been completed. By default, account resets will disable WSGI Control Access.
+If you [request an account reset](../../faq.md#how-do-i-reset-my-hosting-account-to-start-fresh) you will need to re-request WSGI Control Access after the reset has been completed. By default, account resets will disable WSGI Control Access.
 {% endhint %}
 
 ### 2. Use Local Development Environment
