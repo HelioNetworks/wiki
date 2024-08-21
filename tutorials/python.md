@@ -17,7 +17,7 @@ The easiest way to get started with Python on a server is with CGI. The only rea
 * Highlight `test.py` and select `Edit in Text Editor`
 * Leave `UTF-8` as the encoding, set `Line break type` to `Convert to Unix style` and copy/paste the below into the large text field:
 ```
-#!/usr/bin/python3.10
+#!/usr/bin/python3.12
 
 print("Content-Type: text/html\n\n")
 
@@ -28,35 +28,32 @@ print("Heliohost rules!")
 
 If everything worked, you should see `Heliohost rules!` displayed in your browser. 
 
-### Code Explanation
+## Code Explanation
 
-In the code pasted in, the first line is called the `shebang`. It tells the server which version of Python to use. On Tommy and Johnny, you can pick between:
+In the code pasted in, the first line is called the `shebang`. It tells the server which version of Python to use. 
 
-| Path                  | Version |
-| ----------------------| ------- |
-| #!/usr/bin/python2.7  | 2.7     |
-| #!/usr/bin/python3.6  | 3.6     |
-| #!/usr/bin/python3.10 | 3.10    |
+The second line of code is the `Content-Type` header. This is important so the server knows what to do with the output that follows. If you forget it your script will give a useless 500 error. The `Content-Type` header always has to have the two end lines immediately after it. That's what the two `` `\n` `` are.
 
-The second line of code is the `Content-Type` header. This is important so the server knows what to do with the output that follows. If you forget it your script will give a useless 500 error. The `Content-Type` header always has to have the two end lines immediately after it. That's what the `\n` is.
+## Python Versions Available
 
-## Modules
+### On the Johnny server, you can pick between:
 
-You can see the modules that are currently installed on the Python versions:
+| Server  | Python Version | Python Path           | Python Modules Installed                                 |
+| :-----: | :------------: | :-------------------: | :------------------------------------------------------: |
+| Johnny  | 3.9            | #!/usr/bin/python3.9  | [View](https://krydos2.heliohost.org/pyinfo/info3.9.py)  |
+| Johnny  | 3.12           | #!/usr/bin/python3.12 | [View](https://krydos2.heliohost.org/pyinfo/info3.12.py) |
 
-### Johnny
+### On the Tommy server, you can pick between:
 
-* [Python 2.7](https://krydos2.heliohost.org/pyinfo/info2.7.py)
-* [Python 3.6](https://krydos2.heliohost.org/pyinfo/info3.6.py)
-* [Python 3.10](https://krydos2.heliohost.org/pyinfo/info3.10.py)
+| Server | Python Version | Python Path           | Python Modules Installed                                |
+| :----: | :------------: | :-------------------: | :-----------------------------------------------------: |
+| Tommy  | 2.7            | #!/usr/bin/python2.7  | [View](https://krydos.heliohost.org/pyinfo/info2.7.py)  |
+| Tommy  | 3.6            | #!/usr/bin/python3.6  | [View](https://krydos.heliohost.org/pyinfo/info3.6.py)  |
+| Tommy  | 3.10           | #!/usr/bin/python3.10 | [View](https://krydos.heliohost.org/pyinfo/info3.10.py) |
 
-### Tommy
+## Request Additional Python Modules
 
-* [Python 2.7](https://krydos.heliohost.org/pyinfo/info2.7.py)
-* [Python 3.6](https://krydos.heliohost.org/pyinfo/info3.6.py)
-* [Python 3.10](https://krydos.heliohost.org/pyinfo/info3.10.py)
-
-If you don't see the module you need, your script will probably give a useless 500 error when you try to import the missing module. To request modules, please raise a request in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide **your server**, the **version of Python you're using**, and **the module(s) you need** including any relevant **version numbers** for them.
+If you don't see the module you need, your script will probably give a useless 500 error when you try to import the missing module. To request additional modules, please create a post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide **your account username**, **your server**, the **version of Python you're using**, and **the module(s) you need** including any relevant **version numbers** for them.
 
 ## Extra: Python scripts outside cgi-bin folders
 

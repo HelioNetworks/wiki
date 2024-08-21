@@ -153,6 +153,12 @@ There is no estimated timeframe as to when this functionality may be implemented
 
 If directory indexes are enabled in the future, an announcement will be posted in the HelioNet [News](https://helionet.org/index/forum/1-news/) section, as well as elsewhere on our site and our social media.
 
+## Can I change my document root directory?
+
+Typically, your domain root directory is `httpdocs` (or `public_html` if you were transferred from the old cPanel). Users cannot change the document root themselves inside Plesk. 
+
+If you have a legitimate reason for needing the document root changed, please create a post in our [Customer Service forum](https://helionet.org/index/forum/45-customer-service/) and make sure to provide your **username**, **domain name**, **server name**, **the new document root directory you want**, and a **valid reason** explaining why you are unable to use your existing document root. The admins will review your request to determine if the change can be made.
+
 ## Your hosting SUCKS! So do YOU!!!
 
 Please see [this](http://helionet.org/index/topic/4723-suspended/page__p__46231#entry46231).
