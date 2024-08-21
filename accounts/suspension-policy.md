@@ -82,7 +82,11 @@ To ensure that old, unused HelioHost accounts are not filling up our server with
 
 If your account is to be suspended due to inactivity, you will receive an email warning you that you must log in soon at 28 days. You will also receive another email when your website is taken offline at 30 days.
 
-To activate a suspended account which was suspended due to inactivity, go to [heliohost.org/renew](http://heliohost.org/renew/)
+To activate an account that was suspended due to inactivity, go to [heliohost.org/renew](http://heliohost.org/renew/)
+
+{% hint style="info" %}
+Account renewals take **up to 2 hours** to go into effect because they require an Apache restart. If it has been longer than **a full 2 hours** since you renewed your account, please make sure you [clear your browser cache](../misc/clear-your-cache.md).
+{% endhint %}
 
 If you receive an inactivity email even though you have logged into Plesk recently, then you might be logged into Plesk using a faulty URL. To ensure that your logins are logged, log in at [heliohost.org](https://heliohost.org/) or [heliohost.org/login](https://heliohost.org/login/) at least once a month.
 
