@@ -4,7 +4,7 @@ Currently, users cannot directly manage DNS records (A, CNAME, TXT, and MX) for 
 
 ### Non-HelioHost IP Addresses / Non-HelioHost Email Services
 
-Please note that sites hosted on `helioho.st` and `heliohost.us` domains or user-supplied domains using our nameservers cannot be pointed at non-HelioHost IP addresses or used with non-HelioHost email services. This is to prevent our domains being flagged should a malicious user attempt to host phishing sites or send spam using an external server.
+Please note that sites hosted on `helioho.st` and `heliohost.us` domains cannot be pointed at non-HelioHost IP addresses or used with non-HelioHost email services. This is to prevent our domains being flagged should a malicious user attempt to host phishing sites or send spam using an external server.
 
 ## Google Site Verification
 
