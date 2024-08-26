@@ -2,6 +2,10 @@
 
 Currently, users cannot directly manage DNS records (A, CNAME, TXT, and MX) for sites using HelioHost nameservers. This means that sites hosted on `helioho.st` and `heliohost.us` domains as well as user-supplied domains which are pointed to our nameservers (which are `ns1.heliohost.org` and `ns2.heliohost.org`) will require a [support request](#requesting-dns-record-changes) for DNS modifications.
 
+### Non-HelioHost IP Addresses / Non-HelioHost Email Services
+
+Please note that sites hosted on `helioho.st` and `heliohost.us` domains or user-supplied domains using our nameservers cannot be pointed at non-HelioHost IP addresses or used with non-HelioHost email services. This is to prevent our domains being flagged should a malicious user attempt to host phishing sites or send spam using an external server.
+
 ## Google Site Verification
 
 Please refer to our [Google Site Verification tutorial](google-site-verification.md) which explains how users can verify their own domains via [HTML verification](https://support.google.com/webmasters/answer/9008080?hl=en#html_verification) without the need to contact an admin or use external DNS.
