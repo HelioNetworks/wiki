@@ -14,6 +14,53 @@ The file will be in a format called `Z-standard` and will need to be extracted.
 
 On Linux or Mac you can install the `zstd` package and extract it on the command line. 
 
+#### Access Your Files in Ubuntu v22+
+
+* Navigate to the directory containing your backup file named `pleskbackup-YourAccountUsername.tar`
+* Install the `zstd` package with the `sudo apt install zstd` command 
+* Untar the downloaded file with the `tar -xvf pleskbackup-YourAccountUsername.tar` command
+* You should see a list of filenames similar to the below: 
+```text
+domains/YourAccountUsername.helioho.st/backup_user-data_##########.tzst <--- Your account data
+domains/YourAccountUsername.helioho.st/backup_apache-files_##########.tzst
+domains/YourAccountUsername.helioho.st/backup_pd_##########.tzst
+domains/YourAccountUsername.helioho.st/backup_conf_##########.tzst
+domains/YourAccountUsername.helioho.st/backup_logs_##########.tzst
+domains/YourAccountUsername.helioho.st/backup_statistics_##########.tzst
+domains/YourAccountUsername.helioho.st/backup_domainmail_##########.tzst
+backup_action-log_##########.tzst
+domains/YourAccountUsername.helioho.st/.discovered/backup_info_##########/props
+domains/YourAccountUsername.helioho.st/.discovered/backup_info_##########/cid_user-data
+domains/YourAccountUsername.helioho.st/.discovered/backup_info_##########/cid_apache-files
+domains/YourAccountUsername.helioho.st/.discovered/backup_info_##########/cid_domainmail_472
+domains/YourAccountUsername.helioho.st/.discovered/backup_info_##########/status_OK
+domains/YourAccountUsername.helioho.st/.discovered/backup_info_##########/object_index
+domains/YourAccountUsername.helioho.st/backup_info_##########.xml
+.discovered/backup_info_##########/props
+.discovered/backup_info_##########/status_OK
+.discovered/backup_info_##########/dumpresult_SUCCESS
+.discovered/backup_info_##########/object_index
+.discovered/backup_info_##########/webcontent_index
+backup_info_##########.xml
+dump-header
+dump-index
+archive-index
+```
+* There will be several `.tzst` files inside that you can extract using the `unzstd` command. 
+* Your account data is located at `domains/YourAccountUsername.helioho.st/backup_user-data_##########.tzst`
+* Navigate to the `domains` directory
+* Navigate to the `YourAccountUsername.helioho.st` directory
+* Extract your data from the `backup_user-data_##########.tzst` file with the `unzstd backup_user-data_##########.tzst` command 
+* Your data will then be extracted to a `.tar` file called `backup_user-data_##########.tar`
+* Untar the file with the `tar -xvf backup_user-data_2408272149.tar` command
+* You should see a list of your site filenames, for example: 
+```text
+httpdocs/
+httpdocs/cgi-bin/
+httpdocs/index.html
+...
+```
+
 ### Windows 
 
 On Windows you can use [WinRar v6+](https://www.win-rar.com/) or [7-Zip v24+](https://www.7-zip.org/).
