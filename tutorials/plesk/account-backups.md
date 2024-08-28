@@ -46,14 +46,14 @@ dump-header
 dump-index
 archive-index
 ```
-* There will be several `.tzst` files inside that you can extract using the `unzstd` command. 
+* There will be several `.tzst` files inside that you can extract using the `unzstd` command
 * Your account data is located at `domains/YourAccountUsername.helioho.st/backup_user-data_##########.tzst`
 * Navigate to the `domains` directory
 * Navigate to the `YourAccountUsername.helioho.st` directory
 * Extract your data from the `backup_user-data_##########.tzst` file with the `unzstd backup_user-data_##########.tzst` command 
 * Your data will then be extracted to a `.tar` file called `backup_user-data_##########.tar`
 * Untar the file with the `tar -xvf backup_user-data_2408272149.tar` command
-* You should see a list of your site filenames, for example: 
+* You should see a list of your site files and directories. For example: 
 ```text
 httpdocs/
 httpdocs/cgi-bin/
