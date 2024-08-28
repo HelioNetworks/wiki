@@ -14,7 +14,7 @@ The file will be in a format called `Z-standard` and will need to be extracted.
 
 On Linux or Mac you can install the `zstd` package and extract it on the command line. 
 
-#### Access Your Files in Ubuntu v22+
+### Access Your Files in Ubuntu v22+
 
 * Navigate to the directory containing your backup file named `pleskbackup-YourAccountUsername.tar`
 * Install the `zstd` package with the `sudo apt install zstd` command 
@@ -65,7 +65,7 @@ httpdocs/index.html
 
 On Windows you can use [WinRar v6+](https://www.win-rar.com/) or [7-Zip v24+](https://www.7-zip.org/).
 
-## Access Your Files
+### Access Your Files
 
 * Navigate to the main backup file named `pleskbackup-YourAccountUsername.tar`
 * Extract the `.tar` file using one of the software packages listed above
