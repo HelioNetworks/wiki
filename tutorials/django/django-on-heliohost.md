@@ -9,20 +9,20 @@ Django is a web development framework designed specifically for Python. As Ruby 
 {% hint style="info" %} 
 If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
 {% endhint %}
-
-| Server | Django Version | Python Version | Python Path         | Loader | Python Modules Installed                                 |
-| :----: | :------------: | :------------: | :-----------------: | :----: | :------------------------------------------------------: |
-| Johnny | 5.0.7          | 3.12           | /usr/bin/python3.12 | WSGI   | [View](https://krydos2.heliohost.org/pyinfo/info3.12.py) |
+<!-- The column with the link to view installed modules should stay as far left as possible, to prevent an overlapping div from the rightside nav menu making it difficult to mouseover and click on in the live Wiki. -->
+| Server | Django Version | Python Version | Python Modules Installed                                 | Python Path         | Loader | 
+| :----: | :------------: | :------------: | :------------------------------------------------------: | :-----------------: | :----: | 
+| Johnny | 5.0.7          | 3.12           | [View](https://krydos2.heliohost.org/pyinfo/info3.12.py) | /usr/bin/python3.12 | WSGI   | 
 
 ## Django on the Tommy server uses Python 3.10
 
 {% hint style="info" %} 
 If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
 {% endhint %}
-
-| Server | Django Version | Python Version | Python Path         | Loader | Python Modules Installed                                |
-| :----: | :------------: | :------------: | :-----------------: | :----: | :-----------------------------------------------------: |
-| Tommy  | 4.1.1          | 3.10           | /usr/bin/python3.10 | WSGI   | [View](https://krydos.heliohost.org/pyinfo/info3.10.py) |
+<!-- The column with the link to view installed modules should stay as far left as possible, to prevent an overlapping div from the rightside nav menu making it difficult to mouseover and click on in the live Wiki. -->
+| Server | Django Version | Python Version | Python Modules Installed                                | Python Path         | Loader | 
+| :----: | :------------: | :------------: | :-----------------------------------------------------: | :-----------------: | :----: | 
+| Tommy  | 4.1.1          | 3.10           | [View](https://krydos.heliohost.org/pyinfo/info3.10.py) | /usr/bin/python3.10 | WSGI   | 
 
 ## Enabled
 
