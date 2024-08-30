@@ -51,9 +51,13 @@ The second line of code is the `Content-Type` header. This is important so the s
 | Tommy  | 3.6            | #!/usr/bin/python3.6  | [View](https://krydos.heliohost.org/pyinfo/info3.6.py)  |
 | Tommy  | 3.10           | #!/usr/bin/python3.10 | [View](https://krydos.heliohost.org/pyinfo/info3.10.py) |
 
+### Troubleshooting
+
+If you don't see the module you need, your script will probably give you errors when you try to import the missing module. You can [view your account error logs](../tutorials/plesk/view-error-logs.md) for details on which module is missing and causing the error.
+
 ## Request Additional Python Modules
 
-If you don't see the module you need, your script will probably give a useless 500 error when you try to import the missing module. To request additional modules, please create a post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide **your account username**, **your server**, the **version of Python you're using**, and **the module(s) you need** including any relevant **version numbers** for them.
+To request additional modules, please create a post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide **your account username**, **your server**, the **version of Python you're using**, and **the module(s) you need** including any relevant **version numbers** for them.
 
 ## Extra: Python scripts outside cgi-bin folders
 
