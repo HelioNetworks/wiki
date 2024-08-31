@@ -24,7 +24,7 @@ print("Content-Type: text/html\n\n")
 print("Heliohost rules!")
 ```
 * Click the `Save` button
-* Highlight the `test.py` file and select `Open in Browser` (Or manually navigate to: `<your subdomain>.heliohost.org/cgi-bin/test.py`)
+* Highlight the `test.py` file and select `Open in Browser` (Or manually navigate to: `<your subdomain>.helioho.st/cgi-bin/test.py`)
 
 If everything worked, you should see `Heliohost rules!` displayed in your browser. 
 
@@ -32,7 +32,7 @@ If everything worked, you should see `Heliohost rules!` displayed in your browse
 
 In the code pasted in, the first line is called the `shebang`. It tells the server which version of Python to use. 
 
-The second line of code is the `Content-Type` header. This is important so the server knows what to do with the output that follows. If you forget it your script will give a useless 500 error. The `Content-Type` header always has to have the two end lines immediately after it. That's what the two `` `\n` `` are.
+The second line of code is the `Content-Type` header. This is important so the server knows what to do with the output that follows. If you forget it, your script will give you an error. The `Content-Type` header always has to have the two end lines immediately after it. That's what the two `` `\n` `` are.
 
 ## Python Versions Available
 
@@ -53,7 +53,7 @@ The second line of code is the `Content-Type` header. This is important so the s
 
 ### Troubleshooting
 
-If you don't see the module you need, your script will probably give you errors when you try to import the missing module. You can [view your account error logs](../tutorials/plesk/view-error-logs.md) for details on which module is missing and causing the error.
+If you don't see the module you need, your script will probably give you an error when you try to import the missing module. You can [view your account error logs](../tutorials/plesk/view-error-logs.md) for details on which module is missing and causing the error.
 
 ## Request Additional Python Modules
 
@@ -72,7 +72,7 @@ Options +ExecCGI
 AddHandler cgi-script .py
 DirectoryIndex index.py
 ```
-The first two lines make `.py` files executable outside `cgi-bin`, and the last line makes the filename `index.py` show up if someone goes to your domain without having to type out the filename like `domain.heliohost.org/index.py`. This also supports other CGI file extensions.
+The first two lines make `.py` files executable outside `cgi-bin`, and the last line makes the filename `index.py` show up if someone goes to your domain without having to type out the filename like `domain.helioho.st/index.py`. This also supports other CGI file extensions.
 
 ## Further Support
 
