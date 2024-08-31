@@ -73,3 +73,7 @@ AddHandler cgi-script .py
 DirectoryIndex index.py
 ```
 The first two lines make `.py` files executable outside `cgi-bin`, and the last line makes the filename `index.py` show up if someone goes to your domain without having to type out the filename like `domain.heliohost.org/index.py`. This also supports other CGI file extensions.
+
+## Further Support
+
+If this tutorial has not worked for you, please go back and check all of your steps again to make sure you didn't miss anything. If you can't figure out what is wrong, please post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide your **username** and any **error message(s)** received.
