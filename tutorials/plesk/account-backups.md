@@ -135,4 +135,4 @@ If after following the above steps, you are unable to download or extract your b
 
 ### References
 
-The original discussion which prompted the creation of this tutorial for extracting Plesk backup files can be found [here](https://helionet.org/index/topic/58777-solved-suspended-account/#comment-260423).
+Sections of this tutorial have been adapted from posts about [extracting Plesk backup files](https://helionet.org/index/topic/58777-solved-suspended-account/#comment-260423) and [repairing a damaged backup file](https://helionet.org/index/topic/61744-solved-unable-to-restore-backup-in-plesk/#comment-275392) on the HelioNet forum.
