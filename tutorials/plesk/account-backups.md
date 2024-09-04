@@ -129,6 +129,12 @@ If you need more space, you can [donate to increase your account storage](../../
 
 ![](../../.gitbook/assets/plesk-max-number-of-backups.png)
 
+## Restoring Your Account Backup
+
+### Do Not Use Plesk's `Restore` Option
+
+Backups cannot be restored directly in Plesk using the `Restore` button. To restore a backup, you must first extract the backup file on your local machine, then upload the specific parts you need.
+
 ## Further Support
 
 If you get stuck after following the instructions above, please go back and check all of your steps again. If you can't figure out what is wrong, please post a topic in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add). Please make sure you provide your hosting account **username** and details of the problem, including what steps you have tried, and any **error message(s)** encountered.
