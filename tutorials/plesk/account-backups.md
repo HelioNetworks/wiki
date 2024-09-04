@@ -141,7 +141,7 @@ If you have trouble when trying to extract a backup file, try opening it in a he
 
 1. View the damaged `tzst` file inside the hex editor. You will likely see an error message right at the top. In this example, the error message starts with `Unable to getpwnam for user`, but other error messages are possible. 
 
-![](../../.gitbook/assets/plesk-account-backup-damaged-file-before.png)
+![](../../.gitbook/assets/plesk-account-backup-damaged-file.png)
 
 2. Find the magic bytes (which should be `28 B5 2F FD`) in the file, as highlighted in the example. 
 
@@ -149,7 +149,7 @@ If you have trouble when trying to extract a backup file, try opening it in a he
 
 4. After making this change, the magic bytes should display as being the first bytes in the file, as shown below:
 
-![](../../.gitbook/assets/plesk-account-backup-damaged-file-after.png)
+![](../../.gitbook/assets/plesk-account-backup-repaired-file.png)
 
 5. Save the file. When you try to extract it again, the issue should be resolved.
 
