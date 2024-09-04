@@ -131,9 +131,27 @@ If you need more space, you can [donate to increase your account storage](../../
 
 ## Restoring Your Account Backup
 
-### Do Not Use Plesk's `Restore` Option
+Backups **cannot** be restored directly in Plesk using the `Restore` button. 
 
-Backups cannot be restored directly in Plesk using the `Restore` button. To restore a backup, you must first extract the backup file on your local machine, then upload the specific parts you need.
+To restore a backup, you must first extract the backup file on your local machine, then upload the specific parts you need.
+
+### Repairing Damaged Backup Files
+
+If you have trouble when trying to extract a backup file, try opening it in a hex editor to inspect or repair the file. The screenshots below use `frhed`, a free and easy-to-use hex editor, but the process should be similar in other hex editors.
+
+1. View the damaged `tzst` file inside the hex editor. You will likely see an error message right at the top. In this example, the error message starts with `Unable to getpwnam for user`, but other error messages are possible. 
+
+![](../../.gitbook/assets/plesk-account-backup-damaged-file-before.png)
+
+2. Find the magic bytes (which should be `28 B5 2F FD`) in the file, as highlighted in the example. 
+
+3. Delete everything before the magic bytes.
+
+4. After making this change, the magic bytes should display as being the first bytes in the file, as shown below:
+
+![](../../.gitbook/assets/plesk-account-backup-damaged-file-after.png)
+
+5. Save the file. When you try to extract it again, the issue should be resolved.
 
 ## Further Support
 
