@@ -8,21 +8,25 @@ This tutorial will walk you through setting up a basic website on HelioHost. The
 
 Follow the navigation steps below to access the Plesk file manager:
 
-#### Login > Plesk > Websites & Domains > [ domain ] > Files
+#### Login > Plesk > Websites & Domains > [ domain ] > Dashboard tab > Files
 
 ![](../../.gitbook/assets/tutorial-website-plesk.png)
 
+## Navigate into Webroot Directory
+
+For your main (or only) Heliohost domain or subdomain, your webpage files will located at:  
+`Home directory > httpdocs`
+
+For an add-on domain or subdomain, your webpage files will located at:  
+`Home directory > domain.helioho.st`
+
 ## Delete the Default Plesk Page
 
-For your main (or only) Heliohost domain or subdomain, your webpage files will located at `Home directory > httpdocs`
+The file named `index.html` is the default page that Plesk adds to new domains or subdomains. It can be replaced with a new index page with your own content.
 
-For an add-on domain or subdomain, your webpage files will located at `Home directory > domain.helioho.st`
+Select the `index.html` file and delete it by clicking on the `Remove` button.
 
-The file named `plesk.html` or `index.html` is the default page that Plesk adds to new domains or subdomains. 
-
-Select the file and delete it by clicking on the `Remove` button.
-
-Select the `Skip the Recycle Bin and permanently` option. Files in your Recycle Bin count towards your account storage limits, and you will never need this file again.
+Select the `Skip the Recycle Bin and permanently remove index.html` option. Files in your Recycle Bin count towards your account storage limits, and you will never need the default index page file again.
 
 ## Create a new Index Page
 
@@ -30,11 +34,13 @@ Click on the `+` button and select `Create File` from the options menu.
 
 Select the `Use the HTML template` since this will pre-populate some helpful HTML code into the blank file for you.
 
-* For your main (or only) Heliohost domain or subdomain, the `index.html` file should be created inside: `Home directory > httpdocs`. In the `Create a File` window, you should see `Add a file to: /httpdocs`, as shown below:
+## Confirm Location of New File
+
+For your main (or only) Heliohost domain or subdomain, the `index.html` file should be created inside: `Home directory > httpdocs`. In the `Create a File` window, you should see `Add a file to: /httpdocs`, as shown below:
 
 ![](../../.gitbook/assets/tutorial-website-create-index-httpdocs.png)
 
-* For an add-on domain or subdomain, the `index.html` file should be created inside: `Home directory > domain.helioho.st`. In the `Create a File` window, you should see `Add a file to: /domain.helioho.st`, as shown below:
+For an add-on domain or subdomain, the `index.html` file should be created inside: `Home directory > domain.helioho.st`. In the `Create a File` window, you should see `Add a file to: /domain.helioho.st`, as shown below:
 
 ![](../../.gitbook/assets/tutorial-website-create-index-addon-domain.png)
 
