@@ -89,11 +89,9 @@ All domain and subdomain changes take **up to 2 hours** to go into effect as the
 
 If you have a HelioHost account that is less than 2 hours old, or have asked the admins to add the new domain or subdomain you're trying to use less than 2 hours ago, you may not see the file edits take effect yet. If it's been longer than **a full 2 hours**, please make sure to [clear your web browser cache](../../misc/clear-your-cache.md). 
 
-### Getting a `403 Forbidden` error
+### Seeing a List of Files
 
-Make sure you have created the `index.html` file in the correct location. When you visit `domain.helioho.st` in your web browser, if an `index.html` file exists in the webroot folder, it will be displayed by default. This is why you don't need to enter the full web address of `domain.helioho.st/index.html`
-
-However, if the `index.html` file is missing from the webroot folder, the server will attempt to display a list of all the files in the folder (called a `directory index`). Since directory indexing is disabled on HelioHost for security reasons, the site will instead show a `403 Forbidden` error message.
+If you see a list of files instead of the `index.html` file you made, make sure you created the file in the correct location. 
 
 On a main (or only) Heliohost domain or subdomain, the `index.html` file should be located inside: `Home directory > httpdocs` as shown below:
 
@@ -103,6 +101,8 @@ On an add-on domain or subdomain, the `index.html` file should be located inside
 
 ![](../../.gitbook/assets/tutorial-website-domain-helio.png)
 
-## Further Support 
+If there is no `index.html` page inside the webroot folder, a list of the files inside wil be shown instead. This is called `directory indexing` and it is active by default since Sept 2024.
+
+## Further Support
 
 If after following the above steps, you are unable to view your website, please go back and check all of your steps again to make sure you didn't miss anything. After that, if you can't figure out what is wrong, please make a new post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add). Make sure you provide your **username**, your **domain website address**, and **error message(s)** you are encountering so that we can try to help you.
