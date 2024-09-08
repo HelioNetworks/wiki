@@ -1,5 +1,11 @@
 # Node.js
 
+{% hint style="warning" %}
+If you use Node.js, we recommend you [monitor your site load here](https://heliohost.org/dashboard/load/)
+
+Node apps often require a lot of server resources, and exceeding the account load limits will cause your user account to be [suspended for high server usage](/accounts/suspension-policy.md#high-server-usage).
+{% endhint %}
+
 ## Supported Versions
 
 | Server | Node.js Version                                     |
