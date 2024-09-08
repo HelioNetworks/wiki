@@ -7,11 +7,11 @@ Node apps often require a lot of server resources, and exceeding the account loa
 {% endhint %}
 
 ## Supported Versions
-
+<!-- TODO: Add node versions available on Morty when released -->
 | Server | Node.js Version                                     |
 |--------|-----------------------------------------------------|
-| Tommy  | 8.17.0, 10.24.1, 12.22.12, 14.21.3, 16.19.1, 17.9.1 |
 | Johnny | 22.8.0, 21.7.3, 20.17.0, 18.20.4, 16.20.2           |
+| Tommy  | 22.8.0, 21.7.3, 20.17.0, 18.20.4, 16.20.2           |
 
 ## About Node.js
 
