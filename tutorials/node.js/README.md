@@ -62,16 +62,16 @@ You don't need to worry about environment variables on this simple example. Sele
 
 ![](../../.gitbook/assets/nodejs-npm-install.png)
 
-{% hint style="warning" %}
-Node.js application deployment can take **up to 2 hours** to go into effect as it requires an Apache restart.
+Finally, you will need to wait **up to 2 hours** for the server to update.
 
-After an entire 2 hours, if your Node app is not working for you, please [clear your web browser cache](../../misc/clear-your-cache.md).
+{% hint style="warning" %}
+Node.js application deployment can take **up to 2 hours** to go into effect as it requires an Apache restart. After an entire 2 hours, if your Node app is not working for you, please [clear your web browser cache](../../misc/clear-your-cache.md).
 {% endhint %}
 
-Once the Node.js application has been deployed you should be able to go to `domain.heliohost.org` and see the text `Node.js is working.`
+Once the Node.js application has been deployed, you should be able to visit `domain.helioho.st` in your web browser and see the text `Node.js is working.`
 
 ![](../../.gitbook/assets/nodejs-working.png)
 
 ## Further Support 
 
-If it's been more than 2 hours, and the Node.js application still isn't working, please go back and check all of your steps again. If it's been more than a full 2 hours since your changes and it still isn't working please make a new post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide your **username**, **domain**, and any **error message(s)** encountered.
+If it's been more than 2 hours, and the Node.js application still isn't working, please go back and check all of your steps again. If it's been more than a full 2 hours since your changes, and it still isn't working even after you [cleared your web browser cache](../misc/clear-your-cache.md), please make a new post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide your **username**, **domain**, and any **error message(s)** encountered.
