@@ -7,6 +7,11 @@ Node apps often require a lot of server resources, and exceeding the account loa
 {% endhint %}
 
 ## Supported Versions
+
+{% hint style="info" %} 
+If you require a different version of Node.js than the options offered below, you'll need to get a [VPS](https://heliohost.org/vps/) where you can install any version(s) of Node you want.
+{% endhint %}
+
 <!-- TODO: Add node versions available on Morty when released -->
 | Server | Node.js Version                                     |
 |--------|-----------------------------------------------------|
