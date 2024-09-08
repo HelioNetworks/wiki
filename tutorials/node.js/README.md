@@ -8,6 +8,8 @@ Node apps often require a lot of server resources, and exceeding the account loa
 
 ## Supported Versions
 
+The Node.js versions currently supported on the shared hosting servers are listed below. While we aim to keep Node versions current, please make sure you review our [ETAs for New Features](../../hosting/repair-times.md).
+
 {% hint style="info" %} 
 If you require a different version of Node.js than the options offered below, you'll need to get a [VPS](https://heliohost.org/vps/) where you can install any version(s) of Node you want.
 {% endhint %}
