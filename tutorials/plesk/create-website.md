@@ -105,4 +105,4 @@ If there is no `index.html` page inside the webroot folder, a list of the files 
 
 ## Further Support
 
-If after following the above steps, you are unable to view your website, please go back and check all of your steps again to make sure you didn't miss anything. After that, if you can't figure out what is wrong, please make a new post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add). Make sure you provide your **username**, your **domain website address**, and **error message(s)** you are encountering so that we can try to help you.
+If you get stuck after following the instructions above, please go back and check all of your steps again. If you can't figure out what is wrong, please post a topic in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add). Please make sure you provide your **username**, your **domain website address**, and **error message(s)** encountered.
