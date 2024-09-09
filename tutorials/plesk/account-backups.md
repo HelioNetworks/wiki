@@ -129,10 +129,34 @@ If you need more space, you can [donate to increase your account storage](../../
 
 ![](../../.gitbook/assets/plesk-max-number-of-backups.png)
 
+## Restoring Your Account Backup
+
+Backups **cannot** be restored directly in Plesk using the `Restore` button. 
+
+To restore a backup, you must first extract the backup file on your local machine, then upload the specific parts you need.
+
+### Repairing Damaged Backup Files
+
+If you have trouble when trying to extract a backup file, try opening it in a hex editor to inspect or repair the file. The screenshots below use `frhed`, a free and easy-to-use hex editor, but the process should be similar in other hex editors.
+
+1. View the damaged `tzst` file inside the hex editor. You will likely see an error message right at the top. In this example, the error message starts with `Unable to getpwnam for user`, but other error messages are possible. 
+
+![](../../.gitbook/assets/plesk-account-backup-damaged-file.png)
+
+2. Find the magic bytes (which should be `28 B5 2F FD`) in the file, as highlighted in the example. 
+
+3. Delete everything before the magic bytes.
+
+4. After making this change, the magic bytes should display as being the first bytes in the file, as shown below:
+
+![](../../.gitbook/assets/plesk-account-backup-repaired-file.png)
+
+5. Save the file. When you try to extract it again, the issue should be resolved.
+
 ## Further Support
 
-If after following the above steps, you are unable to download or extract your backup data or make your own account backup, please post a topic in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add). Please make sure you provide your hosting account **username** and details of the problem, including what steps you have tried, and any **error message(s)** encountered.
+If you get stuck after following the instructions above, please go back and check all of your steps again. If you can't figure out what is wrong, please post a topic in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add). Please make sure you provide your hosting account **username** and details of the problem, including what steps you have tried, and any **error message(s)** encountered.
 
 ### References
 
-The original discussion which prompted the creation of this tutorial for extracting Plesk backup files can be found [here](https://helionet.org/index/topic/58777-solved-suspended-account/#comment-260423).
+Sections of this tutorial have been adapted from posts about [extracting Plesk backup files](https://helionet.org/index/topic/58777-solved-suspended-account/#comment-260423) and [repairing a damaged backup file](https://helionet.org/index/topic/61744-solved-unable-to-restore-backup-in-plesk/#comment-275392) on the HelioNet forum.
