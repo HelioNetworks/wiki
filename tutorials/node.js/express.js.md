@@ -100,9 +100,9 @@ Finally, you will need to wait **up to 2 hours** for the server to update.
 Node.js application deployment can take **up to 2 hours** to go into effect as it requires an Apache restart. After an entire 2 hours, if your Node app is not working for you, please [clear your web browser cache](../../misc/clear-your-cache.md).
 {% endhint %}
 
-Once the Node.js application has been deployed, you should be able to visit `domain.helioho.st` in your web browser and see the text `Node.js is working.`
+Once the Node.js application has been deployed, you should be able to visit `domain.helioho.st` in your web browser and see the text `Node.js is working with Express and http.`
 
-![](../../.gitbook/assets/nodejs-working.png)
+![](../../.gitbook/assets/nodejs-working-with-express.png)
 
 ## Further Support 
 
