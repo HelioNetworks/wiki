@@ -2,31 +2,35 @@
 
 ## Preface
 
-This tutorial will walk you through setting up a basic website on HelioHost. The examples below show Plesk's built-in File Manager, but you can accomplish the same result using your favorite FTP client if you prefer. 
+This tutorial will walk you through setting up a basic website on HelioHost. The examples below show [Plesk](../../features/plesk.md)'s built-in File Manager, but you can accomplish the same result by [managing files using FTP](../../management/uploading-files.md) if you prefer. 
 
-## Login to Plesk
+## Log in to Plesk
 
-Follow the navigation steps below to access the Plesk file manager:
+Follow the navigation steps below to access the File Manager inside Plesk: 
 
-#### Login > Plesk > Websites & Domains > [ domain ] > Dashboard tab > Files
+#### Login > Plesk > Websites & Domains > [ domain ] > Files
 
 ![](../../.gitbook/assets/tutorial-website-plesk.png)
 
+{% hint style="warning" %}
+Do not bookmark your Plesk File Manager, as your visits are not recorded and you will be [suspended for inactivity](../../accounts/suspension-policy.md#inactivity-policy) after 30 days.
+{% endhint %}
+
 ## Navigate into Webroot Directory
 
-For your main (or only) Heliohost domain or subdomain, your webpage files will located at:  
+For your main (or only) Heliohost domain or subdomain, your webpage files will be located at:  
 `Home directory > httpdocs`
 
-For an add-on domain or subdomain, your webpage files will located at:  
+For an add-on domain or subdomain, your webpage files will be located at:  
 `Home directory > domain.helioho.st`
 
 ## Delete the Default Plesk Page
 
-The file named `index.html` is the default page that Plesk adds to new domains or subdomains. It can be replaced with a new index page with your own content.
+The file named `index.html` is the default page that Plesk adds to new domains or subdomains. It can be replaced with a new `index.html` file that contains your own code.
 
 Select the `index.html` file and delete it by clicking on the `Remove` button.
 
-Select the `Skip the Recycle Bin and permanently remove index.html` option. Files in your Recycle Bin count towards your account storage limits, and you will never need the default index page file again.
+Select the `Skip the Recycle Bin and permanently remove index.html` option. Files in your Recycle Bin count towards your [account storage limits](../../accounts/suspension-policy.md#account-storage-limits), and you will never need the default index page file again.
 
 ## Create a new Index Page
 
@@ -59,7 +63,7 @@ Click on the filename to open the file in the Code Editor. You should see the si
 
 ![](../../.gitbook/assets/tutorial-website-code-editor.png)
 
-Edit the content of the page to the below: 
+Edit the contents of the file to the below:
 ```text
 <html>
   <head>
@@ -101,7 +105,11 @@ On an add-on domain or subdomain, the `index.html` file should be located inside
 
 ![](../../.gitbook/assets/tutorial-website-domain-helio.png)
 
-If there is no `index.html` page inside the webroot folder, a list of the files inside wil be shown instead. This is called `directory indexing` and it is active by default since Sept 2024.
+If there is no `index.html` page inside the webroot folder, a list of the files it contains will be shown instead. This is called `directory indexing` or `directory listing`. 
+
+### Directory Indexes
+
+Directory indexes are enabled on our servers because many users have requested this feature. If you prefer to prevent directory listings for any folder, simply place an empty `index.html` file inside it. This will display a blank page instead of a list of files when someone visits the directory’s web address.
 
 ## Further Support
 
