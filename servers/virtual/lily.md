@@ -11,11 +11,36 @@ Please note that there is no control panel on Lily, and access is done via FTP. 
 
 ## Features
 
-* ASP.NET (all versions up to and including CLR 4.7)
-* ASP.NET Core 3.1
-* Classic ASP
-* .NET 5.0 
+### .NET
+
+* .NET 1.1
+* .NET 2.0
+* .NET 3.0
+* .NET 3.5
+* .NET 4.0
+* .NET 4.5
+* .NET 4.6
+* .NET 4.7
+* .NET 5.0
 * .NET 6.0
-* [PHP](../../features/php.md) 5.3 - 7.4, and 8.2 (all versions have `exec()` enabled)
+* .NET Core 3.1
+* Classic ASP
+
+### PHP
+
+All versions of [PHP](../../features/php.md) supported have `exec()` enabled: 
+* PHP 5.3
+* PHP 5.4
+* PHP 5.5
+* PHP 5.6
+* PHP 7.0
+* PHP 7.1
+* PHP 7.2
+* PHP 7.3
+* PHP 7.4
+* PHP 8.2 
+
+### Databases
+
 * MariaDB
 * MS SQL Server Express 2017
