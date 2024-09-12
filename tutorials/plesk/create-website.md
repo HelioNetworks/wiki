@@ -2,10 +2,10 @@
 
 ## Directory Index
 
-When a new account, domain, or subdomain is added on HelioHost, the first time it's viewed in a browser, a list of files will appear, similar to the example below. This is called `directory indexing` or `directory listing`, and it's enabled by default because many users have requested this feature over the past few years. 
+When a new domain or subdomain is added on HelioHost and viewed for the first time in a web browser, a list of files will appear, similar to the example below. This is called `directory indexing` or `directory listing`, and it's enabled by default because many users have requested this feature over the past few years. 
 
 {% hint style="info" %}
-To prevent directory listings for any folder, simply place an empty `index.html` file inside it. This will display a blank page instead of a list of files when someone visits the directory's web address.
+To prevent directory listings for any folder, place an empty `index.html` file inside it. This will display a blank page instead of a list of files when someone visits the directory's web address.
 {% endhint %}
 
 ![](../../.gitbook/assets/directory-index.png)
@@ -14,7 +14,7 @@ We recommend that you open the `getting_started.html` file in a web browser and 
 
 ## Create a Basic Website
 
-The below tutorial will walk you through setting up a basic website on HelioHost. The examples below show [Plesk](../../features/plesk.md)'s built-in File Manager, but you can accomplish the same result by [managing files using FTP](../../management/uploading-files.md) if you prefer. 
+The below tutorial will walk you through setting up a basic website on HelioHost. The examples below show [Plesk](../../features/plesk.md)'s built-in File Manager, but you can accomplish the same result by [managing files using FTP](../../management/uploading-files.md). 
 
 ### Log in to Plesk
 
@@ -30,7 +30,7 @@ Do not bookmark your Plesk File Manager, as your visits are not recorded and you
 
 ### Navigate into Webroot Directory
 
-For your main (or only) Heliohost domain or subdomain, your webpage files will be located at:  
+For your main (or only) HelioHost domain or subdomain, your webpage files will be located at:  
 `Home directory > httpdocs`
 
 For an add-on domain or subdomain, your webpage files will be located at:  
@@ -40,11 +40,11 @@ For an add-on domain or subdomain, your webpage files will be located at:
 
 To create a new `index.html` file, click on the add button `+` and select `Create File` from the options menu.
 
-Select the `Use the HTML template` since this will pre-populate some helpful HTML code into the blank file for you.
+Select the `Use the HTML template` option since this will pre-populate some helpful HTML code into the blank file.
 
-### Confirm Location of New File
+### Verify Location of New File
 
-For your main (or only) Heliohost domain or subdomain, the `index.html` file should be created inside: `Home directory > httpdocs`. In the `Create a File` window, you should see `Add a file to: /httpdocs`, as shown below:
+For your main (or only) HelioHost domain or subdomain, the `index.html` file should be created inside: `Home directory > httpdocs`. In the `Create a File` window, you should see `Add a file to: /httpdocs`, as shown below:
 
 ![](../../.gitbook/assets/tutorial-website-create-index-httpdocs.png)
 
@@ -55,9 +55,9 @@ For an add-on domain or subdomain, the `index.html` file should be created insid
 ### Edit the new Index Page
 
 Use the right-side menu to choose how to open the new `index.html` page you just made:
-* the `Code Editor` offers basic content editing.
-* the `Text Editor` offers basic content editing, various encoding options and different line break type options.
-* the `HTML Editor` offers a straightforward `WYSIWYG` (short for `What You See Is What You Get`) file editor, allowing you to change and preview styling options (change the page background color, insert images or links, use bold text, change font color or size, etc.).
+* `Code Editor` offers basic content editing.
+* `Text Editor` offers basic content editing, various encoding options and different line break type options.
+* `HTML Editor` offers a straightforward `WYSIWYG` (short for `What You See Is What You Get`) file editor, allowing you to change and preview styling options (change background color, insert images or links, use bold text, change font color or size, etc.).
 
 ![](../../.gitbook/assets/tutorial-website-edit-file.png)
 
@@ -92,16 +92,16 @@ If everything worked, you should see the below page displayed in your browser:
 ## Troubleshooting
 
 {% hint style="info" %}
-All domain and subdomain changes take **up to 2 hours** to go into effect as they require an Apache restart. If you have a HelioHost account that is less than 2 hours old, or added your domain or subdomain less than 2 hours ago, you may not see the file edits take effect yet.  
+All domain and subdomain changes take **up to 2 hours** to go into effect as they require an Apache restart. If your HelioHost account or recent domain/subdomain additions were done less than 2 hours ago, you might not see the updates immediately. After 2 hours, your HTML file changes should appear quickly once you save and upload your files.
 
 If it's been longer than **a full 2 hours**, please make sure to [clear your web browser cache](../../misc/clear-your-cache.md).
 {% endhint %}
 
 ### Still Seeing the Directory Index
 
-If your account/domain/subdomain were created more than 2 hours ago, and you still see the directory index page, please make sure you created the `index.html` file in the correct place.
+If your account was created over 2 hours ago, and your domain/subdomain was added over 2 hours ago, and you have [cleared your web browser cache](../../misc/clear-your-cache.md), if you still see the directory index page, please make sure you created the `index.html` file in the correct place.
 
-On a main (or only) Heliohost domain or subdomain, the `index.html` file should be located inside: `Home directory > httpdocs` as shown below:
+On a main (or only) HelioHost domain or subdomain, the `index.html` file should be located inside: `Home directory > httpdocs` as shown below:
 
 ![](../../.gitbook/assets/tutorial-website-httpdocs.png)
 
