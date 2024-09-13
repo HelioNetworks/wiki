@@ -91,15 +91,17 @@ If everything worked, you should see the below page displayed in your browser:
 
 ## Troubleshooting
 
+### Timeframe for Account Creation and Domain / Subdomain Changes
+
 {% hint style="info" %}
-All domain and subdomain changes take **up to 2 hours** to go into effect as they require an Apache restart. If your HelioHost account or recent domain/subdomain additions were done less than 2 hours ago, you might not see the updates immediately. After 2 hours, your HTML file changes should appear quickly once you save and upload your files.
+Account creation and domain/subdomain changes take **up to 2 hours** to go into effect, as they require an Apache restart. File changes may not take effect until then. After the restart, changes to your HTML files should appear quickly once you save and upload them.
 
 If it's been longer than **a full 2 hours**, please make sure to [clear your web browser cache](../../misc/clear-your-cache.md).
 {% endhint %}
 
 ### Still Seeing the Directory Index
 
-If your account was created over 2 hours ago, and your domain/subdomain was added over 2 hours ago, and you have [cleared your web browser cache](../../misc/clear-your-cache.md), if you still see the directory index page, please make sure you created the `index.html` file in the correct place.
+If your account creation or domain/subdomain changes happened more than 2 hours ago and you have [cleared your web browser cache](../../misc/clear-your-cache.md) but still see the directory index page, please make sure that you created the `index.html` file in the correct place.
 
 On a main (or only) HelioHost domain or subdomain, the `index.html` file should be located inside: `Home directory > httpdocs` as shown below:
 
