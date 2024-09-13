@@ -48,9 +48,9 @@ By following the steps in this tutorial, Plesk will automatically use Passenger 
 
 No, the background process timeout is set to ensure fair resource usage for all our users and cannot be changed. If you need more control over memory management, HelioHost offers a range of [VPS plans](https://heliohost.org/vps/), where you can configure your settings.
 
-### Can I Run A Process To Ping My Site Constantly So It Never Sleeps?
+### Can I Prevent My Site from Sleeping?
 
-Passenger is designed to optimize shared hosting resources and help manage account load effectively. Deliberately preventing your site from sleeping is likely to result in your account being suspended for [High Server Usage](../../accounts/suspension-policy.md#high-server-usage).
+Passenger is designed to keep our shared hosting servers running efficiently and help keep your account within the [account load limits](../../accounts/suspension-policy.md#account-load-limits). Deliberately preventing your site from sleeping is likely to get your account suspended for [High Server Usage](../../accounts/suspension-policy.md#high-server-usage).
 
 ### What If My Users Cannot Wait For My Site To Load?
 
