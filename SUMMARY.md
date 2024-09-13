@@ -42,6 +42,7 @@
     * [Viewing Error Logs](tutorials/plesk/view-error-logs.md)
     * [Cron Jobs / Scheduled Tasks](tutorials/plesk/cron-jobs.md)
     * [Password Protect a Directory](tutorials/plesk/password-protect-directory.md)
+    * [Create a Website](tutorials/plesk/create-website.md)
   * [Python](tutorials/python.md)
   * [Ruby on Rails](tutorials/ror.md)
   * [DNS Record Management](tutorials/dns-record-management/README.md)
