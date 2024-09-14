@@ -2,6 +2,22 @@
 
 The easiest way to get started with Python on a server is with CGI. The only real difference between CGI and running the script on your home computer is that CGI needs to output a `Content-Type` header.
 
+## Python Versions Available
+
+### On the Johnny server, you can pick between:
+
+| Server  | Python Version | Python Path           | Python Modules Installed                                 |
+| :-----: | :------------: | :-------------------: | :------------------------------------------------------: |
+| Johnny  | 3.9            | #!/usr/bin/python3.9  | [View](https://krydos2.heliohost.org/pyinfo/info3.9.py)  |
+| Johnny  | 3.12           | #!/usr/bin/python3.12 | [View](https://krydos2.heliohost.org/pyinfo/info3.12.py) |
+
+### On the Tommy server, you can pick between:
+
+| Server | Python Version | Python Path           | Python Modules Installed                                 |
+| :----: | :------------: | :-------------------: | :------------------------------------------------------: |
+| Tommy  | 3.9            | #!/usr/bin/python3.9  | [View](https://krydos1.heliohost.org/pyinfo/info3.9.py)  |
+| Tommy  | 3.12           | #!/usr/bin/python3.12 | [View](https://krydos1.heliohost.org/pyinfo/info3.12.py) |
+
 ## Steps
 
 * Open the File Manager in Plesk
@@ -33,22 +49,6 @@ If everything worked, you should see `Heliohost rules!` displayed in your browse
 In the code pasted in, the first line is called the `shebang`. It tells the server which version of Python to use. 
 
 The second line of code is the `Content-Type` header. This is important so the server knows what to do with the output that follows. If you forget it, your script will give you an error. The `Content-Type` header always has to have the two end lines immediately after it. That's what the two `` `\n` `` are.
-
-## Python Versions Available
-
-### On the Johnny server, you can pick between:
-
-| Server  | Python Version | Python Path           | Python Modules Installed                                 |
-| :-----: | :------------: | :-------------------: | :------------------------------------------------------: |
-| Johnny  | 3.9            | #!/usr/bin/python3.9  | [View](https://krydos2.heliohost.org/pyinfo/info3.9.py)  |
-| Johnny  | 3.12           | #!/usr/bin/python3.12 | [View](https://krydos2.heliohost.org/pyinfo/info3.12.py) |
-
-### On the Tommy server, you can pick between:
-
-| Server | Python Version | Python Path           | Python Modules Installed                                |
-| :----: | :------------: | :-------------------: | :-----------------------------------------------------: |
-| Tommy  | 3.9            | #!/usr/bin/python3.9  | [View](https://krydos1.heliohost.org/pyinfo/info3.9.py)  |
-| Tommy  | 3.12           | #!/usr/bin/python3.12 | [View](https://krydos1.heliohost.org/pyinfo/info3.12.py) |
 
 ### Troubleshooting
 
