@@ -4,7 +4,7 @@
 
 Flask is a Python web framework built with a small core and easy-to-extend philosophy. Read more at [Full Stack Python](https://www.fullstackpython.com/flask.html).
 
-## Flask on the Johnny server uses Python 3.12
+## Johnny server
 
 {% hint style="info" %} 
 If you need to run Flask on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
@@ -14,15 +14,15 @@ If you need to run Flask on another version of Python, you'll need to get a [VPS
 | :----: | :-----------: | :------------: | :-----------------: | :----: | :------------------------------------------------------: |
 | Johnny | 3.0.3         | 3.12           | /usr/bin/python3.12 | WSGI   | [View](https://krydos2.heliohost.org/pyinfo/info3.12.py) |
 
-## Flask on the Tommy server uses Python 3.10
+## Tommy server
 
 {% hint style="info" %} 
 If you need to run Flask on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
 {% endhint %}
 
-| Server | Flask Version | Python Version | Python Path         | Loader | Python Modules Installed                                |
-| :----: | :-----------: | :------------: | :-----------------: | :----: | :-----------------------------------------------------: |
-| Tommy  | 2.2.2         | 3.10           | /usr/bin/python3.10 | WSGI   | [View](https://krydos.heliohost.org/pyinfo/info3.10.py) |
+| Server | Flask Version | Python Version | Python Path         | Loader | Python Modules Installed                                 |
+| :----: | :-----------: | :------------: | :-----------------: | :----: | :------------------------------------------------------: |
+| Tommy  | 3.0.3         | 3.12           | /usr/bin/python3.12 | WSGI   | [View](https://krydos1.heliohost.org/pyinfo/info3.12.py) |
 
 ## How To Setup Flask on Plesk
 
