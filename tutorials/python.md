@@ -4,14 +4,14 @@ The easiest way to get started with Python on a server is with CGI. The only rea
 
 ## Python Versions Available
 
-### On the Johnny server, you can pick between:
+### Johnny server
 
 | Server  | Python Version | Python Path           | Python Modules Installed                                 |
 | :-----: | :------------: | :-------------------: | :------------------------------------------------------: |
 | Johnny  | 3.9            | #!/usr/bin/python3.9  | [View](https://krydos2.heliohost.org/pyinfo/info3.9.py)  |
 | Johnny  | 3.12           | #!/usr/bin/python3.12 | [View](https://krydos2.heliohost.org/pyinfo/info3.12.py) |
 
-### On the Tommy server, you can pick between:
+### Tommy server
 
 | Server | Python Version | Python Path           | Python Modules Installed                                 |
 | :----: | :------------: | :-------------------: | :------------------------------------------------------: |
@@ -58,7 +58,7 @@ If you don't see the module you need, your script will probably give you an erro
 
 To request additional modules, please create a post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide **your account username**, **your server**, the **version of Python you're using**, and **the module(s) you need** including any relevant **version numbers** for them.
 
-## Extra: Python scripts outside cgi-bin folders
+## Running Python scripts outside cgi-bin folder
 
 Executing a CGI script outside the `cgi-bin` folder is possible with some modifications.
 
