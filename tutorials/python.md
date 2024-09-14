@@ -47,9 +47,8 @@ The second line of code is the `Content-Type` header. This is important so the s
 
 | Server | Python Version | Python Path           | Python Modules Installed                                |
 | :----: | :------------: | :-------------------: | :-----------------------------------------------------: |
-| Tommy  | 2.7            | #!/usr/bin/python2.7  | [View](https://krydos.heliohost.org/pyinfo/info2.7.py)  |
-| Tommy  | 3.6            | #!/usr/bin/python3.6  | [View](https://krydos.heliohost.org/pyinfo/info3.6.py)  |
-| Tommy  | 3.10           | #!/usr/bin/python3.10 | [View](https://krydos.heliohost.org/pyinfo/info3.10.py) |
+| Tommy  | 3.9            | #!/usr/bin/python3.9  | [View](https://krydos1.heliohost.org/pyinfo/info3.9.py)  |
+| Tommy  | 3.12           | #!/usr/bin/python3.12 | [View](https://krydos1.heliohost.org/pyinfo/info3.12.py) |
 
 ### Troubleshooting
 
