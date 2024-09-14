@@ -43,7 +43,7 @@ We offer the complete, unadulterated Django package, including extensions to int
 ### Additional Libraries
 
 View the [Python modules installed on Johnny](https://krydos2.heliohost.org/pyinfo/info3.12.py).  
-View the [Python modules installed on Tommy](https://krydos.heliohost.org/pyinfo/info3.10.py).
+View the [Python modules installed on Tommy](https://krydos1.heliohost.org/pyinfo/info3.12.py).
 
 To request additional libraries, please raise a request in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide your **username**, your **server**, and **the libraries you need** including any relevant **version numbers** for them.
 
