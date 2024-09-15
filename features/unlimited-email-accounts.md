@@ -43,3 +43,9 @@ If you wish to use another mail server to handle your domain's email addresses, 
 ## SpamAssassin
 
 SpamAssassin is the most popular anti-spam solution for Linux systems and has won awards for its excellent performance. HelioHost offers SpamAssassin with all its accounts, allowing webmasters to prevent spam on their configured email accounts.
+
+## SPF, DKIM, and DMARC Records 
+
+### Set Up SPF, DKIM, and DMARC Records
+
+To help improve the delivery of your emails, you can request that SPF, DKIM, and DMARC records be added to your account. Please create a new topic in our [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add) and include your hosting account **username** and **domain name** so we can set this up for you.
