@@ -42,10 +42,14 @@ If you wish to use another mail server to handle your domain's email addresses, 
 
 ## SpamAssassin
 
-SpamAssassin is the most popular anti-spam solution for Linux systems and has won awards for its excellent performance. HelioHost offers SpamAssassin with all its accounts, allowing webmasters to prevent spam on their configured email accounts.
+SpamAssassin is the most popular anti-spam solution for Linux systems and has won awards for its excellent performance. HelioHost offers SpamAssassin with all its accounts, allowing all users to prevent spam on their configured email accounts.
 
 ## SPF, DKIM, and DMARC Records 
 
 ### Set Up SPF, DKIM, and DMARC Records
 
 To help improve the delivery of your emails, you can request that SPF, DKIM, and DMARC records be added to your account. Please create a new topic in our [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add) and include your hosting account **username** and **domain name** so we can set this up for you.
+
+### Send a Test Email
+
+After the SPF, DKIM, and DMARC records are set up, we recommend sending a test email to [https://www.mail-tester.com](https://www.mail-tester.com/) to check that everything is set up correctly. Your test email should be a regular email, such as your typical newsletter or a standard message (avoid using just "test" as the email content). If your score is below 10/10, please create a new topic in our [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add) and include **the full report link**, your hosting account **username**, and your **domain name** so we can help you fix any remaining issues.
