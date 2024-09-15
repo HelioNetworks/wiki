@@ -26,9 +26,13 @@ If you would prefer to use an email application (such as Outlook or Thunderbird)
 
 For more information on how to set this up, navigate to:
 
-#### Login > Plesk > Email > Email Addresses > [ your email address ] > Click the `i` button > Click `Manual setup` > Enter the IMAP and SMTP info into your mail client
+#### Login > Plesk > Mail > Email Addresses > [ your email address ] > Click the `i` button
 
 ![](../.gitbook/assets/plesk-setup-email-on-device.png)
+
+#### Click on 'Manual setup' 
+<!-- TODO: Add Morty as an option once released -->
+When configuring mail clients, use your account server name (`johnny.heliohost.org` or `tommy.heliohost.org`) instead of your domain.
 
 ![](../.gitbook/assets/plesk-setup-email-on-device-2.png)
 
@@ -39,4 +43,3 @@ If you wish to use another mail server to handle your domain's email addresses, 
 ## SpamAssassin
 
 SpamAssassin is the most popular anti-spam solution for Linux systems and has won awards for its excellent performance. HelioHost offers SpamAssassin with all its accounts, allowing webmasters to prevent spam on their configured email accounts.
-
