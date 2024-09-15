@@ -38,7 +38,7 @@ When configuring mail clients, use your account server name (`johnny.heliohost.o
 
 ## Custom Mail
 
-If you wish to use another mail server to handle your domain's email addresses, then HelioHost is the place for you. We allow users to configure custom MX records for their domain, effectively forwarding all email load from HelioHost to a specified mail server.
+If you wish to use another mail server to handle your domain's email addresses, then HelioHost is the place for you. We allow users to [request configuration of custom MX records](../tutorials/dns-record-management/heliohost-dns-records/manage-heliohost-dns.md) for their domain, effectively forwarding all email load from HelioHost to a specified mail server.
 
 ## SpamAssassin
 
