@@ -4,7 +4,7 @@
 
 Django is a web development framework designed specifically for Python. As Ruby on Rails does for Ruby, Django aims to provide an MVC (Model-View-Controller) architecture for web application development as well as a large set of prebuilt libraries to simplify the development of common web app features. Django's modularity also allows easy scalability and enables the reuse of various code blocks, aligning to the DRY ("Don't Repeat Yourself") software development principle.
 
-## Django on the Johnny server uses Python 3.12
+## Johnny server
 
 {% hint style="info" %} 
 If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
@@ -14,15 +14,15 @@ If you need to run Django on another version of Python, you'll need to get a [VP
 | :----: | :------------: | :------------: | :------------------------------------------------------: | :-----------------: | :----: | 
 | Johnny | 5.0.7          | 3.12           | [View](https://krydos2.heliohost.org/pyinfo/info3.12.py) | /usr/bin/python3.12 | WSGI   | 
 
-## Django on the Tommy server uses Python 3.10
+## Tommy server
 
 {% hint style="info" %} 
 If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
 {% endhint %}
 <!-- The column with the link to view installed modules should stay as far left as possible, to prevent an overlapping div from the rightside nav menu making it difficult to mouseover and click on in the live Wiki. -->
-| Server | Django Version | Python Version | Python Modules Installed                                | Python Path         | Loader | 
-| :----: | :------------: | :------------: | :-----------------------------------------------------: | :-----------------: | :----: | 
-| Tommy  | 4.1.1          | 3.10           | [View](https://krydos.heliohost.org/pyinfo/info3.10.py) | /usr/bin/python3.10 | WSGI   | 
+| Server | Django Version | Python Version | Python Modules Installed                                 | Python Path         | Loader | 
+| :----: | :------------: | :------------: | :------------------------------------------------------: | :-----------------: | :----: | 
+| Tommy  | 5.0.7          | 3.12           | [View](https://krydos1.heliohost.org/pyinfo/info3.12.py) | /usr/bin/python3.12 | WSGI   | 
 
 ## Enabled
 
@@ -43,7 +43,7 @@ We offer the complete, unadulterated Django package, including extensions to int
 ### Additional Libraries
 
 View the [Python modules installed on Johnny](https://krydos2.heliohost.org/pyinfo/info3.12.py).  
-View the [Python modules installed on Tommy](https://krydos.heliohost.org/pyinfo/info3.10.py).
+View the [Python modules installed on Tommy](https://krydos1.heliohost.org/pyinfo/info3.12.py).
 
 To request additional libraries, please raise a request in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide your **username**, your **server**, and **the libraries you need** including any relevant **version numbers** for them.
 
