@@ -69,9 +69,8 @@
     * [Johnny](servers/virtual/johnny.md)
     * [Lily](servers/virtual/lily.md)
     * [Tommy](servers/virtual/tommy.md)
-    <!-- TODO: Add Morty to the list once released -->
 * [Features](features/README.md)
-  * [.NET / .NET Core / Classic ASP](features/asp.net.md)
+  * [ASP.NET](features/asp.net.md)
   * [Plesk](features/plesk.md)
   * [Java / JSP](features/java.md)
   * [PHP](features/php.md)
