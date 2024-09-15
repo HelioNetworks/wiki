@@ -7,6 +7,7 @@
 * Ability to edit [A, CNAME, TXT, and MX records](../tutorials/dns-record-management/heliohost-dns-records/README.md)
 * [1000 MB of Disk Space](../features/storage.md) (with the option to [donate for increased storage of up to 6000 MB total](../accounts/donation-increase-storage.md))
 * [Unlimited Email Accounts](../features/unlimited-email-accounts.md)
+* Ability to [set up SPF, DKIM, and DMARC records](../features/unlimited-email-accounts.md#spf-dkim-and-dmarc-records)
 * Unlimited Mailing Lists
 * [Unlimited Bandwidth](../features/unlimited-bandwidth.md)
 * Up to [10 Domains](../management/parked-addon-and-sub-domains.md) (Subdomains, Parked Domains, and Addon Domains)
