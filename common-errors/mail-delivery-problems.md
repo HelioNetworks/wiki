@@ -1,14 +1,16 @@
 # Mail Delivery Problems
 
+HelioHost offers [unlimited email accounts](../features/unlimited-email-accounts.md) to our users. Below is a troubleshooting guide to help resolve issues with email delivery.
+
 ## Emails Not Delivered
 
-After trying to send email, if you get a mail delivery report that says your message could not be delivered, the rest of the message should include the reason for the failure.
+If you get a mail delivery report that says your email could not be delivered, the report should explain why.
 
-If your delivery report says `Your email has been blocked because the sender is unauthenticated. [Email provider] requires all senders to authenticate with either SPF or DKIM`, then we can help you set up these records.
+If the report says: `Your email has been blocked because the sender is unauthenticated. [Email provider] requires all senders to authenticate with either SPF or DKIM`, we can help you set up these records.
 
-## Emails Being Sent to Spam Folder
+## Emails Going to Spam Folder
 
-If your email recipients report that emails you send them are going right to their spam folder, then setting up SPF, DKIM, and DMARC records will help improve the delivery of your emails.
+If your email recipients say that your emails are going to their spam folder, setting up SPF, DKIM, and DMARC records will help improve email delivery.
 
 ## SPF, DKIM, and DMARC Records 
 
@@ -22,4 +24,4 @@ After the SPF, DKIM, and DMARC records are set up, we recommend sending a test e
 
 ## Further Support 
 
-If you receive a different error in the mail delivery report, or your emails aren't being delivered and you're not sure why not, please make a new post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide your **username**, **domain name**, and details about the problem, including any **error message(s)** received.
+If you get a different error in the mail delivery report, or if your emails are not delivered and you don't know why, please make a new post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide your **username**, **domain name**, and details about the problem, including any **error message(s)** received.
