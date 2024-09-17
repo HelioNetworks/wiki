@@ -34,3 +34,11 @@ Here is a sample hello world file.
 ?>
 ```
 A good tutorial can be found here: [https://blog.udemy.com/php-tutorial/](https://blog.udemy.com/php-tutorial/)
+
+## Change PHP Version
+
+Follow the navigation steps below to change your PHP version inside Plesk:
+
+#### Login > Plesk > [domain] > Dashboard tab > Dev Tools > PHP button > select PHP version from the dropdown menu
+
+![](../.gitbook/assets/plesk-change-php-version.png)
