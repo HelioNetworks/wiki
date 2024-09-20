@@ -34,3 +34,21 @@ Here is a sample hello world file.
 ?>
 ```
 A good tutorial can be found here: [https://blog.udemy.com/php-tutorial/](https://blog.udemy.com/php-tutorial/)
+
+## Change PHP Version
+
+Follow the navigation steps below to change your PHP version inside Plesk:
+
+#### Login > Plesk > [domain] > Dashboard tab > Dev Tools > PHP button > select PHP version from the dropdown menu
+
+![](../.gitbook/assets/plesk-change-php-version.png)
+
+After the PHP version is changed, you will see a confirmation message that contains the timeframe for the change to take effect:
+
+![](../.gitbook/assets/plesk-php-change-120-min.png)
+
+## PHP Version Changes Take Up To 2 Hours
+
+{% hint style="info" %}
+PHP version changes take **up to 2 hours** to go into effect as they require an Apache restart. 
+{% endhint %}
