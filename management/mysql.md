@@ -19,7 +19,7 @@
 
 # MariaDB 
 
-MariaDB is a very handy tool available to webmasters who want to take advantage of dynamic web pages which run on languages such as PHP, as well as software like WordPress that may have been manually installed \(not installed using Softaculous\).
+MariaDB is a very handy tool available to webmasters who want to take advantage of dynamic web pages which run on languages such as PHP, as well as software like WordPress that may have been manually installed (not installed using Softaculous).
 
 More information about MariaDB can be found at <a href="https://en.wikipedia.org/wiki/MariaDB" target="_blank">Wikipedia</a> and <a href="https://mariadb.org/" target="_blank">official website</a>.
 
@@ -93,13 +93,13 @@ You can assign roles: Read & Write, Read Only, Write Only, and Customer.  There 
 
 ## Accessing the database 
 
-Below are some tips to connect to your database either through Plesk via phpmyadmin, locally via code, or remotely through code or other client \(e.g. MariaDB's mysql command line or some other utility such as a GUI listed on the [MariaDB website](https://mariadb.com/kb/en/graphical-and-enhanced-clients/)\).
+Below are some tips to connect to your database either through Plesk via phpmyadmin, locally via code, or remotely through code or other client (e.g. MariaDB's mysql command line or some other utility such as a GUI listed on the [MariaDB website](https://mariadb.com/kb/en/graphical-and-enhanced-clients/)).
 
 [Top](#top)
 
 ### Local connections 
 
-If you are connecting locally, then your `HOST` is `localhost`. Your database name is the name you specified, but prefixed with your Plesk username and then an underscore \(e.g. PLESK_USERNAME\_DATABASE\).
+If you are connecting locally, then your `HOST` is `localhost`. Your database name is the name you specified, but prefixed with your Plesk username and then an underscore (e.g. PLESK_USERNAME_DATABASE).
 
 [Top](#top)
 
