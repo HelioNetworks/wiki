@@ -12,7 +12,7 @@ If you are having problems connecting to the FTP service, then it might be a tem
 
 | Parameter | Tommy | Johnny |
 | :--- | :--- | :--- |
-| Host | `tommy2.heliohost.org` | `johnny.heliohost.org` |
+| Host | `tommy.heliohost.org` | `johnny.heliohost.org` |
 | Port | 1373 | 1373 |
 | Protocol | SFTP - SSH File Transfer Protocol | SFTP - SSH File Transfer Protocol |
 | Logon Type | Normal | Normal |
