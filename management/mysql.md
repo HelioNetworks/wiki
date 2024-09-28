@@ -129,7 +129,7 @@ Put a percent sign `%` for all IP or else enter the IP to give access to only th
 
 Use the host for your server:
 
-* Tommy: `tommy2.heliohost.org`
+* Tommy: `tommy.heliohost.org`
 * Ricky: `ricky.heliohost.org`
 * Johnny: `johnny.heliohost.org`
 
