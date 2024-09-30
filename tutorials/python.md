@@ -56,7 +56,13 @@ If you don't see the module you need, your script will probably give you an erro
 
 ## Request Additional Python Modules
 
-To request additional modules, please create a post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide **your account username**, **your server**, the **version of Python you're using**, and **the module(s) you need** including any relevant **version numbers** for them.
+{% hint style="info" %}
+Before requesting additional modules, make sure you check the [list of modules already installed](#python-versions-available) on your server. 
+
+Please do not request modules that are already installed.
+{% endhint %}
+
+After you have checked the [list of modules already installed](#python-versions-available) on your server, if there is another module you'd like to request, please create a post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add). Make sure you provide **your account username**, **your server**, the **version of Python you're using**, and **the module(s) you need** including any relevant **version numbers** for them.
 
 ## Running Python scripts outside cgi-bin folder
 
