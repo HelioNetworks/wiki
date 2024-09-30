@@ -56,6 +56,8 @@
   * [SSL Certificate Problems](common-errors/ssl-certificate.md)
   * [504 Gateway Timeout](common-errors/504-gateway-timeout.md)
   * [Mail Delivery Problems](common-errors/mail-delivery-problems.md)
+  * [PostgreSQL Database Creation Error](common-errors/postgres-database-creation-error.md)
+  * [Supported Browsers](common-errors/supported-browsers.md)
 * [FAQ](faq.md)
 * [Servers](servers/README.md)
   * [Physical](servers/physical/README.md)
