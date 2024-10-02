@@ -11,7 +11,7 @@ Plesk offers a built-in File Manager, [Email](../features/unlimited-email-accoun
 
 The usual way to access your Plesk control panel is over HTTPS (Hypertext Transfer Protocol Secure). Plesk uses Port 8443 for this. 
 
-To access your Plesk control panel, navigate to [https://heliohost.org/login](https://heliohost.org/login/) or [https://heliohost.org](https://heliohost.org/) and enter your account details. 
+To access your Plesk control panel, navigate to [heliohost.org/login](https://heliohost.org/login/) or [heliohost.org](https://heliohost.org/) and enter your account details. 
 
 Using the above links will ensure that your logins are logged, removing the risk of your account being [suspended due to inactivity](../accounts/suspension-policy.md#inactivity-policy).
 
@@ -19,7 +19,7 @@ Using the above links will ensure that your logins are logged, removing the risk
 
 If your firewall blocks Port 8443, you can use Port 8880 which is the [port Plesk uses](https://docs.plesk.com/en-US/obsidian/administrator-guide/plesk-administration/ports-used-by-plesk.64950/) for HTTP access.  
 
-After trying to login at [https://heliohost.org/login](https://heliohost.org/login/), simply click the "insecure login" button at the bottom of the page.  
+After trying to login at [heliohost.org/login](https://heliohost.org/login/), simply click the "insecure login" button at the bottom of the page.  
 
 {% hint style="warning" %}
 We highly recommend logging in to Plesk securely with encryption enabled. So only use Port 8880 when you absolutely have no other way of connecting.
@@ -39,7 +39,7 @@ If you have just created your account, it can take up to 2 hours for your accoun
 
 #### Check Account Activation Status
 
-To check the status of your account and see an approximation of the activation completion time, go to [https://heliohost.org/status](https://heliohost.org/status/).
+To check the status of your account and see an approximation of the activation completion time, go to [heliohost.org/status](https://heliohost.org/status/).
 
 If after a full 2 hours, you still see a message saying `HelioHost Account Queued`, then please [clear your cache](../misc/clear-your-cache.md).
 
@@ -51,7 +51,7 @@ On HelioHost, each person/user is only allowed one account. [Multiple accounts w
 
 If it has been 30 days or more since your last Plesk login, your account was likely [suspended due to inactivity](../accounts/suspension-policy.md#inactivity-policy).
 
-To activate a suspended account which was suspended due to inactivity, go to [https://heliohost.org/renew](https://heliohost.org/renew/).
+To activate a suspended account which was suspended due to inactivity, go to [heliohost.org/renew](https://heliohost.org/renew/).
 
 ## Further Support
 
