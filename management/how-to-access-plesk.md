@@ -2,8 +2,8 @@
 
 ## What is Plesk?
 
-Plesk is a control panel that enbles you to easily manage your websites, applications, and other aspects of your hosting account.  
-Plesk also offers a built-in File Manager, Email, [MySQL Databases](../management/mysql.md), and more.
+Plesk is a control panel that lets you easily manage your websites, applications, and other aspects of your hosting account. 
+Plesk offers a built-in File Manager, [Email](../features/unlimited-email-accounts.md), [MySQL Databases](../management/mysql.md), the [Softaculous](../features/softaculous.md) auto-installer service that enables you to download CMS, Forum, or Blog software, and more.
 
 ## How to Access Plesk
 
