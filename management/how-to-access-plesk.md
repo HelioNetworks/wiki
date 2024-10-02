@@ -35,13 +35,13 @@ If you cannot login to Plesk, there are a few common reasons:
 It can take **up to 2 hours** for your account to be fully active.
 {% endhint %}
 
-If you have just created your account, it can take up to 2 hours for your account to be fully active. In the meantime, you may not be able to login to Plesk, and your website URL may display the Plesk default page, the CentOS default page, 404 errors, SSL errors, etc. Please be patient and wait for the full 2 hours before assuming anything is broken.
+If you have just created your account, it can take **up to 2 hours** for your account to be fully active. In the meantime, you may not be able to login to Plesk, and your website may not load or display correctly. Please be patient and wait for the full 2 hours before assuming anything is broken.
 
 #### Check Account Activation Status
 
 To check the status of your account and see an approximation of the activation completion time, go to [heliohost.org/status](https://heliohost.org/status/).
 
-If after a full 2 hours, you still see a message saying `HelioHost Account Queued`, then please [clear your cache](../misc/clear-your-cache.md).
+If after **a full 2 hours**, you still see a message saying `HelioHost Account Queued`, then please [clear your cache](../misc/clear-your-cache.md).
 
 ### Multiple Accounts
 
