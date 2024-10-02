@@ -2,8 +2,8 @@
 
 ## What is Plesk?
 
-Plesk is a control panel that lets you easily manage your websites, applications, and other aspects of your hosting account. 
-Plesk offers a built-in File Manager, [Email](../features/unlimited-email-accounts.md), [MySQL Databases](../management/mysql.md), the [Softaculous](../features/softaculous.md) auto-installer service that enables you to download CMS, Forum, or Blog software, and more.
+Plesk is a control panel that enables you to easily manage your websites, applications, and other aspects of your hosting account. 
+Plesk offers a built-in [File Manager](../management/uploading-files.md#plesk-file-manager), [Email](../features/unlimited-email-accounts.md), [MySQL Databases](../management/mysql.md), [Softaculous](../features/softaculous.md) (an auto-installer service for CMS, Forum, or Blog software), and more.
 
 ## How to Access Plesk
 
@@ -41,7 +41,7 @@ If you have just created your account, it can take **up to 2 hours** for your ac
 
 To check the status of your account and see an approximation of the activation completion time, go to [heliohost.org/status](https://heliohost.org/status/).
 
-If after **a full 2 hours**, you still see a message saying `HelioHost Account Queued`, then please [clear your cache](../misc/clear-your-cache.md).
+If after **a full 2 hours**, you still see a message saying `HelioHost Account Queued`, please [clear your cache](../misc/clear-your-cache.md).
 
 ### Multiple Accounts
 
