@@ -2,7 +2,7 @@
 
 ## What is Plesk?
 
-Plesk is a control panel through which you can easily manage your websites, applications, and other aspects of your hosting account.  
+Plesk is a control panel that enbles you to easily manage your websites, applications, and other aspects of your hosting account.  
 Plesk also offers a built-in File Manager, Email, [MySQL Databases](../management/mysql.md), and more.
 
 ## How to Access Plesk
@@ -53,6 +53,6 @@ If it has been 30 days or more since your last Plesk login, your account was lik
 
 To activate a suspended account which was suspended due to inactivity, go to [https://heliohost.org/renew](https://heliohost.org/renew/).
 
-## Further Information
+## Further Support
 
-If none of the above reasons apply to you and you cannot access Plesk, then please don't hesitate to post in the [Customer Service forum](https://www.helionet.org/index/forum/81-suspended-and-queued-accounts/), making sure to **provide your domain name, username, and server name up front** so we can provide you with the best and most efficient support.
+If none of the above reasons apply to you and you cannot access Plesk, please create a new post in the [Customer Service forum](https://helionet.org/index/forum/81-suspended-and-queued-accounts/), making sure to provide your **username**, **domain name**, **server name**, and any **error message(s)** received.
