@@ -22,6 +22,11 @@ PHP is the most popular scripting language on the Internet for a reason. It's ea
 * PHP 8.2
 * PHP 8.3
 
+### Lily server
+* PHP 5.3
+* PHP 5.4
+* PHP 5.5
+
 ## Learning PHP
 
 `<?php` is the opening braces and `?>` is the closing braces for PHP.
