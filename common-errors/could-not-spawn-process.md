@@ -14,7 +14,9 @@ When running a Node app using Passenger, if you receive an error message that sa
 
 This is caused by using import statements of `require()`.
 
-The fix is to change your `require()` statements to `import()`, as explained in [the answer on this discussion](https://github.com/orgs/adonisjs/discussions/4364). 
+## How to Fix the Error
+
+To resolve the error, change your `require()` statements to `import()`, as explained in [the answer on this discussion](https://github.com/orgs/adonisjs/discussions/4364).
 
 ## Troubleshooting Node / Passenger Issues
 
