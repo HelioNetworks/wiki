@@ -1,3 +1,9 @@
+{% hint style="warning" %}
+If you use Node.js, we strongly recommend that you [monitor your site load here](https://heliohost.org/dashboard/load/).
+
+Node apps often require a lot of server resources, and exceeding the account load limits will cause your user account to be [suspended for high server usage](../accounts/suspension-policy.md#high-server-usage).
+{% endhint %}
+
 ## Could not spawn process for application /[your app path]: The application process exited prematurely.
 
 When running a Node app using Passenger, if you receive an error message that says:
