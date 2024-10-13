@@ -81,10 +81,19 @@ If after **a full 2 hours**, you still see a message saying `HelioHost Account Q
 
 You will need to add the following nameservers to your domain via your domain registrar's website:
 
+#### HelioHost Nameservers
+
 * `ns1.heliohost.org`
 * `ns2.heliohost.org`
 
 To check that your nameservers have been properly configured, go to [http://byrondallas.heliohost.org/php/tools/dns\_records.php](http://byrondallas.heliohost.org/php/tools/dns_records.php).
+
+
+{% hint style="info" %}
+The more domains there are on the server the longer it takes to restart Apache.  
+
+In order to keep server uptime reasonably high, our automated process will disable domains that aren't hosted by us.
+{% endhint %}
 
 ### "Account failed to be created" email message
 
