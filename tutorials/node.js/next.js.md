@@ -1,8 +1,14 @@
 # Next.js
 
+{% hint style="warning" %}
+If you use Node.js, we strongly recommend that you [monitor your site load here](https://heliohost.org/dashboard/load/).
+
+Node apps often require a lot of server resources, and exceeding the account load limits will cause your user account to be [suspended for high server usage](/accounts/suspension-policy.md#high-server-usage).
+{% endhint %}
+
 ## About Next.js
 
-[Next.js](https://nextjs.org/) is a popular full stack framework for node.js, it utilizes React for frontend and is packed with awesome features like server-side rendering. It also includes API routes and much more.
+[Next.js](https://nextjs.org/) is a popular full stack framework for Node.js, it utilizes React for frontend and is packed with awesome features like server-side rendering. It also includes API routes and much more.
 
 ## Node.js on Plesk Uses Passenger
 
@@ -55,7 +61,7 @@ require(nextPath);
 Upload all your files to your server. Then go to the Node.js section and set the following:
 
 * Node.js Version: we recommend using [the latest available](README.md#supported-versions).
-* Application Root: / (This is the folder where you uploaded your project, we recommend `/`)
+* Application Root: `/` (This is the folder where you uploaded your project, we recommend `/`)
 * Application Startup File: `start.js` (The entry point of our app, use the file we created earlier.)
 * Custom environment variables: `PORT = 8888`
 * Optionally: Custom environment variables: `NODE\_ENV = production`
