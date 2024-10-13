@@ -32,7 +32,7 @@ HelioNet is located at [http://helionet.org](https://helionet.org) and is a disc
 When you create your hosting account, a HelioNet forum account with the same username and password is created for you. 
 {% endhint %}
 
-If you need assistance, you can post on the HelioNet forum and the administrators can easily identify you by username.
+If you need assistance, you can post on the HelioNet [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add) and the administrators can easily identify you by username.
 
 Learn more about [the history of HelioNet](https://wiki.helionet.org/hosting/helionet).
 
