@@ -46,7 +46,7 @@ It can take **up to 2 hours** for your account to be fully active.
 
 The HelioHost Dashboard will display a message advising you that your account has been created and you can login to Plesk. However, it may take **up to 2 hours** for your domain to begin working. 
 
-In the meantime, you may see the Plesk default page, the CentOS default page, 404 errors, SSL errors, etc. Please be patient and wait for **the full 2 hours** before assuming anything is broken.  
+In the meantime, your website may not load or display correctly, and file changes you make may not take effect. Please be patient and wait for **the full 2 hours** before assuming anything is broken.  
 
 ![](../.gitbook/assets/dashboard-up-to-2-hours.png)
 
