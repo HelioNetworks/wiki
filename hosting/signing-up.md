@@ -22,7 +22,7 @@ When creating your account username, please note that if you need support, you w
 
 ### "That plan is already full for the day" message
 
-To prevent the free Johnny server from getting overloaded with masses of new accounts, we put a limit on the number of people who can sign up. This limit resets [every 12 hours](https://helionet.org/index/topic/59660-midnight-and-noon/), at midnight UTC and noon UTC. To find out when to sign up, go to [http://flazepe.heliohost.org/?node=hhsignups](https://flazepe.heliohost.org/?node=hhsignups).
+To prevent the free Johnny server from getting overloaded with masses of new accounts, we put a limit on the number of people who can sign up. This limit resets [every 12 hours](https://helionet.org/index/topic/59660-midnight-and-noon/), at midnight UTC and noon UTC.
 
 #### Helpful Tips for Getting a Free Account on Johnny
 
