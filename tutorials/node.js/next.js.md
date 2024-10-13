@@ -50,13 +50,13 @@ process.argv.push(nextPath, 'start');
 require(nextPath);
 ```
 
-## Server setup
+## Server Setup
 
-Upload all your files to your Tommy server. Then go to the Node.js section and set the following:
+Upload all your files to your server. Then go to the Node.js section and set the following:
 
-* Node.js Version: At least 14.21.0 (though we highly recommend using the latest one: `17.9.1`)
-* Application Root: / (Folder where you uploaded your next project, we recommend `/`)
-* Application Startup File: `start.js` (the file created earlier)
+* Node.js Version: we recommend using [the latest available](README.md#supported-versions).
+* Application Root: / (This is the folder where you uploaded your project, we recommend `/`)
+* Application Startup File: `start.js` (The entry point of our app, use the file we created earlier.)
 * Custom environment variables: `PORT = 8888`
 * Optionally: Custom environment variables: `NODE\_ENV = production`
 
