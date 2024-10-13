@@ -24,6 +24,12 @@ When creating your account username, please note that if you need support, you w
 
 To prevent the free Johnny server from getting overloaded with masses of new accounts, we put a limit on the number of people who can sign up. This limit resets [every 12 hours](https://helionet.org/index/topic/59660-midnight-and-noon/), at midnight UTC and noon UTC.
 
+To find out when to sign up, check the `Opens in` text field, shown on the very bottom of the Johnny tile.  
+
+The tile will also show you how long the free signups slot was open for the last time it was open, which is the `Last signup open 2.638s` text field in the example screenshot.
+
+![](../.gitbook/assets/johnny-signup-tile.png)
+
 #### Helpful Tips for Getting a Free Account on Johnny
 
  * Make sure your computer's or phone's time and time zone is set correctly, and synced up with a time server.
