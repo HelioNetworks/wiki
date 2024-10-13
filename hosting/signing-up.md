@@ -26,20 +26,24 @@ To prevent the free Johnny server from getting overloaded with masses of new acc
 
 To find out when to sign up, check the `Opens in` text field, shown on the very bottom of the Johnny tile.  
 
-The tile will also show you how long the free signups slot was open for the last time it was open, which is the `Last signup open 2.638s` text field in the example screenshot.
+You can also see how long the free signups slot was open for last time by checking the `Last signup open` text in the last bullet point on the tile.
 
 ![](../.gitbook/assets/johnny-signup-tile.png)
 
 #### Helpful Tips for Getting a Free Account on Johnny
 
  * Make sure your computer's or phone's time and time zone is set correctly, and synced up with a time server.
- * Make sure Javascript works in your browser. The bottom of the Johnny tile should count down as you get closer to midnight UTC.
+ * Make sure Javascript works in your browser. The bottom of the Johnny tile should count down as you get closer to noon and midnight UTC.
  * When the time gets down to 30 seconds or less, you can begin clicking on the Johnny tile:
-    * If signups aren't open yet it will just give the red full message
+    * If signups aren't open yet it will just give the red `That plan is already full for the day` message
     * If signups are open it will take you to a page to enter your email address.
 * Once it asks you for your email address you have a spot reserved for at least an hour and you don't need to rush through the rest of the signup process.  
 
-Free signups fill up fast, sometimes in even less than a second. If you miss the free signups timeslot, be ready to try again tomorrow if needed.
+Free signups fill up fast, sometimes in even less than a second. If you miss the free signups timeslot, be ready to try again next time if needed.  
+
+{% hint style="info" %}
+There are no exceptions to the free signup timeframes. If you cannot sign up during the 2 daily timeslots when Johnny is open for free signups, we offer various [Donor Plans](https://heliohost.org/tommy/), so for a one-time donation of as little as $1 USD, you can open an account on Tommy any time of day without needing to wait.
+{% endhint %}
 
 ### What is HelioNet?
 
