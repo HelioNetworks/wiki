@@ -47,7 +47,7 @@ There are no exceptions to the free signup timeframes. If you cannot sign up dur
 
 ### What is HelioNet?
 
-HelioNet is located at [http://helionet.org](https://helionet.org) and is a discussion board where users like yourself can request support. The friendly staff and the community will attempt to answer your questions as best as they can.
+HelioNet is located at [helionet.org](https://helionet.org) and is a discussion board where users like yourself can request support. The friendly staff and the community will attempt to answer your questions as best as they can.
 
 {% hint style="info" %}
 When you create your hosting account, a HelioNet forum account with the same username and password is created for you. 
