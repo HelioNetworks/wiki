@@ -24,6 +24,17 @@ When creating your account username, please note that if you need support, you w
 
 To prevent the free Johnny server from getting overloaded with masses of new accounts, we put a limit on the number of people who can sign up. This limit resets [every 12 hours](https://helionet.org/index/topic/59660-midnight-and-noon/), at midnight UTC and noon UTC. To find out when to sign up, go to [http://flazepe.heliohost.org/?node=hhsignups](https://flazepe.heliohost.org/?node=hhsignups).
 
+#### Helpful Tips for Getting a Free Account on Johnny
+
+ * Make sure your computer's or phone's time and time zone is set correctly, and synced up with a time server.
+ * Make sure Javascript works in your browser. The bottom of the Johnny tile should count down as you get closer to midnight UTC.
+ * When the time gets down to 30 seconds or less, you can begin clicking on the Johnny tile:
+    * If signups aren't open yet it will just give the red full message
+    * If signups are open it will take you to a page to enter your email address.
+* Once it asks you for your email address you have a spot reserved for at least an hour and you don't need to rush through the rest of the signup process.  
+
+Free signups fill up fast, sometimes in even less than a second. If you miss the free signups timeslot, be ready to try again tomorrow if needed.
+
 ### What is HelioNet?
 
 HelioNet is located at [http://helionet.org](https://helionet.org) and is a discussion board where users like yourself can request support. The friendly staff and the community will attempt to answer your questions as best as they can.
