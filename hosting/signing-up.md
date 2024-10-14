@@ -86,8 +86,7 @@ You will need to add the following nameservers to your domain via your domain re
 * `ns1.heliohost.org`
 * `ns2.heliohost.org`
 
-To check that your nameservers have been properly configured, go to: [dnschecker.org](https://dnschecker.org/).
-<!-- No longer working: http://byrondallas.heliohost.org/php/tools/dns_records.php -->
+To check that your nameservers have been properly configured, go to: [byrondallas.heliohost.org/php/tools/dns_records.php](http://byrondallas.heliohost.org/php/tools/dns_records.php) or [dnschecker.org](https://dnschecker.org/).
 
 {% hint style="info" %}
 The more domains there are on the server the longer it takes to restart Apache.  
