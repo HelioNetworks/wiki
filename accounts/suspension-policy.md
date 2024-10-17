@@ -46,11 +46,11 @@ In Plesk, cron jobs are called [Scheduled Tasks](../tutorials/plesk/cron-jobs.md
 
 ## Account Storage Limits
 
-On Johnny and Tommy, we offer 1000 MB of web space. This figure combines your stored files (including [account backups](../tutorials/plesk/account-backups.md)) and your databases. This limit should not be a problem to the great majority of free hosting users. 
+On Johnny and Tommy, we offer 1000 MB of web space. This figure combines your stored files (including [account backups](../tutorials/plesk/account-backups.md) and [error logs](../tutorials/plesk/view-error-logs.md)) and your databases. This limit should not be a problem to the great majority of free hosting users. 
 
 We offer paid storage upgrade options:
 - Make a one-time [donation to increase your account storage](donation-increase-storage.md) to a maximum of 6000 MB total
-- Sign up for a [VPS plan](https://heliohost.org/vps/) offering storage options ranging from 50 GB to 300 GB total
+- Sign up for a [VPS plan](https://heliohost.org/vps/) offering storage options ranging from 50 GB to 300 GB total, and get a 10% discount when you pay for 6 months upfront.
 
 ## Duplicate Accounts
 
