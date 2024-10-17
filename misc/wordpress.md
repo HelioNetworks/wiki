@@ -46,7 +46,8 @@ If moving away from WordPress is not an option for you, here are other things to
 * Disable unneeded plugins and themes
 * Use caching plugins to reduce the load (users have mentioned that **WP Fastest Cache** plugin can be useful)
 * Use Cloudflare caching
-* Use Cloudflare and the **Super Page Cache for Cloudflare** WordPress plugin to [mitigate load spikes or other high load issues](https://helionet.org/index/topic/57606-handling-cpu-load-spikes-or-high-load-using-cloudflare/)
+* Use Cloudflare and the **Super Page Cache for Cloudflare** WordPress plugin to [mitigate load spikes or other high load issues](https://helionet.org/index/topic/57606-handling-cpu-load-spikes-or-high-load-using-cloudflare/).
+  * If Super Page Cache for Cloudflare tells you to disable the options "Smart static files processing" and "Serve static files directly by Nginx" on the "Apache & Nginx Settings" page of your Plesk panel, you can change these settings yourself by navigating to: Login > Plesk > Websites & Domains > [domain] > Hosting & DNS > Apache & Nginx > Uncheck the `smart static files processing box` and make sure the `Serve static files directly by Nginx` box is also unchecked.
 * Analyze access logs looking for IPs with thousands of page hits and blocking them in Cloudflare or `.htaccess`
 * Convert to a static site (users have mentioned **WP2Static** as being a useful plugin that converts WordPress sites to static sites)
 * Upgrade to a [VPS](https://heliohost.org/vps/)
