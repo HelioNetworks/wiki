@@ -61,7 +61,7 @@ You want to create this bot in your home directory so random hackers and bots on
 Scroll down in the file manager and click on the new `heliobot.py` file to edit it. Then copy/paste this code in:
 
 ```python
-#!/usr/bin/python3.10
+#!/usr/bin/python3.12
 
 import os
 import discord
@@ -199,7 +199,7 @@ if [ "$QUERY_STRING" == "action=stop" ]; then
 fi
 if [ "$QUERY_STRING" == "action=start" ]; then
     echo "[$ts] Starting $bot_name." >> /home/$main_domain/httpdocs/bot_control/$log_name
-    /usr/bin/python3.10 -u /home/$main_domain/$bot_name >> /home/$main_domain/httpdocs/bot_control/$log_name 2>&1 &
+    /usr/bin/python3.12 -u /home/$main_domain/$bot_name >> /home/$main_domain/httpdocs/bot_control/$log_name 2>&1 &
     echo "Starting $bot_name...<script>window.location.replace('/bot_control/');</script>"
 fi
 if [ "$QUERY_STRING" == "action=clear" ]; then
