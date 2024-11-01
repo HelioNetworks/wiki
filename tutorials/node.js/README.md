@@ -17,8 +17,8 @@ If you require a different version of Node.js than the options offered below, yo
 <!-- TODO: Add node versions available on Morty when released -->
 | Server | Node.js Versions   |
 |--------|--------------------|
-| Johnny | 22, 21, 20, 18, 16 |
-| Tommy  | 22, 21, 20, 18, 16 |
+| Johnny | 23, 22, 21, 20, 18, 16 |
+| Tommy  | 23, 22, 21, 20, 18, 16 |
 
 ## About Node.js
 
