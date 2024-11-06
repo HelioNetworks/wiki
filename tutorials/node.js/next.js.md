@@ -42,6 +42,12 @@ If your application is highly time-sensitive and every millisecond of load time 
 
 ## Setup Next.js
 
+First, delete (or rename) the 'index.html' file that comes by default in the 'httpdocs' folder.
+
+Your Node.js files will go into your home directory (**NOT** `httpdocs`):
+
+![](../../.gitbook/assets/plesk_file_manager.png)
+
 Go into your project root (if you don't have a project, learn how to create one [here](https://nextjs.org/learn/basics/create-nextjs-app))
 
 Create a new file called `start.js` and put this inside:
