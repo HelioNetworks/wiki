@@ -52,7 +52,7 @@ archive-index
 * Navigate to the `YourAccountUsername.helioho.st` directory
 * Extract your data from the `backup_user-data_##########.tzst` file with the `unzstd backup_user-data_##########.tzst` command 
 * Your data will then be extracted to a `.tar` file called `backup_user-data_##########.tar`
-* Untar the file with the `tar -xvf backup_user-data_2408272149.tar` command
+* Untar the file with the `tar -xvf backup_user-data_##########.tar` command
 * You should see a list of your site files and directories. For example: 
 ```text
 httpdocs/
