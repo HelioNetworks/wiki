@@ -23,6 +23,7 @@ Please note that there is no control panel on Lily, and access is done via FTP. 
 * .NET 4.7
 * .NET 5.0
 * .NET 6.0
+* .NET 8.0
 * .NET Core 3.1
 * Classic ASP
 
