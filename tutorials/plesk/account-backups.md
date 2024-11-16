@@ -52,7 +52,7 @@ archive-index
 * Navigate to the `YourAccountUsername.helioho.st` directory
 * Extract your data from the `backup_user-data_##########.tzst` file with the `unzstd backup_user-data_##########.tzst` command 
 * Your data will then be extracted to a `.tar` file called `backup_user-data_##########.tar`
-* Untar the file with the `tar -xvf backup_user-data_2408272149.tar` command
+* Untar the file with the `tar -xvf backup_user-data_##########.tar` command
 * You should see a list of your site files and directories. For example: 
 ```text
 httpdocs/
@@ -125,7 +125,7 @@ After clicking the `Schedule` button, adjust the settings as needed.
 
 Backup files count towards your [1000 MB account storage limit](../../features/storage.md), so we recommend filling in the `Maximum number of full backup files to store` field to a number that makes sense for the total filesize of your account. Otherwise if you leave this field blank, backup files will pile up and increase your file storage unnecessarily, leaving you at risk of [account suspension](../../accounts/suspension-policy.md) for exceeding your disk quota.
 
-If you need more space, you can [donate to increase your account storage](../../accounts/donation-increase-storage.md) from 1000 MB up to a maximum of 6000 MB total. For even more storage, we offer [VPS Plans](https://heliohost.org/vps/) with space ranging from 50 GB to 300 GB.
+If you need more space, you can [donate to increase your account storage](../../accounts/donation-increase-storage.md) from 1000 MB up to a maximum of 6000 MB total. For even more storage, we offer [VPS Plans](https://heliohost.org/vps/) with space ranging from 50 GB to 300 GB, and a 10% discount when you pay for 6 months upfront.
 
 ![](../../.gitbook/assets/plesk-max-number-of-backups.png)
 
