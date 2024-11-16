@@ -11,6 +11,7 @@ HelioHost offers the following .NET versions:
 * .NET 4.7
 * .NET 5.0
 * .NET 6.0
+* .NET 8.0
 * .NET Core 3.1
 * Classic ASP
 
