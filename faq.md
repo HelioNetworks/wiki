@@ -139,19 +139,17 @@ However, it is possible to run jailed shell commands using Plesk's [Scheduled Ta
 
 If you require SSH access, it is only available on the [VPS Plans](https://heliohost.org/vps/).
 
-## Does Heliohost support sockets? Which ports are open?
+## Does HelioHost support sockets? Which ports are open?
 
-Both our [Tommy](servers/virtual/tommy.md) and [Johnny](servers/virtual/johnny.md) servers have zero inbound ports available to be opened. All ports that are currently open already have services listening. 
+Both our [Tommy](servers/virtual/tommy.md) and [Johnny](servers/virtual/johnny.md) servers have zero inbound ports available to be opened. All ports that are currently open already have services listening.
+
+If you can proxy your websocket through Apache or Nginx, it can work without opening a port.
 
 If you need a port opened, you'll need to get one of our [VPS Plans](https://heliohost.org/vps/), and you will then have all 65535 ports available to open or close as you want.
 
 ## Are directory indexes enabled?
 
-As far as we are aware, it's not currently possible to enable directory indexing (listing). However, it is something we plan on changing eventually because a lot of people like it (even though it's a security vulnerability). 
-
-There is no estimated timeframe as to when this functionality may be implemented, since there are many other higher-priority projects to be completed first.
-
-If directory indexes are enabled in the future, an announcement will be posted in the HelioNet [News](https://helionet.org/index/forum/1-news/) section, as well as elsewhere on our site and our social media.
+Yes. Directory indexes have been enabled by default on the shared hosting servers since late 2024. This is a feature many users have requested over the past few years, but if you don't want directory listings for a folder, simply create an empty `index.html` file inside it. Please check our [Directory Index](tutorials/plesk/create-website.md#directory-index) section for further information.
 
 ## Can I change my document root directory?
 
