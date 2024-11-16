@@ -1,6 +1,14 @@
 # SSL Certificate Problems
 
-If you encounter issues with the Let's Encrypt SSL certificate on your domain or subdomain, here are some things to check once you are logged in to Plesk:
+## Let's Encrypt Settings
+
+Navigate to the Let's Encrypt settings using the steps below:
+
+**Login > Plesk > Websites & Domains > [ domain ] > Dashboard tab > Security section> SSL/TLS Certificates button > Let's Encrypt settings**
+
+## Troubleshooting 
+
+If you have issues with the Let's Encrypt SSL certificate on your domain or subdomain, here are some things to check:
 
 ## Check if the Certificate is Expired or Invalid 
 
