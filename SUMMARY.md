@@ -58,7 +58,6 @@
   * [Mail Delivery Problems](common-errors/mail-delivery-problems.md)
   * [PostgreSQL Database Creation Error](common-errors/postgres-database-creation-error.md)
   * [PostgreSQL Database Remote Connection Error](common-errors/postgres-remote-connection-error.md)
-  * [Linux Case Sensitivity](common-errors/linux-case-sensitivity.md)
   * [Could Not Spawn Process for Application](common-errors/could-not-spawn-process.md)
   * [Supported Browsers](common-errors/supported-browsers.md)
 * [FAQ](faq.md)
