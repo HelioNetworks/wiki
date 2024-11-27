@@ -2,7 +2,7 @@
 
 ## All HelioHost Staff are Volunteers
 
-HelioHost is a 501(c)(3) non-profit organization whose mission is to provide free or low cost web hosting, and all of our staff are volunteers. We all have full time jobs and lives outside of this project. We run this organization in our free time, and if we don't have very much free time things don't get done very quickly. 
+[Helio Networks dba HelioHost](https://heliohost.org/) is a 501(c)(3) non-profit organization whose mission is to provide free or low cost web hosting, and all of our staff are volunteers. We all have full time jobs and lives outside of this project. We run this organization in our free time, and if we don't have very much free time things don't get done very quickly. 
 
 ## ETA for New Features and Server Repairs
 
