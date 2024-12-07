@@ -157,6 +157,10 @@ Typically, your domain root directory is `httpdocs` (or `public_html` if you wer
 
 If you have a legitimate reason for needing the document root changed, please create a post in our [Customer Service forum](https://helionet.org/index/forum/45-customer-service/) and make sure to provide your **username**, **domain name**, **server name**, **the new document root directory you want**, and a **valid reason** explaining why you are unable to use your existing document root. The admins will review your request to determine if the change can be made.
 
+## Can I use your services to mine cryptocurrency?
+
+No. We do not allow mining on any of our plans (free or paid).
+
 ## Your hosting SUCKS! So do YOU!!!
 
 Please see [this](http://helionet.org/index/topic/4723-suspended/page__p__46231#entry46231).
