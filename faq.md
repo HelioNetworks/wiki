@@ -31,8 +31,8 @@ A few common reasons for account suspensions are:
 - [Terms of Service](hosting/terms.md) violation(s).
 - [Account Inactivity](accounts/suspension-policy.md#inactivity-policy). Renew your account [here](http://heliohost.org/renew/).
 - [Duplicate Accounts](accounts/suspension-policy.md#duplicate-accounts). The limit is 1 account per human being.
-- Exceeding the [Account Storage](accounts/suspension-policy.md#account-storage-limits) limits. On Johnny and Tommy, we offer 1000 MB of free web space and there are one-time paid donations options for [increased account storage](accounts/donation-increase-storage.md). We also offer a range of [VPS Plans](https://heliohost.org/vps/), with a 10% discount when you pay for 6 months upfront.
-- Exceeding the [High Server Usage](accounts/suspension-policy.md#high-server-usage) limits. On Johnny and Tommy, we enforce a memory limit of no more than 100 GB and a CPU limit of 10,000 per day. You can monitor your load numbers on [the load page within your dashboard](https://heliohost.org/dashboard/load/).
+- Exceeding the [Account Storage](accounts/suspension-policy.md#account-storage-limits) limits. On [Johnny](servers/virtual/johnny.md) and [Tommy](servers/virtual/tommy.md), we offer 1000 MB of free web space. For users who need more storage, we provide one-time paid donation options for [increased account storage](accounts/donation-increase-storage.md). We also offer a range of [VPS Plans](https://heliohost.org/vps/) with a 10% discount when you pay for 6 months upfront.
+- Exceeding the [High Server Usage](accounts/suspension-policy.md#high-server-usage) limits. On [Johnny](servers/virtual/johnny.md) and [Tommy](servers/virtual/tommy.md), we enforce a memory limit of no more than 100 GB and a CPU limit of 10,000 per day. You can monitor your load numbers on [the load page within your dashboard](https://heliohost.org/dashboard/load/).
 
 It is also possible that this was an error in our system. If you suspect that this is the case, report the error in a new post [here](https://helionet.org/index/forum/81-suspended-and-queued-accounts/), making sure to provide your **username**.
 
@@ -68,7 +68,11 @@ We offer various [Donor Plans](https://heliohost.org/tommy/), so for a one-time 
 
 Users on our Tommy donor server and the free Johnny server are [required to log in at least once a month](./accounts/suspension-policy.md#inactivity-policy) to keep their accounts active. 
 
+## What other options are available if I want to sign up right away?
+
 For users who prefer not to have to log in regularly, our Morty paid subscription server has no login requirement as long as there is a positive balance on your account.
+
+We also offer a range of [VPS Plans](https://heliohost.org/vps/), with a 10% discount when you pay for 6 months upfront.
 
 ## My account was deleted. Can I get my data back?
 
@@ -151,7 +155,7 @@ On hosting accounts, secure shell access (SSH) is disabled for security reasons.
 
 However, it is possible to run jailed shell commands using Plesk's [Scheduled Tasks (cron jobs)](tutorials/plesk/cron-jobs.md) feature. 
 
-In many cases, SSH is not actually necessary, and we can suggest ways to get what you need done without using SSH. Please post a request in our [Customer Service forum](https://helionet.org/index/forum/45-customer-service/), making sure to provide your **username**, **domain name**, **server name**, and details of the command you want to run, and we'll be happy to suggest a way to get it done. 
+In many cases, SSH is not actually necessary. Please post a request in our [Customer Service forum](https://helionet.org/index/forum/45-customer-service/), making sure to provide your **username**, **domain name**, **server name**, and **the command you want to run**, and we'll be happy to investigate other ways to accomplish the same task without SSH.
 
 If you absolutely require SSH access, you will need a [VPS](https://heliohost.org/vps/). We offer a range of VPS plans, and a 10% discount when you pay for 6 months upfront.
 
