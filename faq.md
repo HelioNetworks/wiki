@@ -165,9 +165,11 @@ Our [Tommy](servers/virtual/tommy.md), [Johnny](servers/virtual/johnny.md), and 
 
 Outbound ports are similar: ports like 80, 443, 3306, 5432, 25, 465, etc., are open to allow scripts to connect to common services on remote servers.
 
-If you can proxy your websocket through Apache or Nginx, it can work without opening a port.
+If you can proxy your websocket through Apache or Nginx, it can work without opening a port:  
+* You could use an `.htaccess` file to proxy the websocket connection through Apache.
+* With the help of a root admin, you could get an Nginx proxy set up. To explore this option, please post a request in our [Customer Service forum](https://helionet.org/index/forum/45-customer-service/), making sure to provide your **username**, **domain name**, **server name**, and **details about your websocket application**, and we'll be happy to help.
 
-If you need a port opened, you'll need to get one of our [VPS Plans](https://heliohost.org/vps/), and you will then have all 65535 ports available to open or close as you want. We offer a range of VPS plans, and a 10% discount when you pay for 6 months upfront.
+If you absolutely need a port opened, you'll need to get one of our [VPS Plans](https://heliohost.org/vps/), and you will then have all 65535 ports available to open or close as you want. We offer a range of VPS plans, and a 10% discount when you pay for 6 months upfront.
 
 ## Are directory indexes enabled?
 
