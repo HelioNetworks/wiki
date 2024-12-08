@@ -121,6 +121,12 @@ As an alternative to changing your main domain, consider using [Parked, Addon, a
 * `ns1.heliohost.org`
 * `ns2.heliohost.org`
 
+## What IP addresses should I add to my DNS?
+
+To add A (IPv4) or AAAA (IPv6) records to your domain registrar's dashboard, follow these steps to view the IP addresses for your server:  
+
+**Login > Plesk > Websites & Domains > [domain name] > and check at the bottom of the page.**
+
 ## Can I PM an administrator for help?
 
 No, do not PM the administrators expecting support unless we explicitly tell you to. Please use the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/) instead. Also, in order for us to provide the best and most efficient support, please provide your **username**, **domain name**, and **server name** along with any requests. If you are sending your support request via email to `support@heliohost.org`, make sure to contact us **from the same email address as your hosting account**.
