@@ -20,7 +20,7 @@ By signing up with HelioHost for any service, you agree to the following:
 * HelioHost is based in the USA. Federal Regulations prohibit us from accepting donations, or providing free or paid services to anyone in Iran, Cuba, Syria, or North Korea.
 * You will not register or maintain an account using a disposable email address.
 * VPS customers only: Your VPS must respond to ICMP pings. This is required by our ISP.
-* Tommy, Morty, and VPS customers: Refunds for these services are provided pursuant to our [Refund Policy](https://helionet.org/index/forum/45-customer-service/?do=add). <!-- TODO: Link to Refund Policy page -->
+* Refunds are provided pursuant to our [Refund Policy](https://helionet.org/index/forum/45-customer-service/?do=add). <!-- TODO: Link to Refund Policy page -->
 * You agree to not hold HelioHost liable for any loss of data, content, revenues, relationships, or traffic that occurs as a result of a systems failure or outage. You understand that HelioHost services are provided **AS-IS and that HelioHost does not guarantee service availability**. Services are provided in accordance with our [Service Disclaimer](#disclaimer).
 * We reserve the right to change the Terms of Service at any time. An announcement will be made to you via email and our normal [News channels](https://helionet.org/index/forum/1-news/) when we make such changes. If you disagree with the changes, you can decline them by [deleting your account](../faq.md#how-do-i-delete-my-hosting-account).
 * We reserve the right to delete, change, or edit your account or your content with or without prior notification, including, but not limited to cases arising from abuse of these Terms.
