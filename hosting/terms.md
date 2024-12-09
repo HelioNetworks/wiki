@@ -10,16 +10,20 @@ By signing up with HelioHost for any service, you agree to the following:
 * You must be at least 13 years old to use HelioHost.
 * Your site will contain no illegal content.
 * No phishing. Your site will not collect or attempt to collect personal information by deception.
+* No cryptocurrency mining.
 * You may not infringe on any copyrights through your site.
 * Your site will not be of a pornographic nature and will refrain from providing pictures and/or photographs of nude men and women.
 * Your site will not email, personal message, instant message, or communicate any kind of "spam," or unsolicited bulk advertising of any kind.
-* Your site will not offer any form of social media "marketing" service, including but not limited to services that provide "Facebook Likes", "Instagram Followers", or "Twitter Followers". Your account will not store or operate scripts required to provide such services \(e.g. "like bots", "follower bots", "smm panels", "sosmed panels"\).
-* Your site will not offer any service that purports to modify or add game content \(e.g. skins or playable items such as weapons\) or credits \(e.g. gold, coins\) to third-party online game accounts.
+* Your site will not offer any form of social media "marketing" service, including but not limited to services that provide "Facebook Likes", "Instagram Followers", or "X Followers". Your account will not store or operate scripts required to provide such services \(e.g. "like bots", "follower bots", "smm panels", "sosmed panels"\).
+* Your site will not offer any service that purports to modify or add game content or credits to third-party online game accounts.
 * Everything displayed on your site will be your property. HelioHost assumes no responsibility for any content displayed by customers of our services.
-* HelioHost is a US based organization so federal regulations prohibit us from accepting donations or providing service to anyone in Iran, Cuba, Syria, or North Korea.
+* HelioHost is based in the USA. Federal Regulations prohibit us from accepting donations, or providing free or paid services to anyone in Iran, Cuba, Syria, or North Korea.
 * You will not register or maintain an account using a disposable email address.
+* VPS customers only: Your VPS must respond to ICMP pings. This is required by our ISP.
+<!-- TODO: Link to Refund Policy page -->
+* Tommy, Morty, and VPS customers: Refunds for these services are provided pursuant to our [Refund Policy](https://helionet.org/index/forum/45-customer-service/?do=add).
 * We will not be held responsible for loss of content, revenue, or traffic in the event of a systems failure.
-* We reserve the right to change the Terms of Service with or without prior notification.
+* We reserve the right to change the Terms of Service at any time. An announcement will be made via our normal News channels when we make such changes. If you disagree with the changes, you can decline them by [deleting your account](../faq.md#how-do-i-delete-my-hosting-account).
 * We reserve the right to delete, change, or edit your account or your content with or without prior notification, including, but not limited to cases arising from abuse of these Terms.
 * You understand that HelioHost services are provided 'as-is', in accordance with the DISCLAIMER posted below.
 
