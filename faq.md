@@ -12,7 +12,7 @@ There is a difference between "Professional-Grade Hosting" and "Professional-Gra
 
 ## I log in frequently but am still receiving inactivity emails, what gives?
 
-To ensure that your logins are logged, log in to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days. For more details, review our [Inactivity Policy](accounts/suspension-policy.md#inactivity-policy).
+If you have an account on [Tommy](servers/virtual/tommy.md) or [Johnny](servers/virtual/johnny.md), to ensure that your logins are logged, log in to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days. For more details, review our [Inactivity Policy](accounts/suspension-policy.md#inactivity-policy).
 
 ## Why must all posts on HelioNet be in English?
 
@@ -31,8 +31,8 @@ A few common reasons for account suspensions are:
 - [Terms of Service](hosting/terms.md) violation(s).
 - [Account Inactivity](accounts/suspension-policy.md#inactivity-policy). Renew your account [here](http://heliohost.org/renew/).
 - [Duplicate Accounts](accounts/suspension-policy.md#duplicate-accounts). The limit is 1 account per human being.
-- Exceeding the [Account Storage](accounts/suspension-policy.md#account-storage-limits) limits. On Johnny and Tommy, we offer 1000 MB of free web space. There are also paid options available for [increased account storage](accounts/donation-increase-storage.md) and a range of [VPS Plans](https://heliohost.org/vps/).
-- Exceeding the [High Server Usage](accounts/suspension-policy.md#high-server-usage) limits. On Johnny and Tommy, we enforce a memory limit of no more than 100 GB and a CPU limit of 10,000 per day. You can monitor your load numbers on [the load page within your dashboard](https://heliohost.org/dashboard/load/).
+- Exceeding the [Account Storage](accounts/suspension-policy.md#account-storage-limits) limits. On [Johnny](servers/virtual/johnny.md) and [Tommy](servers/virtual/tommy.md), we offer 1000 MB of free web space. For users who need more storage, we provide one-time paid donation options for [increased account storage](accounts/donation-increase-storage.md). We also offer a range of [VPS Plans](https://heliohost.org/vps/) with a 10% discount when you pay for 6 months upfront.
+- Exceeding the [High Server Usage](accounts/suspension-policy.md#high-server-usage) limits. On [Johnny](servers/virtual/johnny.md) and [Tommy](servers/virtual/tommy.md), we enforce a memory limit of no more than 100 GB and a CPU limit of 10,000 per day. You can monitor your load numbers on [the load page within your dashboard](https://heliohost.org/dashboard/load/).
 
 It is also possible that this was an error in our system. If you suspect that this is the case, report the error in a new post [here](https://helionet.org/index/forum/81-suspended-and-queued-accounts/), making sure to provide your **username**.
 
@@ -54,15 +54,25 @@ If it has been longer than **a full 2 hours** since you registered and you still
 
 ## How do I keep my account active / prevent being suspended?
 
-Login to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days. For more details, review our [Inactivity Policy](accounts/suspension-policy.md#inactivity-policy).
+If you have an account on [Tommy](servers/virtual/tommy.md) or [Johnny](servers/virtual/johnny.md), login to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days. For more details, review our [Inactivity Policy](accounts/suspension-policy.md#inactivity-policy).
+
+On our paid subscription server, Morty, as long as there is a positive balance on your account, it will remain active without needing to log in.
 
 ## What is a Daily Signup Limit and why is it stopping me from registering?
 
-Each server has a daily limit for sign-ups so that it doesn't crash from all the people wanting to use HelioHost. Free signups on Johnny now reset [every 12 hours](https://helionet.org/index/topic/59660-midnight-and-noon/) at midnight UTC and noon UTC.
+Each server has a daily limit for sign-ups so that it doesn't crash from all the people wanting to use HelioHost. Free signups on Johnny now reset [every 12 hours](https://helionet.org/index/topic/59660-midnight-and-noon/) at midnight UTC and noon UTC. Please see our [list of helpful tips for getting a free account on Johnny](./hosting/signing-up.md#helpful-tips-for-getting-a-free-account-on-johnny).
 
 ## What if I have at least $1 and don't want to wait to sign up?
 
 We offer various [Donor Plans](https://heliohost.org/tommy/), so for a one-time donation of as little as $1 USD, you can open an account any time of day.
+
+Users on our Tommy donor server and the free Johnny server are [required to log in at least once a month](./accounts/suspension-policy.md#inactivity-policy) to keep their accounts active. 
+
+## What other options are available if I want to sign up right away?
+
+For users who prefer not to have to log in regularly, our Morty paid subscription server has no login requirement as long as there is a positive balance on your account.
+
+We also offer a range of [VPS Plans](https://heliohost.org/vps/), with a 10% discount when you pay for 6 months upfront.
 
 ## My account was deleted. Can I get my data back?
 
@@ -98,7 +108,7 @@ After you have made the donation, please provide your [PayPal Transaction ID](ac
 
 ## How do I delete my hosting account?
 
-To delete your HelioHost Plesk account, post a topic in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add).
+To delete your HelioHost Plesk account, post a topic in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add). If want your HelioNet Forum account deleted at the same time, please mention this in your request.
 
 To delete your HelioNet Forum account, post a topic in the [Contact HelioNet forum](https://helionet.org/index/forum/4-contact-helionet/?do=add).
 
@@ -106,12 +116,20 @@ To delete your HelioNet Forum account, post a topic in the [Contact HelioNet for
 
 To change the main domain on your HelioHost Plesk account, post a topic in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) and let us know your **username** and **what domain you want as your new main domain**.
 
+Please note there is a risk of data loss when main domains are changed. We recommend that you [create an account backup](./tutorials/plesk/account-backups.md#making-your-own-manual-account-backup) before requesting to change your main domain.
+
 As an alternative to changing your main domain, consider using [Parked, Addon, and/or Sub Domains](management/parked-addon-and-sub-domains.md).
 
 ## What are the nameservers for HelioHost?
 
 * `ns1.heliohost.org`
 * `ns2.heliohost.org`
+
+## What IP addresses should I add to my DNS?
+
+To add A (IPv4) or AAAA (IPv6) records to your domain registrar's dashboard, follow these steps to view the IP addresses for your server:  
+
+**Login > Plesk > Websites & Domains > [domain name] > and check at the bottom of the page.**
 
 ## Can I PM an administrator for help?
 
@@ -123,7 +141,7 @@ Please post the issue in the [Customer Service forum](https://helionet.org/index
 
 ## Can Feature XYZ be installed?
 
-Softaculous returned to Johnny and Tommy servers in [March 2024](https://helionet.org/index/topic/59683-softaculous-has-returned/), making it possible to install the latest version of 459 different software packages with just a single click.
+Softaculous [returned in March 2024](https://helionet.org/index/topic/59683-softaculous-has-returned/) and is offered on our [Tommy](servers/virtual/tommy.md), [Johnny](servers/virtual/johnny.md), and Morty servers, making it possible to install the latest version of 459 different software packages with just a single click.
 
 To browse the available options, login to Plesk and select Softaculous from the menu:
 
@@ -137,15 +155,21 @@ On hosting accounts, secure shell access (SSH) is disabled for security reasons.
 
 However, it is possible to run jailed shell commands using Plesk's [Scheduled Tasks (cron jobs)](tutorials/plesk/cron-jobs.md) feature. 
 
-If you require SSH access, it is only available on the [VPS Plans](https://heliohost.org/vps/).
+In many cases, SSH is not actually necessary. Please post a request in our [Customer Service forum](https://helionet.org/index/forum/45-customer-service/), making sure to provide your **username**, **domain name**, **server name**, and **the command you want to run**, and we'll be happy to investigate other ways to accomplish the same task without SSH.
+
+If you absolutely require SSH access, you will need a [VPS](https://heliohost.org/vps/). We offer a range of VPS plans, and a 10% discount when you pay for 6 months upfront.
 
 ## Does HelioHost support sockets? Which ports are open?
 
-Both our [Tommy](servers/virtual/tommy.md) and [Johnny](servers/virtual/johnny.md) servers have zero inbound ports available to be opened. All ports that are currently open already have services listening.
+Our [Tommy](servers/virtual/tommy.md), [Johnny](servers/virtual/johnny.md), and Morty servers have zero inbound ports available to be opened. All ports that are currently open already have services listening, such as 80 http, 443 https, 3306 MariaDB, and 5432 PostgreSQL. 
 
-If you can proxy your websocket through Apache or Nginx, it can work without opening a port.
+Outbound ports are similar: ports like 80, 443, 3306, 5432, 25, 465, etc., are open to allow scripts to connect to common services on remote servers.
 
-If you need a port opened, you'll need to get one of our [VPS Plans](https://heliohost.org/vps/), and you will then have all 65535 ports available to open or close as you want.
+If you can proxy your websocket through Apache or Nginx, it can work without opening a port:  
+* You could use an `.htaccess` file to proxy the websocket connection through Apache.
+* With the help of a root admin, you could get an Nginx proxy set up. To explore this option, please post a request in our [Customer Service forum](https://helionet.org/index/forum/45-customer-service/), making sure to provide your **username**, **domain name**, **server name**, and **details about your websocket application**, and we'll be happy to help.
+
+If you absolutely need a port opened, you'll need to get one of our [VPS Plans](https://heliohost.org/vps/), and you will then have all 65535 ports available to open or close as you want. We offer a range of VPS plans, and a 10% discount when you pay for 6 months upfront.
 
 ## Are directory indexes enabled?
 
@@ -156,6 +180,10 @@ Yes. Directory indexes have been enabled by default on the shared hosting server
 Typically, your domain root directory is `httpdocs` (or `public_html` if you were transferred from the old cPanel). Users cannot change the document root themselves inside Plesk. 
 
 If you have a legitimate reason for needing the document root changed, please create a post in our [Customer Service forum](https://helionet.org/index/forum/45-customer-service/) and make sure to provide your **username**, **domain name**, **server name**, **the new document root directory you want**, and a **valid reason** explaining why you are unable to use your existing document root. The admins will review your request to determine if the change can be made.
+
+## Can I use your services to mine cryptocurrency?
+
+No. We do not allow mining on any of our plans (free or paid).
 
 ## Your hosting SUCKS! So do YOU!!!
 
