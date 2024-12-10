@@ -11,7 +11,7 @@ Please follow the steps below to resolve the issue:
 3) Click on `Databases`
 4) Click on `User Management` (see the screenshot below)
 5) Click on the username mentioned in the phpMyAdmin error message
-6) Copy/paste in a strong password into the password fields
+6) Copy/paste a strong password into the password fields
 7) Click on the `OK` button to save the changes
 
 ![](../.gitbook/assets/db-user-management.png)
