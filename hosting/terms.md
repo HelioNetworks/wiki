@@ -17,7 +17,7 @@ By signing up with HelioHost for any service, you agree to the following:
 * Your site will not offer any form of social media "marketing" service, including but not limited to services that provide "Facebook Likes", "Instagram Followers", or "X Followers". Your account will not store or operate scripts required to provide such services (e.g. "like bots", "follower bots", "smm panels", "sosmed panels").
 * Your site will not offer any service that purports to modify or add game content or credits to third-party online game accounts.
 * Everything displayed on your site will be your property. HelioHost assumes no responsibility for any content displayed by customers of our services.
-* HelioHost is based in the USA. Federal Regulations prohibit us from accepting donations, or providing free or paid services to anyone in Iran, Cuba, Syria, or North Korea.
+* HelioHost is based in the USA. Federal Regulations prohibit us from accepting donations, providing free services, or paid services to anyone in Iran, Cuba, Syria, or North Korea.
 * You will not register or maintain an account using a disposable email address.
 * VPS customers only: Your VPS must respond to ICMP pings. This is required by our ISP.
 * Refunds are provided pursuant to our [Refund Policy](https://helionet.org/index/forum/45-customer-service/?do=add). <!-- TODO: Link to Refund Policy page -->
