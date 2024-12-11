@@ -12,7 +12,8 @@ Please follow the steps below to resolve the issue:
 4) Click on `User Management` (see the screenshot below)
 5) Click on the username mentioned in the phpMyAdmin error message
 6) Copy/paste a strong password into the password fields
-7) Click on the `OK` button to save the changes
+7) Double-check the permissions assigned to your database user by clicking on the `Show privileges` link and adjust them if needed
+8) Click on the `OK` button to save the changes
 
 ![](../.gitbook/assets/db-user-management.png)
 
