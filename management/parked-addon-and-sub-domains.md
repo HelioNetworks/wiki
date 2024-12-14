@@ -1,6 +1,10 @@
 # Addon Domains, Subdomains, and Aliases
 
-Addon domains, subdomains, and aliases are vital services that allow you to host multiple websites on your one account. Each HelioHost account can have up to 10 domains for free, and if you need more than 10 domains they can be added for a donation. However, using these services can be confusing, and some problems can occur in the process. But don't worry - this article will help alleviate any confusion.
+Each HelioHost account can have up to 10 domains in total (including addon domains, subdomains, and aliases (parked domains)), for free. If you need more than 10 domains, they can be added for a donation.
+
+Users cannot yet add domains to their account themselves. We plan to add this feature in the future, but [there is no ETA for when it may be implemented](../hosting/repair-times.md). 
+
+In the meantime, HelioHost staff will be happy to add domains, subdomains, and aliases to your account for you.
 
 ## Addon Domains
 
@@ -102,10 +106,10 @@ Well, let's say your main domain goes down due to the domain host having problem
 
 To create an alias, submit a request in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add) and provide the following information:
 1. Your hosting account **username**  
-2. The **alias (domain you want to park)**, **including the top-level domain (TLD)**:
+2. The **alias** (domain you want to park), **including the top-level domain (TLD)**:
    * If you're using HelioHost's domains, specify either **helioho.st** or **heliohost.us**
    * If you've purchased a custom domain, specify the TLD (such as **.com**, **.net**, etc.)
-3. The **destination for the alias (the existing domain on your account you want to duplicate)**
+3. The **destination for the alias** (the existing domain on your account you want to duplicate)
 
 The alias will be configured to reflect your `httpdocs` directory. If you want it to reflect a different directory, you will need to request an [Addon Domain](#Addon-Domains) instead.
 
@@ -120,7 +124,7 @@ You will need to point the alias on your custom domain to the following nameserv
 
 ### DNS Records 
 
-If you prefer to add A records (IPv4) or AAAA records (IPv6) to the alias on your custom domain registrar's dashboard instead of nameservers, look up the IP addresses for your server by using the steps below:
+If you prefer to add A records (IPv4) or AAAA records (IPv6) for the alias to your custom domain registrar's dashboard instead of nameservers, look up the IP addresses for your server by using the steps below:
 
 **Login > Plesk > Websites & Domains > [domain name] > and check at the bottom of the page.**
 
