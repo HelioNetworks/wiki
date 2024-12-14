@@ -1,6 +1,6 @@
 # Changing Your Main Domain
 
-Each HelioHost account can have up to 10 domains in total (including addon domains, subdomains, and aliases (parked domains)), for free. If you need more than 10 domains, they can be added for a donation.
+Each HelioHost account can have up to 10 domains in total (including [addon domains](addon-domains.md), [subdomains](subdomains.md), and [aliases (parked domains)](alias-parked-domains)), for free. If you need more than 10 domains, they can be added for a donation.
 
 Users cannot yet change the main domain on their account themselves. We plan to add this feature in the future, but [there is no ETA for when it may be implemented](../hosting/repair-times.md). 
 
@@ -47,5 +47,6 @@ If you prefer to add A records (IPv4) or AAAA records (IPv6) to your custom doma
 
 ### Next Steps
 
+{% hint style="info" %}  
 Whether you are using one of HelioHost's domains or a custom domain, you will need to wait **up to 2 hours** for your new main domain to become fully active. If after an entire 2 hours, you still see a message saying `HelioHost Account Queued`, please [clear your web browser cache](../misc/clear-your-cache.md).
 {% endhint %}
