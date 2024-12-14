@@ -8,12 +8,15 @@ You will need:
 * A [HelioHost VPS](https://heliohost.org/vps/)
 * Hestia Control Panel installed on your VPS
   * Your VPS will come with Hestia preinstalled if you requested this during signup
-  * Alternatively, you can install Hestia yourself. There is a helpful tutorial [here](https://hestiacp.com/docs/introduction/getting-started.html).
+  * **Note:** Control panels like Hestia can only be installed on a fresh operating system with no other software or configurations already in place
+  * If you do not have a freshly installed OS, you can:
+    * Request a [VPS rebuild](../../faq.md#vps-rebuilds) and ask for Hestia to be preinstalled
+    * Request a [VPS rebuild](../../faq.md#vps-rebuilds) and install Hestia yourself. There is a helpful tutorial [here](https://hestiacp.com/docs/introduction/getting-started.html)
 * A domain you want to use for email
 
 ## Log In to Hestia
 
-In your web browser, navigate to `vps##.heliohost.us` and log in to your Hestia Control Panel.
+In your web browser, navigate to the `Domain` web address provided in your welcome email (`vps##.heliohost.us`) and log in to your Hestia Control Panel.
 
 ## Check Firewall Rules
 
@@ -56,7 +59,7 @@ The system administrator account we used to log in to Hestia has increased privi
 
 * Click on the `Web` tab
 * Click on the `Add Web Domain` button
-* Enter your domain or subdomain
+* Enter your domain or subdomain (e.g. `domain.com`, without the leading `http://` or `https://`)
 * Select the `Mail Support` option to enable email for this domain
 * Click on the `Save` button at the top right side of the page
 * You should see a message that says: "Domain `domain.com` has been created successfully."
@@ -70,7 +73,7 @@ Click on the `Mail` tab
 
 If your domain is not listed:
 * Click on the `Add Mail Domain` button
-* Set the `Domain` field to `domain.com`
+* Set the `Domain` field to `domain.com` (without the leading `http://` or `https://`)
 * Select `DKIM Support`
 * Click on the `Save` button at the top right side of the page
 * You should see a message that says "Mail domain `domain.com` has been created successfully."
@@ -118,7 +121,7 @@ Click on the `Advanced DNS` tab
 
 ![](../../.gitbook/assets/vps-hestia-email-5-namecheap-advanced-dns.png)
 
-Enter the DNS record values provided in Hestia into your Namecheap dashboard for the two `A` records, four `TXT` records, and the one `mx` record:
+Enter the DNS record values provided in Hestia into your Namecheap dashboard for the two `A` records, four `TXT` records, and the one `MX` record:
 
 ![](../../.gitbook/assets/vps-hestia-email-6-namecheap-a-txt-mx-records.png)
 
