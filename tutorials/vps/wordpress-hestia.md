@@ -8,7 +8,10 @@ You will need:
 * A [HelioHost VPS](https://heliohost.org/vps/)
 * Hestia Control Panel installed on your VPS
   * Your VPS will come with Hestia preinstalled if you requested this during signup
-  * Alternatively, you can install Hestia yourself. There is a helpful tutorial [here](https://hestiacp.com/docs/introduction/getting-started.html).
+  * **Note:** Control panels like Hestia can only be installed on a fresh operating system with no other software or configurations already in place
+  * If you do not have a freshly installed OS, you can:
+    * Request a [VPS rebuild](../../faq.md#vps-rebuilds) and ask for Hestia to be preinstalled
+    * Request a [VPS rebuild](../../faq.md#vps-rebuilds) and install Hestia yourself. There is a helpful tutorial [here](https://hestiacp.com/docs/introduction/getting-started.html)
 * A domain or subdomain registered for your WordPress site
   * You can use your own domain or subdomain, or the one free subdomain offered with a VPS plan
 
@@ -22,7 +25,7 @@ If you already have a domain set up inside Hestia that you want to install WordP
 
 The system administrator account we used to log in to Hestia has increased privileges. To prevent potential security risks, we will create an account with fewer permissions that will still enable us to install WordPress.
 
-In your web browser, navigate to `vps##.heliohost.us` and log in to your Hestia Control Panel. Once logged in, follow the steps below: 
+In your web browser, navigate to the `Domain` web address provided in your welcome email (`vps##.heliohost.us`) and log in to your Hestia Control Panel. Once logged in, follow the steps below: 
 * Click on the `User` tab
 * Click on the `Add User` button
 * Fill in the form fields
@@ -38,7 +41,7 @@ In your web browser, navigate to `vps##.heliohost.us` and log in to your Hestia 
 
 * Click on the `Web` tab
 * Click on the `Add Web Domain` button
-* Enter your domain or subdomain
+* Enter your domain or subdomain (e.g. `domain.com`, without the leading `http://` or `https://`)
 * Click on the `Save` button at the top right side of the page
 * You should see a message that says: "Domain `domain.com` has been created successfully."
 * Click on the `domain.com` link to go to the `Edit Web Domain` settings page
