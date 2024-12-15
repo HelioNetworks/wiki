@@ -94,17 +94,25 @@ Once your account has been reset, you will receive an email with a link to resta
 
 If you had WSGI Control Access on your account for [Flask](tutorials/flask.md) or [Django](tutorials/django/README.md) and you want this re-enabled after the reset, you will need to re-request WSGI Control Access after the reset has been completed. By default, account resets will disable WSGI Control Access.
 
-### VPS Rebuilds
+## VPS Rebuilds
 
 Due to certain users abusing our generosity in the past and requesting 50 or so rebuilds in less than a month, we now limit each VPS to **1 free rebuild per month**. 
 
-#### Purchasing Additional VPS Rebuilds
+## Purchasing Additional VPS Rebuilds
 
 If you need to purchase an additional VPS rebuild, please use the link below to donate $1 USD:
 
 {% embed url="https://www.paypal.com/ncp/payment/6Z88J5KJZJ3RJ" caption="Donate $1 USD for VPS Rebuild" %}
 
 After you have made the donation, please provide your [PayPal Transaction ID](accounts/donation-increase-storage.md#paypal-transaction-id) as part of your VPS rebuild request, so the donation can be verified.
+
+## How do I request a VPS rebuild?
+
+Because rebuilding a VPS is destructive, we have to verify your identity before we do so. This is to prevent someone from pretending to be you and deleting all your data.
+
+To request that we rebuild your VPS, send an email **from the same email address as your VPS account** to `support@heliohost.org` so we can verify your identity and rebuild your VPS. If you would like a free dashboard (Hestia, KeyHelp, etc.) installed after the rebuild, please include this in the request.  
+
+Alternatively, you can make a post on the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) from a forum account with the same email address as your VPS account. If you're not sure what email address is associated with your VPS account, you can check by logging into the [VPS Dashboard](https://heliohost.org/login/) with your VPS Username and Password. The email address attached to your VPS account will be displayed at the top right of the page.  
 
 ## How do I delete my hosting account?
 
@@ -114,11 +122,19 @@ To delete your HelioNet Forum account, post a topic in the [Contact HelioNet for
 
 ## How do I change my main domain?
 
-To change the main domain on your HelioHost Plesk account, post a topic in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add) and let us know your **username** and **what domain you want as your new main domain**.
+To change the main domain on your HelioHost Plesk account, submit a request in the [Customer Support forum](https://helionet.org/index/forum/45-customer-service/?do=add) and provide the following information:
+1. Your hosting account **username**  
+2. The **full domain name** you want as your main domain, **including the top-level domain (TLD)**:
+   * If you're using HelioHost's domains, specify either **helioho.st** or **heliohost.us**
+   * If you've purchased a custom domain, specify the TLD (such as **.com**, **.net**, etc.)
 
-Please note there is a risk of data loss when main domains are changed. We recommend that you [create an account backup](./tutorials/plesk/account-backups.md#making-your-own-manual-account-backup) before requesting to change your main domain.
+{% hint style="warning" %}  
+There is a risk of data loss when main domains are changed. We strongly recommend you [create an account backup](../tutorials/plesk/account-backups.md#making-your-own-manual-account-backup) before requesting to change your main domain.  
 
-As an alternative to changing your main domain, consider using [Parked, Addon, and/or Sub Domains](management/parked-addon-and-sub-domains.md).
+As mentioned in our [Terms of Service](../hosting/terms.md), it is not HelioHost's responsibility to keep backups of your data.  
+{% endhint %}
+
+As an alternative to changing your main domain, consider using [Parked (Alias)](alias-parked-domains.md), [Addon](addon-domains.md), and/or [Subdomains](subdomains.md).
 
 ## What are the nameservers for HelioHost?
 
