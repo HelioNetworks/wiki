@@ -10,7 +10,7 @@
 * Ability to [set up SPF, DKIM, and DMARC records](../features/unlimited-email-accounts.md#spf-dkim-and-dmarc-records)
 * Unlimited Mailing Lists
 * [Unlimited Bandwidth](../features/unlimited-bandwidth.md)
-* Up to [10 Domains](../management/parked-addon-and-sub-domains.md) (Subdomains, Parked Domains, and Addon Domains)
+* Up to 10 Domains ([Subdomains](subdomains.md), [Parked (Alias)](alias-parked-domains.md), and [Addon Domains](addon-domains.md))
 * Unlimited [FTP](../management/uploading-files.md) Accounts
 * Unlimited [MySQL](../management/mysql.md) / [PostgreSQL](../features/postgresql.md) / [SQLite](../features/sqlite.md) Databases
 * Access to [phpMyAdmin](../management/mysql.md#managing-the-database-with-phpmyadmin)
