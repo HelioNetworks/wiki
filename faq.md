@@ -118,7 +118,7 @@ To change the main domain on your HelioHost Plesk account, post a topic in the [
 
 Please note there is a risk of data loss when main domains are changed. We recommend that you [create an account backup](./tutorials/plesk/account-backups.md#making-your-own-manual-account-backup) before requesting to change your main domain.
 
-As an alternative to changing your main domain, consider using [Parked, Addon, and/or Sub Domains](management/parked-addon-and-sub-domains.md).
+As an alternative to changing your main domain, consider using [Parked (Alias)](alias-parked-domains.md), [Addon](addon-domains.md), and/or [Subdomains](subdomains.md).
 
 ## What are the nameservers for HelioHost?
 
