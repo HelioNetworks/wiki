@@ -23,7 +23,7 @@
 * [.NET / .NET Core / Classic ASP](../features/asp.net.md)
 * [Golang](../tutorials/golang.md)
 * [Java / JSP](../features/java.md)
-* [Node.js](../tutorials/node.js/README.md)
+* [Node.js](../tutorials/node.js/README.md) (including [Express](tutorials/node.js/express.js.md) and [Next.js](tutorials/node.js/next.js.md))
 * [PHP](../features/php.md)
 * [Python](../features/python.md), [Django](../tutorials/django/README.md), and [Flask](../tutorials/flask.md)
 * [Perl](../tutorials/perl.md)
@@ -32,4 +32,4 @@
 ## HelioHost offers the following paid options for users who outgrow their free account:
 
 * Ability to [donate for additonal storage](../accounts/donation-increase-storage.md)
-* Ability to upgrade to a paid [VPS plan](https://heliohost.org/vps/). We offer a range of VPS plans, and a 10% discount when you pay for 6 months upfront.
+* Ability to upgrade to a paid [VPS](https://heliohost.org/vps/). We offer a range of VPS plans, and a 10% discount when you pay for 6 months upfront.
