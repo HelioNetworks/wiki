@@ -20,7 +20,7 @@
 
 ## HelioHost accounts can use the following scripting languages:
 
-* [ASP.NET](../features/asp.net.md)
+* [.NET / .NET Core / Classic ASP](../features/asp.net.md)
 * [Golang](../tutorials/golang.md)
 * [Java / JSP](../features/java.md)
 * [Node.js](../tutorials/node.js/README.md)
