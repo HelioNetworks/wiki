@@ -10,7 +10,7 @@
 * Ability to [set up SPF, DKIM, and DMARC records](../features/unlimited-email-accounts.md#spf-dkim-and-dmarc-records)
 * Unlimited Mailing Lists
 * [Unlimited Bandwidth](../features/unlimited-bandwidth.md)
-* Up to [10 Domains](../management/parked-addon-and-sub-domains.md) (Subdomains, Parked Domains, and Addon Domains)
+* Up to 10 Domains ([Subdomains](subdomains.md), [Parked (Alias)](alias-parked-domains.md), and [Addon Domains](addon-domains.md))
 * Unlimited [FTP](../management/uploading-files.md) Accounts
 * Unlimited [MySQL](../management/mysql.md) / [PostgreSQL](../features/postgresql.md) / [SQLite](../features/sqlite.md) Databases
 * Access to [phpMyAdmin](../management/mysql.md#managing-the-database-with-phpmyadmin)
@@ -20,10 +20,10 @@
 
 ## HelioHost accounts can use the following scripting languages:
 
-* [ASP.NET](../features/asp.net.md)
+* [.NET / .NET Core / Classic ASP](../features/asp.net.md)
 * [Golang](../tutorials/golang.md)
 * [Java / JSP](../features/java.md)
-* [Node.js](../tutorials/node.js/README.md)
+* [Node.js](../tutorials/node.js/README.md) (including [Express](tutorials/node.js/express.js.md) and [Next.js](tutorials/node.js/next.js.md))
 * [PHP](../features/php.md)
 * [Python](../features/python.md), [Django](../tutorials/django/README.md), and [Flask](../tutorials/flask.md)
 * [Perl](../tutorials/perl.md)
@@ -32,4 +32,4 @@
 ## HelioHost offers the following paid options for users who outgrow their free account:
 
 * Ability to [donate for additonal storage](../accounts/donation-increase-storage.md)
-* Ability to upgrade to a paid [VPS plan](https://heliohost.org/vps/)
+* Ability to upgrade to a paid [VPS](https://heliohost.org/vps/). We offer a range of VPS plans, and a 10% discount when you pay for 6 months upfront.
