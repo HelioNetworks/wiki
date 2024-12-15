@@ -68,7 +68,7 @@ The first item of the [Terms of Service](../hosting/terms.md), which all users m
 
 ![](../.gitbook/assets/mutiple-acct-warning-2.png)
 
-If you require more than one website, then many features of another HelioHost account are already possible with your current account. Read up on [Parked, Addon and Sub Domains](../management/parked-addon-and-sub-domains.md) for more information on how to make multiple websites on one account.
+If you require more than one website, then many features of another HelioHost account are already possible with your current account. Read up on [Parked (Alias)](alias-parked-domains.md), [Addon](addon-domains.md), and [Subdomains](subdomains.md) for more information on how to make multiple websites on one account.
 
 If you are caught with two or more accounts, you will be asked which one(s) you would like to be deleted, and if you do not reply we will permanently suspend all of them.
 
