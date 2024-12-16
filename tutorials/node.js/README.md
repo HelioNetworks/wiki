@@ -14,11 +14,11 @@ The Node.js versions currently supported on the shared hosting servers are liste
 If you require a different version of Node.js than the options offered below, you'll need to get a [VPS](https://heliohost.org/vps/) where you can install any version(s) of Node you want. We offer a range of VPS plans, and a 10% discount when you pay for 6 months upfront.
 {% endhint %}
 
-<!-- TODO: Add node versions available on Morty when released -->
 | Server | Node.js Versions   |
 |--------|--------------------|
 | Johnny | 23, 22, 21, 20, 18, 16 |
 | Tommy  | 23, 22, 21, 20, 18, 16 |
+| Morty  | 23, 22, 21, 20, 18, 16 |
 
 ## About Node.js
 
