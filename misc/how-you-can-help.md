@@ -10,7 +10,7 @@ The best way to help us keep providing free hosting is by donating at [heliohost
 
 ### Corporate Donation Matching
 
-A lot of employers will make a donation match to approved 501(c)(3) charities, which is what HelioHost is. So, if you donate $100 your job might match your donation and send another $100 to us. You can ask at work to see if your company has a donation matching program like this.
+A lot of employers will make a donation match to approved 501(c)(3) charities, which is what HelioHost is. So, if you donate $100 your job might match your donation and send another $100 to us. You can ask at work to see if your company has a donation matching program like this, and then search for us under `Helio Networks` or `HelioHost`.
 
 ### Donate via Charityvest
 
@@ -42,15 +42,27 @@ You can choose to donate cash via Benevity:
 
 #### Donate Rewards Points in Edge
 
-You can choose to donate using Microsoft Rewards points via Benevity:
+You can choose to donate using Microsoft Rewards points via Benevity.
 
-![](../.gitbook/assets/edge-donate-microsoft-points.png)
+{% hint style="danger" %}  
+Please note that: 
+* Donations sent from Microsoft Rewards [can take **at least 2 months** to be verified](https://helionet.org/index/topic/62006-hh561624-can-i-donate-via-microsoft-rewards/#findComment-280045)
+* [Donations of 1000 points just disappear](https://helionet.org/index/topic/62006-hh561624-can-i-donate-via-microsoft-rewards/#findComment-284853)
+
+| Microsoft Points Donated | Amount Received by HelioHost |
+| :----------------------- | :--------------------------- |
+| 1000 points              | 0 cents                      |
+| 3000 points              | 5 cents                      |
+| 5000 points              | 10 cents                     |
+| 50,000 points            | $1 USD for a Tommy Invite    |  
+{% endhint %}  
 
 ## Allow Ads on Our Sites
-<!-- TODO: Add Ricky & Morty to the list of sites to allow ads on, as they get up and running. -->
+<!-- TODO: Add Ricky once he is rebuilt. -->
 If you don't view our ads, we don't earn any ad revenue from your visits to our site. It's free to allow our ads, and we promise they're not too annoying. Who knows? You might even see an ad for something amazing that you want to check out. Make sure to add our sites below to your to your ad-blocker "Allow List": 
 * [heliohost.org](https://heliohost.org/)
 * [helionet.org](https://helionet.org/)
+* [morty.heliohost.org](https://morty.heliohost.org/)
 * [tommy.heliohost.org](https://tommy.heliohost.org/)
 * [johnny.heliohost.org](https://johnny.heliohost.org/)
 * [wiki.helionet.org](https://wiki.helionet.org/)
