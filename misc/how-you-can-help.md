@@ -47,7 +47,7 @@ You can choose to donate using Microsoft Rewards points via Benevity.
 {% hint style="danger" %}  
 Please note that: 
 * Donations sent from Microsoft Rewards [can take **at least 2 months** to be verified](https://helionet.org/index/topic/62006-hh561624-can-i-donate-via-microsoft-rewards/#findComment-280045)
-* [Donations of 1000 points just disappear](https://helionet.org/index/topic/62006-hh561624-can-i-donate-via-microsoft-rewards/#findComment-284853).
+* [Donations of 1000 points just disappear](https://helionet.org/index/topic/62006-hh561624-can-i-donate-via-microsoft-rewards/#findComment-284853)
 
 | Microsoft Points Donated | Amount Received by HelioHost |
 | :----------------------- | :--------------------------- |
@@ -56,8 +56,6 @@ Please note that:
 | 5000 points              | 10 cents                     |
 | 50,000 points            | $1 USD for a Tommy Invite    |  
 {% endhint %}  
-
-![](../.gitbook/assets/edge-donate-microsoft-points.png)
 
 ## Allow Ads on Our Sites
 <!-- TODO: Add Ricky & Morty to the list of sites to allow ads on, as they get up and running. -->
