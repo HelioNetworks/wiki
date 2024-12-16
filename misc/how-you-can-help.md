@@ -10,7 +10,7 @@ The best way to help us keep providing free hosting is by donating at [heliohost
 
 ### Corporate Donation Matching
 
-A lot of employers will make a donation match to approved 501(c)(3) charities, which is what HelioHost is. So, if you donate $100 your job might match your donation and send another $100 to us. You can ask at work to see if your company has a donation matching program like this.
+A lot of employers will make a donation match to approved 501(c)(3) charities, which is what HelioHost is. So, if you donate $100 your job might match your donation and send another $100 to us. You can ask at work to see if your company has a donation matching program like this, and then search for us under `Helio Networks` or `HelioHost`.
 
 ### Donate via Charityvest
 
@@ -46,7 +46,7 @@ You can choose to donate using Microsoft Rewards points via Benevity.
 
 {% hint style="danger" %}  
 Please note that: 
-* Donations sent from Microsoft Rewards can take **at least 2 months** to be received
+* Donations sent from Microsoft Rewards [can take **at least 2 months** to be verified](https://helionet.org/index/topic/62006-hh561624-can-i-donate-via-microsoft-rewards/#findComment-280045)
 * [Donations of 1000 points just disappear](https://helionet.org/index/topic/62006-hh561624-can-i-donate-via-microsoft-rewards/#findComment-284853).
 
 | Microsoft Points Donated | Amount Received by HelioHost |
