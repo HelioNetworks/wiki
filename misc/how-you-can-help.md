@@ -42,7 +42,20 @@ You can choose to donate cash via Benevity:
 
 #### Donate Rewards Points in Edge
 
-You can choose to donate using Microsoft Rewards points via Benevity:
+You can choose to donate using Microsoft Rewards points via Benevity.
+
+{% hint style="danger" %}  
+Please note that: 
+* Donations sent from Microsoft Rewards can take **at least 2 months** to be received
+* [Donations of 1000 points just disappear](https://helionet.org/index/topic/62006-hh561624-can-i-donate-via-microsoft-rewards/#findComment-284853).
+
+| Microsoft Points Donated | Amount Received by HelioHost |
+| :----------------------- | :--------------------------- |
+| 1000 points              | 0 cents                      |
+| 3000 points              | 5 cents                      |
+| 5000 points              | 10 cents                     |
+| 50,000 points            | $1 USD for a Tommy Invite    |  
+{% endhint %}  
 
 ![](../.gitbook/assets/edge-donate-microsoft-points.png)
 
