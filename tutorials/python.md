@@ -18,6 +18,13 @@ The easiest way to get started with Python on a server is with CGI. The only rea
 | Tommy  | 3.9            | #!/usr/bin/python3.9  | [View](https://krydos1.heliohost.org/pyinfo/info3.9.py)  |
 | Tommy  | 3.12           | #!/usr/bin/python3.12 | [View](https://krydos1.heliohost.org/pyinfo/info3.12.py) |
 
+### Morty server
+
+| Server | Python Version | Python Path           | Python Modules Installed                                 |
+| :----: | :------------: | :-------------------: | :------------------------------------------------------: |
+| Morty  | 3.9            | #!/usr/bin/python3.9  | [View](https://krydos3.heliohost.org/pyinfo/info3.9.py)  |
+| Morty  | 3.12           | #!/usr/bin/python3.12 | [View](https://krydos3.heliohost.org/pyinfo/info3.12.py) |
+
 ## Steps
 
 * Open the File Manager in Plesk
