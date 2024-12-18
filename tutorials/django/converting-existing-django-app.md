@@ -24,6 +24,16 @@ If you need to run Django on another version of Python, you'll need to get a [VP
 | :----: | :------------: | :------------: | :------------------------------------------------------: | :-----------------: | :----: | 
 | Tommy  | 5.0.7          | 3.12           | [View](https://krydos1.heliohost.org/pyinfo/info3.12.py) | /usr/bin/python3.12 | WSGI   | 
 
+## Morty server
+
+{% hint style="info" %} 
+If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
+{% endhint %}
+<!-- The column with the link to view installed modules should stay as far left as possible, to prevent an overlapping div from the rightside nav menu making it difficult to mouseover and click on in the live Wiki. -->
+| Server | Django Version | Python Version | Python Modules Installed                                 | Python Path         | Loader | 
+| :----: | :------------: | :------------: | :------------------------------------------------------: | :-----------------: | :----: | 
+| Morty  | 5.0.7          | 3.12           | [View](https://krydos3.heliohost.org/pyinfo/info3.12.py) | /usr/bin/python3.12 | WSGI   | 
+
 ## Enabled
 
 ### WSGI
@@ -44,6 +54,7 @@ We offer the complete, unadulterated Django package, including extensions to int
 
 View the [Python modules installed on Johnny](https://krydos2.heliohost.org/pyinfo/info3.12.py).  
 View the [Python modules installed on Tommy](https://krydos1.heliohost.org/pyinfo/info3.12.py).
+View the [Python modules installed on Morty](https://krydos3.heliohost.org/pyinfo/info3.12.py).
 
 To request additional libraries, please raise a request in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide your **username**, your **server**, and **the libraries you need** including any relevant **version numbers** for them.
 
