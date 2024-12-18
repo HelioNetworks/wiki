@@ -31,8 +31,8 @@ For more information on how to set this up, navigate to:
 ![](../.gitbook/assets/plesk-setup-email-on-device.png)
 
 #### Click on 'Manual setup' 
-<!-- TODO: Add Morty as an option once released -->
-When configuring mail clients, use your account server name (`johnny.heliohost.org` or `tommy.heliohost.org`) instead of your domain.
+
+When configuring mail clients, use your account server name (`johnny.heliohost.org`, `tommy.heliohost.org`, or `morty.heliohost.org`) instead of your domain.
 
 ![](../.gitbook/assets/plesk-setup-email-on-device-2.png)
 
