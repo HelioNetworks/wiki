@@ -54,8 +54,6 @@ Screenshots are a great addition where appropriate. When using screenshots taken
 
 The existing convention for Plesk is to take screenshots in Light Mode and to use a red rectangle outline border to highlight important sections.
 
-Please ensure your screenshots reflect the `Dynamic List` view since other Plesk views are being deprecated.
-
 ## Brand Names
 
 Please follow brand preferences for name capitalization: Word**P**ress, Git**H**ub, Helio**Ho**st, etc. If in doubt, refer to the brand website for guidance.
