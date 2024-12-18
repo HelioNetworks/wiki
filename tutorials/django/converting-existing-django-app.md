@@ -7,7 +7,7 @@ Django is a web development framework designed specifically for Python. As Ruby 
 ## Johnny server
 
 {% hint style="info" %} 
-If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
+If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/). We offer a range of VPS plans, and a 10% discount when you pay for 6 months upfront.  
 {% endhint %}
 <!-- The column with the link to view installed modules should stay as far left as possible, to prevent an overlapping div from the rightside nav menu making it difficult to mouseover and click on in the live Wiki. -->
 | Server | Django Version | Python Version | Python Modules Installed                                 | Python Path         | Loader | 
@@ -17,7 +17,7 @@ If you need to run Django on another version of Python, you'll need to get a [VP
 ## Tommy server
 
 {% hint style="info" %} 
-If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
+If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/). We offer a range of VPS plans, and a 10% discount when you pay for 6 months upfront.  
 {% endhint %}
 <!-- The column with the link to view installed modules should stay as far left as possible, to prevent an overlapping div from the rightside nav menu making it difficult to mouseover and click on in the live Wiki. -->
 | Server | Django Version | Python Version | Python Modules Installed                                 | Python Path         | Loader | 
@@ -27,7 +27,7 @@ If you need to run Django on another version of Python, you'll need to get a [VP
 ## Morty server
 
 {% hint style="info" %} 
-If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/).
+If you need to run Django on another version of Python, you'll need to get a [VPS](https://heliohost.org/vps/). We offer a range of VPS plans, and a 10% discount when you pay for 6 months upfront.  
 {% endhint %}
 <!-- The column with the link to view installed modules should stay as far left as possible, to prevent an overlapping div from the rightside nav menu making it difficult to mouseover and click on in the live Wiki. -->
 | Server | Django Version | Python Version | Python Modules Installed                                 | Python Path         | Loader | 
@@ -53,8 +53,8 @@ We offer the complete, unadulterated Django package, including extensions to int
 ### Additional Libraries
 
 View the [Python modules installed on Johnny](https://krydos2.heliohost.org/pyinfo/info3.12.py).  
-View the [Python modules installed on Tommy](https://krydos1.heliohost.org/pyinfo/info3.12.py).
-View the [Python modules installed on Morty](https://krydos3.heliohost.org/pyinfo/info3.12.py).
+View the [Python modules installed on Tommy](https://krydos1.heliohost.org/pyinfo/info3.12.py).  
+View the [Python modules installed on Morty](https://krydos3.heliohost.org/pyinfo/info3.12.py).  
 
 To request additional libraries, please raise a request in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide your **username**, your **server**, and **the libraries you need** including any relevant **version numbers** for them.
 
@@ -312,7 +312,7 @@ Another option to see code changes reflected immediately is to develop your Djan
 
 ### 3. VPS
 
-You may prefer to explore one of our paid [VPS Plan](https://heliohost.org/vps/) options, depending on your requirements.
+You may prefer to explore one of our paid [VPS Plan](https://heliohost.org/vps/) options, depending on your requirements. We offer a range of VPS plans, and a 10% discount when you pay for 6 months upfront.
 
 ## References
 
