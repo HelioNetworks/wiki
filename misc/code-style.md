@@ -42,8 +42,7 @@ When linking to other internal GitBook pages in the same directory level, do not
 
 Generally, guidance would be targeted to 'users', which covers our free users and donor users.
 
-<!-- TODO: Morty users will be customers as well, mention this once Morty is released. -->
-For VPS-specific information, the term 'customers' can be used however this is not a firm requirement.
+For information specific to the Morty server or VPS services, the term 'customers' can be used however this is not a firm requirement.
 
 ## Cron Job(s)
 
@@ -59,7 +58,7 @@ Please ensure your screenshots reflect the `Dynamic List` view since other Plesk
 
 ## Brand Names
 
-Please follow brand preferences for name capitalization: Word**P**ress, Git**H**ub, etc. If in doubt, refer to the brand website for guidance.
+Please follow brand preferences for name capitalization: Word**P**ress, Git**H**ub, Helio**Ho**st, etc. If in doubt, refer to the brand website for guidance.
 
 ## Further Guidance
 
