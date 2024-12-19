@@ -8,6 +8,10 @@ Our servers support [Server Name Indication (SNI)](https://en.wikipedia.org/wiki
 
 Our [Johnny](/servers/virtual/johnny.md), [Tommy](/servers/virtual/tommy.md), and [Morty](/servers/virtual/morty.md) servers include `SSL It!`, a feature provided by Plesk which allows the automatic generation of SSL certificates. You do not need to take any particular action to get a free SSL certificate, it will be automatically installed. However, the process usually takes some time, depending on the current rates of certificate creation. Our `SSL It!`-generated certificates are from `Let’s Encrypt`.
 
+## SSL Troubleshooting
+
+Please refer to our guidance page for help resolving any [SSL Certificate Problems](../common-errors/ssl-certificate.md).
+
 ## Dedicated IP
 
 Although no longer required for SSL, we offer Dedicated IPs if you wish to purchase one.
