@@ -16,15 +16,15 @@ To begin, you will need to sign up for a free Cloudflare account [here](https://
 
 Go to your [Cloudflare dashboard](https://dash.cloudflare.com/) and at the top of your screen click on `Add site`:
 
-<figure><img src="../../.gitbook/assets/cloudflare_add_site.png" alt=""><figcaption></figcaption></figure>
+![Cloudflare Add Site](../../../.gitbook/assets/cloudflare_add_site.png)
 
 Enter your domain (without `www`) and click the `Add site` button:
 
-<figure><img src="../../.gitbook/assets/cloudflare_insert_domain.png" alt=""><figcaption></figcaption></figure>
+![Cloudflare Insert Domain](../../../.gitbook/assets/cloudflare_insert_domain.png)
 
 On the bottom of that page, select Cloudflare's free plan and click on the `Continue` button:
 
-<figure><img src="../../.gitbook/assets/cloudflare_plan_selection.png" alt=""><figcaption></figcaption></figure>
+![Cloudflare Plan Selection](../../../.gitbook/assets/cloudflare_plan_selection.png)
 
 Cloudflare will attempt to automatically detect and import your existing DNS records. 
 
@@ -32,7 +32,7 @@ Cloudflare will attempt to automatically detect and import your existing DNS rec
 
 If Cloudflare's automatic fetching fails or does not capture all necessary DNS records, you may need to manually import them. 
 
-{% hint style="info" %}
+{% hint style="info" %}  
 Follow the steps below to look up the IP addresses to use for your server:  
 
 **Login > Plesk > Websites & Domains > [domain name] > and check at the bottom of the page.**  
@@ -153,7 +153,7 @@ Save and exit the text file, making sure you replaced all the IP address placeho
 
 Inside your Cloudflare dashboard, click on `Import DNS Records` and select the text file you saved from the previous step to upload it to Cloudflare.
 
-<figure><img src="../../.gitbook/assets/cloudflare_import_dns_records.png" alt=""><figcaption></figcaption></figure>
+![Cloudflare Import DNS Records](../../../.gitbook/assets/cloudflare_import_dns_records.png)
 
 ### 3. Configure DNS Records
 
@@ -161,13 +161,13 @@ After Cloudflare has imported your DNS records (automatically or manually via th
 
 Copy and add both nameservers to your domain's nameservers setting inside your domain registrar's dashboard/panel. 
 
-{% hint style="info" %}
-If you are unsure how to set nameservers inside your domain registrar's dashboard/panel, please reach out to your domain registrar's customer support.
+{% hint style="info" %}  
+If you are unsure how to set nameservers inside your domain registrar's dashboard/panel, please reach out to your domain registrar's customer support.  
 {% endhint %}
 
 Then, return to your Cloudflare dashboard and click on `Done, check nameservers` in the Cloudflare dashboard.
 
-<figure><img src="../../.gitbook/assets/cloudflare_nameservers.png" alt=""><figcaption></figcaption></figure>
+![Cloudflare Nameservers](../../../.gitbook/assets/cloudflare_nameservers.png)
 
 ## Manual Cloudflare Configuration
 
@@ -177,6 +177,6 @@ To view the IP addresses to use for your A and AAAA records, follow the steps be
 
 **Login > Plesk > Websites & Domains > [domain name] > and check at the bottom of the page.**  
 
-{% hint style="info" %}
-If you need email to work, you will also need additional records: an `MX`, and 2 `TXT` records for `SPF` and `DKIM`.
+{% hint style="info" %}  
+If you need email to work, you will also need additional records: an `MX`, and 2 `TXT` records for `SPF` and `DKIM`.  
 {% endhint %}
