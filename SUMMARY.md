@@ -86,6 +86,7 @@
   * [PHP](features/php.md)
   * [PostgreSQL](features/postgresql.md)
   * [Python](features/python.md)
+  * [Node.js](features/node.js.md)
   * [Softaculous](features/softaculous.md)
   * [SQLite](features/sqlite.md)
   * [Storage](features/storage.md)
