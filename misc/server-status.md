@@ -20,6 +20,12 @@
 
 ## Lily
 
+**Note:** The "load" measured on Lily is her average CPU activity over the past 5 minutes, and should usually remain near 0.
+
 ![](https://www.heliohost.org/load/server_load_lily.gif)
 
 ![](https://www.heliohost.org/load/server_uptime_lily.gif)
+
+## VPS Server
+
+![](https://heliohost.org/load/server_uptime_vps.gif)
