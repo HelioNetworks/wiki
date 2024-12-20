@@ -6,7 +6,7 @@ If you use Node.js, we strongly recommend that you [monitor your site load here]
 Node apps often require a lot of server resources, and exceeding the account load limits will cause your user account to be [suspended for high server usage](/accounts/suspension-policy.md#high-server-usage).
 {% endhint %}
 
-## Supported Versions
+## Node.js Versions Supported
 
 The Node.js versions currently supported on the shared hosting servers are listed below. While we aim to keep Node versions current, please make sure you review our [ETAs for New Features](../../hosting/repair-times.md).
 
@@ -14,11 +14,30 @@ The Node.js versions currently supported on the shared hosting servers are liste
 If you require a different version of Node.js than the options offered below, you'll need to get a [VPS](https://heliohost.org/vps/) where you can install any version(s) of Node you want. We offer a range of VPS plans, and a 10% discount when you pay for 6 months upfront.
 {% endhint %}
 
-| Server | Node.js Versions   |
-|--------|--------------------|
-| Johnny | 23, 22, 21, 20, 18, 16 |
-| Tommy  | 23, 22, 21, 20, 18, 16 |
-| Morty  | 23, 22, 21, 20, 18, 16 |
+### Johnny server
+
+* Node 16
+* Node 18
+* Node 20
+* Node 21
+* Node 22
+* Node 23
+
+# Tommy server
+* Node 16
+* Node 18
+* Node 20
+* Node 21
+* Node 22
+* Node 23
+
+# Morty server
+* Node 16
+* Node 18
+* Node 20
+* Node 21
+* Node 22
+* Node 23
 
 ## About Node.js
 
