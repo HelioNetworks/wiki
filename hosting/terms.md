@@ -15,7 +15,7 @@ By signing up with HelioHost for any service, you agree to the following:
 * Your site will not be of a pornographic nature and will refrain from providing pictures and/or photographs of nude men and women.
 * Your site will not email, personal message, instant message, or communicate any kind of "spam," or unsolicited bulk advertising of any kind.
 * Your site will not offer any form of social media "marketing" service, including but not limited to services that provide "Facebook Likes", "Instagram Followers", or "X Followers". Your account will not store or operate scripts required to provide such services (e.g. "like bots", "follower bots", "smm panels", "sosmed panels").
-* Your site will not offer any service that purports to modify or add game content or credits to third-party online game accounts.
+* Your site will not offer any service that purports to modify or add game content or credits to third-party online game accounts, or that is designed to interrupt, disable, cause a ban from, or otherwise prevent the normal operation of, a third party online game service or account.
 * Everything displayed on your site will be your property. HelioHost assumes no responsibility for any content displayed by customers of our services.
 * HelioHost is based in the USA. Federal Regulations prohibit us from accepting donations, providing free services, or providing paid services to anyone in Iran, Cuba, Syria, or North Korea.
 * You will not register or maintain an account using a disposable email address.
