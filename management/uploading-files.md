@@ -10,14 +10,14 @@ To connect to your site's FTP server, you will need to use an FTP Client, such a
 
 If you are having problems connecting to the FTP service, then it might be a temporary failure with the service due to high server load. You can retrieve real-time statistics on server load (including FTP service) at [https://status.heliohost.org](https://status.heliohost.org/)
 
-| Parameter | Tommy | Johnny |
-| :--- | :--- | :--- |
-| Host | `tommy.heliohost.org` | `johnny.heliohost.org` |
-| Port | 1373 | 1373 |
-| Protocol | SFTP - SSH File Transfer Protocol | SFTP - SSH File Transfer Protocol |
-| Logon Type | Normal | Normal |
-| User | Your Plesk username | Your Plesk username |
-| Password | Your Plesk password | Your Plesk password |
+| Parameter | Johnny | Tommy | Morty |
+| :--- | :--- | :--- | :--- |
+| Host | `johnny.heliohost.org` | `tommy.heliohost.org` | `morty.heliohost.org` |
+| Port | 1373 | 1373 | 1373 |
+| Protocol | SFTP - SSH File Transfer Protocol | SFTP - SSH File Transfer Protocol | SFTP - SSH File Transfer Protocol |
+| Logon Type | Normal | Normal | Normal |
+| User | Your Plesk username | Your Plesk username | Your Plesk username |
+| Password | Your Plesk password | Your Plesk password | Your Plesk password |
 
 ## FileZilla
 
@@ -25,7 +25,7 @@ If you are having problems connecting to the FTP service, then it might be a tem
 
 1. Click `File → Site Manager`
 2. Click `New Site`
-3. Name it something like `Tommy SFTP` and press enter
+3. Name it something like `Johnny SFTP` and press enter
 4. Enter settings from the table above
 5. Click `Connect`
 6. Approve the remote server key, and check the box to not ask you about this server again.
