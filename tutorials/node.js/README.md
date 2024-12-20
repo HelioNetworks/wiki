@@ -3,7 +3,7 @@
 {% hint style="warning" %}
 If you use Node.js, we strongly recommend that you [monitor your site load here](https://heliohost.org/dashboard/load/).
 
-Node apps often require a lot of server resources, and exceeding the account load limits will cause your user account to be [suspended for high server usage](/accounts/suspension-policy.md#high-server-usage).
+Node apps often require a lot of server resources, and exceeding the account load limits will cause your user account to be [suspended for high server usage](/accounts/suspension-policy.md#high-server-usage) on our [Johnny](../../servers/virtual/johnny.md) and [Tommy](../../servers/virtual/tommy.md) servers. Accounts on our [Morty](../../servers/virtual/morty.md) server will not be suspended but will be charged for account load overages.  
 {% endhint %}
 
 ## Node.js Versions Supported
@@ -69,7 +69,7 @@ No, the background process timeout is set to ensure fair resource usage for all 
 
 ### Can I Prevent My Site from Sleeping?
 
-Passenger is designed to keep our shared hosting servers running efficiently and help keep your account within the [account load limits](../../accounts/suspension-policy.md#account-load-limits). Deliberately preventing your site from sleeping is likely to get your account suspended for [High Server Usage](../../accounts/suspension-policy.md#high-server-usage).
+Passenger is designed to keep our shared hosting servers running efficiently and help keep your account within the [account load limits](../../accounts/suspension-policy.md#account-load-limits). Deliberately preventing your site from sleeping is likely to get your account suspended for [High Server Usage](../../accounts/suspension-policy.md#high-server-usage) on our [Johnny](../../servers/virtual/johnny.md) and [Tommy](../../servers/virtual/tommy.md) servers, and charged for account load overages on our [Morty](../../servers/virtual/morty.md) server.
 
 ### What If My Users Cannot Wait For My Site To Load?
 
