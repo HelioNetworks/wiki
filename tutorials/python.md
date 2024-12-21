@@ -2,6 +2,10 @@
 
 The easiest way to get started with Python on a server is with CGI. The only real difference between CGI and running the script on your home computer is that CGI needs to output a `Content-Type` header.
 
+{% hint style="info" %}
+We also have tutorials for building with [Flask](flask.md), [creating a new Django project](django/django-on-heliohost.md), and [converting an existing Django app to work on HelioHost](django/converting-existing-django-app.md).
+{% endhint %}
+
 ## Python Versions Available
 
 ### Johnny server
