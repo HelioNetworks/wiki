@@ -20,7 +20,7 @@ The support staff is fluent and reliable only in English.
 
 ## Why does HelioHost crash?
 
-Currently, we are running about 20000 different accounts on one server, Johnny. Sometimes, that's a bit too much for Johnny and some user will abuse resources, both causing the server to crash. We try to fix this as quickly as we can. Since the server and Plesk are handling such a high volume of users, errors are bound to come up. We also try to fix these ASAP. Also, when [djbob](misc/staff/ashoat.md) works on the server, he occasionally screws up, which also causes crashes.
+Sometimes users will abuse server resources and cause the server to crash. We try to fix this as quickly as we can. Since the servers and Plesk are handling such a high volume of users, errors are bound to come up. We also try to fix these ASAP. Also, when [djbob](misc/staff/ashoat.md) works on the server, he occasionally screws up, which also causes crashes.
 
 ## Why was my account suspended?
 
@@ -29,10 +29,12 @@ Our [Suspension Policy](accounts/suspension-policy.md) provides comprehensive de
 A few common reasons for account suspensions are: 
 
 - [Terms of Service](hosting/terms.md) violation(s).
-- [Account Inactivity](accounts/suspension-policy.md#inactivity-policy). Renew your account [here](http://heliohost.org/renew/).
-- [Duplicate Accounts](accounts/suspension-policy.md#duplicate-accounts). The limit is 1 account per human being.
-- Exceeding the [Account Storage](accounts/suspension-policy.md#account-storage-limits) limits. On [Johnny](servers/virtual/johnny.md) and [Tommy](servers/virtual/tommy.md), we offer 1000 MB of free web space. For users who need more storage, we provide one-time paid donation options for [increased account storage](accounts/donation-increase-storage.md). We also offer a range of [VPS Plans](https://heliohost.org/vps/) with a 10% discount when you pay for 6 months upfront.
-- Exceeding the [High Server Usage](accounts/suspension-policy.md#high-server-usage) limits. On [Johnny](servers/virtual/johnny.md) and [Tommy](servers/virtual/tommy.md), we enforce a memory limit of no more than 100 GB and a CPU limit of 10,000 per day. You can monitor your load numbers on [the load page within your dashboard](https://heliohost.org/dashboard/load/).
+- [Account Inactivity](accounts/suspension-policy.md#inactivity-policy) on our [Johnny](servers/virtual/johnny.md) and [Tommy](servers/virtual/tommy.md) servers. Renew your account [here](http://heliohost.org/renew/).
+- [Duplicate Accounts](accounts/suspension-policy.md#duplicate-accounts). The limit is **1 account per human being**.
+- Exceeding the [Account Storage](accounts/suspension-policy.md#account-storage-limits) limits on our [Johnny](servers/virtual/johnny.md) and [Tommy](servers/virtual/tommy.md) servers. We offer 1000 MB of free web space and optional one-time paid donation options for [increased account storage](accounts/donation-increase-storage.md). We also offer a range of [VPS Plans](https://heliohost.org/vps/) with a 10% discount when you pay for 6 months upfront.
+   - Our [Morty](servers/virtual/morty.md) server also offers 1000 MB of free web space. If you exceed this limit, instead of suspending your account, we will charge you for the overages.
+- Exceeding the [High Server Usage](accounts/suspension-policy.md#high-server-usage) limits on our [Johnny](servers/virtual/johnny.md) and [Tommy](servers/virtual/tommy.md). We enforce a memory limit of no more than 100 GB and a CPU limit of 10,000 per day. You can monitor your load numbers on [the load page within your dashboard](https://heliohost.org/dashboard/load/).
+   - Our [Morty](servers/virtual/morty.md) server also has a memory limit of no more than 100 GB and a CPU limit of 10,000 per day. If you exceed these limits, instead of suspending your account, we will charge you for the overages.
 
 It is also possible that this was an error in our system. If you suspect that this is the case, report the error in a new post [here](https://helionet.org/index/forum/81-suspended-and-queued-accounts/), making sure to provide your **username**.
 
@@ -56,7 +58,7 @@ If it has been longer than **a full 2 hours** since you registered and you still
 
 If you have an account on [Tommy](servers/virtual/tommy.md) or [Johnny](servers/virtual/johnny.md), login to [heliohost.org](https://heliohost.org) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Each time you do so your last login date is set to the current time. Your account will then remain active for another 30 days. For more details, review our [Inactivity Policy](accounts/suspension-policy.md#inactivity-policy).
 
-On our paid subscription server, Morty, as long as there is a positive balance on your account, it will remain active without needing to log in.
+On our paid subscription server, [Morty](servers/virtual/morty.md), as long as there is a positive balance on your account, it will remain active without needing to log in.
 
 ## What is a Daily Signup Limit and why is it stopping me from registering?
 
@@ -70,7 +72,7 @@ Users on our Tommy donor server and the free Johnny server are [required to log 
 
 ## What other options are available if I want to sign up right away?
 
-For users who prefer not to have to log in regularly, our Morty paid subscription server has no login requirement as long as there is a positive balance on your account.
+For users who prefer not to have to log in regularly, our [Morty](servers/virtual/morty.md) paid subscription server has no login requirement as long as there is a positive balance on your account.
 
 We also offer a range of [VPS Plans](https://heliohost.org/vps/), with a 10% discount when you pay for 6 months upfront.
 
@@ -157,7 +159,7 @@ Please post the issue in the [Customer Service forum](https://helionet.org/index
 
 ## Can Feature XYZ be installed?
 
-Softaculous [returned in March 2024](https://helionet.org/index/topic/59683-softaculous-has-returned/) and is offered on our [Tommy](servers/virtual/tommy.md), [Johnny](servers/virtual/johnny.md), and Morty servers, making it possible to install the latest version of 459 different software packages with just a single click.
+Softaculous [returned in March 2024](https://helionet.org/index/topic/59683-softaculous-has-returned/) and is offered on our [Tommy](servers/virtual/tommy.md), [Johnny](servers/virtual/johnny.md), and [Morty](servers/virtual/morty.md) servers, making it possible to install the latest version of 459 different software packages with just a single click.
 
 To browse the available options, login to Plesk and select Softaculous from the menu:
 
@@ -177,7 +179,7 @@ If you absolutely require SSH access, you will need a [VPS](https://heliohost.or
 
 ## Does HelioHost support sockets? Which ports are open?
 
-Our [Tommy](servers/virtual/tommy.md), [Johnny](servers/virtual/johnny.md), and Morty servers have zero inbound ports available to be opened. All ports that are currently open already have services listening, such as 80 http, 443 https, 3306 MariaDB, and 5432 PostgreSQL. 
+Our [Tommy](servers/virtual/tommy.md), [Johnny](servers/virtual/johnny.md), and [Morty](servers/virtual/morty.md) servers have zero inbound ports available to be opened. All ports that are currently open already have services listening, such as 80 http, 443 https, 3306 MariaDB, and 5432 PostgreSQL. 
 
 Outbound ports are similar: ports like 80, 443, 3306, 5432, 25, 465, etc., are open to allow scripts to connect to common services on remote servers.
 
