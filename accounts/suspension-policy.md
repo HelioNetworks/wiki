@@ -26,7 +26,7 @@ To ensure that every site on HelioHost is not slowed down by just one account ho
 
 ### Account Load Limits
 
-We enforce a memory limit of no more than 100 GB per day and a limit of 10,000 CPU usage per day.
+We enforce a memory limit of no more than 100 GB per day and a limit of 10,000 CPU usage per day on our shared hosting servers.
 * On the [Johnny](../servers/virtual/johnny.md) and [Tommy](../servers/virtual/tommy.md) servers, if you exceed these limits, your account will be suspended.
 * On the [Morty](../servers/virtual/morty.md) server, if you exceed these limits, we will charge you for overages.
 
@@ -52,7 +52,13 @@ If you have any questions, or need help reducing your account load, don't hesita
 
 ### Cron Jobs / Scheduled Tasks
 
-In Plesk, cron jobs are called [Scheduled Tasks](../tutorials/plesk/cron-jobs.md). There is no limit on the number of cron jobs you can run, but they count towards your total account load. This means that running too many cron jobs or having one cron job run too frequently can increase your risk of getting suspended under the [High Server Usage](/accounts/suspension-policy.md#high-server-usage) policy. For example, sometimes people start a cron job to run every 1 minute and then get suspended for high load pretty quickly because of it. You can monitor your account load numbers on [the load page within your dashboard](https://heliohost.org/dashboard/load/).
+In Plesk, cron jobs are called [Scheduled Tasks](../tutorials/plesk/cron-jobs.md). There is no limit on the number of cron jobs you can run, but they count towards your total account load.
+
+ Running too many cron jobs or having one cron job run too frequently can trigger the [High Server Usage](/accounts/suspension-policy.md#high-server-usage) policy, resulting in: 
+ * Account suspension on the [Johnny](../servers/virtual/johnny.md) and [Tommy](../servers/virtual/tommy.md) servers
+ * Overage charges on the [Morty](../servers/virtual/morty.md) server
+
+ Sometimes people start a cron job to run every 1 minute and then exceed their account load limits pretty quickly because of it. You can monitor your account load numbers on [the load page within your dashboard](https://heliohost.org/dashboard/load/).
 
 ## Account Storage Limits
 
