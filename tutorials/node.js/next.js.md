@@ -30,7 +30,7 @@ By following the steps in this tutorial, Plesk will automatically use Passenger 
 
 ### Can I Change the Inactivity Timeout?
 
-No, the background process timeout is set to ensure fair resource usage for all our users and cannot be changed. If you need more control over memory management, HelioHost offers a range of [VPS plans](https://heliohost.org/vps/), where you can configure your settings.
+No, the background process timeout is set to ensure fair resource usage for all our users and cannot be changed. If you need more control over memory management, HelioHost offers a range of [VPS plans](https://heliohost.org/vps/) where you can configure your settings, and a 10% discount when you pay for 6 months upfront.
 
 ### Can I Prevent My Site from Sleeping?
 
@@ -38,7 +38,7 @@ Passenger is designed to keep our shared hosting servers running efficiently and
 
 ### What If My Users Cannot Wait For My Site To Load?
 
-If your application is highly time-sensitive and every millisecond of load time matters, HelioHost offers a range of [VPS plans](https://heliohost.org/vps/). With a VPS, you won’t share your server with other users, so you can run any continuous process(es) that you want.
+If your application is highly time-sensitive and every millisecond of load time matters, HelioHost offers a range of [VPS plans](https://heliohost.org/vps/) and a 10% discount when you pay for 6 months upfront. With a VPS, you won’t share your server with other users, so you can run any continuous process(es) that you want.
 
 ## Setup Next.js
 
