@@ -2,13 +2,15 @@
 
 ## SNI
 
-Our servers support [Server Name Indication \(SNI\)](https://en.wikipedia.org/wiki/Server_Name_Indication), which means SSL certificates can be installed without the need for a dedicated IP address.
+Our servers support [Server Name Indication (SNI)](https://en.wikipedia.org/wiki/Server_Name_Indication), which means SSL certificates can be installed without the need for a dedicated IP address.
 
 ## Getting an SSL certificate
 
-<!-- TODO: `SSL It!` works on Morty too. Add him into the list of servers below when he gets his own page/goes live. -->
+Our [Johnny](/servers/virtual/johnny.md), [Tommy](/servers/virtual/tommy.md), and [Morty](/servers/virtual/morty.md) servers include `SSL It!`, a feature provided by Plesk which allows the automatic generation of SSL certificates. You do not need to take any particular action to get a free SSL certificate, it will be automatically installed. However, the process usually takes some time, depending on the current rates of certificate creation. Our `SSL It!`-generated certificates are from `Let’s Encrypt`.
 
-Our [Tommy](/servers/virtual/tommy.md) and [Johnny](/servers/virtual/johnny.md) servers include `SSL It!`, a feature provided by Plesk which allows the automatic generation of SSL certificates. Therefore, you do not need to do any particular action to get a free SSL certificate, which will automatically be installed. However, the process usually takes some time, depending on the current rates of certificate creation. Our `SSL It!`-generated certificates are from `Let’s Encrypt`.
+## SSL Troubleshooting
+
+Please refer to our guidance page for help resolving any [SSL Certificate Problems](../common-errors/ssl-certificate.md).
 
 ## Dedicated IP
 
@@ -18,4 +20,4 @@ A dedicated IP means that your website is separate from all the other HelioHost 
 
 Our provider charges us $20/year for a dedicated IP. We simply pass that cost onto you. You can also buy a dedicated IP for $2 per month.
 
-If you wish to purchase a dedicated IP for $20, please [send your payment to **admin@heliohost.org** via PayPal](https://www.paypal.me/HelioHost). Once the transaction is complete, create a new topic in the [Customer Service forum](http://helionet.org/index/forum/45-customer-service/) with your **PayPal transaction ID** and **account information** \(username, main domain, and server\), and we will add the dedicated IP to your account.
+If you wish to purchase a dedicated IP for $20, please [send your payment to **admin@heliohost.org** via PayPal](https://www.paypal.me/HelioHost). Once the transaction is complete, create a new topic in the [Customer Service forum](http://helionet.org/index/forum/45-customer-service/) with your **[PayPal Transaction ID](accounts/donation-increase-storage.md#paypal-transaction-id)**, **account username**, **main domain name**, and **server name**, and we will add the dedicated IP to your account.
