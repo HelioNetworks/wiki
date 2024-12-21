@@ -22,11 +22,17 @@ Although we prefer to approach [Terms of Service](../hosting/terms.md) violation
 
 ## High Server Usage
 
-To ensure that every site on HelioHost is not slowed down by just one site hogging the server resources, we enforce a High Server Usage policy on all websites, which ensures that no website increases the server load on a massive scale. 
+To ensure that every site on HelioHost is not slowed down by just one account hogging the server resources, we enforce a High Server Usage policy on all shared hosting servers, which ensures that no website increases the server load on a massive scale.
 
 ### Account Load Limits
 
-On Johnny and Tommy, we enforce a memory limit of no more than 100 GB per day and a limit of 10,000 CPU usage per day. If you exceed those amounts you will get suspended. You can monitor your account load numbers on [the load page within your dashboard](https://heliohost.org/dashboard/load/).
+We enforce a memory limit of no more than 100 GB per day and a limit of 10,000 CPU usage per day.
+* On the [Johnny](../servers/virtual/johnny.md) and [Tommy](../servers/virtual/tommy.md) servers, if you exceed these limits, your account will be suspended.
+* On the [Morty](../servers/virtual/morty.md) server, if you exceed these limits, we will charge you for overages.
+
+{% hint style="warning" %}  
+We strongly recommend that you proactively monitor your account load numbers on [the load page within your dashboard](https://heliohost.org/dashboard/load/).  
+{% endhint %}
 
 ### Understanding Memory and CPU
 
@@ -38,7 +44,11 @@ CPU is the brain of a computer that processes instructions and performs calculat
 
 On [the load page within your dashboard](https://heliohost.org/dashboard/load/), account load totals are calculated by taking a sample once every 60 seconds. So, for instance, if you use 1 MB of memory constantly for the full 24 hours your total would be 1.4 GB at the end of the day. The CPU unit is 1% of the total speed of a CPU core, so if you used 1% of the core constantly for the entire day your total would be 1440 at the end of the day. 
 
-If you have any questions, or need help reducing your account load, don't hesitate to open a support ticket on the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add).
+If you have any questions, or need help reducing your account load, don't hesitate to open a support ticket on the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add). Make sure to provide: 
+1) Your **username**
+2) Your **domain name**
+3) Your  **server name**
+4) Details about the technology being used on your site ([WordPress](../misc/wordpress.md), [Node.js](../features/node.js.md), etc.)
 
 ### Cron Jobs / Scheduled Tasks
 
@@ -46,15 +56,15 @@ In Plesk, cron jobs are called [Scheduled Tasks](../tutorials/plesk/cron-jobs.md
 
 ## Account Storage Limits
 
-On Johnny and Tommy, we offer 1000 MB of web space. This figure combines your stored files (including [account backups](../tutorials/plesk/account-backups.md) and [error logs](../tutorials/plesk/view-error-logs.md)) and your databases. This limit should not be a problem to the great majority of free hosting users. 
+On [Johnny](../servers/virtual/johnny.md), [Tommy](../servers/virtual/tommy.md), and [Morty](../servers/virtual/morty.md), we offer 1000 MB of web space. This figure combines your stored files (including [account backups](../tutorials/plesk/account-backups.md) and [error logs](../tutorials/plesk/view-error-logs.md)) and your databases. This limit should not be a problem to the great majority of hosting users. 
 
 We offer paid storage upgrade options:
-- Make a one-time [donation to increase your account storage](donation-increase-storage.md) to a maximum of 6000 MB total
+- Make a one-time [donation to increase your account storage](donation-increase-storage.md) to a maximum of 6000 MB total.
 - Sign up for a [VPS plan](https://heliohost.org/vps/) offering storage options ranging from 50 GB to 300 GB total, and get a 10% discount when you pay for 6 months upfront.
 
 ## Duplicate Accounts
 
-Each person/user is only allowed one account on HelioHost. Even if you use different email addresses. The limit is 1 account per human being. 
+Each person/user is only allowed one account on HelioHost. Even if you use different email addresses. The limit is **1 account per human being**. 
 
 ### Signup page mentions 1 account per person
 
@@ -74,22 +84,25 @@ If you are caught with two or more accounts, you will be asked which one(s) you 
 
 ### Managing Accounts on Behalf of Others
 
-Managing someone else's account on their behalf is considered the same as having 2 accounts and will subject you to suspension unless approved ahead of time by an admin.
+Managing someone else's account on their behalf is considered the same as having 2 accounts and will subject you to suspension unless **approved ahead of time** by an admin.
 
 ## Inactivity Policy
 
-To ensure that old, unused HelioHost accounts are not filling up our server with useless data, we have an inactivity policy in place which will suspend you if you do not log in to [heliohost.org](https://heliohost.org/) or [heliohost.org/login](https://heliohost.org/login/) at least once every 30 days. Each time you log in, your last login date is set to the current time, so your account will then remain active for another 30 days.
+To ensure that old, unused HelioHost accounts are not filling up our server with useless data, we have an inactivity policy in place on the [Johnny](../servers/virtual/johnny.md) and [Tommy](../servers/virtual/tommy.md) servers. Your account will be suspended if you do not log in to [heliohost.org](https://heliohost.org/) or [heliohost.org/login](https://heliohost.org/login/) at least once every 30 days. Each time you log in, your last login date is set to the current time, so your account will then remain active for another 30 days. There is no such login requirement on the [Morty](../servers/virtual/morty.md) server.
 
-If your account is to be suspended due to inactivity, you will receive an email warning you that you must log in soon at 28 days. You will also receive another email when your website is taken offline at 30 days.
+If your Johnny or Tommy account is to be suspended due to inactivity, you will receive an email warning you that you must log in soon at 28 days. You will also receive another email when your website is taken offline at 30 days.
 
-To activate an account that was suspended due to inactivity, go to [heliohost.org/renew](http://heliohost.org/renew/)
+To activate a Johnny or Tommy account that was suspended due to inactivity, go to [heliohost.org/renew](http://heliohost.org/renew/)
 
 {% hint style="info" %}
 Account renewals take **up to 2 hours** to go into effect because they require an Apache restart. If it has been longer than **a full 2 hours** since you renewed your account, please make sure you [clear your browser cache](../misc/clear-your-cache.md).
 {% endhint %}
 
-If you receive an inactivity email even though you have logged into Plesk recently, then you might be logged into Plesk using a faulty URL. To ensure that your logins are logged, log in at [heliohost.org](https://heliohost.org/) or [heliohost.org/login](https://heliohost.org/login/) at least once a month.
+If you receive an inactivity email for your Johnny or Tommy account even though you have logged into Plesk recently, then you might be logged into Plesk using a faulty URL. To ensure that your logins are logged, log in at [heliohost.org](https://heliohost.org/) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Other login methods are not supported.
 
 ## Further Information
 
-If you have been suspended for something and you're not sure why or what for, or the renew script doesn't work, please don't hesitate to post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/), making sure to provide your **username**, **domain name**, and **server name** up front so we can provide you with the best and most efficient support.
+If you have been suspended for something and you're not sure why or what for, or the renew script doesn't work, please don't hesitate to post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/). To enable us to offer the best and most efficient support, make sure you provide:
+1) Your **username**
+2) Your **domain name**
+3) Your **server name**
