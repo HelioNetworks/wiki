@@ -5,7 +5,7 @@ Node.js is an asynchronous, event-driven JavaScript runtime environment that is 
 {% hint style="warning" %}
 If you use Node.js, we strongly recommend that you [monitor your site load here](https://heliohost.org/dashboard/load/).  
 
-Node apps often require a lot of server resources, and exceeding the account load limits will cause your user account to be [suspended for high server usage](/accounts/suspension-policy.md#high-server-usage).
+Node apps often require a lot of server resources, and exceeding the account load limits will cause your user account to be [suspended for high server usage](/accounts/suspension-policy.md#high-server-usage) on our [Johnny](../../servers/virtual/johnny.md) and [Tommy](../../servers/virtual/tommy.md) servers. Accounts on our [Morty](../../servers/virtual/morty.md) server will not be suspended but will be charged for account load overages.  
 {% endhint %}
 
 ## Node.js Versions Supported
