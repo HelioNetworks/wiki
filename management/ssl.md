@@ -20,4 +20,18 @@ A dedicated IP means that your website is separate from all the other HelioHost 
 
 Our provider charges us $20/year for a dedicated IP. We simply pass that cost onto you. You can also buy a dedicated IP for $2 per month.
 
-If you wish to purchase a dedicated IP for $20, please [send your payment to **admin@heliohost.org** via PayPal](https://www.paypal.me/HelioHost). Once the transaction is complete, create a new topic in the [Customer Service forum](http://helionet.org/index/forum/45-customer-service/) with your **[PayPal Transaction ID](accounts/donation-increase-storage.md#paypal-transaction-id)**, **account username**, **main domain name**, and **server name**, and we will add the dedicated IP to your account.
+{% hint style="danger" %}  
+**Do not send payment** before you have: 
+1) Submitted justification for needing a dedicated IPv4 and 
+2) Received **approval** from an admin  
+{% endhint %}
+
+After **an admin has approved your request**, if you wish to purchase a dedicated IPv4 for $20, please [send your payment to **admin@heliohost.org** via PayPal](https://www.paypal.me/HelioHost).
+
+Once the transaction is complete, create a new topic in the [Customer Service forum](http://helionet.org/index/forum/45-customer-service/) and provide the details below:
+1) **PayPal transaction ID**
+2) **Confirmation that an admin approved your request**
+3) **Account username**
+4) **Main domain name**
+5) **Server name**  
+and we will add the dedicated IP to your account.
