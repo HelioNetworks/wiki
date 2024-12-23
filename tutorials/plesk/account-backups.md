@@ -79,15 +79,21 @@ On Windows you can use [WinRar v6+](https://www.win-rar.com/) or [7-Zip v24+](ht
 
 ## Making Your Own Manual Account Backup
 
-As mentioned in our [Terms of Service](../../hosting/terms.md), it is not HelioHost's responsibility to keep backups of your data. We strongly recommend you backup your data regularly and keep it in a safe place.
+{% hint style="danger" %}  
+As mentioned in our [Terms of Service](../../hosting/terms.md), it is not HelioHost's responsibility to keep backups of your data.
 
-{% hint style="info" %}
-Backups created through Plesk count towards your [1000 MB account storage limit](../../features/storage.md). To avoid [account suspension](../../accounts/suspension-policy.md) for exceeding your disk quota, we recommend regularly downloading and deleting older backups.
+We strongly recommend that you **back up your data regularly by downloading it to your local device** and store it in a safe place.  
 
-If you need more space, you can [donate to increase your account storage](../../accounts/donation-increase-storage.md) from 1000 MB up to a maximum of 6000 MB total. For even more storage, we offer [VPS Plans](https://heliohost.org/vps/) with space ranging from 50 GB to 300 GB.
+If the only place you keep your backups is inside Plesk, **you risk data loss** in the rare event of an issue with your hosting account.   
 {% endhint %}
 
-Follow the navigation steps below to make a backup of your hosting account inside Plesk:
+## Backups Count Towards Your Account Storage Limit
+
+Backups created through Plesk count towards your [1000 MB account storage limit](../../features/storage.md). To avoid [account suspension](../../accounts/suspension-policy.md) for exceeding your disk quota, we strongly recommend **regularly downloading your backups** and deleting the older ones to free up space inside your Plesk account.
+
+If you need more space, you can [donate to increase your account storage](../../accounts/donation-increase-storage.md) from 1000 MB up to a maximum of 6000 MB total. For even more storage, we offer [VPS Plans](https://heliohost.org/vps/) with space ranging from 50 GB to 300 GB, and a 10% discount when you pay for 6 months upfront.
+
+Follow the navigation steps below to make a backup of your hosting account inside Plesk. **The backup file should then be downloaded to your local computer and kept in a safe place.**
 
 #### Login > Plesk > Websites & Domains > [ domain ] > Backup & Restore
 
@@ -103,7 +109,9 @@ Select the account content you want to back up, and click on the `OK` button:
 
 ## Downloading a Local Copy of Your Backup
 
-Once the backup process finishes, click on the green arrow icon to download the backup file to your local computer:
+Once the backup process finishes, **download the backup file to your local computer** by clicking on the green arrow icon. 
+
+**Failing to download a copy of the backup could result in data loss or file corruption in the rare event of an issue with your hosting account.**
 
 ![](../../.gitbook/assets/plesk-download-backup-file.png)
 
@@ -124,6 +132,8 @@ Follow the navigation steps below to set up or modify scheduled account backup s
 After clicking the `Schedule` button, adjust the settings as needed.
 
 Backup files count towards your [1000 MB account storage limit](../../features/storage.md), so we recommend filling in the `Maximum number of full backup files to store` field to a number that makes sense for the total filesize of your account. Otherwise if you leave this field blank, backup files will pile up and increase your file storage unnecessarily, leaving you at risk of [account suspension](../../accounts/suspension-policy.md) for exceeding your disk quota.
+
+**The backup files should be downloaded regularly to your local computer and kept in a safe place.** 
 
 If you need more space, you can [donate to increase your account storage](../../accounts/donation-increase-storage.md) from 1000 MB up to a maximum of 6000 MB total. For even more storage, we offer [VPS Plans](https://heliohost.org/vps/) with space ranging from 50 GB to 300 GB, and a 10% discount when you pay for 6 months upfront.
 
