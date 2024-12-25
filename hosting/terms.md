@@ -1,6 +1,6 @@
 # Terms of Service
 
-Helio Networks ("HelioNet") will not be held liable for use of any of it's services. USE OF ANY OF THE SERVICES THAT HELIONET PROVIDES INDICATES THAT YOU HAVE AGREED TO ALL OF THE FOLLOWING TERMS. IF YOU HAVE NOT AGREED TO ANY OF THESE TERMS, PLEASE DISCONTINUE THE USE OF ALL OF HELIONET'S SERVICES IMMEDIATELY FOLLOWING YOUR NON-AGREEMENT TO THESE TERMS.
+By signing up with HelioHost for any service, you agree to the following Terms of Service as well as the [DISCLAIMER](#disclaimer) presented below. If you do not agree to these Terms, you may not use HelioHost. Users who already have an account must [delete their account](../faq.md#how-do-i-delete-my-hosting-account) if they no longer agree to the Terms.
 
 ## Terms of Service
 
