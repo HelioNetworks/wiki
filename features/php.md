@@ -35,6 +35,15 @@ PHP is the most popular scripting language on the Internet for a reason. It's ea
 * PHP 5.3
 * PHP 5.4
 * PHP 5.5
+* PHP 5.6
+* PHP 7.0
+* PHP 7.1
+* PHP 7.2
+* PHP 7.3
+* PHP 7.4
+* PHP 8.2 
+
+All versions of PHP supported on [Lily](../servers/virtual/lily.md) have `exec()` enabled.
 
 ## Learning PHP
 
