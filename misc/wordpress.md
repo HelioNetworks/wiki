@@ -2,21 +2,21 @@
 
 WordPress is a popular content management system (CMS) that allows users to easily create and manage websites.
 
-However, WordPress is known to require a lot of server resources, as it's not very well optimized. Also, the more pages or plugins a WordPress site has, the bigger the site load will be.
-
-Exceeding the account load limits will cause your user account to be [suspended for high server usage](/accounts/suspension-policy.md#high-server-usage).
-
 {% hint style="warning" %}
+WordPress is known to require a lot of server resources, as it's not very well optimized. Also, the more pages or plugins a WordPress site has, the bigger the site load will be.
+
+Exceeding the account load limits will cause your user account to be [suspended for high server usage](/accounts/suspension-policy.md#high-server-usage) on our [Johnny](../../servers/virtual/johnny.md) and [Tommy](../../servers/virtual/tommy.md) servers. Accounts on our [Morty](../../servers/virtual/morty.md) server will not be suspended but will be charged for account load overages.  
+
 If you use WordPress, we recommend you [monitor your site load here](https://heliohost.org/dashboard/load/)
 
-If at any point you become concerned about your account server usage load getting you suspended, you can add "deny from all" to the bottom of your `.htaccess` file to take the site offline. Once that's been done, the site should stop generating load practically instantly.
+If at any point you become concerned about your account server usage load getting too high, you can add "deny from all" to the bottom of your `.htaccess` file to take the site offline. Once that's been done, the site should stop generating load practically instantly.
 {% endhint %}
 
 ## But my WordPress Site is Brand New / Has No Plugins / Gets Hardly Any Visitor Traffic
 
 WordPress causes 0 load with 0 traffic, but sites built with WordPress are prime targets for bot attacks. When bots discover your site URL address, they will keep trying to hack in, which causes load on the server resources.
 
-Even if your WordPress install is brand new, with no plugins, and your site gets few visitors, there is still a risk of suspension for high load due to bots spamming your site.
+Even if your WordPress install is brand new, with no plugins, and your site gets few visitors, there is still a risk of bots spamming your site.  This could cause your account to be [suspended for high server usage](/accounts/suspension-policy.md#high-server-usage) on our [Johnny](../../servers/virtual/johnny.md) and [Tommy](../../servers/virtual/tommy.md) servers. Accounts on our [Morty](../../servers/virtual/morty.md) server will not be suspended but will be charged for account load overages.
 
 Additionally, a lot of free themes and plugins can be backdoors for hackers, and installing them comes with risks. Once bots access your site, they will 'phone home' which then enables hackers to change your site files, set up phishing sites, send spam from your account, etc.
 
@@ -50,4 +50,4 @@ If moving away from WordPress is not an option for you, here are other things to
   * If Super Page Cache for Cloudflare tells you to disable the options "Smart static files processing" and "Serve static files directly by Nginx" on the "Apache & Nginx Settings" page of your Plesk panel, you can change these settings yourself by navigating to: Login > Plesk > Websites & Domains > [domain] > Hosting & DNS > Apache & Nginx > Uncheck the `smart static files processing box` and make sure the `Serve static files directly by Nginx` box is also unchecked.
 * Analyze access logs looking for IPs with thousands of page hits and blocking them in Cloudflare or `.htaccess`
 * Convert to a static site (users have mentioned **WP2Static** as being a useful plugin that converts WordPress sites to static sites)
-* Upgrade to a [VPS](https://heliohost.org/vps/)
+* Upgrade to a [VPS](https://heliohost.org/vps/). We offer a range of VPS plans, and a 10% discount when you pay for 6 months upfront.
