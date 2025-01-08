@@ -116,7 +116,7 @@ Alternatively, you can make a post on the [Customer Service forum](https://helio
 
 ## How do I delete my hosting account?
 
-To delete your HelioHost Plesk account, post a topic in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add). If want your HelioNet Forum account deleted at the same time, please mention this in your request.
+To delete your HelioHost Plesk account, go to your dashboard and click on the [Delete your account and remove all content](https://heliohost.org/dashboard/delete/) button.
 
 To delete your HelioNet Forum account, post a topic in the [Contact HelioNet forum](https://helionet.org/index/forum/4-contact-helionet/?do=add).
 
