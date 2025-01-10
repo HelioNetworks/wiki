@@ -2,7 +2,7 @@
 
 ## Account Storage
 
-HelioHost offers 1000 MB of web space for hosting accounts on our free [Johnny](servers/virtual/johnny.md) server, our donor server [Tommy](servers/virtual/tommy.md), and our paid subscription server [Morty](servers/virtual/tommy.md).
+HelioHost offers 1000 MB of web space for hosting accounts on our free [Johnny](servers/virtual/johnny.md) server, our donor server [Tommy](servers/virtual/tommy.md), and our scaling hosting server [Morty](servers/virtual/tommy.md).
 
 This figure combines your stored files (including [account backups](../tutorials/plesk/account-backups.md) and [error logs](../tutorials/plesk/view-error-logs.md)) and your databases. 
 
