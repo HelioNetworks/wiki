@@ -14,7 +14,9 @@ Sometimes, users wish to increase their account capacity. We offer the following
 
 ### Donations for Additional Storage
 
-For each $5 USD donated, users can [add 1000 MB extra space](../accounts/donation-increase-storage.md) to their account on [Johnny](servers/virtual/johnny.md), [Tommy](servers/virtual/tommy.md), or [Morty](servers/virtual/tommy.md), up to a maximum account size of 6000 MB.
+For each one-time $5 USD donation, users can [add 1000 MB extra space](../accounts/donation-increase-storage.md) to their account on [Johnny](servers/virtual/johnny.md), [Tommy](servers/virtual/tommy.md), or [Morty](servers/virtual/tommy.md), up to a maximum account size of 6000 MB.
+
+Users who donate to increase their account storage and later request a server move will have their increased storage carry over as part of the account transfer.
 
 ### VPS Plans
 
