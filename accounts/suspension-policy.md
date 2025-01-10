@@ -104,7 +104,7 @@ To activate a Johnny or Tommy account that was suspended due to inactivity, go t
 Account renewals take **up to 2 hours** to go into effect because they require an Apache restart. If it has been longer than **a full 2 hours** since you renewed your account, please make sure you [clear your browser cache](../misc/clear-your-cache.md).
 {% endhint %}
 
-If you receive an inactivity email for your Johnny or Tommy account even though you have logged into Plesk recently, then you might be logged into Plesk using a faulty URL. To ensure that your logins are logged, log in at [heliohost.org](https://heliohost.org/) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Other login methods are not supported.
+If you receive an inactivity email for your Johnny or Tommy account even though you have logged into Plesk recently, then you might be logged into Plesk using a faulty URL. To ensure that your logins are counted, log in at [heliohost.org](https://heliohost.org/) or [heliohost.org/login](https://heliohost.org/login/) at least once a month. Other login methods are not supported.
 
 ## Further Information
 
