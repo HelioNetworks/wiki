@@ -2,7 +2,7 @@
 
 ## Account Storage
 
-HelioHost offers 1000 MB of web space for hosting accounts on our free [Johnny](servers/virtual/johnny.md) server, our donor server [Tommy](servers/virtual/tommy.md), and our paid subscription server [Morty](servers/virtual/tommy.md).
+HelioHost offers 1000 MB of web space for hosting accounts on our free [Johnny](servers/virtual/johnny.md) server, our donor server [Tommy](servers/virtual/tommy.md), and our scaling hosting server [Morty](servers/virtual/tommy.md).
 
 This figure combines your stored files (including [account backups](../tutorials/plesk/account-backups.md) and [error logs](../tutorials/plesk/view-error-logs.md)) and your databases. 
 
@@ -14,8 +14,10 @@ Sometimes, users wish to increase their account capacity. We offer the following
 
 ### Donations for Additional Storage
 
-For each $5 USD donated, users can [add 1000 MB extra space](../accounts/donation-increase-storage.md) to their account on [Johnny](servers/virtual/johnny.md), [Tommy](servers/virtual/tommy.md), or [Morty](servers/virtual/tommy.md), up to a maximum account size of 6000 MB.
+For each one-time $5 USD donation, users can [add 1000 MB extra space](../accounts/donation-increase-storage.md) to their account on [Johnny](servers/virtual/johnny.md), [Tommy](servers/virtual/tommy.md), or [Morty](servers/virtual/tommy.md), up to a maximum account size of 6000 MB.
+
+Users who donate to increase their account storage and later request a server move will have their increased storage carry over as part of the account transfer.
 
 ### VPS Plans
 
-For users who wish to pay for more memory or CPUs, we offer a range of [VPS plans](https://heliohost.org/vps/) and a 10% discount when you pay for 6 months upfront.
+For users who wish to pay for more memory, CPUs, or file space, we offer [VPS plans](https://heliohost.org/vps/) with storage options ranging from 50 GB to 300 GB, and a 10% discount when you pay for 6 months upfront.
