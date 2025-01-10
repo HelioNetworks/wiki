@@ -1,6 +1,6 @@
 # Terms of Service
 
-By signing up with HelioHost for any service, you agree to the following Terms of Service as well as the [DISCLAIMER](#disclaimer) presented below. If you do not agree to these Terms, you may not use HelioHost. Users who already have an account must [delete their account](../faq.md#how-do-i-delete-my-hosting-account) if they no longer agree to the Terms.
+By signing up with HelioHost for any service, you agree to the following Terms of Service as well as the [DISCLAIMER](#disclaimer) presented below. If you do not agree to these Terms, you may not use HelioHost. Users who already have an account must [delete their account](https://heliohost.org/dashboard/delete/) if they no longer agree to the Terms.
 
 ## Terms of Service
 
@@ -22,7 +22,7 @@ By signing up with HelioHost for any service, you agree to the following:
 * VPS customers only: Your VPS must respond to ICMP pings. This is required by our ISP.
 * Refunds are provided pursuant to our [Refund Policy](https://helionet.org/index/forum/45-customer-service/?do=add). <!-- TODO: Link to Refund Policy page -->
 * You agree to not hold HelioHost liable for any loss of data, content, revenues, relationships, or traffic that occurs as a result of a systems failure or outage. You understand that HelioHost services are provided **AS-IS and that HelioHost does not guarantee service availability**. Services are provided in accordance with our [Service Disclaimer](#disclaimer).
-* We reserve the right to change the Terms of Service at any time. An announcement will be made to you via email and our normal [News channels](https://helionet.org/index/forum/1-news/) when we make such changes. If you disagree with the changes, you can decline them by [deleting your account](../faq.md#how-do-i-delete-my-hosting-account).
+* We reserve the right to change the Terms of Service at any time. An announcement will be made to you via email and our normal [News channels](https://helionet.org/index/forum/1-news/) when we make such changes. If you disagree with the changes, you can decline them by [deleting your account](https://heliohost.org/dashboard/delete/).
 * We reserve the right to delete, change, or edit your account or your content with or without prior notification, including, but not limited to cases arising from abuse of these Terms.
 
 ## DISCLAIMER
