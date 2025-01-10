@@ -18,4 +18,4 @@ For each $5 USD donated, users can [add 1000 MB extra space](../accounts/donatio
 
 ### VPS Plans
 
-For users who wish to pay for more memory or CPUs, we offer a range of [VPS plans](https://heliohost.org/vps/) and a 10% discount when you pay for 6 months upfront.
+For users who wish to pay for more memory, CPUs, or file space, we offer [VPS plans](https://heliohost.org/vps/) with storage options ranging from 50 GB to 300 GB, and a 10% discount when you pay for 6 months upfront.
