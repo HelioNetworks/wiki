@@ -81,11 +81,15 @@ If your application is highly time-sensitive and every millisecond of load time 
 
 ## How to setup Node.js
 
+### Delete the 'index.html' file (if it exists)
+
 First, if you have an 'index.html' file inside your 'httpdocs' folder, delete it (or rename it to something else).
 
 Your Node.js files will go into your home directory (**NOT** `httpdocs`):
 
 ![](../../.gitbook/assets/plesk_file_manager.png)
+
+### Create an app.js file
 
 In your home directory folder, create an `app.js` file with these contents:
 
@@ -105,7 +109,9 @@ server.listen(port, hostname, () => {
 });
 ```
 
-In Plesk, go to: `Website & Domains > [domain]` 
+### Configure Node.js settings
+
+In Plesk, go to: `Website & Domains > [domain] > click on the `Get Started` tab` 
 
 ![](../../.gitbook/assets/nodejs-link.png)
 
@@ -116,6 +122,8 @@ Here, you're able to configure settings for your application.
 You don't need to worry about environment variables on this simple example. Select `app.js` for your startup file. If you have any NPM packages, Plesk can install them for you.
 
 ![](../../.gitbook/assets/nodejs-npm-install.png)
+
+### Wait for the next Apache server restart
 
 Finally, you will need to wait **up to 2 hours** for the server to update.
 
