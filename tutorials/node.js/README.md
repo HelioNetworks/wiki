@@ -81,7 +81,7 @@ If your application is highly time-sensitive and every millisecond of load time 
 
 ## How to setup Node.js
 
-First, delete (or rename) the 'index.html' file that comes by default in the 'httpdocs' folder.
+First, if you have an 'index.html' file inside your 'httpdocs' folder, delete it (or rename it to something else).
 
 Your Node.js files will go into your home directory (**NOT** `httpdocs`):
 
