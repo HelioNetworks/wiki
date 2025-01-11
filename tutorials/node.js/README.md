@@ -137,4 +137,6 @@ Once the Node.js application has been deployed, you should be able to visit `dom
 
 ## Further Support 
 
+If you encounter any Phusion Passenger(R) application server errors, please review our [Passenger troubleshooting help page](https://wiki.helionet.org/common-errors/could-not-spawn-process#troubleshooting-node-passenger-issues) for guidance on switching your application environment to `Development` mode to see more detailed error reporting.
+
 If it's been more than 2 hours, and the Node.js application still isn't working, please go back and check all of your steps again. If it's been more than a full 2 hours since your changes, and it still isn't working even after you [cleared your web browser cache](../misc/clear-your-cache.md), please make a new post in the [Customer Service forum](https://helionet.org/index/forum/45-customer-service/?do=add), making sure to provide your **username**, **domain**, and any **error message(s)** encountered.
