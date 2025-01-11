@@ -61,7 +61,7 @@ It doesn't make sense to leave your car running 24/7 in front of your house just
 
 ## Will Passenger Slow My Site Down?
 
-A recent speed test on HelioHost servers showed that our app [only took 177ms to load from a cold start](https://gtmetrix.com/reports/node.krydos1.heliohost.org/esvkM1p0/). That's just under 1/5 of a second, roughly the amount of time it takes to blink.
+A recent speed test on HelioHost servers showed that our app only took 177ms to load from a cold start. That's just under 1/5 of a second, roughly the amount of time it takes to blink.
 
 ## How Can I Use Passenger?
 
@@ -111,7 +111,7 @@ server.listen(port, hostname, () => {
 
 ### Configure Node.js settings
 
-In Plesk, go to: `Website & Domains > [domain] > click on the `Get Started` tab` 
+In Plesk, go to: `Website & Domains > [domain] > click on the 'Get Started' tab` 
 
 ![](../../.gitbook/assets/nodejs-link.png)
 
