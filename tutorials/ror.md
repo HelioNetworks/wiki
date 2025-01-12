@@ -1,7 +1,7 @@
 # Ruby on Rails
 
 {% hint style="warning" %}
-Ruby on Rails is available on [Tommy](servers/virtual/tommy.md), [Johnny](servers/virtual/johnny.md), or the [VPS plans](https://heliohost.org/vps/).
+Ruby on Rails is available on [Morty](servers/virtual/morty.md), [Tommy](servers/virtual/tommy.md), [Johnny](servers/virtual/johnny.md), or the [VPS plans](https://heliohost.org/vps/).
 {% endhint %}
 
 ## Preface
@@ -14,41 +14,35 @@ We also offer the powerful Ruby on Rails web application framework. This framewo
 
 ### Download the example project
 
-Download the example Ruby on Rails files from: [https://krydos.heliohost.org/ror_ruby3.2.1_rails7.0.5.zip](https://krydos.heliohost.org/ror_ruby3.2.1_rails7.0.5.zip)
-
-### Delete the default index page
-
-[Login](https://heliohost.org/login/) to your HelioHost account, and continue to Plesk. Click `Files` in the main left menu. Navigate to `httpdocs`. Click the checkbox to the left of the `index.html` file and then click the `Remove` button to delete the default Plesk page. We recommend that you choose the `Skip the Recycle Bin` option and click the `Yes, remove` button. 
-
-![](../.gitbook/assets/ror_delete_index.png)
+Download the example Ruby on Rails files from: [heliohost.org/downloads/ror_ruby3.2.2_rails8.0.1.tar.gz](https://heliohost.org/downloads/ror_ruby3.2.2_rails8.0.1.tar.gz)
 
 ### Upload the example project
 
-Now navigate up one level to your home directory and click the `+` button to upload the zip file. Locate the `ror_ruby3.2.1_rails7.0.5.zip` file that you just downloaded, and upload it to Plesk.
+Navigate to your home directory and click the `+` button to upload the tar.gz file. Locate the `ror_ruby3.2.2_rails8.0.1.tar.gz` file that you just downloaded, and upload it to Plesk. Make sure you upload it to your home directory, not `httpdocs`.
 
 ![](../.gitbook/assets/ror_upload.png)
 
 ### Extract the example project files
 
-Now click the filename of `ror_ruby3.2.1_rails7.0.5.zip` to extract the zip file. Make sure that it is extracting the files to the `/` directory and not to `httpdocs` or anywhere else.
+Now click the filename of `ror_ruby3.2.2_rails8.0.1.tar.gz` to extract the tar.gz file. Make sure that it is extracting the files to the `/` directory and not to `httpdocs` or anywhere else.
 
 ![](../.gitbook/assets/ror_extract.png)
 
 ### Edit the `environment` file
 
-Click on the `config` directory, and then click the `environment.rb` file to edit it. You'll need to change the line that says `yourdomain.helioho.st` to your actual domain. Then save the file.
+Click on the `config` directory, and then click the `environment.rb` file to edit it. You'll need to change the line that says `ror.helioho.st` to your actual domain. Then save the file.
 
 ![](../.gitbook/assets/ror_domain.png)
 
 ### Install Ruby
 
-Now click `Websites and Domains` on the main left Plesk menu. If you're on the old `Active List view` you can just click the `Ruby` button, but if you're on the `Dynamic List view` you'll need to click `Create Website (CMS, Builders, and more)` and then click `Ruby` from the menu displayed. 
+Now click `Websites and Domains` on the main left Plesk menu. Next click the header `Get Started` and then click `Ruby` from the menu displayed. 
 
 ![](../.gitbook/assets/ror_ruby.png)
 
 ### Enable Ruby
 
-The test Ruby on Rails files are designed for Ruby 3.2.1 so ensure you have `Ruby Version` set to `3.2.1-p31`. Change the `Application Mode` from `production` to `development` so you can see errors later, and wait until you see a confirmation message that says `Information: Application mode was successfully updated`. Then click `Enable Ruby` and wait for the confirmation message saying Ruby was enabled:
+The test Ruby on Rails files are designed for Ruby 3.2.2 so ensure you have `Ruby Version` set to `3.2.2-p53`. Change the `Application Mode` from `production` to `development` so you can see errors later, and wait until you see a confirmation message that says `Information: Application mode was successfully updated`. Then click `Enable Ruby` and wait for the confirmation message saying Ruby was enabled:
 
 ![](../.gitbook/assets/ror_enable.png)
 
