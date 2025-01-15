@@ -51,7 +51,7 @@ The test Ruby on Rails files are designed for Ruby 3.2.2 so ensure you have `Rub
 {% hint style="info" %}
 In order for the Rails application to be deployed it requires an Apache restart. Apache restarts happen every 2 hours. Please be patient and wait for the full 2 hours before assuming anything is broken.
 
-Toggling the `Application Mode` between `production` to `development` also requires an Apache restart for the new setting to take effect.
+Toggling the `Application Mode` between `production` to `development` also requires an Apache restart for the new setting to take effect. We recommend keeping this setting in `development` mode until your application has been successfully deployed without errors.  
 {% endhint %}
 
 If everything is working it should look like this: 
@@ -62,12 +62,11 @@ Once you've got this basic example working we encourage you to edit the files, a
 
 ## Troubleshooting
 
-If you receive an error message that says `Web application could not be started by the Phusion Passenger(R) application server. Please read the Passenger log file (search for the Error ID) to find the details of the error. You can also get a detailed report to appear directly on this page, but for security reasons it is only provided if Phusion Passenger(R) is run with environment set to development and/or with the friendly error pages option set to on.` then this means you did not set the `Application Mode` from `production` to `development`.
+If you receive an error message that says:
 
-To enable more detailed error reporting, please refer to [the steps listed above](#enable-ruby) to set the `Application Mode` from `production` to `development`.  
-After changing to development mode, restart your app.  
-You will then need to wait for up to 2 hours for the next Apache restart for the new setting to take effect.  
-We recommend leaving the `Application Mode` as `development` so that you can see error logs.  
+`Web application could not be started by the Phusion Passenger(R) application server. Please read the Passenger log file (search for the Error ID) to find the details of the error. You can also get a detailed report to appear directly on this page, but for security reasons it is only provided if Phusion Passenger(R) is run with environment set to development and/or with the friendly error pages option set to on.` 
+
+This means the `Application Mode` was not switched from `production` to `development`. To enable more detailed error reporting, please refer to [the steps listed above](#enable-ruby) to set the `Application Mode` from `production` to `development`.  After changing to development mode, restart your app.  You will then need to wait for up to 2 hours for the next Apache restart for the new setting to take effect. We recommend leaving the `Application Mode` as `development` so that you can see error logs.  
 
 ### Further Support 
 
