@@ -36,26 +36,21 @@ In some countries, you can donate using the Edge browser by visiting [heliohost.
 
 #### Donate Cash in Edge
 
-You can choose to donate cash via Benevity:
+You can choose to donate cash via Benevity.
 
 ![](../.gitbook/assets/edge-donate-cash.png)
 
-#### Donate Rewards Points in Edge
+#### Donate Microsoft Rewards Points in Edge
 
 You can choose to donate using Microsoft Rewards points via Benevity.
 
 {% hint style="danger" %}  
 Please note that: 
-* Donations sent from Microsoft Rewards [can take **at least 2 months** to be verified](https://helionet.org/index/topic/62006-hh561624-can-i-donate-via-microsoft-rewards/#findComment-280045)
-* [Donations of 1000 points or less just disappear](https://helionet.org/index/topic/62006-hh561624-can-i-donate-via-microsoft-rewards/#findComment-284853)
-
-| Microsoft Points Donated | Amount Received by HelioHost |
-| :----------------------- | :--------------------------- |
-| 1000 points              | 0 cents                      |
-| 3000 points              | 5 cents                      |
-| 5000 points              | 10 cents                     |
-| 50,000 points            | $1 USD for a Tommy Invite    |  
+* Donations of Microsoft Rewards points [cannot be traced back to the individual who made them](https://helionet.org/index/topic/63324-hh830443-donations-via-bing/#findComment-285484). Microsoft combines everything and sends it to us without including any information about the dates of individual donations or details about the people who made them.
+* Donations of Microsoft Rewards points [can take between at least 2 months](https://helionet.org/index/topic/62006-hh561624-can-i-donate-via-microsoft-rewards/#findComment-280045) and [sometimes even up to 6 months](https://helionet.org/index/topic/63324-hh830443-donations-via-bing/#findComment-285484) to be verified.  
 {% endhint %}  
+
+![](../.gitbook/assets/edge-donate-microsoft-points.png)
 
 ## Allow Ads on Our Sites
 <!-- TODO: Add Ricky once he is rebuilt. -->
