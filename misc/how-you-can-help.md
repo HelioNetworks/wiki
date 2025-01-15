@@ -57,6 +57,8 @@ Please note that:
 | 50,000 points            | $1 USD for a Tommy Invite    |  
 {% endhint %}  
 
+![](../.gitbook/assets/edge-donate-microsoft-points.png)
+
 ## Allow Ads on Our Sites
 <!-- TODO: Add Ricky once he is rebuilt. -->
 If you don't view our ads, we don't earn any ad revenue from your visits to our site. It's free to allow our ads, and we promise they're not too annoying. Who knows? You might even see an ad for something amazing that you want to check out. Make sure to add our sites below to your to your ad-blocker "Allow List": 
