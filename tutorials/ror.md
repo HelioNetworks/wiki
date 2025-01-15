@@ -50,6 +50,8 @@ The test Ruby on Rails files are designed for Ruby 3.2.2 so ensure you have `Rub
 
 {% hint style="info" %}
 In order for the Rails application to be deployed it requires an Apache restart. Apache restarts happen every 2 hours. Please be patient and wait for the full 2 hours before assuming anything is broken.
+
+Toggling the `Application Mode` between `production` to `development` also requires an Apache restart for the new setting to take effect.
 {% endhint %}
 
 If everything is working it should look like this: 
