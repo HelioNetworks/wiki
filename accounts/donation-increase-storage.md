@@ -6,7 +6,7 @@ Users can increase account storage on their [Morty](servers/virtual/morty.md), [
 
 Users who donate to increase their account storage and later request a server move will have their increased storage carry over as part of the account transfer.
 
-For users who need more than 6000 MB of storage, we offer a range of [VPS plans](https://heliohost.org/vps/) and a 10% discount when you pay for 6 months upfront.
+For users who need more than 6000 MB of storage, we offer a range of [VPS plans](https://heliohost.org/vps/) with storage options ranging from 50 GB to 300 GB, and a 10% discount when you pay for 6 months upfront.
 
 ## How to Donate
 
