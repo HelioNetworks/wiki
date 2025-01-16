@@ -4,6 +4,8 @@ All HelioHost hosting accounts receive 1000 MB of Disk Space.
 
 Users can increase account storage on their [Morty](servers/virtual/morty.md), [Tommy](servers/virtual/tommy.md), or [Johnny](servers/virtual/johnny.md) account by making a one-time donation of $5 USD for each additional 1000 MB they wish to add. In this way, an account can be increased to a maximum of 6000 MB.
 
+Users who donate to increase their account storage and later request a server move will have their increased storage carry over as part of the account transfer.
+
 For users who need more than 6000 MB of storage, we offer a range of [VPS plans](https://heliohost.org/vps/) and a 10% discount when you pay for 6 months upfront.
 
 ## How to Donate
