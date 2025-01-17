@@ -6,7 +6,11 @@ HelioHost provides community-powered free hosting for everyone. There are severa
 
 ### Donate via PayPal or Crypto
 
-The best way to help us keep providing free hosting is by donating at [heliohost.org/donate](https://heliohost.org/donate/). You can donate via PayPal or the cryptocurrencies listed on the page.
+The best way to help us keep providing free hosting is by donating at [heliohost.org/donate](https://heliohost.org/donate/). You can donate via PayPal, Microsoft Points, Brave Creators, or the cryptocurrencies listed on the page.
+
+In some countries, you can donate using a Debit or Credit Card, so PayPal will act as the card payment processor, but you will not need a PayPal account. If this option is available to you, after clicking on the yellow PayPal button, you should see the `Donate with Debit or Credit Card` option.
+
+![](../.gitbook/assets/donate-debit-credit-card.png)
 
 ### Corporate Donation Matching
 
@@ -45,9 +49,10 @@ You can choose to donate cash via Benevity.
 You can choose to donate using Microsoft Rewards points via Benevity.
 
 {% hint style="danger" %}  
-Please note that: 
-* Donations of Microsoft Rewards points [cannot be traced back to the individual who made them](https://helionet.org/index/topic/63324-hh830443-donations-via-bing/#findComment-285484). Microsoft combines everything and sends it to us without including any information about the dates of individual donations or details about the people who made them.
-* Donations of Microsoft Rewards points [can take between at least 2 months](https://helionet.org/index/topic/62006-hh561624-can-i-donate-via-microsoft-rewards/#findComment-280045) and [sometimes even up to 6 months](https://helionet.org/index/topic/63324-hh830443-donations-via-bing/#findComment-285484) to be verified.  
+Please note that:
+* Microsoft Rewards points cannot be used for Tommy accounts or for the purchase of paid services.
+  * Donations of Microsoft Rewards points [cannot be traced back to the individual who made them](https://helionet.org/index/topic/63324-hh830443-donations-via-bing/#findComment-285484). Microsoft combines everything and sends it to us without including any information about the dates or amounts of individual donations or details about the people who made them.
+  * Donations of Microsoft Rewards points [can take between at least 2 months](https://helionet.org/index/topic/62006-hh561624-can-i-donate-via-microsoft-rewards/#findComment-280045) and [sometimes even up to 6 months](https://helionet.org/index/topic/63324-hh830443-donations-via-bing/#findComment-285484) to be received.  
 {% endhint %}  
 
 ![](../.gitbook/assets/edge-donate-microsoft-points.png)
