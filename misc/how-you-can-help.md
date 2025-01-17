@@ -6,7 +6,11 @@ HelioHost provides community-powered free hosting for everyone. There are severa
 
 ### Donate via PayPal or Crypto
 
-The best way to help us keep providing free hosting is by donating at [heliohost.org/donate](https://heliohost.org/donate/). You can donate via PayPal or the cryptocurrencies listed on the page.
+The best way to help us keep providing free hosting is by donating at [heliohost.org/donate](https://heliohost.org/donate/). You can donate via PayPal, Microsoft Points, Brave Creators, or the cryptocurrencies listed on the page.
+
+In some countries, you can donate using a Debit or Credit Card, so PayPal will act as the card payment processor, but you will not need a PayPal account. If this option is available to you, after clicking on the yellow PayPal button, you should see the `Donate with Debit or Credit Card` option.
+
+![](../.gitbook/assets/donate-debit-credit-card.png)
 
 ### Corporate Donation Matching
 
